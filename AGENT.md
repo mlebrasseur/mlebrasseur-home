@@ -62,3 +62,7 @@ Working knowledge goes in:
 Never create commits.
 
 When asked for a commit comment, check the current changes first, then provide one line only using conventional commit format.
+
+## Review Notes
+
+When reviewing changes, do not report untracked-but-present files as a finding. The user stages and commits files later. Only flag source paths or indexed files when the referenced file is actually missing from the worktree.
