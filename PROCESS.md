@@ -2,7 +2,7 @@
 
 Use this process whenever new information is added, whether it arrives as a file or as chat context.
 
-Agent workflow and approval rules are governed by `AGENT.md`.
+Agent workflow and approval rules are governed by `AGENTS.md`.
 
 ## File Intake
 

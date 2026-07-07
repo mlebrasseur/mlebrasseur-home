@@ -4,7 +4,7 @@ This repository is the operating record for the house: documents, extracted fact
 
 ## How To Use This Repo
 
-Agent workflow and approval rules are governed by `AGENT.md`.
+Agent workflow and approval rules are governed by `AGENTS.md`.
 
 1. Put new files in `00-inbox/files/`.
 2. Tell Codex any new context in chat, such as quotes, payments, decisions, calls, visits, or completed tasks.
@@ -28,4 +28,4 @@ Agent workflow and approval rules are governed by `AGENT.md`.
 
 ## Agent Rules
 
-See `AGENT.md` for source rules, tone, and approval workflow.
+See `AGENTS.md` for source rules, tone, and approval workflow.
