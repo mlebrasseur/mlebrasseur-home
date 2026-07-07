@@ -15,8 +15,8 @@
 
 | Source | Amount | Status | Source Ref | Notes |
 |---|---:|---|---|---|
-| Mortgage financing | 512000.00 | Accepted; final terms pending | SRC-2026-011, SRC-2026-014 | Source of funds, not a cost |
-| Buyer additional funds | 128000.00 | Required at deed before adjustments | SRC-2026-011 | PA clause 5.2 |
+| Mortgage financing | 512000.00 | Accepted; final terms and borrower structure pending | SRC-2026-011, SRC-2026-014, SRC-2026-022 | Source of funds, not a cost; Maxime-only reassessment pending CSEM proof |
+| Buyer additional funds | 128000.00 | Required at deed before adjustments | SRC-2026-011, SRC-2026-022 | PA clause 5.2; user states Maxime intends to provide these funds personally |
 
 ## Notes
 

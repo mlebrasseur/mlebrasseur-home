@@ -7,7 +7,7 @@ Last updated: 2026-07-07
 | Area | Status | Source | Notes |
 |---|---|---|---|
 | Purchase | Signed PA recorded | SRC-2026-011 | PA-07184 generated/finalized 2026-06-01; seller response acknowledged 2026-06-04; purchase price 640,000 CAD |
-| Financing | Mortgage financing accepted | SRC-2026-011, SRC-2026-014 | Desjardins accepted 512,000 CAD financing; final mortgage terms still needed |
+| Financing | Mortgage financing accepted; Maxime-only reassessment pending | SRC-2026-011, SRC-2026-014, SRC-2026-022 | Desjardins accepted 512,000 CAD financing; final mortgage terms still needed; CSEM employment proof may allow Maxime-only financing documents |
 | Legal / closing | Deed and occupancy dates recorded; notary details still needed | SRC-2026-011, SRC-2026-012 | Deed by 2026-08-31; occupancy 2026-09-09 at 13:00 |
 | Insurance | Quote contact received; policy not yet recorded | SRC-2026-016 | Desjardins Assurances contact received from Carole Sabourin |
 | Moving | Unknown |  |  |
@@ -17,7 +17,7 @@ Last updated: 2026-07-07
 ## Current Focus
 
 - Initial property, seller declaration, tax, listing, signed PA/MO, mortgage, inspection, insurance-contact, and correspondence sources processed.
-- Highest-priority follow-up is notary/closing coordination, final mortgage terms, insurance binding, seller repair verification, certificate of location handling, and tax adjustments.
+- Highest-priority follow-up is notary/closing coordination, CSEM employment proof for Maxime-only financing reassessment, final mortgage terms, insurance binding, seller repair verification, certificate of location handling, and tax adjustments.
 - Renovation follow-up is to contact at least 3 driveway/drainage/retaining-wall contractors and at least 3 foundation crack specialists by 2026-07-31, then coordinate both jobs for September 2026 if quotes and access allow.
 
 ## Important Dates

@@ -7,6 +7,11 @@ Last updated: 2026-07-07
 | Action | Owner | Due Date | Related Area | Source | Status |
 |---|---|---|---|---|---|
 | Confirm buyer's notary and provide PA, MOs, mortgage acceptance, tax, and inspection documents |  | Before deed | Legal / closing | SRC-2026-011, SRC-2026-012, SRC-2026-014, SRC-2026-015 | Open |
+| Request CSEM employment confirmation letter or equivalent proof stating permanent role and no probation | Maxime | As soon as available | Financing | SRC-2026-022 | Open |
+| Obtain first CSEM pay document and send it with employment proof to Jessica St-Pierre for Maxime-only reassessment | Maxime | Before final mortgage documents; target before 2026-07-31 | Financing | SRC-2026-014, SRC-2026-022 | Open |
+| Ask Jessica to confirm in writing whether Maxime can be sole borrower / sole person on Desjardins financing documents | Maxime | Before notary finalizes deed and mortgage documents | Financing | SRC-2026-014, SRC-2026-022 | Open |
+| Ask notary / broker what amendment or document is needed to change from three buyers to Maxime alone if Desjardins approves | Maxime | Before deed | Legal / closing | SRC-2026-011, SRC-2026-022 | Open |
+| If Maxime-only documents are not possible, ask notary to draft or advise on fallback ownership / economic agreement before deed signature | Maxime | Before deed | Legal / ownership | SRC-2026-022 | Open |
 | Ask notary how 2026 municipal and 2025-2026 school taxes will be adjusted at deed signature |  | Before deed | Finance / taxes | SRC-2026-004, SRC-2026-005, SRC-2026-011 | Open |
 | Confirm whether seller will provide current certificate of location or pay 2,000 CAD compensation |  | Before deed | Legal / closing | SRC-2026-011 | Open |
 | Ensure notary retains the 1,500 CAD seller repair holdback at deed signature |  | 2026-08-31 | Legal / repairs | SRC-2026-012 | Open |
@@ -39,6 +44,7 @@ Last updated: 2026-07-07
 | Item | Waiting On | Since | Source | Notes |
 |---|---|---|---|---|
 | Final mortgage offer terms | Desjardins / Jessica St-Pierre | 2026-07-05 | SRC-2026-014 | Acceptance letter does not include final rate, payment, frequency, or first payment date |
+| Maxime-only financing reassessment | CSEM proof / Desjardins / Jessica St-Pierre | 2026-07-07 | SRC-2026-022 | Employment proof and first pay document still needed before Desjardins can confirm whether parents can be removed from financing documents |
 | Home insurance quote / policy | Desjardins Assurances / user | 2026-07-05 | SRC-2026-016 | Quote contact received; policy not yet recorded |
 | Seller repair completion proof | Seller / buyer broker | 2026-07-05 | SRC-2026-012 | Includes garage-ceiling before/after photos |
 
