@@ -1,6 +1,6 @@
 # Timeline
 
-Last updated: 2026-07-06
+Last updated: 2026-07-07
 
 ## Chronological Timeline
 
@@ -28,6 +28,7 @@ Last updated: 2026-07-06
 | 2026-07-05 | Repository structure initialized | Admin | N/A | Ready for document and chat intake |
 | 2026-07-05 | Initial house sources processed | Intake | SRC-2026-001, SRC-2026-002, SRC-2026-003, SRC-2026-004, SRC-2026-005, SRC-2026-006 | Originals archived and source notes created |
 | 2026-07-05 | Email batch processed | Intake | SRC-2026-011, SRC-2026-012, SRC-2026-013, SRC-2026-014, SRC-2026-015, SRC-2026-016, SRC-2026-017, SRC-2026-018, SRC-2026-019 | 40 .eml files archived and key PDFs extracted |
+| 2026-07-07 | Renovation priority and bachelor expansion plan recorded | Renovations | SRC-2026-021 | July quote targets, September parallel work target, and future bachelor expansion concept |
 
 ## Future Dates
 
@@ -35,8 +36,10 @@ Last updated: 2026-07-06
 |---|---|---|---|---|
 | 2026-07-14 | Municipal tax installment due | Tax | SRC-2026-004 | 952.49 CAD, payment responsibility to confirm |
 | 2026-07-31 | Final mortgage offer terms deadline | Financing | SRC-2026-014 | Derived from one-month-before-transaction condition if deed is 2026-08-31 |
+| 2026-07-31 | Renovation quote outreach target | Renovations | SRC-2026-021 | Contact at least 3 contractors for each of the driveway/drainage/retaining-wall and foundation crack projects |
 | 2026-08-31 | Deed deadline | Legal / closing | SRC-2026-012 | Before buyer's notary |
 | 2026-09-05 | Loan contract and mortgage deed signing deadline | Financing | SRC-2026-014 | Desjardins acceptance letter |
 | 2026-09-09 13:00 | Occupancy | Legal / moving | SRC-2026-012 | Modified by MO-57236 |
+| 2026-09 | Exterior/foundation renovation target | Renovations | SRC-2026-021 | Driveway/drainage/retaining-wall work and foundation crack work targeted to run in parallel |
 | 2026-09-15 | Municipal tax installment due | Tax | SRC-2026-004 | 952.49 CAD, payment responsibility to confirm |
 | 2026-10-20 | Municipal tax installment due | Tax | SRC-2026-004 | 952.48 CAD, payment responsibility to confirm |

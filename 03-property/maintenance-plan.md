@@ -20,9 +20,8 @@
 | Request heat pump and central AC documents | Medium |  | HVAC | SRC-2026-003 | Open | Seller says documents exist |
 | Verify French drain access and condition | Medium |  | Drainage | SRC-2026-003, SRC-2026-015 | Open | Inspection could not access lookouts or confirm condition |
 | Confirm roof documentation or expected remaining life | Medium |  | Roof | SRC-2026-003 | Open | Seller says roof covering installed 2015 but has no documents |
-| Get foundation-crack specialist review | High |  | Foundation | SRC-2026-015 | Open | Front, left, and rear foundation cracks observed |
-| Get plumber review for garage drain basin / water infiltration | High |  | Garage / drainage | SRC-2026-015 | Open | Basin may be incorrectly installed relative to grade |
-| Scope full garage driveway / retaining wall redo | High |  | Driveway / retaining wall / garage drainage | SRC-2026-015, SRC-2026-020 | Open | Driveway condition is poor per owner assessment; inspection noted retaining-wall settlement on right side and recommended paving-stone expert and budget |
+| Scope garage driveway / drainage / retaining-wall redo | High | 2026-07-31 quote outreach | Driveway / retaining wall / garage drainage | SRC-2026-015, SRC-2026-020, SRC-2026-021 | Open | Contact at least 3 contractors; include driveway condition, garage entrance grading, exterior drain basin, water infiltration risk, and retaining-wall settlement |
+| Get foundation-crack specialist quotes | High | 2026-07-31 quote outreach | Foundation | SRC-2026-015, SRC-2026-021 | Open | Contact at least 3 specialists; front, left, and rear cracks observed; coordinate with driveway work if exterior access is needed |
 | Test garage-ceiling material before removal if not already handled | High | Before removal | Garage / environmental | SRC-2026-012, SRC-2026-015 | Open | Inspector notes material may contain asbestos |
 | Replace exterior outlets with GFI outlets | Medium |  | Electrical | SRC-2026-015 | Open | Inspection recommendation |
 | Replace garage-to-basement door hinges with self-closing spring hinges | Medium |  | Garage / CO safety | SRC-2026-015 | Open | Prevent CO infiltration from attached garage |

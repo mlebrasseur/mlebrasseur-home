@@ -1,6 +1,6 @@
 # Next Actions
 
-Last updated: 2026-07-06
+Last updated: 2026-07-07
 
 ## Urgent
 
@@ -23,8 +23,10 @@ Last updated: 2026-07-06
 |---|---|---|---|---|---|
 | Keep or request documentation confirming the second unit's legal rental status |  |  | Legal / property | SRC-2026-004, SRC-2026-007, SRC-2026-008 | Open |
 | Ask when the bachelor unit was added |  |  | Property history | SRC-2026-007, SRC-2026-008 | Open |
-| Request quote or expert review for foundation cracks |  |  | Foundation | SRC-2026-015 | Open |
-| Request plumber review for garage exterior drain basin and water infiltration risk |  |  | Drainage / garage | SRC-2026-015 | Open |
+| Contact at least 3 contractors for garage driveway/drainage/retaining-wall quotes | User | 2026-07-31 | Driveway / drainage / retaining wall | SRC-2026-015, SRC-2026-020, SRC-2026-021 | Open |
+| Contact at least 3 foundation crack specialists for quotes | User | 2026-07-31 | Foundation | SRC-2026-015, SRC-2026-021 | Open |
+| Coordinate selected driveway and foundation contractors before final driveway finish | User / contractors | Before 2026-09 work | Exterior / foundation | SRC-2026-021 | Open |
+| Confirm with Terrebonne Urbanisme whether bachelor expansion into garage space affects permits, use, or unit status | User | Before design spend | Bachelor expansion / permits | SRC-2026-008, SRC-2026-021 | Open |
 | Confirm whether garage ceiling material contains asbestos before removal |  | Before seller / contractor removal | Garage / environmental | SRC-2026-012, SRC-2026-015 | Open |
 | Request masonry review for mortar cracks and damaged concrete sills |  |  | Exterior | SRC-2026-015 | Open |
 | Confirm water heater installation year conflict, 2021 vs 2023 |  |  | Plumbing / insurance | SRC-2026-003, SRC-2026-015 | Open |
