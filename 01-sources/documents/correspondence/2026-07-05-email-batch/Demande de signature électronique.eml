@@ -1,0 +1,371 @@
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: maxime.lebrasseur@gmail.com
+Received: by 2002:a05:7412:726:b0:1d7:989f:46d9 with SMTP id 38csp350898rdh;
+        Fri, 5 Jun 2026 11:33:44 -0700 (PDT)
+X-Received: by 2002:a05:622a:19a2:b0:50d:8389:c3f3 with SMTP id d75a77b69052e-51795cc34e6mr73105311cf.54.1780684423688;
+        Fri, 05 Jun 2026 11:33:43 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1780684423; cv=none;
+        d=google.com; s=arc-20240605;
+        b=Tt5LFTKffQmArc/KYGXBTRgZ5xZnXZSMoYBqz97Kzpvc2b00v4Yz0Vd5xsII1/EvGj
+         K2obdeDVopf+urKM4bM/6RT85JBgtfBJ7JoPyZ/u7jyLmlTgK08hpdXtVGzlU7lThfCJ
+         xXKQ3G7RvRq3S8sMTMl2rAfrm2ns5djbIjAFGuRv5JPTJqNHmKuEYi++fR1UL2lfwfQf
+         Ql2ctFN+de8WV1cb3O8PQgB5n3Fi/ZERT4QYnF3Ac/cXERqUJIQx34wvcL8Y+MlV1c0V
+         u6g7WZLMNFqFXy82De6MSxg8kxKmtggXlCdYoHDNiOKGnOQNs6qRIjGxWzWCTxIt0Caz
+         KnBw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=feedback-id:mime-version:subject:message-id:to:reply-to:from:date
+         :dkim-signature:dkim-signature;
+        bh=qHMfZakjv8KlZbqvexvP1Q3KbPPbp8oehD5Gll69VHg=;
+        fh=oYVdLSKXkuG5GvkAA/RNJslRqA9Fer7oqwoRWpmsM04=;
+        b=hmecEjTQO55JEhyHsZowxPwRbOLFeOtiIjfuueaUfo9pdpwKBSJCfFcXChzT6o1b2u
+         Svr8at3vz4CDoOc41FGvm3SY3UlCS7v5PWpvyWpvS0l9u37IGVvdLuxFnk2+lkVNX7VA
+         py40fLD1wOYFdAih0FvtU0d9FHic4dPPNAusmkhKx1elayGuxeZrA0EmP0bdgGx9JzAX
+         5lOX4kDN7NBNI1eQMka6R5xnDihpjm+zMjW+wjcVAascxTXHnfafpjUgcI7gnM8PNdZb
+         tTob3Fh/lEQxd+Qf513iFFnQwQ7ENrqpVnI4jtfOTkDRALnAY6utPz7KsejnmK64Jn80
+         xsXw==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@desjardins.com header.s=hx3rqszhsqgalkzqxriiykaiezg3zjuw header.b=LlToxHUY;
+       dkim=pass header.i=@amazonses.com header.s=224i4yxa5dv7c2xz3womw6peuasteono header.b=K7isMUX0;
+       spf=pass (google.com: domain of 0100019e9910001b-0a62a2df-adbe-499d-88c8-d21297e4558e-000000@amazonses.com designates 54.240.45.232 as permitted sender) smtp.mailfrom=0100019e9910001b-0a62a2df-adbe-499d-88c8-d21297e4558e-000000@amazonses.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=desjardins.com
+Return-Path: <0100019e9910001b-0a62a2df-adbe-499d-88c8-d21297e4558e-000000@amazonses.com>
+Received: from a45-232.smtp-out.amazonses.com (a45-232.smtp-out.amazonses.com. [54.240.45.232])
+        by mx.google.com with ESMTPS id d75a77b69052e-51775d73439si110752151cf.146.2026.06.05.11.33.43
+        for <maxime.lebrasseur@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Fri, 05 Jun 2026 11:33:43 -0700 (PDT)
+Received-SPF: pass (google.com: domain of 0100019e9910001b-0a62a2df-adbe-499d-88c8-d21297e4558e-000000@amazonses.com designates 54.240.45.232 as permitted sender) client-ip=54.240.45.232;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@desjardins.com header.s=hx3rqszhsqgalkzqxriiykaiezg3zjuw header.b=LlToxHUY;
+       dkim=pass header.i=@amazonses.com header.s=224i4yxa5dv7c2xz3womw6peuasteono header.b=K7isMUX0;
+       spf=pass (google.com: domain of 0100019e9910001b-0a62a2df-adbe-499d-88c8-d21297e4558e-000000@amazonses.com designates 54.240.45.232 as permitted sender) smtp.mailfrom=0100019e9910001b-0a62a2df-adbe-499d-88c8-d21297e4558e-000000@amazonses.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=desjardins.com
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=hx3rqszhsqgalkzqxriiykaiezg3zjuw; d=desjardins.com; t=1780684423;
+	h=Date:From:Reply-To:To:Message-ID:Subject:MIME-Version:Content-Type;
+	bh=//tKKp7z7G/0TyTeEAX9f6QAL+UTrHCtA2oVr3ZvIwE=;
+	b=LlToxHUYvEJSn76HrLAxZ9cTHKHKJBSRdqBPExfohzOfSgUnnM1HiU72bPcK0iY6
+	XE2koFz6IXu5o8XJ3IZ9raqjjZKXj0R/ayNaqgXrb9QQAU7QRd0OXms9LZlzc6U+giT
+	44elQYREJDzhhcbxcboxMz9pe6/8kdEo4qFH2nSuUvR8GlyT+RiLFvn+APj1oGHWrCy
+	kKwKnYoDcG34AIBwD2M3VErK/rNmq0AMLLoF2qsiGVzzLQajB0H8BlyV8OtY2q0Omjw
+	gARYGVGEQBvSklFTZLRNE6NgIfkqdT61mMWcSkieL5M0OqhA4SnaGxcbhoAdGg2xHpW
+	CeylElrVbQ==
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=224i4yxa5dv7c2xz3womw6peuasteono; d=amazonses.com; t=1780684423;
+	h=Date:From:Reply-To:To:Message-ID:Subject:MIME-Version:Content-Type:Feedback-ID;
+	bh=//tKKp7z7G/0TyTeEAX9f6QAL+UTrHCtA2oVr3ZvIwE=;
+	b=K7isMUX0/e9O11INj1r3eSACTqqhFRG9PkZ/TQ/21KJtel/7e6IeWBp+TFie8int
+	c9xcj4YkKAbDbAUvma2LMtNHojx1SCOcd3KCnLSGWwjwNZFT/IViZ30FQC0XvVvuyxA
+	nG//5Gm8xTZfKIQLCiZNxgEHw1avoakhTxx4NmdI=
+Date: Fri, 5 Jun 2026 18:33:43 +0000
+From: Desjardins <signature-electronique@desjardins.com>
+Reply-To: No Reply <nepasrepondre-signature-electronique@desjardins.com>
+To: MAXIME LEBRASSEUR <maxime.lebrasseur@gmail.com>
+Message-ID: <0100019e9910001b-0a62a2df-adbe-499d-88c8-d21297e4558e-000000@email.amazonses.com>
+Subject: =?UTF-8?Q?Demande_de_signature_=C3=A9lectronique?=
+MIME-Version: 1.0
+Content-Type: multipart/mixed; 
+	boundary="----=_Part_1664616_43231642.1780684423132"
+x-esl-recipient-id: EXTERNE2
+x-esl-package-id: aJhSFPHkGJSzkXqK14oHQmc3rdI=
+Feedback-ID: ::1.us-east-1.3NlfApUjweW/0cWJs3jOEOY1DYp+Nc6SU3jUh8AxWj0=:AmazonSES
+X-SES-Outgoing: 2026.06.05-54.240.45.232
+
+------=_Part_1664616_43231642.1780684423132
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:v=3D"urn:schemas-microso=
+ft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com:office:office">
+=09<head>
+=09=09<meta charset=3D"UTF-8">
+    <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+    <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=
+=3D1">
+
+=09=09<title>Invitation</title>
+
+    <style type=3D"text/css">
+=20
+=09=09p, pre{
+=09=09=09margin:10px 0;
+=09=09=09padding:0;
+=09=09=09font-family:arial, calibri, Helvetica, sans-serif;
+=09=09=09font-size:15px;
+=09=09=09color: #000000;
+=09=09}
+=09=09table{
+=09=09=09border-collapse:collapse;
+=09=09}
+
+=09=09img,a img{
+=09=09=09border:0;
+=09=09=09height:auto;
+=09=09=09outline:none;
+=09=09=09text-decoration:none;
+=09=09}
+=09=09body,#bodyTable,#bodyCell{
+=09=09=09height:100%;
+=09=09=09margin:0;
+=09=09=09padding:0;
+=09=09=09width:100%;
+=09=09=09color: #000000;
+=09=09}
+=09=09.mcnPreviewText{
+=09=09=09display:none !important;
+=09=09}
+=09=09#outlook a{
+=09=09=09padding:0;
+=09=09}
+=09=09img{
+=09=09=09-ms-interpolation-mode:bicubic;
+=09=09}
+=09=09table{
+=09=09=09mso-table-lspace:0pt;
+=09=09=09mso-table-rspace:0pt;
+=09=09}
+=09=09.ReadMsgBody{
+=09=09=09width:100%;
+=09=09}
+=09=09.ExternalClass{
+=09=09=09width:100%;
+=09=09}
+=09=09p,a,li,td{
+=09=09=09mso-line-height-rule:exactly;
+=09=09}
+=09=09
+=09=09p,a,li,td,body,table{
+=09=09=09-ms-text-size-adjust:100%;
+=09=09=09-webkit-text-size-adjust:100%;
+=09=09}
+=09=09.ExternalClass,.ExternalClass p,.ExternalClass td,.ExternalClass div,=
+.ExternalClass span,.ExternalClass font{
+=09=09=09line-height:100%;
+=09=09}
+=09=09a[x-apple-data-detectors]{
+=09=09=09color:inherit !important;
+=09=09=09text-decoration:none !important;
+=09=09=09font-size:inherit !important;
+=09=09=09font-family:inherit !important;
+=09=09=09font-weight:inherit !important;
+=09=09=09line-height:inherit !important;
+=09=09}
+
+=09=09.templateContainer{
+=09=09=09max-width:800px !important;
+=09=09}
+=09=09a.mcnButton{
+=09=09=09display:block;
+=09=09=09text-decoration: none;
+=09=09}
+
+=09=09.mcnTextContent{
+=09=09=09word-break:break-word;
+=09=09}
+=09=09.mcnTextContent img{
+=09=09=09height:auto !important;
+=09=09}
+
+=09=09body,#bodyTable{
+=09=09=09background-color:#FFFFFF;
+=09=09}
+
+=09=09#bodyCell{
+=09=09=09border-top:0;
+=09=09}
+
+=09=09.templateContainer{
+=09=09=09border:0;
+=09=09}
+
+=09=09#templateBody{
+=09=09=09background-color:#ffffff;
+=09=09=09background-image:none;
+=09=09=09background-repeat:no-repeat;
+=09=09=09background-position:center;
+=09=09=09background-size:cover;
+=09=09=09border-top:0;
+=09=09=09border-bottom:0;
+=09=09=09padding-top:0px;
+=09=09=09padding-bottom:9px;
+=09=09}
+
+=09=09#templateBody .mcnTextContent,#templateBody .mcnTextContent p{
+=09=09=09color:#000000;
+=09=09=09font-family:arial, calibri, Helvetica, sans-serif;
+=09=09=09font-size:15px;
+=09=09=09line-height:100%;
+=09=09=09text-align:left;
+=09=09}
+
+=09=09#templateBody .mcnTextContent a,#templateBody .mcnTextContent p a{
+=09=09=09color:#00874E;
+=09=09=09font-weight:normal;
+=09=09=09text-decoration:underline;
+=09=09}
+
+=09=09#templateFooter{
+=09=09=09background-color:#ffffff;
+=09=09=09background-image:none;
+=09=09=09background-repeat:no-repeat;
+=09=09=09background-position:center;
+=09=09=09background-size:cover;
+=09=09=09border-top:0;
+=09=09=09border-bottom:0;
+=09=09=09padding-top:0px;
+=09=09=09padding-bottom:30px;
+=09=09}
+
+=09=09#templateFooter .mcnTextContent,#templateFooter .mcnTextContent p{
+=09=09=09color:#606060;
+=09=09=09font-family:arial, calibri, Helvetica, sans-serif;
+=09=09=09font-size:12px;
+=09=09=09line-height:100%;
+=09=09=09text-align:center;
+=09=09}
+
+=09=09@media only screen and (min-width:768px){
+=09=09=09.templateContainer{
+=09=09=09width:800px !important;
+=09=09}
+}
+    </style>
+  </head>
+
+  <body>
+    <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" height=3D"100%"=
+ width=3D"100%" id=3D"bodyTable">
+    <tr><td valign=3D"top" id=3D"bodyCell">
+=09=09=09<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"1=
+00%" class=3D"templateContainer" style=3D"min-width:100%;">
+=09=09=09=09<tr><td valign=3D"top" id=3D"templateBody" style=3D"padding-top=
+:9px;">
+          <table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" style=3D"max-width:100%; min-width:100%;" width=3D"100%">
+          <tbody><tr><td valign=3D"top" class=3D"mcnTextContent" style=3D"p=
+adding-top:0; padding-right:18px; padding-left:18px;">
+          =09<p>Bonjour MAXIME LEBRASSEUR,</p>
+=09=09=09=09=09=09<p>Voici la marche =C3=A0 suivre pour apposer votre signa=
+ture =C3=A9lectronique sur vos documents.</p>
+=09=09=09=09=09=09<p><b>Internet Explorer n'est pas compatible avec la sign=
+ature =C3=A9lectronique.</b><br>Utilisez Google Chrome, Microsoft Edge, Moz=
+illa Firefox ou Safari.&nbsp;&nbsp;<a href=3D"https://www.desjardins.com/se=
+curite/comment-proteger/index.jsp?navigMW=3Dla&#navigateur" target=3D"_blan=
+k">Besoin d'installer un navigateur Web?</a></p>
+=09=09=09=09=09=09<p><b>Signez vos documents en quelques =C3=A9tapes</b>
+=09=09=09=09=09=09<ol>
+=09=09=09=09=09=09=09<li>Cliquez sur le bouton <b>Signature =C3=A9lectroniq=
+ue.</b></li>
+=09=09=09=09=09=09=09<li>Authentifiez-vous en utilisant le code de s=C3=A9c=
+urit=C3=A9 envoy=C3=A9 =C3=A0 votre t=C3=A9l=C3=A9phone cellulaire ou en r=
+=C3=A9pondant aux questions de s=C3=A9curit=C3=A9.</li>
+=09=09=09=09=09=09=09<li>Acceptez les conditions d=E2=80=99utilisation de l=
+a signature =C3=A9lectronique.</li>
+=09=09=09=09=09=09=09<li>Prenez connaissance du ou des documents.</li>
+=09=09=09=09=09=09=09<li>Signez le ou les documents.</li>
+=09=09=09=09=09=09</ol>
+=09=09=09=09=09=09</p>
+=09=09=09=09=09=09
+=09=09=09=09=09=09
+=09=09=09=09=09=09<p>Lorsque tous les signataires auront sign=C3=A9, vous r=
+ecevrez un courriel de confirmation contenant un lien s=C3=A9curis=C3=A9 po=
+ur r=C3=A9cup=C3=A9rer vos documents sign=C3=A9s.</p>
+=09=09=09=09=09=09
+=09=09=09=09=09=09<!--=20
+=09=09=09=09=09=09<p class=3D"mcnTextContent">Date limite pour signer vos d=
+ocuments : 5 juillet 2026 =C3=A0 23 h 59 (heure de l&#39;Est).</p>
+=09=09=09=09=09=09-->
+=09=09=09=09=09=09
+=09=09=09=09=09=09
+=09=09=09=09=09=09<p>Date limite pour signer vos documents : 5 juillet 2026=
+ =C3=A0 23 h 59 (heure de l&#39;Est).</p><br>
+=09=09=09=09=09=09
+          </td></tr></tbody>
+          </table>
+=09=09=09=09
+=09=09=09=09=09<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" widt=
+h=3D"100%" style=3D"min-width:100%;">
+    =09=09=09<tbody>
+    =09=09=09=09
+        =09=09<tr><td style=3D"padding-top:0; padding-right:0px; padding-bo=
+ttom:9px; padding-left:18px;" valign=3D"top" align=3D"left">
+        =09=09=09<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" st=
+yle=3D"border-collapse: separate !important;border-radius: 3px;background-c=
+olor: #00884E;">
+          =09=09<tbody>
+          =09=09=09<tr><td align=3D"center" valign=3D"middle" style=3D"font=
+-family: arial; font-size: 15px; padding: 10px;">
+          =09=09=09<a class=3D"mcnButton" title=3D"Signature =C3=A9lectroni=
+que" href=3D"https://apps.e-signlive.ca/authentication?target=3Dhttps%3A%2F=
+%2Fapps.e-signlive.ca%2Ftransaction%2FaJhSFPHkGJSzkXqK14oHQmc3rdI%3D%2Fsign=
+&amp;loginToken=3DNjZpd1puWk44MVRqeVdOdkNLUUo5OFN2aklvWUQ5UHNKUkFFVkFIekZDc=
+mNkelNWTmRKWHBlZjFQMVNrMGlTMTUxZmlkYjhjekVQaDdGSzYzdDd4My9ZZy9aVDVLSDFvZ1pX=
+L2Rvd0xZT3BpV0RCTmN6Wm9VR2hCY2tSWVZXSkpZa0ZCU0dkaWF6RTFPVnBQU0ROSU9WSjFNbUZ=
+TZURKVVpXWjZNVFZTTTNKSVNraGFTbnBMVUVFMGVHWXlNVzkxTW9XdGFwdHczOUtFZ3k4TURZTE=
+41TWNuNXprWU9FUzl0WlhsdWtzaDh5ND0%3D" target=3D"_blank" style=3D"font-weigh=
+t: bold;letter-spacing: normal;line-height: 100%;text-align: center;text-de=
+coration: none;color: #FFFFFF;">Signature =C3=A9lectronique</a>
+          =09=09=09</td></tr>
+          =09=09</tbody>
+          =09=09</table>
+          =09</td></tr>
+    =09=09=09</tbody>
+=09=09=09=09=09</table>
+=09=09=09=09
+=09=09=09=09=09<table align=3D"left" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" width=3D"100%" style=3D"max-width:100%; min-width:100%;">
+    =09=09=09<tbody>
+        =09=09<tr><td class=3D"mcnTextContent" valign=3D"top" style=3D"padd=
+ing-top:9px; padding-right:18px; padding-bottom:9px; padding-left:18px;">
+          =09=09<p>Pour toute information suppl=C3=A9mentaire, allez au  <a=
+ class=3D"mcnTextContent" title=3D"" href=3D"https://www.desjardins.com/sig=
+nature-electronique" target=3D"_blank" style=3D"color: ##00884e;">desjardin=
+s.com/signature-electronique</a>
+=09=09=09=09=09=09=09</p>
+=09=09=09=09=09=09=09<br>
+=09=09=09=09=09=09=09<p>Merci de faire affaire avec Desjardins.</p>
+=09=09=09=09=09=09=09<br>
+=09=09=09=09=09=09=09<p style=3D"color: #D91838;">Important : Ce message vo=
+us est transmis par le service de signature =C3=A9lectronique de Desjardins=
+. Merci de ne pas r=C3=A9pondre =C3=A0 ce courriel. Si vous n=E2=80=99avez =
+pas eu de discussion avec votre conseiller Desjardins =C3=A0 ce sujet, ne c=
+liquez pas sur le bouton Signature =C3=A9lectronique et contactez-le imm=C3=
+=A9diatement.</p>
+        =09=09</td></tr>
+    =09=09=09</tbody>
+=09=09=09=09=09</table>
+=09=09=09=09</td></tr>
+=09=09=09=09
+=09=09=09=09<tr><td valign=3D"top" id=3D"templateFooter">
+=09=09=09=09=09<table align=3D"left" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" width=3D"100%" style=3D"max-width:100%; min-width:100%;">
+    =09=09=09<tbody>
+        =09=09<tr><td class=3D"mcnTextContent" valign=3D"top" style=3D"padd=
+ing: 9px 18px 9px;color: #606060;font-size: 12px;text-align: left;">
+          =09=09<img height=3D"32" alt=3D"Signature =C3=A9lectronique Desja=
+rdins" src=3D"https://www.desjardins.com/ressources/images/a00-entete-logo-=
+n1-desjardins.jpg" style=3D"border: 0px; width: 150px; height: 32px; margin=
+: 0px;" width=3D"150"><br><br>
+=09=09=09=09=09<p style=3D"color: #606060;font-size: 12px;text-align: left;=
+">
+=09=09=09=09=09=09Ce courriel est confidentiel, peut =C3=AAtre prot=C3=A9g=
+=C3=A9 par le secret professionnel et est adress=C3=A9 exclusivement au des=
+tinataire. Il est strictement interdit =C3=A0 toute autre personne de diffu=
+ser, distribuer, reproduire ou utiliser autrement ce message. Si vous ne d=
+=C3=A9sirez plus recevoir d=E2=80=99avis par courriel, veuillez communiquer=
+ avec votre conseiller par courrier, par courriel ou par t=C3=A9l=C3=A9phon=
+e. Merci.
+=09=09=09=09=09</p>
+        =09=09</td></tr>
+      =09=09</tbody>
+=09=09=09=09=09</table>
+=09=09=09=09</td></tr>
+=09=09=09</table>
+    </td></tr>
+    </table>
+  </body>
+</html>
+------=_Part_1664616_43231642.1780684423132--

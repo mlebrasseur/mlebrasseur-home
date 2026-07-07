@@ -1,16 +1,21 @@
 # Open Questions
 
-Last updated: 2026-07-05
+Last updated: 2026-07-06
 
 | Question | Area | Priority | Source | Owner | Status | Notes |
 |---|---|---|---|---|---|---|
-| What are the accepted PA/PL date, deed date, occupancy date, and accepted purchase price? | Legal / closing | High | SRC-2026-001, SRC-2026-002 |  | Open | Listing sources only state relative 60-day timing |
-| What construction year is confirmed by the later resolving document? | Property | High | SRC-2026-001, SRC-2026-003, SRC-2026-004, SRC-2026-006 |  | Open | Current sources show 1963 and 1970 |
-| Is a current certificate of location required for closing? | Legal / closing | High | SRC-2026-001, SRC-2026-003 |  | Open | Listing says no certificate of location; seller declared charges and modifications |
+| Who is the buyer's notary? | Legal / closing | High | SRC-2026-011, SRC-2026-012 |  | Open | Deed must be before buyer's notary by 2026-08-31 |
+| Will the seller provide a current certificate of location or pay the 2,000 CAD compensation? | Legal / closing | High | SRC-2026-011 |  | Open | PA requires certificate by deed signature or seller compensation |
+| How will occupancy compensation be calculated if deed occurs before 2026-09-09 at 13:00? | Legal / closing | Medium | SRC-2026-011, SRC-2026-012 |  | Open | PA says seller compensates buyer if occupancy follows deed |
+| What are the final mortgage rate, term, payment amount, payment frequency, and first payment date? | Financing | High | SRC-2026-014 |  | Open | Desjardins acceptance does not include final terms |
+| Are any lender conditions still open before signing loan documents? | Financing | High | SRC-2026-014 |  | Open | Loan contract and mortgage deed must be signed by 2026-09-05 |
+| What home insurance coverage, premium, deductible, start date, and requirements will be selected? | Insurance | High | SRC-2026-016 |  | Open | Quote contact received but no policy recorded |
+| Have seller repairs been completed, and are garage-ceiling before/after photos available? | Inspection / repairs | High | SRC-2026-012, SRC-2026-015 |  | Open | Repairs tied to 1,500 CAD notary holdback |
+| Does the garage ceiling material contain asbestos? | Garage / environmental | High | SRC-2026-015 |  | Open | Inspector recommended sample analysis |
+| What is the actual water heater installation year, 2021 or 2023? | Plumbing / insurance | Medium | SRC-2026-003, SRC-2026-015 |  | Open | Seller declaration says 2023; inspection report says 2021 |
 | What documentation exists for the prior oil or fuel tank? | Inspection / environmental | High | SRC-2026-003 |  | Open | Seller declared prior tank but no spill or soil contamination |
-| Does the property have a backwater valve? | Plumbing | Medium | SRC-2026-003 |  | Open | Seller does not know |
-| Does the property have an air exchanger? | HVAC | Medium | SRC-2026-001, SRC-2026-003 |  | Open | Listing says yes; seller declaration says no |
-| What modifications triggered the seller's positive D2.11 answer? | Legal / inspection | Medium | SRC-2026-003 |  | Open | No D15 details provided |
+| What specialist review or repair cost is needed for foundation cracks? | Foundation | High | SRC-2026-015 |  | Open | Inspector recommended foundation-crack expert |
+| What correction is needed for the garage exterior drain basin and garage water infiltration? | Garage / drainage | High | SRC-2026-015 |  | Open | Inspector recommended plumber evaluation |
 | Which 2026 municipal and 2025-2026 school tax amounts were paid before closing? | Finance / taxes | High | SRC-2026-004, SRC-2026-005 |  | Open | Needed for closing adjustments |
 | What document should be retained as proof that the second unit is legal and rentable? | Legal / insurance / financing | Medium | SRC-2026-001, SRC-2026-004, SRC-2026-007, SRC-2026-008 |  | Open | User confirms legal rental status; supporting document still useful for records |
 | When was the bachelor unit added? | Property history | Low | SRC-2026-007, SRC-2026-008 |  | Open | Timing remains unverified |

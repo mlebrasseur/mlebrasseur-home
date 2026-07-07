@@ -10,4 +10,4 @@ Use one file per renovation area. Keep quotes, scope, decisions, dependencies, a
 | Bathroom | `bathroom.md` | Not started |
 | Basement | `basement.md` | Not started |
 | Exterior | `exterior.md` | Not started |
-| General | `general.md` | Not started |
+| General | `general.md` | Inspection follow-up started |

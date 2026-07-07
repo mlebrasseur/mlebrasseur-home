@@ -1,0 +1,1406 @@
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: maxime.lebrasseur@gmail.com
+Received: by 2002:a05:7412:726:b0:1d7:989f:46d9 with SMTP id 38csp949525rdh;
+        Sat, 6 Jun 2026 14:40:05 -0700 (PDT)
+X-Received: by 2002:ad4:5f08:0:b0:8ce:a93c:e1ad with SMTP id 6a1803df08f44-8cee6265720mr161257246d6.32.1780782005526;
+        Sat, 06 Jun 2026 14:40:05 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1780782005; cv=none;
+        d=google.com; s=arc-20240605;
+        b=TAbSyqK5nC8+shBUeUA5JIpuTIuOBiazxjQJv8/s+QyIB7mLhXlA0KxIRoTJJPMBy1
+         vWk7WmFrMi3EHJTsdFu6jnkWlasi/iJeIicKxtNiKfFM78DTRUGg9KSm2Hn+KcQjzGmO
+         SD1Cn7SIqYvBbEtjXaKE8tjjjRm+iMBkgCxk5RVUk371/PjJ8pLC1ITeBi2IO0r6HyOm
+         SVeq+rVQLRZw5dU1nq46ZrHVLwElgPLq9tudxMAh4qMhekkZULhJa3L29xEFoHzSUi3P
+         wiwhknYfPChtnC1wl6g3vNHJg72VWD/+Li0UqejW4ibNVFsJ8wdoubb3HPEbBEzezzYG
+         DVnA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=feedback-id:mime-version:subject:message-id:to:reply-to:from:date
+         :dkim-signature:dkim-signature;
+        bh=5ino16DoulswleCWOSD4Rvk4cG8GLvTmY9aysoy0mDg=;
+        fh=oYVdLSKXkuG5GvkAA/RNJslRqA9Fer7oqwoRWpmsM04=;
+        b=cOX5Zjryfd9xYUn45UPlUGHNrczd8D0TVYTiDCLuLjpfc6fmrqmhP5pctaoQYVCev3
+         VHiD2+mUZp3/zA7BLmBoY+rPoJki1MwYI044jwqijUD4JiQiITq/cLiUl3OZPAac25Pi
+         D2JmQy6yjFeghF3UD3Hsz27wk2kH4GYkntJTutsRRMb9JQuGPANYSxrMemhk3LhM/cvG
+         UW/a2JMPYg1NDwYL+jWC2nALn24c71vQ6vWFEt8AmzZls0pjsX+s34/sG7yBL5spRWUA
+         713I5zyZr6f2Xk+rNV0FMcBq4qvA3+7ZzgSZWbdY6+weBGekMUO25KyqHleunrGUKpPP
+         TGQw==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@payments.interac.ca header.s=default header.b=Zhn5zXkE;
+       dkim=pass header.i=@amazonses.com header.s=qpcfy54xse57bzmyicqs5kisv46vyagl header.b=abN9JuWE;
+       spf=pass (google.com: domain of 010d019e9ee0f8e5-6ab76316-5fbd-48f2-99ab-65bac799a77e-000000@mail.payments.interac.ca designates 54.240.80.224 as permitted sender) smtp.mailfrom=010d019e9ee0f8e5-6ab76316-5fbd-48f2-99ab-65bac799a77e-000000@mail.payments.interac.ca;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=payments.interac.ca
+Return-Path: <010d019e9ee0f8e5-6ab76316-5fbd-48f2-99ab-65bac799a77e-000000@mail.payments.interac.ca>
+Received: from a80-224.smtp-out.ca-central-1.amazonses.com (a80-224.smtp-out.ca-central-1.amazonses.com. [54.240.80.224])
+        by mx.google.com with ESMTPS id 6a1803df08f44-8cecd2868besi191926606d6.254.2026.06.06.14.40.05
+        for <maxime.lebrasseur@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Sat, 06 Jun 2026 14:40:05 -0700 (PDT)
+Received-SPF: pass (google.com: domain of 010d019e9ee0f8e5-6ab76316-5fbd-48f2-99ab-65bac799a77e-000000@mail.payments.interac.ca designates 54.240.80.224 as permitted sender) client-ip=54.240.80.224;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@payments.interac.ca header.s=default header.b=Zhn5zXkE;
+       dkim=pass header.i=@amazonses.com header.s=qpcfy54xse57bzmyicqs5kisv46vyagl header.b=abN9JuWE;
+       spf=pass (google.com: domain of 010d019e9ee0f8e5-6ab76316-5fbd-48f2-99ab-65bac799a77e-000000@mail.payments.interac.ca designates 54.240.80.224 as permitted sender) smtp.mailfrom=010d019e9ee0f8e5-6ab76316-5fbd-48f2-99ab-65bac799a77e-000000@mail.payments.interac.ca;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=payments.interac.ca
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple; s=default;
+	d=payments.interac.ca; t=1780782005;
+	h=Date:From:Reply-To:To:Message-ID:Subject:MIME-Version:Content-Type;
+	bh=eGidXO6Zh89Wx79+ISEg6vbpIYzkECc07vEbDBzeDtA=;
+	b=Zhn5zXkEqSefZyx4qKhz65xka+RQpr3fub70VhJ6Lu1s8b2nugihe7eQXbLWC6r5
+	mL1H7PjZivS86ItYnwWpSDsgRTtPeiNQhqZiGC+O8GYZvn/2u8rfFbux8dxQyz2/XzE
+	zqNxau4j+Kumanehlh1y711M82sRL8wuBdEAaDAHoQYp9DQMrUMOykweADY03Yo6gkj
+	CcdsVq+BJOyiSjqz2ejshjYNmlGOMKcaMfpjbMh1NWhR6/aNudd87GAwFe7uGgei9I5
+	nVKmxnhiK+VF5qyAg2VPq2MKxrsqFqbXResTapB82iSTtYxD170ArzJ3O+E6zaSX0Jf
+	oXtkmyrUEA==
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=qpcfy54xse57bzmyicqs5kisv46vyagl; d=amazonses.com; t=1780782005;
+	h=Date:From:Reply-To:To:Message-ID:Subject:MIME-Version:Content-Type:Feedback-ID;
+	bh=eGidXO6Zh89Wx79+ISEg6vbpIYzkECc07vEbDBzeDtA=;
+	b=abN9JuWEONqTBs3sm2fqJWn9DQMAdVk2/wrWBQoE6S94erxLpskUHXn5IgL5LsTx
+	Dx5p3KhHrNiSr6M6mDKiDL6bvylTViHouPUzWImkyQuN7fkmiPbqVJ+UIoly8wmh+gj
+	teB/bDElS21os8kJZfxZ/ibmnvb5m6MYHDH5I17Q=
+Date: Sat, 6 Jun 2026 21:40:04 +0000
+From: Desjardins <catch@payments.interac.ca>
+Reply-To: Desjardins <crc_stim@domino.desjardins.com>
+To: MAXIME LEBRASSEUR <maxime.lebrasseur@gmail.com>
+Message-ID: <010d019e9ee0f8e5-6ab76316-5fbd-48f2-99ab-65bac799a77e-000000@ca-central-1.amazonses.com>
+Subject: =?UTF-8?Q?Virement_Interac_:_Votre_virement_de_600,00_$?=
+ =?UTF-8?Q?_=C3=A0_STEVE_CHARBONNEAU_a_?=
+ =?UTF-8?Q?=C3=A9t=C3=A9_d=C3=A9pos=C3=A9_avec_succ=C3=A8s.?=
+MIME-Version: 1.0
+Content-Type: multipart/mixed; 
+	boundary="----=_Part_53033111_836056481.1780782004353"
+X-Priority: 1
+X-Date: 06-06-2026 21:40
+X-PaymentKey: CACN9PX2
+X-Notification-Source: notif-api
+X-Payment-Notification: 9ecb6e3f5ff74f2b9a2cb894c82fd44a
+X-MessageType: 608
+Feedback-ID: ::1.ca-central-1.4g2P4eDIYWfGuVEZpp8QBJSdMHmF/Rf+iHUT3SJlK00=:AmazonSES
+X-SES-Outgoing: 2026.06.06-54.240.80.224
+
+------=_Part_53033111_836056481.1780782004353
+Content-Type: multipart/related; 
+	boundary="----=_Part_53033112_383847873.1780782004353"
+
+------=_Part_53033112_383847873.1780782004353
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_53033113_81355563.1780782004353"
+
+------=_Part_53033113_81355563.1780782004353
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+Bonjour MAXIME LEBRASSEUR,
+
+Le virement que vous avez envoy=C3=A9 =C3=A0 STEVE CHARBONNEAU a =C3=A9t=C3=
+=A9 d=C3=A9pos=C3=A9.
+
+Le virement de 600,00 $ (CAD) que vous avez envoy=C3=A9 =C3=A0 STEVE CHARBO=
+NNEAU a =C3=A9t=C3=A9 d=C3=A9pos=C3=A9.
+
+Pr=C3=A9cisions sur le virement
+
+Date : 6 juin 2026
+Num=C3=A9ro de r=C3=A9f=C3=A9rence : CACN9PX2
+
+Message :
+Inspection - 866 Rue St Sacrement, Terrebonne
+
+
+FAQ : https://www.interac.ca/fr/ressources/ressources-personnelles/faq-pers=
+onnelle | Cette transaction est s=C3=A9curis=C3=A9e.
+
+Pour votre s=C3=A9curit=C3=A9, ne transmettez pas ce courriel, car il compr=
+end des renseignements confidentiels dont vous =C3=AAtes l'unique destinata=
+ire. Interac ne vous demandera jamais de lui fournir l'acc=C3=A8s =C3=A0 ce=
+t avis par courriel.
+
+2000 - 2026 Interac Corp.
+Tous droits r=C3=A9serv=C3=A9s. Conditions d'utilisation
+Marque d=C3=A9pos=C3=A9e d'Interac Corp.
+Interac Corp.
+P.O. Box 45, Toronto, Ontario M5J 2J1
+www.interac.ca
+
+Le destinataire est avis=C3=A9 par courriel ou message texte, et l'institut=
+ion financi=C3=A8re concern=C3=A9e vire les fonds en toute s=C3=A9curit=C3=
+=A9 par l'entremise des r=C3=A9seaux de paiement d=C3=A9j=C3=A0 =C3=A9tabli=
+s.
+
+Ce courriel vous a =C3=A9t=C3=A9 envoy=C3=A9 par Interac Corp., propri=C3=
+=A9taire du service Virement Interac, au nom de la Desjardins
+
+------=_Part_53033113_81355563.1780782004353
+Content-Type: text/html;charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" lang=3D"fr" xml:lang=3D"fr" st=
+yle=3D"font-family:'Trebuchet MS', sans-serif;-ms-text-size-adjust:100%;-we=
+bkit-text-size-adjust:100%;background-color:rgb(234, 236, 237);height:100%;=
+">
+<head>
+    <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=
+=3D1.0">
+    <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <meta name=3D"color-scheme" content=3D"any ">
+    <meta name=3D"supported-color-schemes" content=3D"light dark">
+    <!--[if (gte mso 9)|(IE)]><!-->
+    <link rel=3D"preconnect" href=3D"https://fonts.googleapis.com">
+    <link rel=3D"preconnect" href=3D"https://fonts.gstatic.com" crossorigin=
+>
+    <link href=3D"https://fonts.googleapis.com/css2?family=3DUrbanist:ital,=
+wght@0,100..900;1,100..900&display=3Dswap" rel=3D"stylesheet">
+    <style layout=3D"text/css">
+        @import url('https://fonts.googleapis.com/css2?family=3DUrbanist:it=
+al,wght@0,100..900;1,100..900&display=3Dswap');
+
+        @font-face {
+            font-family: 'Urbanist';
+            font-style: normal;
+            font-weight: 100 900;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/urbanist/v17/L0x-DF02iFML4=
+hGCyMqlbS0.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U=
++02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122,=
+ U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+            mso-font-alt: 'Trebuchet MS';
+        }
+
+        html, .body, body, div, span, table, h1, h2, h3, h4, h5, h6, p, td,=
+ a {
+            font-family: 'Urbanist', 'Trebuchet MS', sans-serif !important;
+        }
+
+    </style>
+    <!--<![endif]-->
+    <style layout=3D"text/css">
+
+        @-ms-viewport {
+    width: device-width
+} @media print {body * { visibility: visible } #section-to-print, #section-=
+to-print * { visibility: visible } #section-to-print { position: absolute; =
+left: 0; top: 0 } } #outlook a { padding: 0 } .ExternalClass p, .ExternalCl=
+ass span, .ExternalClass font, .ExternalClass td { line-height: 100% } .Ext=
+ernalClass { width: 100% } html { font-family: "Trebuchet MS", sans-serif; =
+-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; background-colo=
+r: rgb(234, 236, 237); height: 100% } body { background-color: rgb(234, 236=
+, 237); margin-top: 0; margin-bottom: 0; margin-left: 0; margin-right: 0; h=
+eight: 100% } body, div, span, table, h1, h2, h3, h4, h5, h6, p, td, a { co=
+lor: rgb(0, 0, 0); font-family: "Trebuchet MS", sans-serif; font-weight: no=
+rmal; padding-top: 0; padding-bottom: 0; padding-left: 0; padding-right: 0;=
+ mso-line-height-rule: exactly } body, div, table, h1, h2, h3, h4, h5, h6, =
+p { margin-top: 0; margin-bottom: 0; margin-left: 0; margin-right: 0 } .bod=
+y { background-color: rgb(234, 236, 237); background-image: none; backgroun=
+d-repeat: repeat; background-position: top left; background-attachment: scr=
+oll; border-spacing: 0; border-collapse: collapse; vertical-align: top; hei=
+ght: 100%; width: 100%; color: rgb(0, 0, 0); font-family: "Trebuchet MS", s=
+ans-serif; font-weight: normal; padding-top: 0; padding-bottom: 0; padding-=
+left: 0; padding-right: 0; mso-line-height-rule: exactly } li { list-style-=
+position: outside } ul { list-style-position: outside; padding-top: 0; padd=
+ing-bottom: 0; padding-left: 22px; padding-right: 0; margin-top: 0; margin-=
+bottom: 0; margin-left: 0; margin-right: 0 } table, tr, td { padding-top: 0=
+; padding-bottom: 0; padding-left: 0; padding-right: 0; vertical-align: top=
+; border-spacing: 0; border-collapse: collapse } td { overflow-wrap: break-=
+word; word-break: break-word } .row { width: 100%; border-spacing: 0 } .row=
+-centered { display: flex; justify-content: center } .center-container { wi=
+dth: 100%; min-width: 600px } .container { width: 600px; max-width: 600px; =
+margin: auto; text-align: inherit; background-color: rgb(255, 255, 255); bo=
+rder-spacing: 0; border-collapse: collapse; vertical-align: top; background=
+-image: none; background-repeat: repeat; background-position: top left; bac=
+kground-attachment: scroll } .inner-container { padding-left: 72px; padding=
+-right: 72px } @media screen and (max-width: 600px) {.container { width: au=
+to !important } .center-container { min-width: 390px !important } .inner-co=
+ntainer { padding-left: 32px !important; padding-right: 32px !important } }=
+ [data-ogsb] html { background-color: rgb(40, 41, 42) !important } [data-og=
+sb] body { background-color: rgb(40, 41, 42) !important } [data-ogsb] .body=
+ { background-color: rgb(40, 41, 42) !important } .button-brand-d { backgro=
+und-color: rgb(0, 0, 0); text-align: left !important; font-weight: 700 !imp=
+ortant; border-style: solid; border-color: rgb(230, 230, 230); color: rgb(2=
+55, 185, 42) !important; padding-left: 16px; padding-right: 16px } [data-og=
+sc] body, div, span, table, h1, h2, h3, h4, h5, h6, p, td { color: rgb(34, =
+34, 34) } [data-ogsb] .container { background-color: rgb(33, 33, 37) !impor=
+tant } @media all and (prefers-color-scheme: dark) {html { background-color=
+: rgb(40, 41, 42) !important } body, .body { background-color: rgb(40, 41, =
+42) !important } body, div, span, table, h1, h2, h3, h4, h5, h6, p, td { co=
+lor: rgb(255, 255, 255) !important } .container { background-color: rgb(33,=
+ 33, 37) !important } } p, span, li { font-size: 16px; font-style: normal; =
+font-weight: 400; line-height: 140%; mso-line-height-rule: exactly } .heade=
+r-1 { font-size: 36px; font-style: normal; font-weight: 700; line-height: n=
+ormal } .header-2 { font-size: 30px; font-style: normal; font-weight: 700; =
+line-height: normal } .header-3 { font-size: 24px; font-style: normal; font=
+-weight: 700; line-height: normal; mso-line-height-rule: exactly; letter-sp=
+acing: -0.5px } .header-35 { font-size: 32px; font-style: normal; font-weig=
+ht: 600; line-height: 36px; mso-line-height-rule: exactly; letter-spacing: =
+-0.48px } .header-4 { font-size: 24px; font-style: normal; font-weight: 700=
+; line-height: normal; margin-top: 0 } .header-45 { font-size: 28px; font-s=
+tyle: normal; font-weight: 600; line-height: normal; letter-spacing: -1.5px=
+ } .header-6 { font-size: 16px; font-style: normal; font-weight: 700; line-=
+height: 140%; mso-line-height-rule: exactly } .xxs-paragraph { font-size: 1=
+2px; font-style: normal; font-weight: 400; line-height: normal } .xs-paragr=
+aph { font-size: 14px; font-style: normal; font-weight: 400; line-height: n=
+ormal } .small-paragraph { font-size: 14px; font-style: normal; font-weight=
+: 400; line-height: normal } .large-paragraph { font-size: 18px; font-style=
+: normal; font-weight: 400; line-height: normal; mso-line-height-rule: exac=
+tly } .money-header { font-size: 42px; font-style: normal; font-weight: 700=
+; line-height: normal; mso-line-height-rule: exactly; margin-block-start: 0=
+; margin-block-end: 0 } a { color: rgb(0, 113, 235); text-decoration: none;=
+ cursor: pointer } .underline { text-decoration-color: rgb(0, 113, 235); te=
+xt-decoration: underline } @media all and (prefers-color-scheme: dark) {a {=
+ color: rgb(131, 190, 255) !important } .underline { text-decoration-color:=
+ rgb(131, 190, 255) !important } } .black { color: rgb(0, 0, 0) } .white { =
+color: rgb(255, 255, 255) } .interac-yellow { color: rgb(255, 185, 42) } .l=
+ight-gray { color: rgb(102, 102, 102) } @media all and (prefers-color-schem=
+e: dark) {.light-gray { color: rgb(213, 213, 213) !important } .interac-yel=
+low { color: rgb(255, 185, 42) !important } .gray { color: rgb(208, 208, 20=
+8) !important } } .gray { color: rgb(64, 64, 64) } .dark-gray { color: rgb(=
+34, 34, 34) } .grey-dark { color: rgb(47, 47, 47) } @media all and (prefers=
+-color-scheme: dark) {.grey-dark { color: rgb(213, 213, 213) !important } }=
+ .footer-color { color: rgb(55, 55, 55) } @media all and (prefers-color-sch=
+eme: dark) {.footer-color { color: rgb(213, 213, 213) !important } } .accou=
+nt-color { color: rgb(115, 115, 115) } .padding-0 { padding-left: 0; paddin=
+g-right: 0; padding-top: 0; padding-bottom: 0 } .padding-h-10 { padding-lef=
+t: 10px; padding-right: 10px } .padding-h-20 { padding-left: 20px; padding-=
+right: 20px } .padding-h-32 { padding-left: 32px; padding-right: 32px } .pa=
+dding-bottom-20 { padding-bottom: 20px } .padding-top-20 { padding-top: 20p=
+x } .margin-none { margin-top: 0; margin-bottom: 0; margin-left: 0; margin-=
+right: 0 } .text-left { text-align: left } .text-right { text-align: right =
+!important } .bold { font-weight: bold !important } .italic { font-style: i=
+talic !important } .nav-wrapper { padding-left: 32px; padding-right: 16px; =
+padding-top: 12px; padding-bottom: 12px; background-color: rgb(0, 0, 0); ba=
+ckground-image: none; background-repeat: repeat; background-position: top l=
+eft; background-attachment: scroll; height: 50px !important; margin-top: 0 =
+!important; margin-bottom: 0 !important; margin-left: 0 !important; margin-=
+right: 0 !important; width: 100%; border-spacing: 0; vertical-align: middle=
+ } .nav-menu-item { color: white; font-size: 13px; font-style: normal; font=
+-weight: 400; text-decoration: none; white-space: nowrap; word-break: break=
+-all; max-height: 50px; overflow: hidden; vertical-align: middle } .nav-men=
+u-item:hover, .nav-menu-item > a:hover, .nav-menu-item > a:focus { cursor: =
+pointer; color: rgb(255, 185, 42) !important } .nav-menu-item > img:hover, =
+.nav-menu-item > img:focus { filter: brightness(0) saturate(100%) invert(74=
+%) sepia(29%) saturate(1095%) hue-rotate(351deg) brightness(99%) contrast(1=
+05%) } @media all and (prefers-color-scheme: dark) {.nav-menu-item { color:=
+ white !important } .nav-menu-item:hover, .nav-menu-item > a:hover, .nav-me=
+nu-item > a:focus { cursor: pointer; color: rgb(255, 185, 42) !important } =
+} .nav-menu-items { height: 100%; float: right; display: flex; justify-cont=
+ent: space-around; border-spacing: 0 } .nav-menu-logo { height: 50px; width=
+: 50px; vertical-align: middle } .card { background-color: rgb(255, 255, 25=
+5); background: rgb(255, 255, 255) } .card, .fi-card { border-style: solid;=
+ border-color: rgb(223, 223, 223); border-width: 1px; border-radius: 8px; v=
+ertical-align: middle; width: 100%; border-collapse: separate } [data-ogsb]=
+ .card { background-color: rgb(57, 57, 57); background: rgb(57, 57, 57) } [=
+data-ogsc] .card { background-color: rgb(57, 57, 57); background: rgb(57, 5=
+7, 57) } [data-ogsb] .button-brand-d { background-color: rgb(0, 0, 0); colo=
+r: rgb(255, 185, 42) !important } [data-ogsc] .button-brand-d { background-=
+color: rgb(0, 0, 0); color: rgb(255, 185, 42) !important } @media all and (=
+prefers-color-scheme: dark) {.card { background-color: rgb(57, 57, 57) !imp=
+ortant; background: rgb(57, 57, 57) !important } } .account-card { border-r=
+adius: 8px; padding-left: 12px; padding-right: 12px; padding-top: 8px; padd=
+ing-bottom: 8px; background-color: rgb(255, 255, 255) } @media all and (pre=
+fers-color-scheme: dark) {.account-card { background-color: rgb(57, 57, 57)=
+ !important; background: rgb(57, 57, 57) !important } } .button-text, .butt=
+on-underlined-text { font-weight: 700 !important } .button-underlined-text =
+{ text-decoration: underline } .button-a:hover { text-decoration: none !imp=
+ortant } .button-brand-a { background-color: rgb(255, 255, 255); color: rgb=
+(0, 0, 0); padding-left: 10px; padding-right: 10px; font-weight: 700 !impor=
+tant; border-style: solid; border-color: rgb(230, 230, 230) } .button-brand=
+-b { background-color: rgb(255, 185, 42); text-align: left !important; font=
+-weight: 700 !important; border-style: solid; border-color: rgb(230, 230, 2=
+30) } .button-brand-c { background-color: rgb(255, 255, 255); font-weight: =
+600; text-decoration: underline } .button-brand-d { background-color: rgb(0=
+, 0, 0); text-align: left !important; font-weight: 700 !important; border-s=
+tyle: solid; border-color: rgb(230, 230, 230); color: rgb(255, 185, 42) !im=
+portant; padding-left: 16px; padding-right: 16px } .button-bank-b { text-al=
+ign: left !important; padding-left: 16px; padding-right: 16px; border-style=
+: solid; border-color: rgb(230, 230, 230); background-color: rgb(255, 255, =
+255) } .button-brand-a, .button-brand-b, .button-brand-c, .button-brand-d, =
+.button-bank-b { width: 100%; font-size: 15px; border-width: 1px; border-ra=
+dius: 8px; cursor: pointer } .button-brand-b, .button-brand-c { color: blac=
+k; padding-left: 16px; padding-right: 16px } @media all and (prefers-color-=
+scheme: dark) {.button-brand-b { background-color: rgb(255, 185, 42); color=
+: rgb(0, 0, 0) !important; border-color: rgb(223, 223, 223) !important } .b=
+utton-brand-c { background-color: rgb(57, 57, 57) !important } .button-bran=
+d-d { background-color: rgb(0, 0, 0) !important; border-color: rgb(223, 223=
+, 223) !important; color: rgb(255, 185, 42) !important } .button-bank-b { b=
+ackground-color: rgb(0, 0, 0) !important; border-color: rgb(223, 223, 223) =
+!important } } .transfer-grid-item, .small-transfer-grid-item { font-style:=
+ normal; font-weight: 400; mso-line-height-rule: exactly; word-break: break=
+-all; overflow: hidden; min-width: 0 } .transfer-grid-item { font-size: 16p=
+x; line-height: 140% } .small-transfer-grid-item { font-size: 12px; line-he=
+ight: 140%; color: rgb(64, 64, 64); padding-top: 4px } .swoosh { width: 110=
+%; min-height: 600px; background-color: rgb(220, 220, 220); border-radius: =
+0 0 36px 36px } [data-ogsc] .swoosh { background-image: url(https://etransf=
+er-notification.interac.ca/images/new/swoosh-dark-new.png) !important } @me=
+dia all and (prefers-color-scheme: light) {.swoosh { background-image: url(=
+https://etransfer-notification.interac.ca/images/new/swoosh.png); backgroun=
+d-repeat: no-repeat; background-size: 110% 100%; background-position: top; =
+background-color: transparent !important; border-radius: 0 !important } } @=
+media all and (prefers-color-scheme: dark) {.swoosh { background-image: url=
+(https://etransfer-notification.interac.ca/images/new/swoosh-dark-new.png);=
+ background-repeat: no-repeat; background-size: 110% 100%; background-posit=
+ion: top; background-color: transparent !important; border-radius: 0 !impor=
+tant } } @media all and (prefers-color-scheme: no-preference) {.swoosh { ba=
+ckground-image: url(https://etransfer-notification.interac.ca/images/new/sw=
+oosh.png); background-repeat: no-repeat; background-size: 110% 100%; backgr=
+ound-position: top; background-color: transparent !important; border-radius=
+: 0 !important } } @media screen and (max-width: 600px) {.swoosh { padding-=
+top: 0; padding-bottom: 0; padding-left: 32px; padding-right: 32px } } .xs-=
+spacer-v { width: 8px } .small-spacer-v { width: 10px } .medium-spacer-v { =
+width: 12px } .spacer-v { width: 16px } .large-spacer-v { width: 32px } .xx=
+s-spacer-h { display: block; height: 4px } .xs-spacer-h { display: block; h=
+eight: 8px } .small-spacer-h { display: block; height: 16px } .medium-space=
+r-h { display: block; height: 24px } .spacer-h { display: block; height: 32=
+px } .large-spacer-h { display: block; height: 48px } .horizontal-bar { bor=
+der-bottom-width: 1px; border-bottom-color: rgb(230, 230, 230); border-bott=
+om-style: solid } .custom-logo-bar { width: 100%; border-spacing: 0; border=
+-collapse: collapse } .custom-logo { height: 55px; max-width: 60%; padding-=
+top: 8px; padding-bottom: 8px; vertical-align: middle; outline-style: none;=
+ text-decoration: none; -ms-interpolation-mode: bicubic; clear: both; float=
+: none } .small-bar { color: rgb(197, 185, 172); line-height: normal !impor=
+tant } .footer-copyright { height: 100%; text-align: right; float: right; d=
+isplay: flex; justify-content: flex-end } .footer-logo { height: 100%; widt=
+h: 64px }=20
+
+    </style>
+    <title>Version Web de la notification de Virement INTERAC</title>
+</head>
+<body style=3D"background-color:rgb(234, 236, 237);margin-top:0;margin-bott=
+om:0;margin-left:0;margin-right:0;height:100%;color:rgb(0, 0, 0);font-famil=
+y:'Trebuchet MS', sans-serif;font-weight:normal;padding-top:0;padding-botto=
+m:0;padding-left:0;padding-right:0;mso-line-height-rule:exactly;">
+<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" role=3D"presentatio=
+n" style=3D"color:rgb(34, 34, 34);font-family:'Trebuchet MS', sans-serif;fo=
+nt-weight:normal;padding-top:0;padding-bottom:0;padding-left:0;padding-righ=
+t:0;mso-line-height-rule:exactly;margin-top:0;margin-bottom:0;margin-left:0=
+;margin-right:0;vertical-align:top;border-spacing:0;border-collapse:collaps=
+e;display: none; max-height: 0; overflow: hidden;">
+    <tbody><tr style=3D"padding-top:0;padding-bottom:0;padding-left:0;paddi=
+ng-right:0;vertical-align:top;border-spacing:0;border-collapse:collapse;dis=
+play: none; max-height: 0; overflow: hidden;">
+        <td style=3D"color:rgb(34, 34, 34);font-family:'Trebuchet MS', sans=
+-serif;font-weight:normal;padding-top:0;padding-bottom:0;padding-left:0;pad=
+ding-right:0;mso-line-height-rule:exactly;vertical-align:top;border-spacing=
+:0;border-collapse:collapse;overflow-wrap:break-word;word-break:break-word;=
+display: none; max-height: 0; overflow: hidden;">
+            MAXIME LEBRASSEUR, le virement que vous avez envoy&#233; &#224;=
+ STEVE CHARBONNEAU a &#233;t&#233; d&#233;pos&#233;.
+            &nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nb=
+sp;&zwnj;&nbsp;
+            &nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nb=
+sp;&zwnj;&nbsp;
+            &nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nb=
+sp;&zwnj;&nbsp;
+        </td>
+    </tr>
+</tbody></table>
+<table class=3D"body" role=3D"presentation" style=3D"color:rgb(34, 34, 34);=
+font-family:'Trebuchet MS', sans-serif;font-weight:normal;padding-top:0;pad=
+ding-bottom:0;padding-left:0;padding-right:0;mso-line-height-rule:exactly;m=
+argin-top:0;margin-bottom:0;margin-left:0;margin-right:0;background-color:r=
+gb(234, 236, 237);background-image:none;background-repeat:repeat;background=
+-position:top left;background-attachment:scroll;border-spacing:0;border-col=
+lapse:collapse;vertical-align:top;height:100%;width:100%;">
+    <tbody><tr class=3D"padding-0" style=3D"padding-top:0;padding-bottom:0;=
+padding-left:0;padding-right:0;vertical-align:top;border-spacing:0;border-c=
+ollapse:collapse;">
+        <td style=3D"color:rgb(34, 34, 34);font-family:'Trebuchet MS', sans=
+-serif;font-weight:normal;padding-top:0;padding-bottom:0;padding-left:0;pad=
+ding-right:0;mso-line-height-rule:exactly;vertical-align:top;border-spacing=
+:0;border-collapse:collapse;overflow-wrap:break-word;word-break:break-word;=
+">
+            <center class=3D"center-container" style=3D"width:100%;min-widt=
+h:600px;">
+                <table class=3D"container" role=3D"presentation" style=3D"c=
+olor:rgb(34, 34, 34);font-family:'Trebuchet MS', sans-serif;font-weight:nor=
+mal;padding-top:0;padding-bottom:0;padding-left:0;padding-right:0;mso-line-=
+height-rule:exactly;margin-top:0;margin-bottom:0;margin-left:0;margin-right=
+:0;vertical-align:top;border-spacing:0;border-collapse:collapse;width:600px=
+;max-width:600px;margin:auto;text-align:inherit;background-color:rgb(255, 2=
+55, 255);background-image:none;background-repeat:repeat;background-position=
+:top left;background-attachment:scroll;">
+                    <tbody><tr style=3D"padding-top:0;padding-bottom:0;padd=
+ing-left:0;padding-right:0;vertical-align:top;border-spacing:0;border-colla=
+pse:collapse;">
+                        <td style=3D"color:rgb(34, 34, 34);font-family:'Tre=
+buchet MS', sans-serif;font-weight:normal;padding-top:0;padding-bottom:0;pa=
+dding-left:0;padding-right:0;mso-line-height-rule:exactly;vertical-align:to=
+p;border-spacing:0;border-collapse:collapse;overflow-wrap:break-word;word-b=
+reak:break-word;">
+                            <!-- header section -->
+                            <table class=3D"row" role=3D"presentation" styl=
+e=3D"color:rgb(34, 34, 34);font-family:'Trebuchet MS', sans-serif;font-weig=
+ht:normal;padding-top:0;padding-bottom:0;padding-left:0;padding-right:0;mso=
+-line-height-rule:exactly;margin-top:0;margin-bottom:0;margin-left:0;margin=
+-right:0;vertical-align:top;border-spacing:0;border-collapse:collapse;width=
+:100%;">
+                                <tbody><tr style=3D"padding-top:0;padding-b=
+ottom:0;padding-left:0;padding-right:0;vertical-align:top;border-spacing:0;=
+border-collapse:collapse;">
+                                    <td class=3D"nav-wrapper" style=3D"colo=
+r:rgb(34, 34, 34);font-family:'Trebuchet MS', sans-serif;font-weight:normal=
+;padding-top:12px;padding-bottom:12px;padding-left:32px;padding-right:16px;=
+mso-line-height-rule:exactly;vertical-align:middle;border-spacing:0;border-=
+collapse:collapse;overflow-wrap:break-word;word-break:break-word;background=
+-color:rgb(0, 0, 0);background-image:none;background-repeat:repeat;backgrou=
+nd-position:top left;background-attachment:scroll;height:50px !important;ma=
+rgin-top:0 !important;margin-bottom:0 !important;margin-left:0 !important;m=
+argin-right:0 !important;width:100%;">
+                                        <table class=3D"row" role=3D"presen=
+tation" style=3D"color:rgb(34, 34, 34);font-family:'Trebuchet MS', sans-ser=
+if;font-weight:normal;padding-top:0;padding-bottom:0;padding-left:0;padding=
+-right:0;mso-line-height-rule:exactly;margin-top:0;margin-bottom:0;margin-l=
+eft:0;margin-right:0;vertical-align:top;border-spacing:0;border-collapse:co=
+llapse;width:100%;">
+                                            <tbody><tr style=3D"padding-top=
+:0;padding-bottom:0;padding-left:0;padding-right:0;vertical-align:top;borde=
+r-spacing:0;border-collapse:collapse;">
+                                                <td class=3D"nav-menu-logo"=
+ style=3D"color:rgb(34, 34, 34);font-family:'Trebuchet MS', sans-serif;font=
+-weight:normal;padding-top:0;padding-bottom:0;padding-left:0;padding-right:=
+0;mso-line-height-rule:exactly;vertical-align:middle;border-spacing:0;borde=
+r-collapse:collapse;overflow-wrap:break-word;word-break:break-word;height:5=
+0px;width:50px;">
+                                                    <a href=3D"https://www.=
+interac.ca/fr" style=3D"color:rgb(0, 113, 235);font-family:'Trebuchet MS', =
+sans-serif;font-weight:normal;padding-top:0;padding-bottom:0;padding-left:0=
+;padding-right:0;mso-line-height-rule:exactly;text-decoration:none;cursor:p=
+ointer;">
+                                                        <img src=3D"https:/=
+/etransfer-notification.interac.ca/images/new/interac_logo.png" alt=3D"INTE=
+RAC e-Transfer" style=3D"height: 50px; display: block" height=3D"50">
+                                                    </a>
+                                                </td>
+                                                <td class=3D"text-right" st=
+yle=3D"font-family:'Trebuchet MS', sans-serif;font-weight:normal;padding-to=
+p:0;padding-bottom:0;padding-left:0;padding-right:0;mso-line-height-rule:ex=
+actly;border-spacing:0;border-collapse:collapse;overflow-wrap:break-word;wo=
+rd-break:break-word;text-align:right !important;vertical-align:middle;color=
+:white;">
+                                                    <a href=3D"https://etra=
+nsfer.interac.ca/ViewInBrowser.do?tokens=3DeNrVVtty2kgQ_RUVm9onDDJriOMqV1aA=
+1gsOtguQ4-zL1DBqiQFpRszFoKTy7xkJGQPm4kp2axNeKE2fPt060xd9KSWC-5qoFvehdFGyS-V=
+ShFlYPAbCPCuIkwgrKM4a9rk5JFoIYOoTYFG6qNm1RrkEj-YAEc4ULJQBJjiNzUkFa2U8Ey6pMo=
+6Sa0EAUYkYVzRAOKEGmxoLFzSkDCsuUEBRxENuDGOlEnlRrYISmMkAxEkewNBS8ycwqRBcDUQ1g=
+6OWY9v2-Wm9krBwJyEC9lpOYK_lNCL9m3kGXIBRMTJPeba__ZX_XuBGmEw3cIby7ZlrcCNgEFBC=
+sUh_SEnbPisy3MH4vVIeJv1OLfeSPou5oeRe1Lbk-4HBQcbnyyluxmR5CPV8hceAwSZj0WRIgNE=
+JmOkspuMRZKCW07p5d_dQy7tVKh6DQNTPDY8y7jUhTPF8s6wYjrMW7zkPnZ5rfXCbfWcwcL3-Sx=
+SiDI0B-yDkcQdMCNcsmwlva7V3Lyq5iNoGOcHCp0zuRCwlOgbK5dkAbUlZBBu2rRZm2MfWUBhxd=
+uOWIV8HzQMfhhahB0P33rVafzv95u3Njet4O2Cb8h7zgBjTyOCkMjOYjLEYccYA6z_-HHOV2SqE=
+x1s-63dydmqM-TimBCvKGUpW9VQsBQnMJINiiLNZ0mEyAZIhrRPrvNGw-hqsgbIGmAjI6rFsDcE=
+siDyPbIUUjYwUVzjKl4hdtm3rzQvbUvI3xl7J63vLmqu85ozJQqYSxUb0ENayRhFl012jZH2ELL=
+08CeJu5SgrPn-vpuwSbmbinibXw_vb1GPdmn-HP7c74dxT3f71bCodh3v17ienRh66fa9Zw3Gd_=
+hPWOwkN_bT1eDuYX6VeqpwZn_cmvYXdJovTNpl7EydVQyeVbTd1yCTugteqq9Z19DFsL6aLKD72=
+Unvm7s_3XoOmD97s1Lm7al99dI--1u7J_ytclwBCE5oN4aI7snZRWGn5w-0iYKZBKuSbz6-s8K2=
+JpszKPrf2oZbl0dUMrEb5MHLZS7spYZE8Ba1niKiyF_IUMUqtenk_Ko-2xRXrSNEkAiTJGHwdgY=
+-eHEsXAY4klEvmQ_FZYOwjqZOEC7Wyb-4AAxXgU4W0iNbqyQy7OYwqMdePFX-1HLKpWKW-ITaDD=
+zOlGTXyrE6Wo_B9klWrIdBAo8uB17nvnLi94e9Jp325tmH3p7HZsP9rJhs99t9nIiCk0lxovlHG=
+mPkRHF1SX78BRYlo5g" class=3D"nav-menu-item text-right" style=3D"color:white=
+;font-family:'Trebuchet MS', sans-serif;font-weight:400;padding-top:0;paddi=
+ng-bottom:0;padding-left:0;padding-right:0;mso-line-height-rule:exactly;tex=
+t-decoration:none;cursor:pointer;text-align:right !important;font-size:13px=
+;font-style:normal;white-space:nowrap;word-break:break-all;max-height:50px;=
+overflow:hidden;vertical-align:middle">
+                                                        Vue navigateur
+                                                    </a>
+                                                </td>
+                                                <td class=3D"spacer-v" styl=
+e=3D"color:rgb(34, 34, 34);font-family:'Trebuchet MS', sans-serif;font-weig=
+ht:normal;padding-top:0;padding-bottom:0;padding-left:0;padding-right:0;mso=
+-line-height-rule:exactly;vertical-align:top;border-spacing:0;border-collap=
+se:collapse;overflow-wrap:break-word;word-break:break-word;width:16px;"></t=
+d>
+                                                <td style=3D"color:rgb(34, =
+34, 34);font-family:'Trebuchet MS', sans-serif;font-weight:normal;padding-t=
+op:0;padding-bottom:0;padding-left:0;padding-right:0;mso-line-height-rule:e=
+xactly;border-spacing:0;border-collapse:collapse;overflow-wrap:break-word;w=
+ord-break:break-word;vertical-align: middle; width: 1%">
+                                                    <span class=3D"small-ba=
+r" style=3D"font-family:'Trebuchet MS', sans-serif;font-weight:400;padding-=
+top:0;padding-bottom:0;padding-left:0;padding-right:0;mso-line-height-rule:=
+exactly;font-size:16px;font-style:normal;line-height:normal !important;colo=
+r: white; vertical-align: middle">|</span>
+                                                </td>
+                                                <td class=3D"spacer-v" styl=
+e=3D"color:rgb(34, 34, 34);font-family:'Trebuchet MS', sans-serif;font-weig=
+ht:normal;padding-top:0;padding-bottom:0;padding-left:0;padding-right:0;mso=
+-line-height-rule:exactly;vertical-align:top;border-spacing:0;border-collap=
+se:collapse;overflow-wrap:break-word;word-break:break-word;width:16px;"></t=
+d>
+                                                <td style=3D"font-family:'T=
+rebuchet MS', sans-serif;font-weight:normal;padding-top:0;padding-bottom:0;=
+padding-left:0;padding-right:0;mso-line-height-rule:exactly;border-spacing:=
+0;border-collapse:collapse;overflow-wrap:break-word;word-break:break-word;v=
+ertical-align:middle;color:white;width:20px">
+                                                    <center>
+                                                        <a href=3D"https://=
+etransfer.interac.ca/ViewInBrowser.do?tokens=3DeNrVVtty2kgQ_RUVm9onDDJriOMq=
+V1aA1gsOtguQ4-zL1DBqiQFpRszFoKTy7xkJGQPm4kp2axNeKE2fPt060xd9KSWC-5qoFvehdFG=
+yS-VShFlYPAIzzwriJMIKirOGfW4OiRYCmPoEWJQuanatUS7BozlAhDMFC2WACU5jc1LBWhnPhE=
+uqjKPkWhBAVCLGFQ0QTqjBpsbCBQ0pw4oLFFAU8ZAbw1ipRF5Uq6AEZjIAcZIHMLTU_AlMKgRXA=
+1HN4Kjl2LZ9flqvJCzcSYjMC72SE9hrOQPxr-YZcAFGxcg85dn-9lf-e4EbYTLdwBnKt2euwY2A=
+QUAJxSL9ISVt-6zIcAfj90p5mPQ7tdxL-izmhpJ7UduS7wcGBxmfL6e4GZPlIdTzFR4DBpuMRZM=
+hAUYnYKazmI5HkIFaTuvm3d1DLe9WqXgMAlE_NzzKuNeEMMXzzbJiOM5avOc8dHqu9cFt9p3BwP=
+X6L1GIMjQG7IOQxx0wIVyzbCa8rdXevajkImob5AQLnzK5E7GU6Bgol2cDtCVlEWzYtlqYYR9bQ=
+2HE2Y1bhnwdNA98GFqEHgzde9dq_e30m7c3N67j7YBtynvMA2JMI4OTysxgMsZixBkDrP_4c8xV=
+ZqsQHm_5rN_J2akx5uOYEqwoZyhZ1VOxFCQwkwyKIc5mSYfJBEiGtE6s80bD6muwBsoaYCIgq8e=
+yNQSzIPI8shVSNDJSXOEoXyJ22batNy9sS8nfGHslr-8ta67ymjMmC5lKFBvRQ1jLGkWUTXeNkv=
+URsvTyJIi7laOs-Py9mrJLuJmJe5pcD-9vU491a_4d_tzuhHNPdfvXs6l0HO7Vu5-cGnno9r1mD=
+cd1-k9Y7yQ09NPW4-1gfpV6qXJmfN6b9BZ2myxO22TuTZxUDZ1Utt3UIZO4C16rrlrX0cewvZgu=
+ovjYS-2Zuz_few2aPnizU-fuqn310T36Wrsn_69wXQIITWg2hIvuyNpFYaXlD7eLgJkGqZBvPr-=
+ywrcmmjIr-9zah1qWR1czsBrlw8hlL-2mhEXyFLSeIaLKXshTxCi16uX9qDzaFlesI0WTCJAkY_=
+B1BD56cixdBDiSUC6ZD8VngbGPpE4SLtTKvrkDDFSATxXSIlqrJzPs5jCqxFw_VvzVcsimYpX6h=
+tgMPsyUZtTIszpZjsL3SVathkADjS4HXue-c-L2hr8nnfbl2obdn8Zmw_6vmWz02H-fiYCQSnOh=
+-UYZY-ZHcHRJff0GB05o4Q" class=3D"nav-menu-item" style=3D"color:white;font-f=
+amily:'Trebuchet MS', sans-serif;font-weight:400;padding-top:0;padding-bott=
+om:0;padding-left:0;padding-right:0;mso-line-height-rule:exactly;text-decor=
+ation:none;cursor:pointer;font-size:13px;font-style:normal;white-space:nowr=
+ap;word-break:break-all;max-height:50px;overflow:hidden;vertical-align:midd=
+le;">
+                                                            EN
+                                                        </a>
+                                                    </center>
+                                                </td>
+                                                <td class=3D"spacer-v" styl=
+e=3D"color:rgb(34, 34, 34);font-family:'Trebuchet MS', sans-serif;font-weig=
+ht:normal;padding-top:0;padding-bottom:0;padding-left:0;padding-right:0;mso=
+-line-height-rule:exactly;vertical-align:top;border-spacing:0;border-collap=
+se:collapse;overflow-wrap:break-word;word-break:break-word;width:16px;"></t=
+d>
+                                                <td style=3D"color:rgb(34, =
+34, 34);font-family:'Trebuchet MS', sans-serif;font-weight:normal;padding-t=
+op:0;padding-bottom:0;padding-left:0;padding-right:0;mso-line-height-rule:e=
+xactly;border-spacing:0;border-collapse:collapse;overflow-wrap:break-word;w=
+ord-break:break-word;vertical-align: middle; width: 24px">
+                                                    <a href=3D"https://www.=
+interac.ca/fr/etransferhelp" class=3D"nav-menu-item" style=3D"color:white;f=
+ont-family:'Trebuchet MS', sans-serif;font-weight:400;padding-top:0;padding=
+-bottom:0;padding-left:0;padding-right:0;mso-line-height-rule:exactly;text-=
+decoration:none;cursor:pointer;font-size:13px;font-style:normal;white-space=
+:nowrap;word-break:break-all;max-height:50px;overflow:hidden;vertical-align=
+:middle;height: 24px">
+                                                        <img src=3D"https:/=
+/etransfer-notification.interac.ca/images/new/help.png" height=3D"24" width=
+=3D"24" alt=3D"?" style=3D"vertical-align: middle">
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                        </tbody></table>
+                                    </td>
+                                </tr>
+                            </tbody></table>
+
+                            <!-- blueprint section -->
+                            <table class=3D"row" role=3D"presentation" styl=
+e=3D"color:rgb(34, 34, 34);font-family:'Trebuchet MS', sans-serif;font-weig=
+ht:normal;padding-top:0;padding-bottom:0;padding-left:0;padding-right:0;mso=
+-line-height-rule:exactly;margin-top:0;margin-bottom:0;margin-left:0;margin=
+-right:0;vertical-align:top;border-spacing:0;border-collapse:collapse;width=
+:100%;">
+                                <tbody><tr style=3D"padding-top:0;padding-b=
+ottom:0;padding-left:0;padding-right:0;vertical-align:top;border-spacing:0;=
+border-collapse:collapse;">
+                                    <td style=3D"color:rgb(34, 34, 34);font=
+-family:'Trebuchet MS', sans-serif;font-weight:normal;padding-top:0;padding=
+-bottom:0;padding-left:0;padding-right:0;mso-line-height-rule:exactly;verti=
+cal-align:top;border-spacing:0;border-collapse:collapse;overflow-wrap:break=
+-word;word-break:break-word;">
+
+                                        <table class=3D"row" role=3D"presen=
+tation" style=3D"color:rgb(34, 34, 34);font-family:'Trebuchet MS', sans-ser=
+if;font-weight:normal;padding-top:0;padding-bottom:0;padding-left:0;padding=
+-right:0;mso-line-height-rule:exactly;margin-top:0;margin-bottom:0;margin-l=
+eft:0;margin-right:0;vertical-align:top;border-spacing:0;border-collapse:co=
+llapse;width:100%;">
+    <tbody><tr style=3D"padding-top:0;padding-bottom:0;padding-left:0;paddi=
+ng-right:0;vertical-align:top;border-spacing:0;border-collapse:collapse;">
+        <td width=3D"110%" height=3D"100%" class=3D"swoosh" style=3D"color:=
+rgb(34, 34, 34);font-family:'Trebuchet MS', sans-serif;font-weight:normal;p=
+adding-top:0;padding-bottom:0;padding-left:0;padding-right:0;mso-line-heigh=
+t-rule:exactly;vertical-align:top;border-spacing:0;border-collapse:collapse=
+;overflow-wrap:break-word;word-break:break-word;width:110%;min-height:600px=
+;background-color:rgb(220, 220, 220);border-radius:0 0 36px 36px;">
+
+
+                                       =20
+                                        <table role=3D"presentation" style=
+=3D"color:rgb(34, 34, 34);font-family:'Trebuchet MS', sans-serif;font-weigh=
+t:normal;padding-top:0;padding-bottom:0;padding-left:0;padding-right:0;mso-=
+line-height-rule:exactly;margin-top:0;margin-bottom:0;margin-left:0;margin-=
+right:0;vertical-align:top;border-spacing:0;border-collapse:collapse;">
+                                            <tbody><tr style=3D"padding-top=
+:0;padding-bottom:0;padding-left:0;padding-right:0;vertical-align:top;borde=
+r-spacing:0;border-collapse:collapse;">
+                                                <td class=3D"spacer-h" styl=
+e=3D"color:rgb(34, 34, 34);font-family:'Trebuchet MS', sans-serif;font-weig=
+ht:normal;padding-top:0;padding-bottom:0;padding-left:0;padding-right:0;mso=
+-line-height-rule:exactly;vertical-align:top;border-spacing:0;border-collap=
+se:collapse;overflow-wrap:break-word;word-break:break-word;display:block;he=
+ight:32px;"></td>
+                                            </tr>
+                                        </tbody></table>
+
+                                        <table class=3D"row" role=3D"presen=
+tation" style=3D"color:rgb(34, 34, 34);font-family:'Trebuchet MS', sans-ser=
+if;font-weight:normal;padding-top:0;padding-bottom:0;padding-left:0;padding=
+-right:0;mso-line-height-rule:exactly;margin-top:0;margin-bottom:0;margin-l=
+eft:0;margin-right:0;vertical-align:top;border-spacing:0;border-collapse:co=
+llapse;width:100%;">
+                                            <tbody><tr style=3D"padding-top=
+:0;padding-bottom:0;padding-left:0;padding-right:0;vertical-align:top;borde=
+r-spacing:0;border-collapse:collapse;">
+                                                <td class=3D"inner-containe=
+r" style=3D"color:rgb(34, 34, 34);font-family:'Trebuchet MS', sans-serif;fo=
+nt-weight:normal;padding-top:0;padding-bottom:0;padding-left:72px;padding-r=
+ight:72px;mso-line-height-rule:exactly;vertical-align:top;border-spacing:0;=
+border-collapse:collapse;overflow-wrap:break-word;word-break:break-word;">
+                                                    <table class=3D"row" ro=
+le=3D"presentation" cellpadding=3D"0" cellspacing=3D"0" style=3D"color:rgb(=
+34, 34, 34);font-family:'Trebuchet MS', sans-serif;font-weight:normal;paddi=
+ng-top:0;padding-bottom:0;padding-left:0;padding-right:0;mso-line-height-ru=
+le:exactly;margin-top:0;margin-bottom:0;margin-left:0;margin-right:0;vertic=
+al-align:top;border-spacing:0;border-collapse:collapse;width:100%;">
+                                                        <tbody><tr style=3D=
+"padding-top:0;padding-bottom:0;padding-left:0;padding-right:0;vertical-ali=
+gn:top;border-spacing:0;border-collapse:collapse;"></tr>
+                                                                           =
+                                     <tr style=3D"padding-top:0;padding-bot=
+tom:0;padding-left:0;padding-right:0;vertical-align:top;border-spacing:0;bo=
+rder-collapse:collapse;">
+                                                            <td style=3D"co=
+lor:rgb(34, 34, 34);font-family:'Trebuchet MS', sans-serif;font-weight:norm=
+al;padding-top:0;padding-bottom:0;padding-left:0;padding-right:0;mso-line-h=
+eight-rule:exactly;vertical-align:top;border-spacing:0;border-collapse:coll=
+apse;overflow-wrap:break-word;word-break:break-word;">
+                                                                <h1 class=
+=3D"header-3" style=3D"color:rgb(34, 34, 34);font-family:'Trebuchet MS', sa=
+ns-serif;font-weight:700;padding-top:0;padding-bottom:0;padding-left:0;padd=
+ing-right:0;mso-line-height-rule:exactly;margin-top:0;margin-bottom:0;margi=
+n-left:0;margin-right:0;font-size:24px;font-style:normal;line-height:normal=
+;letter-spacing:-0.5px;word-break: break-all">
+                                                                    Bonjour=
+ MAXIME LEBRASSEUR,
+                                                                </h1>
+                                                            </td>
+                                                        </tr>
+                                                       =20
+                                                                           =
+                                                                           =
+                  <tr style=3D"padding-top:0;padding-bottom:0;padding-left:=
+0;padding-right:0;vertical-align:top;border-spacing:0;border-collapse:colla=
+pse;">
+                                                            <td style=3D"co=
+lor:rgb(34, 34, 34);font-family:'Trebuchet MS', sans-serif;font-weight:norm=
+al;padding-top:0;padding-bottom:0;padding-left:0;padding-right:0;mso-line-h=
+eight-rule:exactly;vertical-align:top;border-spacing:0;border-collapse:coll=
+apse;overflow-wrap:break-word;word-break:break-word;">
+                                                                <h2 class=
+=3D"header-2" style=3D"color:rgb(34, 34, 34);font-family:'Trebuchet MS', sa=
+ns-serif;font-weight:700;padding-top:0;padding-bottom:0;padding-left:0;padd=
+ing-right:0;mso-line-height-rule:exactly;margin-top:0;margin-bottom:0;margi=
+n-left:0;margin-right:0;font-size:30px;font-style:normal;line-height:normal=
+;">
+                                                                    Le vire=
+ment que vous avez envoy&#233; &#224; STEVE CHARBONNEAU a &#233;t&#233; d&#=
+233;pos&#233;.                                                             =
+   </h2>
+                                                            </td>
+                                                        </tr>
+                                                       =20
+                                                                           =
+                                                                           =
+                  <tr style=3D"padding-top:0;padding-bottom:0;padding-left:=
+0;padding-right:0;vertical-align:top;border-spacing:0;border-collapse:colla=
+pse;">
+                                                            <td class=3D"xs=
+-spacer-h" style=3D"color:rgb(34, 34, 34);font-family:'Trebuchet MS', sans-=
+serif;font-weight:normal;padding-top:0;padding-bottom:0;padding-left:0;padd=
+ing-right:0;mso-line-height-rule:exactly;vertical-align:top;border-spacing:=
+0;border-collapse:collapse;overflow-wrap:break-word;word-break:break-word;d=
+isplay:block;height:8px;"></td>
+                                                        </tr>
+                                                                           =
+                                     <tr style=3D"padding-top:0;padding-bot=
+tom:0;padding-left:0;padding-right:0;vertical-align:top;border-spacing:0;bo=
+rder-collapse:collapse;">
+                                                            <td style=3D"co=
+lor:rgb(34, 34, 34);font-family:'Trebuchet MS', sans-serif;font-weight:norm=
+al;padding-top:0;padding-bottom:0;padding-left:0;padding-right:0;mso-line-h=
+eight-rule:exactly;vertical-align:top;border-spacing:0;border-collapse:coll=
+apse;overflow-wrap:break-word;word-break:break-word;">
+                                                                <p style=3D=
+"color:rgb(34, 34, 34);font-family:'Trebuchet MS', sans-serif;font-weight:4=
+00;padding-top:0;padding-bottom:0;padding-left:0;padding-right:0;mso-line-h=
+eight-rule:exactly;margin-top:0;margin-bottom:0;margin-left:0;margin-right:=
+0;font-size:16px;font-style:normal;line-height:140%;">
+                                                                    Le vire=
+ment de 600,00 $ (CAD) que vous avez envoy&#233; &#224; STEVE CHARBONNEAU a=
+ &#233;t&#233; d&#233;pos&#233;.                                           =
+                     </p>
+                                                            </td>
+                                                        </tr>
+                                                                           =
+                                                                           =
+                                                                          <=
+tr style=3D"padding-top:0;padding-bottom:0;padding-left:0;padding-right:0;v=
+ertical-align:top;border-spacing:0;border-collapse:collapse;"></tr>
+                                                    </tbody></table>
+                                                </td>
+                                            </tr>
+                                            <tr style=3D"padding-top:0;padd=
+ing-bottom:0;padding-left:0;padding-right:0;vertical-align:top;border-spaci=
+ng:0;border-collapse:collapse;">
+                                                <td class=3D"spacer-h" styl=
+e=3D"color:rgb(34, 34, 34);font-family:'Trebuchet MS', sans-serif;font-weig=
+ht:normal;padding-top:0;padding-bottom:0;padding-left:0;padding-right:0;mso=
+-line-height-rule:exactly;vertical-align:top;border-spacing:0;border-collap=
+se:collapse;overflow-wrap:break-word;word-break:break-word;display:block;he=
+ight:32px;"></td>
+                                            </tr>
+                                        </tbody></table>
+
+                                        <table class=3D"row" role=3D"presen=
+tation" style=3D"color:rgb(34, 34, 34);font-family:'Trebuchet MS', sans-ser=
+if;font-weight:normal;padding-top:0;padding-bottom:0;padding-left:0;padding=
+-right:0;mso-line-height-rule:exactly;margin-top:0;margin-bottom:0;margin-l=
+eft:0;margin-right:0;vertical-align:top;border-spacing:0;border-collapse:co=
+llapse;width:100%;">
+    <tbody><tr style=3D"padding-top:0;padding-bottom:0;padding-left:0;paddi=
+ng-right:0;vertical-align:top;border-spacing:0;border-collapse:collapse;">
+        <td class=3D"inner-container" style=3D"color:rgb(34, 34, 34);font-f=
+amily:'Trebuchet MS', sans-serif;font-weight:normal;padding-top:0;padding-b=
+ottom:0;padding-left:72px;padding-right:72px;mso-line-height-rule:exactly;v=
+ertical-align:top;border-spacing:0;border-collapse:collapse;overflow-wrap:b=
+reak-word;word-break:break-word;">
+
+           =20
+                       =20
+                        <table class=3D"row card" role=3D"presentation" sty=
+le=3D"color:rgb(34, 34, 34);font-family:'Trebuchet MS', sans-serif;font-wei=
+ght:normal;padding-top:0;padding-bottom:0;padding-left:0;padding-right:0;ms=
+o-line-height-rule:exactly;margin-top:0;margin-bottom:0;margin-left:0;margi=
+n-right:0;vertical-align:middle;border-spacing:0;border-collapse:separate;w=
+idth:100%;background-color:rgb(255, 255, 255);background:rgb(255, 255, 255)=
+;border-style:solid;border-color:rgb(223, 223, 223);border-width:1px;border=
+-radius:8px;">
+                <tbody><tr style=3D"padding-top:0;padding-bottom:0;padding-=
+left:0;padding-right:0;vertical-align:top;border-spacing:0;border-collapse:=
+collapse;">
+                    <td class=3D"padding-top-20" style=3D"color:rgb(34, 34,=
+ 34);font-family:'Trebuchet MS', sans-serif;font-weight:normal;padding-top:=
+20px;padding-bottom:0;padding-left:0;padding-right:0;mso-line-height-rule:e=
+xactly;vertical-align:top;border-spacing:0;border-collapse:collapse;overflo=
+w-wrap:break-word;word-break:break-word;"></td>
+                </tr>
+                                               =20
+                <!-- Primary details table section -->
+                                <tr style=3D"padding-top:0;padding-bottom:0=
+;padding-left:0;padding-right:0;vertical-align:top;border-spacing:0;border-=
+collapse:collapse;">
+                    <td style=3D"color:rgb(34, 34, 34);font-family:'Trebuch=
+et MS', sans-serif;font-weight:normal;padding-top:0;padding-bottom:0;paddin=
+g-left:0;padding-right:0;mso-line-height-rule:exactly;vertical-align:top;bo=
+rder-spacing:0;border-collapse:collapse;overflow-wrap:break-word;word-break=
+:break-word;">
+                        <table class=3D"row" role=3D"presentation" style=3D=
+"color:rgb(34, 34, 34);font-family:'Trebuchet MS', sans-serif;font-weight:n=
+ormal;padding-top:0;padding-bottom:0;padding-left:0;padding-right:0;mso-lin=
+e-height-rule:exactly;margin-top:0;margin-bottom:0;margin-left:0;margin-rig=
+ht:0;vertical-align:top;border-spacing:0;border-collapse:collapse;width:100=
+%;">
+                                                        <tbody><tr style=3D=
+"padding-top:0;padding-bottom:0;padding-left:0;padding-right:0;vertical-ali=
+gn:top;border-spacing:0;border-collapse:collapse;">
+                                <td class=3D"padding-h-20" style=3D"color:r=
+gb(34, 34, 34);font-family:'Trebuchet MS', sans-serif;font-weight:normal;pa=
+dding-top:0;padding-bottom:0;padding-left:20px;padding-right:20px;mso-line-=
+height-rule:exactly;vertical-align:top;border-spacing:0;border-collapse:col=
+lapse;overflow-wrap:break-word;word-break:break-word;">
+                                    <p class=3D"header-6" style=3D"color:rg=
+b(34, 34, 34);font-family:'Trebuchet MS', sans-serif;font-weight:700;paddin=
+g-top:0;padding-bottom:0;padding-left:0;padding-right:0;mso-line-height-rul=
+e:exactly;margin-top:0;margin-bottom:0;margin-left:0;margin-right:0;font-si=
+ze:16px;font-style:normal;line-height:140%;">
+                                        Pr&#233;cisions sur le virement
+                                    </p>
+                                </td>
+                            </tr>
+                                                                           =
+                                                                 <tr style=
+=3D"padding-top:0;padding-bottom:0;padding-left:0;padding-right:0;vertical-=
+align:top;border-spacing:0;border-collapse:collapse;">
+                                <td class=3D"padding-h-20" style=3D"color:r=
+gb(34, 34, 34);font-family:'Trebuchet MS', sans-serif;font-weight:normal;pa=
+dding-top:0;padding-bottom:0;padding-left:20px;padding-right:20px;mso-line-=
+height-rule:exactly;vertical-align:top;border-spacing:0;border-collapse:col=
+lapse;overflow-wrap:break-word;word-break:break-word;">
+                                    <table class=3D"row" role=3D"presentati=
+on" style=3D"color:rgb(34, 34, 34);font-family:'Trebuchet MS', sans-serif;f=
+ont-weight:normal;padding-top:0;padding-bottom:0;padding-left:0;padding-rig=
+ht:0;mso-line-height-rule:exactly;margin-top:0;margin-bottom:0;margin-left:=
+0;margin-right:0;vertical-align:top;border-spacing:0;border-collapse:collap=
+se;width:100%;">
+   =20
+       =20
+        <tbody><tr style=3D"padding-top:0;padding-bottom:0;padding-left:0;p=
+adding-right:0;vertical-align:top;border-spacing:0;border-collapse:collapse=
+;">
+        <td class=3D"small-spacer-h" style=3D"color:rgb(34, 34, 34);font-fa=
+mily:'Trebuchet MS', sans-serif;font-weight:normal;padding-top:0;padding-bo=
+ttom:0;padding-left:0;padding-right:0;mso-line-height-rule:exactly;vertical=
+-align:top;border-spacing:0;border-collapse:collapse;overflow-wrap:break-wo=
+rd;word-break:break-word;display:block;height:16px;"></td>
+    </tr>
+    <tr style=3D"padding-top:0;padding-bottom:0;padding-left:0;padding-righ=
+t:0;vertical-align:top;border-spacing:0;border-collapse:collapse;">
+                <td style=3D"color:rgb(34, 34, 34);font-family:'Trebuchet M=
+S', sans-serif;font-weight:normal;padding-top:0;padding-bottom:0;padding-le=
+ft:0;padding-right:0;mso-line-height-rule:exactly;vertical-align:top;border=
+-spacing:0;border-collapse:collapse;overflow-wrap:break-word;word-break:bre=
+ak-word;width: 45%">
+            <p class=3D"xs-paragraph gray" style=3D"color:rgb(64, 64, 64);f=
+ont-family:'Trebuchet MS', sans-serif;font-weight:400;padding-top:0;padding=
+-bottom:0;padding-left:0;padding-right:0;mso-line-height-rule:exactly;margi=
+n-top:0;margin-bottom:0;margin-left:0;margin-right:0;font-size:14px;font-st=
+yle:normal;line-height:normal;">
+                Date :
+            </p>
+            <table role=3D"presentation" style=3D"color:rgb(34, 34, 34);fon=
+t-family:'Trebuchet MS', sans-serif;font-weight:normal;padding-top:0;paddin=
+g-bottom:0;padding-left:0;padding-right:0;mso-line-height-rule:exactly;marg=
+in-top:0;margin-bottom:0;margin-left:0;margin-right:0;vertical-align:top;bo=
+rder-spacing:0;border-collapse:collapse;">
+                <tbody><tr style=3D"padding-top:0;padding-bottom:0;padding-=
+left:0;padding-right:0;vertical-align:top;border-spacing:0;border-collapse:=
+collapse;">
+                    <td class=3D"xxs-spacer-h" style=3D"color:rgb(34, 34, 3=
+4);font-family:'Trebuchet MS', sans-serif;font-weight:normal;padding-top:0;=
+padding-bottom:0;padding-left:0;padding-right:0;mso-line-height-rule:exactl=
+y;vertical-align:top;border-spacing:0;border-collapse:collapse;overflow-wra=
+p:break-word;word-break:break-word;display:block;height:4px;"></td>
+                </tr>
+            </tbody></table>
+            <p class=3D"transfer-grid-item" style=3D"color:rgb(34, 34, 34);=
+font-family:'Trebuchet MS', sans-serif;font-weight:400;padding-top:0;paddin=
+g-bottom:0;padding-left:0;padding-right:0;mso-line-height-rule:exactly;marg=
+in-top:0;margin-bottom:0;margin-left:0;margin-right:0;font-size:16px;font-s=
+tyle:normal;line-height:140%;word-break:break-all;overflow:hidden;min-width=
+:0;">
+                6 juin 2026                            </p>
+        </td>
+                <td class=3D"large-spacer-v" style=3D"color:rgb(34, 34, 34)=
+;font-family:'Trebuchet MS', sans-serif;font-weight:normal;padding-top:0;pa=
+dding-bottom:0;padding-left:0;padding-right:0;mso-line-height-rule:exactly;=
+vertical-align:top;border-spacing:0;border-collapse:collapse;overflow-wrap:=
+break-word;word-break:break-word;width:32px;"></td>
+                           =20
+            <td style=3D"color:rgb(34, 34, 34);font-family:'Trebuchet MS', =
+sans-serif;font-weight:normal;padding-top:0;padding-bottom:0;padding-left:0=
+;padding-right:0;mso-line-height-rule:exactly;vertical-align:top;border-spa=
+cing:0;border-collapse:collapse;overflow-wrap:break-word;word-break:break-w=
+ord;width: 45%">
+            <p class=3D"xs-paragraph gray" style=3D"color:rgb(64, 64, 64);f=
+ont-family:'Trebuchet MS', sans-serif;font-weight:400;padding-top:0;padding=
+-bottom:0;padding-left:0;padding-right:0;mso-line-height-rule:exactly;margi=
+n-top:0;margin-bottom:0;margin-left:0;margin-right:0;font-size:14px;font-st=
+yle:normal;line-height:normal;">
+                Num&#233;ro de r&#233;f&#233;rence :
+            </p>
+            <table role=3D"presentation" style=3D"color:rgb(34, 34, 34);fon=
+t-family:'Trebuchet MS', sans-serif;font-weight:normal;padding-top:0;paddin=
+g-bottom:0;padding-left:0;padding-right:0;mso-line-height-rule:exactly;marg=
+in-top:0;margin-bottom:0;margin-left:0;margin-right:0;vertical-align:top;bo=
+rder-spacing:0;border-collapse:collapse;">
+                <tbody><tr style=3D"padding-top:0;padding-bottom:0;padding-=
+left:0;padding-right:0;vertical-align:top;border-spacing:0;border-collapse:=
+collapse;">
+                    <td class=3D"xxs-spacer-h" style=3D"color:rgb(34, 34, 3=
+4);font-family:'Trebuchet MS', sans-serif;font-weight:normal;padding-top:0;=
+padding-bottom:0;padding-left:0;padding-right:0;mso-line-height-rule:exactl=
+y;vertical-align:top;border-spacing:0;border-collapse:collapse;overflow-wra=
+p:break-word;word-break:break-word;display:block;height:4px;"></td>
+                </tr>
+            </tbody></table>
+            <p class=3D"transfer-grid-item" style=3D"color:rgb(34, 34, 34);=
+font-family:'Trebuchet MS', sans-serif;font-weight:400;padding-top:0;paddin=
+g-bottom:0;padding-left:0;padding-right:0;mso-line-height-rule:exactly;marg=
+in-top:0;margin-bottom:0;margin-left:0;margin-right:0;font-size:16px;font-s=
+tyle:normal;line-height:140%;word-break:break-all;overflow:hidden;min-width=
+:0;">
+                CACN9PX2                            </p>
+        </td>
+                    </tr>
+                   =20
+    </tbody></table>
+                                </td>
+                            </tr>
+                        </tbody></table>
+                    </td>
+                </tr>
+               =20
+                                <tr style=3D"padding-top:0;padding-bottom:0=
+;padding-left:0;padding-right:0;vertical-align:top;border-spacing:0;border-=
+collapse:collapse;">
+                    <td class=3D"small-spacer-h" style=3D"color:rgb(34, 34,=
+ 34);font-family:'Trebuchet MS', sans-serif;font-weight:normal;padding-top:=
+0;padding-bottom:0;padding-left:0;padding-right:0;mso-line-height-rule:exac=
+tly;vertical-align:top;border-spacing:0;border-collapse:collapse;overflow-w=
+rap:break-word;word-break:break-word;display:block;height:16px;"></td>
+                </tr>
+                <tr style=3D"padding-top:0;padding-bottom:0;padding-left:0;=
+padding-right:0;vertical-align:top;border-spacing:0;border-collapse:collaps=
+e;">
+                    <td class=3D"padding-h-20" style=3D"color:rgb(34, 34, 3=
+4);font-family:'Trebuchet MS', sans-serif;font-weight:normal;padding-top:0;=
+padding-bottom:0;padding-left:20px;padding-right:20px;mso-line-height-rule:=
+exactly;vertical-align:top;border-spacing:0;border-collapse:collapse;overfl=
+ow-wrap:break-word;word-break:break-word;">
+                                                <p class=3D"xs-paragraph gr=
+ay" style=3D"color:rgb(64, 64, 64);font-family:'Trebuchet MS', sans-serif;f=
+ont-weight:400;padding-top:0;padding-bottom:0;padding-left:0;padding-right:=
+0;mso-line-height-rule:exactly;margin-top:0;margin-bottom:0;margin-left:0;m=
+argin-right:0;font-size:14px;font-style:normal;line-height:normal;">
+                            Message :
+                        </p>
+                        <table role=3D"presentation" style=3D"color:rgb(34,=
+ 34, 34);font-family:'Trebuchet MS', sans-serif;font-weight:normal;padding-=
+top:0;padding-bottom:0;padding-left:0;padding-right:0;mso-line-height-rule:=
+exactly;margin-top:0;margin-bottom:0;margin-left:0;margin-right:0;vertical-=
+align:top;border-spacing:0;border-collapse:collapse;">
+                            <tbody><tr style=3D"padding-top:0;padding-botto=
+m:0;padding-left:0;padding-right:0;vertical-align:top;border-spacing:0;bord=
+er-collapse:collapse;">
+                                <td class=3D"xxs-spacer-h" style=3D"color:r=
+gb(34, 34, 34);font-family:'Trebuchet MS', sans-serif;font-weight:normal;pa=
+dding-top:0;padding-bottom:0;padding-left:0;padding-right:0;mso-line-height=
+-rule:exactly;vertical-align:top;border-spacing:0;border-collapse:collapse;=
+overflow-wrap:break-word;word-break:break-word;display:block;height:4px;"><=
+/td>
+                            </tr>
+                        </tbody></table>
+                                                <p class=3D"large-paragraph=
+" style=3D"color:rgb(34, 34, 34);font-family:'Trebuchet MS', sans-serif;fon=
+t-weight:400;padding-top:0;padding-bottom:0;padding-left:0;padding-right:0;=
+mso-line-height-rule:exactly;margin-top:0;margin-bottom:0;margin-left:0;mar=
+gin-right:0;font-size:18px;font-style:normal;line-height:normal;">
+                            Inspection - 866 Rue St Sacrement, Terrebonne
+                        </p>
+                    </td>
+                </tr>
+               =20
+                                <tr style=3D"padding-top:0;padding-bottom:0=
+;padding-left:0;padding-right:0;vertical-align:top;border-spacing:0;border-=
+collapse:collapse;">
+                    <td class=3D"padding-bottom-20" style=3D"color:rgb(34, =
+34, 34);font-family:'Trebuchet MS', sans-serif;font-weight:normal;padding-t=
+op:0;padding-bottom:20px;padding-left:0;padding-right:0;mso-line-height-rul=
+e:exactly;vertical-align:top;border-spacing:0;border-collapse:collapse;over=
+flow-wrap:break-word;word-break:break-word;"></td>
+                </tr>
+            </tbody></table>
+                    </td>
+    </tr>
+</tbody></table>
+
+            <table role=3D"presentation" style=3D"color:rgb(34, 34, 34);fon=
+t-family:'Trebuchet MS', sans-serif;font-weight:normal;padding-top:0;paddin=
+g-bottom:0;padding-left:0;padding-right:0;mso-line-height-rule:exactly;marg=
+in-top:0;margin-bottom:0;margin-left:0;margin-right:0;vertical-align:top;bo=
+rder-spacing:0;border-collapse:collapse;">
+                <tbody><tr style=3D"padding-top:0;padding-bottom:0;padding-=
+left:0;padding-right:0;vertical-align:top;border-spacing:0;border-collapse:=
+collapse;">
+                    <td class=3D"spacer-h" style=3D"color:rgb(34, 34, 34);f=
+ont-family:'Trebuchet MS', sans-serif;font-weight:normal;padding-top:0;padd=
+ing-bottom:0;padding-left:0;padding-right:0;mso-line-height-rule:exactly;ve=
+rtical-align:top;border-spacing:0;border-collapse:collapse;overflow-wrap:br=
+eak-word;word-break:break-word;display:block;height:32px;"></td>
+                </tr>
+            </tbody></table>
+        </td>
+    </tr>
+</tbody></table>
+
+
+
+
+                                    </td>
+                                </tr>
+                            </tbody></table>
+
+                            <table class=3D"row" role=3D"presentation" styl=
+e=3D"color:rgb(34, 34, 34);font-family:'Trebuchet MS', sans-serif;font-weig=
+ht:normal;padding-top:0;padding-bottom:0;padding-left:0;padding-right:0;mso=
+-line-height-rule:exactly;margin-top:0;margin-bottom:0;margin-left:0;margin=
+-right:0;vertical-align:top;border-spacing:0;border-collapse:collapse;width=
+:100%;">
+                                <tbody><tr style=3D"padding-top:0;padding-b=
+ottom:0;padding-left:0;padding-right:0;vertical-align:top;border-spacing:0;=
+border-collapse:collapse;">
+                                    <td class=3D"large-spacer-h" style=3D"c=
+olor:rgb(34, 34, 34);font-family:'Trebuchet MS', sans-serif;font-weight:nor=
+mal;padding-top:0;padding-bottom:0;padding-left:0;padding-right:0;mso-line-=
+height-rule:exactly;vertical-align:top;border-spacing:0;border-collapse:col=
+lapse;overflow-wrap:break-word;word-break:break-word;display:block;height:4=
+8px;"></td>
+                                </tr>
+                                <tr style=3D"padding-top:0;padding-bottom:0=
+;padding-left:0;padding-right:0;vertical-align:top;border-spacing:0;border-=
+collapse:collapse;">
+                                    <td class=3D"inner-container" style=3D"=
+color:rgb(34, 34, 34);font-family:'Trebuchet MS', sans-serif;font-weight:no=
+rmal;padding-top:0;padding-bottom:0;padding-left:72px;padding-right:72px;ms=
+o-line-height-rule:exactly;vertical-align:top;border-spacing:0;border-colla=
+pse:collapse;overflow-wrap:break-word;word-break:break-word;">
+
+                                        <!-- FAQ and secure section -->
+                                        <center>
+                                            <table role=3D"presentation" st=
+yle=3D"color:rgb(34, 34, 34);font-family:'Trebuchet MS', sans-serif;font-we=
+ight:normal;padding-top:0;padding-bottom:0;padding-left:0;padding-right:0;m=
+so-line-height-rule:exactly;margin-top:0;margin-bottom:0;margin-left:0;marg=
+in-right:0;vertical-align:top;border-collapse:collapse;border-spacing: 0;">
+                                                <tbody><tr class=3D"row-cen=
+tered" style=3D"padding-top:0;padding-bottom:0;padding-left:0;padding-right=
+:0;vertical-align:top;border-spacing:0;border-collapse:collapse;display:fle=
+x;justify-content:center;">
+                                                    <!-- FAQ -->
+                                                    <td style=3D"color:rgb(=
+34, 34, 34);font-family:'Trebuchet MS', sans-serif;font-weight:normal;paddi=
+ng-top:0;padding-bottom:0;padding-left:0;padding-right:0;mso-line-height-ru=
+le:exactly;border-spacing:0;border-collapse:collapse;overflow-wrap:break-wo=
+rd;word-break:break-word;vertical-align: middle">
+                                                        <a class=3D"xxs-par=
+agraph" style=3D"color:rgb(0, 113, 235);font-family:'Trebuchet MS', sans-se=
+rif;font-weight:400;padding-top:0;padding-bottom:0;padding-left:0;padding-r=
+ight:0;mso-line-height-rule:exactly;font-size:12px;font-style:normal;line-h=
+eight:normal;text-decoration:none;cursor:pointer;vertical-align: middle" hr=
+ef=3D"https://www.interac.ca/fr/ressources/ressources-personnelles/faq-pers=
+onnelle">FAQ</a>
+                                                    </td>
+                                                    <td class=3D"small-spac=
+er-v" style=3D"color:rgb(34, 34, 34);font-family:'Trebuchet MS', sans-serif=
+;font-weight:normal;padding-top:0;padding-bottom:0;padding-left:0;padding-r=
+ight:0;mso-line-height-rule:exactly;vertical-align:top;border-spacing:0;bor=
+der-collapse:collapse;overflow-wrap:break-word;word-break:break-word;width:=
+10px;"></td>
+                                                    <td style=3D"color:rgb(=
+34, 34, 34);font-family:'Trebuchet MS', sans-serif;font-weight:normal;paddi=
+ng-top:0;padding-bottom:0;padding-left:0;padding-right:0;mso-line-height-ru=
+le:exactly;border-spacing:0;border-collapse:collapse;overflow-wrap:break-wo=
+rd;word-break:break-word;vertical-align: middle">
+                                                        <span class=3D"smal=
+l-bar" style=3D"color:rgb(197, 185, 172);font-family:'Trebuchet MS', sans-s=
+erif;font-weight:400;padding-top:0;padding-bottom:0;padding-left:0;padding-=
+right:0;mso-line-height-rule:exactly;font-size:16px;font-style:normal;line-=
+height:normal !important;vertical-align: middle;">|</span>
+                                                    </td>
+                                                    <td class=3D"small-spac=
+er-v" style=3D"color:rgb(34, 34, 34);font-family:'Trebuchet MS', sans-serif=
+;font-weight:normal;padding-top:0;padding-bottom:0;padding-left:0;padding-r=
+ight:0;mso-line-height-rule:exactly;vertical-align:top;border-spacing:0;bor=
+der-collapse:collapse;overflow-wrap:break-word;word-break:break-word;width:=
+10px;"></td>
+                                                    <!-- Secure transaction=
+ -->
+                                                    <td style=3D"color:rgb(=
+34, 34, 34);font-family:'Trebuchet MS', sans-serif;font-weight:normal;paddi=
+ng-top:0;padding-bottom:0;padding-left:0;padding-right:0;mso-line-height-ru=
+le:exactly;border-spacing:0;border-collapse:collapse;overflow-wrap:break-wo=
+rd;word-break:break-word;vertical-align: middle">
+                                                        <span class=3D"xxs-=
+paragraph italic gray" style=3D"color:rgb(64, 64, 64);font-family:'Trebuche=
+t MS', sans-serif;font-weight:400;padding-top:0;padding-bottom:0;padding-le=
+ft:0;padding-right:0;mso-line-height-rule:exactly;font-size:12px;font-style=
+:italic !important;line-height:normal;vertical-align: middle">
+                                                            <i>Cette transa=
+ction est s&#233;curis&eacute;e.</i>
+                                                        </span>
+                                                    </td>
+                                                    <td class=3D"small-spac=
+er-v" style=3D"color:rgb(34, 34, 34);font-family:'Trebuchet MS', sans-serif=
+;font-weight:normal;padding-top:0;padding-bottom:0;padding-left:0;padding-r=
+ight:0;mso-line-height-rule:exactly;vertical-align:top;border-spacing:0;bor=
+der-collapse:collapse;overflow-wrap:break-word;word-break:break-word;width:=
+10px;"></td>
+                                                    <td style=3D"color:rgb(=
+34, 34, 34);font-family:'Trebuchet MS', sans-serif;font-weight:normal;paddi=
+ng-top:0;padding-bottom:0;padding-left:0;padding-right:0;mso-line-height-ru=
+le:exactly;border-spacing:0;border-collapse:collapse;overflow-wrap:break-wo=
+rd;word-break:break-word;vertical-align: middle">
+                                                        <img style=3D"width=
+: 11px; height: 14px; vertical-align: middle" width=3D"11" height=3D"14" al=
+t=3D"Lock" src=3D"https://etransfer-notification.interac.ca/images/new/lock=
+.png">
+                                                    </td>
+                                                </tr>
+                                                <tr style=3D"padding-top:0;=
+padding-bottom:0;padding-left:0;padding-right:0;vertical-align:top;border-s=
+pacing:0;border-collapse:collapse;">
+                                                    <td class=3D"small-spac=
+er-h" style=3D"color:rgb(34, 34, 34);font-family:'Trebuchet MS', sans-serif=
+;font-weight:normal;padding-top:0;padding-bottom:0;padding-left:0;padding-r=
+ight:0;mso-line-height-rule:exactly;vertical-align:top;border-spacing:0;bor=
+der-collapse:collapse;overflow-wrap:break-word;word-break:break-word;displa=
+y:block;height:16px;"></td>
+                                                </tr>
+                                            </tbody></table>
+                                        </center>
+
+                                        <table class=3D"row" role=3D"presen=
+tation" style=3D"color:rgb(34, 34, 34);font-family:'Trebuchet MS', sans-ser=
+if;font-weight:normal;padding-top:0;padding-bottom:0;padding-left:0;padding=
+-right:0;mso-line-height-rule:exactly;margin-top:0;margin-bottom:0;margin-l=
+eft:0;margin-right:0;vertical-align:top;border-spacing:0;border-collapse:co=
+llapse;width:100%;">
+                                            <tbody><tr style=3D"padding-top=
+:0;padding-bottom:0;padding-left:0;padding-right:0;vertical-align:top;borde=
+r-spacing:0;border-collapse:collapse;">
+                                                <td class=3D"row-centered" =
+style=3D"color:rgb(34, 34, 34);font-family:'Trebuchet MS', sans-serif;font-=
+weight:normal;padding-top:0;padding-bottom:0;padding-left:0;padding-right:0=
+;mso-line-height-rule:exactly;vertical-align:top;border-spacing:0;border-co=
+llapse:collapse;overflow-wrap:break-word;word-break:break-word;display:flex=
+;justify-content:center;">
+                                                    <center>
+                                                        <span class=3D"xxs-=
+paragraph light-gray italic" style=3D"color:rgb(102, 102, 102);font-family:=
+'Trebuchet MS', sans-serif;font-weight:400;padding-top:0;padding-bottom:0;p=
+adding-left:0;padding-right:0;mso-line-height-rule:exactly;font-size:12px;f=
+ont-style:italic !important;line-height:normal;">Pour votre s&#233;curit&#2=
+33;, ne transmettez pas ce courriel, car il comprend des renseignements con=
+fidentiels dont vous &#234;tes l'unique destinataire. Interac ne vous deman=
+dera jamais de lui fournir l'acc&#232;s &#224; cet avis par courriel.</span=
+>
+                                                    </center>
+                                                </td>
+                                            </tr>
+                                        </tbody></table>
+
+                                        <!-- Fraud section -->
+                                       =20
+                                        <!-- Opt out section -->
+                                       =20
+                                        <!-- Custom news -->
+                                       =20
+
+                                    </td>
+                                </tr>
+                            </tbody></table>
+
+                            <table class=3D"row" role=3D"presentation" styl=
+e=3D"color:rgb(34, 34, 34);font-family:'Trebuchet MS', sans-serif;font-weig=
+ht:normal;padding-top:0;padding-bottom:0;padding-left:0;padding-right:0;mso=
+-line-height-rule:exactly;margin-top:0;margin-bottom:0;margin-left:0;margin=
+-right:0;vertical-align:top;border-spacing:0;border-collapse:collapse;width=
+:100%;">
+                                <tbody><tr style=3D"padding-top:0;padding-b=
+ottom:0;padding-left:0;padding-right:0;vertical-align:top;border-spacing:0;=
+border-collapse:collapse;">
+                                    <td class=3D"spacer-h" style=3D"color:r=
+gb(34, 34, 34);font-family:'Trebuchet MS', sans-serif;font-weight:normal;pa=
+dding-top:0;padding-bottom:0;padding-left:0;padding-right:0;mso-line-height=
+-rule:exactly;vertical-align:top;border-spacing:0;border-collapse:collapse;=
+overflow-wrap:break-word;word-break:break-word;display:block;height:32px;">=
+</td>
+                                </tr>
+                                <tr style=3D"padding-top:0;padding-bottom:0=
+;padding-left:0;padding-right:0;vertical-align:top;border-spacing:0;border-=
+collapse:collapse;">
+                                    <td class=3D"padding-h-32" style=3D"col=
+or:rgb(34, 34, 34);font-family:'Trebuchet MS', sans-serif;font-weight:norma=
+l;padding-top:0;padding-bottom:0;padding-left:32px;padding-right:32px;mso-l=
+ine-height-rule:exactly;vertical-align:top;border-spacing:0;border-collapse=
+:collapse;overflow-wrap:break-word;word-break:break-word;">
+                                        <table class=3D"row" role=3D"presen=
+tation" style=3D"color:rgb(34, 34, 34);font-family:'Trebuchet MS', sans-ser=
+if;font-weight:normal;padding-top:0;padding-bottom:0;padding-left:0;padding=
+-right:0;mso-line-height-rule:exactly;margin-top:0;margin-bottom:0;margin-l=
+eft:0;margin-right:0;vertical-align:top;border-spacing:0;border-collapse:co=
+llapse;width:100%;">
+                                            <tbody><tr style=3D"padding-top=
+:0;padding-bottom:0;padding-left:0;padding-right:0;vertical-align:top;borde=
+r-spacing:0;border-collapse:collapse;">
+                                                <td class=3D"horizontal-bar=
+" style=3D"color:rgb(34, 34, 34);font-family:'Trebuchet MS', sans-serif;fon=
+t-weight:normal;padding-top:0;padding-bottom:0;padding-left:0;padding-right=
+:0;mso-line-height-rule:exactly;vertical-align:top;border-spacing:0;border-=
+collapse:collapse;overflow-wrap:break-word;word-break:break-word;border-bot=
+tom-width:1px;border-bottom-color:rgb(230, 230, 230);border-bottom-style:so=
+lid;"></td>
+                                            </tr>
+                                        </tbody></table>
+                                    </td>
+                                </tr><tr style=3D"padding-top:0;padding-bot=
+tom:0;padding-left:0;padding-right:0;vertical-align:top;border-spacing:0;bo=
+rder-collapse:collapse;">
+                                    <td class=3D"spacer-h" style=3D"color:r=
+gb(34, 34, 34);font-family:'Trebuchet MS', sans-serif;font-weight:normal;pa=
+dding-top:0;padding-bottom:0;padding-left:0;padding-right:0;mso-line-height=
+-rule:exactly;vertical-align:top;border-spacing:0;border-collapse:collapse;=
+overflow-wrap:break-word;word-break:break-word;display:block;height:32px;">=
+</td>
+                                </tr>
+                            </tbody></table>
+
+                            <table class=3D"row" role=3D"presentation" styl=
+e=3D"color:rgb(34, 34, 34);font-family:'Trebuchet MS', sans-serif;font-weig=
+ht:normal;padding-top:0;padding-bottom:0;padding-left:0;padding-right:0;mso=
+-line-height-rule:exactly;margin-top:0;margin-bottom:0;margin-left:0;margin=
+-right:0;vertical-align:top;border-spacing:0;border-collapse:collapse;width=
+:100%;">
+                                <tbody><tr style=3D"padding-top:0;padding-b=
+ottom:0;padding-left:0;padding-right:0;vertical-align:top;border-spacing:0;=
+border-collapse:collapse;">
+                                    <td class=3D"inner-container" style=3D"=
+color:rgb(34, 34, 34);font-family:'Trebuchet MS', sans-serif;font-weight:no=
+rmal;padding-top:0;padding-bottom:0;padding-left:72px;padding-right:72px;ms=
+o-line-height-rule:exactly;vertical-align:top;border-spacing:0;border-colla=
+pse:collapse;overflow-wrap:break-word;word-break:break-word;">
+                                        <table class=3D"row" role=3D"presen=
+tation" style=3D"color:rgb(34, 34, 34);font-family:'Trebuchet MS', sans-ser=
+if;font-weight:normal;padding-top:0;padding-bottom:0;padding-left:0;padding=
+-right:0;mso-line-height-rule:exactly;margin-top:0;margin-bottom:0;margin-l=
+eft:0;margin-right:0;vertical-align:top;border-spacing:0;border-collapse:co=
+llapse;width:100%;">
+                                            <!-- Copyright Section -->
+                                            <tbody><tr style=3D"padding-top=
+:0;padding-bottom:0;padding-left:0;padding-right:0;vertical-align:top;borde=
+r-spacing:0;border-collapse:collapse;">
+                                                <td class=3D"footer-logo" s=
+tyle=3D"color:rgb(34, 34, 34);font-family:'Trebuchet MS', sans-serif;font-w=
+eight:normal;padding-top:0;padding-bottom:0;padding-left:0;padding-right:0;=
+mso-line-height-rule:exactly;vertical-align:top;border-spacing:0;border-col=
+lapse:collapse;overflow-wrap:break-word;word-break:break-word;height:100%;w=
+idth:64px;">
+                                                    <a href=3D"https://www.=
+interac.ca/fr" style=3D"color:rgb(0, 113, 235);font-family:'Trebuchet MS', =
+sans-serif;font-weight:normal;padding-top:0;padding-bottom:0;padding-left:0=
+;padding-right:0;mso-line-height-rule:exactly;text-decoration:none;cursor:p=
+ointer;">
+                                                        <img src=3D"https:/=
+/etransfer-notification.interac.ca/images/new/interac_logo.png" alt=3D"INTE=
+RAC e-Transfer" style=3D"height: 64px; display: block" height=3D"64">
+                                                    </a>
+                                                </td>
+                                                <td class=3D"small-spacer-v=
+" style=3D"color:rgb(34, 34, 34);font-family:'Trebuchet MS', sans-serif;fon=
+t-weight:normal;padding-top:0;padding-bottom:0;padding-left:0;padding-right=
+:0;mso-line-height-rule:exactly;vertical-align:top;border-spacing:0;border-=
+collapse:collapse;overflow-wrap:break-word;word-break:break-word;width:10px=
+;"></td>
+                                                <td class=3D"footer-copyrig=
+ht" style=3D"color:rgb(34, 34, 34);font-family:'Trebuchet MS', sans-serif;f=
+ont-weight:normal;padding-top:0;padding-bottom:0;padding-left:0;padding-rig=
+ht:0;mso-line-height-rule:exactly;vertical-align:top;border-spacing:0;borde=
+r-collapse:collapse;overflow-wrap:break-word;word-break:break-word;height:1=
+00%;text-align:right;float:right;display:flex;justify-content:flex-end;">
+                                                    <p class=3D"xs-paragrap=
+h text-right" style=3D"color:rgb(34, 34, 34);font-family:'Trebuchet MS', sa=
+ns-serif;font-weight:400;padding-top:0;padding-bottom:0;padding-left:0;padd=
+ing-right:0;mso-line-height-rule:exactly;margin-top:0;margin-bottom:0;margi=
+n-left:0;margin-right:0;font-size:14px;font-style:normal;line-height:normal=
+;text-align:right !important;">
+                                                        2000 - 2026 Interac=
+ Corp.
+                                                        <br>
+                                                        Tous droits r&eacut=
+e;serv&eacute;s.
+                                                        <a href=3D"https://=
+www.interac.ca/fr/virement-interac-conditions-dutilisation/" style=3D"color=
+:rgb(0, 113, 235);font-family:'Trebuchet MS', sans-serif;font-weight:normal=
+;padding-top:0;padding-bottom:0;padding-left:0;padding-right:0;mso-line-hei=
+ght-rule:exactly;text-decoration:none;cursor:pointer;">
+                                                            Conditions d'ut=
+ilisation
+                                                        </a>
+                                                        <br>
+                                                        Marque d&#233;pos&#=
+233;e d'Interac Corp.<br>Interac Corp.<br>P.O. Box 45, Toronto, Ontario M5J=
+ 2J1
+                                                    </p>
+                                                </td>
+                                            </tr>
+                                            <tr style=3D"padding-top:0;padd=
+ing-bottom:0;padding-left:0;padding-right:0;vertical-align:top;border-spaci=
+ng:0;border-collapse:collapse;">
+                                                <td class=3D"small-spacer-h=
+" style=3D"color:rgb(34, 34, 34);font-family:'Trebuchet MS', sans-serif;fon=
+t-weight:normal;padding-top:0;padding-bottom:0;padding-left:0;padding-right=
+:0;mso-line-height-rule:exactly;vertical-align:top;border-spacing:0;border-=
+collapse:collapse;overflow-wrap:break-word;word-break:break-word;display:bl=
+ock;height:16px;"></td>
+                                            </tr>
+                                        </tbody></table>
+
+                                        <!-- Footer section -->
+                                        <table class=3D"row" role=3D"presen=
+tation" style=3D"color:rgb(34, 34, 34);font-family:'Trebuchet MS', sans-ser=
+if;font-weight:normal;padding-top:0;padding-bottom:0;padding-left:0;padding=
+-right:0;mso-line-height-rule:exactly;margin-top:0;margin-bottom:0;margin-l=
+eft:0;margin-right:0;vertical-align:top;border-spacing:0;border-collapse:co=
+llapse;width:100%;">
+                                            <tbody><tr style=3D"padding-top=
+:0;padding-bottom:0;padding-left:0;padding-right:0;vertical-align:top;borde=
+r-spacing:0;border-collapse:collapse;">
+                                                <td style=3D"color:rgb(34, =
+34, 34);font-family:'Trebuchet MS', sans-serif;font-weight:normal;padding-t=
+op:0;padding-bottom:0;padding-left:0;padding-right:0;mso-line-height-rule:e=
+xactly;vertical-align:top;border-spacing:0;border-collapse:collapse;overflo=
+w-wrap:break-word;word-break:break-word;">
+                                                    <p class=3D"xxs-paragra=
+ph footer-color" style=3D"color:rgb(55, 55, 55);font-family:'Trebuchet MS',=
+ sans-serif;font-weight:400;padding-top:0;padding-bottom:0;padding-left:0;p=
+adding-right:0;mso-line-height-rule:exactly;margin-top:0;margin-bottom:0;ma=
+rgin-left:0;margin-right:0;font-size:12px;font-style:normal;line-height:nor=
+mal;">
+                                                        Le destinataire est=
+ avis&#233; par courriel ou message texte, et l'institution financi&#232;re=
+ concern&#233;e vire les fonds en toute s&#233;curit&#233; par l'entremise =
+des r&#233;seaux de paiement d&#233;j&#224; &#233;tablis.
+                                                        <br>
+                                                        <br>
+                                                        Ce courriel vous a =
+&#233;t&#233; envoy&#233; par Interac Corp., propri&#233;taire du service V=
+irement Interac, au nom de la <strong>Desjardins</strong>
+                                                    </p>
+                                                </td>
+                                            </tr>
+                                            <tr style=3D"padding-top:0;padd=
+ing-bottom:0;padding-left:0;padding-right:0;vertical-align:top;border-spaci=
+ng:0;border-collapse:collapse;">
+                                                <td class=3D"spacer-h" styl=
+e=3D"color:rgb(34, 34, 34);font-family:'Trebuchet MS', sans-serif;font-weig=
+ht:normal;padding-top:0;padding-bottom:0;padding-left:0;padding-right:0;mso=
+-line-height-rule:exactly;vertical-align:top;border-spacing:0;border-collap=
+se:collapse;overflow-wrap:break-word;word-break:break-word;display:block;he=
+ight:32px;"></td>
+                                            </tr>
+                                        </tbody></table>
+                                    </td>
+                                </tr>
+                            </tbody></table>
+
+                        </center></td>
+                    </tr>
+                </tbody></table>
+
+           =20
+       =20
+   =20
+
+
+
+
+</body></html>
+------=_Part_53033113_81355563.1780782004353--
+
+------=_Part_53033112_383847873.1780782004353--
+
+------=_Part_53033111_836056481.1780782004353--

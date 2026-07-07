@@ -1,0 +1,1556 @@
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: maxime.lebrasseur@gmail.com
+Received: by 2002:a05:7412:2007:b0:1d7:989f:46d9 with SMTP id u7csp446798rda;
+        Thu, 11 Jun 2026 10:26:31 -0700 (PDT)
+X-Received: by 2002:a05:6a00:e16:b0:842:4838:1761 with SMTP id d2e1a72fcca58-84336bc6e94mr4150958b3a.24.1781198791443;
+        Thu, 11 Jun 2026 10:26:31 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1781198791; cv=none;
+        d=google.com; s=arc-20240605;
+        b=An02xfnkaId8xset1JaofjHwXomwHYNBk9ucPfS40TueYhT0xa11Q1ovxz/aE6PqTz
+         uu0pu/uBYCFYN5VLXKEKR9z5gF/gbHgNxJuy6JbcvfxIY4k4LWlimoZa6PWdRAUjVszJ
+         NcKkWQmjSuGGoyKc5439l1S8rZIyOcgJjjh2zt1+7Zwrczwu640Kf7PTRiu3NEk6YUD5
+         lDX3F8GgxTBDunBHl1FBKKdqFozb5RlY+HrxCNBJ1ddqOQj7ekdsZJUg1KSvvlFeWFMA
+         GGfwhBXYAy52EtqBzy3hRKZgbBeQvq6BpsVyR/xffXZgDjb9Ul7DMaOXxrwi8gHa9RM7
+         RSIA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=to:subject:message-id:mime-version:from:date:dkim-signature
+         :dkim-signature;
+        bh=yYA1T8UKe+GzEP1155mY3u8P9Etm7tj/xmKE+7S0+2w=;
+        fh=XNZ32UJhpTrf0kI83yld0SsE4DcVZQkLevbuz+6sXlQ=;
+        b=B8qvLT1HQXUNyoERMS95H7gzj05NaW2DtyGAYjUjVv+swvQ8BxWbEiyTjBHcaPtsaG
+         WfN45/eDA7RMGGpYTV/nkcegC4zU+IjBLVhofnIEs0TfnQK9nB7bPRapJ0rGd1qbM7p0
+         KPJ6GhMdRpmWW/63vzBUw2o1kOGTPmtWcOQjtgjzNPvckoCD9G3eXkU2lhX/sCNFdNXl
+         gnahhDM+HWzUkhi8EQVRrMR7ThXQZqn4cgzjesAYfVUP2J0AdLUqUrIWC3hDsyFWwwQK
+         prCD5TE0aWZJBLmIBeQ59czPPiyqUXI9cLjDH1aE8mbbckummPUPcg9XpzPgeBHHpP1f
+         M0/A==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@authentisign.com header.s=s1 header.b=F0pAWzj+;
+       dkim=pass header.i=@sendgrid.info header.s=smtpapi header.b=PK7QA9FX;
+       spf=pass (google.com: domain of bounces+25875447-ac19-maxime.lebrasseur=gmail.com@em1409.authentisign.com designates 149.72.128.206 as permitted sender) smtp.mailfrom="bounces+25875447-ac19-maxime.lebrasseur=gmail.com@em1409.authentisign.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=authentisign.com
+Return-Path: <bounces+25875447-ac19-maxime.lebrasseur=gmail.com@em1409.authentisign.com>
+Received: from o1.ptr4846.authentisign.com (o1.ptr4846.authentisign.com. [149.72.128.206])
+        by mx.google.com with ESMTPS id d2e1a72fcca58-843380b2a4esi5273561b3a.257.2026.06.11.10.26.30
+        for <maxime.lebrasseur@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Thu, 11 Jun 2026 10:26:31 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bounces+25875447-ac19-maxime.lebrasseur=gmail.com@em1409.authentisign.com designates 149.72.128.206 as permitted sender) client-ip=149.72.128.206;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@authentisign.com header.s=s1 header.b=F0pAWzj+;
+       dkim=pass header.i=@sendgrid.info header.s=smtpapi header.b=PK7QA9FX;
+       spf=pass (google.com: domain of bounces+25875447-ac19-maxime.lebrasseur=gmail.com@em1409.authentisign.com designates 149.72.128.206 as permitted sender) smtp.mailfrom="bounces+25875447-ac19-maxime.lebrasseur=gmail.com@em1409.authentisign.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=authentisign.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=authentisign.com;
+	h=content-type:date:from:mime-version:subject:to:cc:content-type:date:
+	feedback-id:from:subject:to;
+	s=s1; t=1781198789;
+	bh=yYA1T8UKe+GzEP1155mY3u8P9Etm7tj/xmKE+7S0+2w=;
+	b=F0pAWzj+JghNzQIuiPcuiHr1k18GfDVJLu/DAglO8VVx4xiZe0YA2d9UC2tBPEEw+7va
+	HGknU7geDcPidsBInm/R3lP/c8/f7X4jgRIsjckIYr31iSFuhopu4lZipZhxZwNX53yr+E
+	V81QgBoVNb99HjxCaTXUirQl/GMa1tyPtB3sG2w7NjSOJwHmyP2tkzCyvMzreElRH4yclT
+	ka7y07HiSlm3V9h5Lr5wIvaW9Vac90y+Lp0+fC62fCTKKKpKWA1cRNpWgGsi0aNXtGWQlJ
+	sjerqNf/6MM0daIAclIFiNH2n7QqiQMif7S3O7GGD0q2SFB3lImhPFlsnzriGdSQ==
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=sendgrid.info;
+	h=content-type:date:from:mime-version:subject:to:cc:content-type:date:
+	feedback-id:from:subject:to;
+	s=smtpapi; t=1781198789;
+	bh=yYA1T8UKe+GzEP1155mY3u8P9Etm7tj/xmKE+7S0+2w=;
+	b=PK7QA9FXRX7DnwG8YbYxWG016ovlURX0YbzO0rVbeWDaNNMdIpYn4/RNIE7ya5EyyuV1
+	P4NTmedy20vlUMK3pBM55jepBPlpvZzO2U/o0uVFuJ601RZknU5Wf7oUoeWLssxggQh5BM
+	XQSm6t7Kl6lcCL2dN2lBjJy+YoqU1k10E=
+Received: by recvd-5744f687b-4pnm2 with SMTP id recvd-5744f687b-4pnm2-1-6A2AEFC5-83
+	2026-06-11 17:26:29.76564668 +0000 UTC m=+3786529.192487072
+Received: from MjU4NzU0NDc (unknown)
+	by geopod-ismtpd-12 (SG) with HTTP
+	id zSLwld6yRL6co0MLxGKY0A
+	Thu, 11 Jun 2026 17:26:29.725 +0000 (UTC)
+Content-Type: multipart/alternative; boundary=5142182c88c0b11731afd45475edff0c08f309e302d6e0e87629f38a80c6
+Date: Thu, 11 Jun 2026 17:26:29 +0000 (UTC)
+From: =?iso-8859-1?q?Micha=EBl?= Labelle <secure@authentisign.com>
+Mime-Version: 1.0
+Message-ID: <zSLwld6yRL6co0MLxGKY0A@geopod-ismtpd-12>
+Subject: Votre signature est =?UTF-8?B?ZGVtYW5kw6ll?= : loi 25
+X-SG-EID: 
+ =?us-ascii?Q?u001=2EFZBUsDDJG21C2aWGkkQwCu2a+klbTavughm7TiPq1rl4ejWMLYR3cwWcr?=
+ =?us-ascii?Q?NmP2KU8Ak1hs6oD4zxNLVgTZ2u3NoIPosi2BSR1?=
+ =?us-ascii?Q?CTFo3vXbEhVOYzK24+n5VpojLjDmvreU9U06Jxl?=
+ =?us-ascii?Q?7nRiP7E3Q5GO5ZCtM4R3H9upyRT66hGpdGkQPgj?=
+ =?us-ascii?Q?Ci649rmQX1lXzBHROIAwiQOXIvvIv6iymbLEN1v?=
+ =?us-ascii?Q?X31SvyaifTPoNV=2FFBmXAuzqgTHytFMWN=2FAChqrl?=
+ =?us-ascii?Q?O0tLzap5SeD7AhsgNDik3Bl3zQ=3D=3D?=
+X-SG-ID: 
+ =?us-ascii?Q?u001=2ESdBcvi+Evd=2FbQef8eZF3BpTL9BgbK5wfSJMJGMsmprDcO5VZsIm0rfqbQ?=
+ =?us-ascii?Q?QB0FdplAX5eq7GSzBRHRAfF=2FFPQJjeFO2hL1Boy?=
+ =?us-ascii?Q?Wp7mmAfRiMwMR5LyshcMqUZ8LdclNVgPPjdBiSX?=
+ =?us-ascii?Q?wQfHw3n1M20m6lxWmuWUtOcrYEABG1p1dQi=2FAus?=
+ =?us-ascii?Q?JA8YOIPU5QavINPrJLQdOLV7gBoBUOhn5RGaXqM?=
+ =?us-ascii?Q?VbRLvZWrLJgWWd3OyOlKdc=3D?=
+To: maxime.lebrasseur@gmail.com
+X-Entity-ID: u001.Dq8lyJ95gnCKGxrBqM+iFA==
+
+--5142182c88c0b11731afd45475edff0c08f309e302d6e0e87629f38a80c6
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset=iso-8859-1
+Mime-Version: 1.0
+
+  =20
+
+ =20
+
+
+
+***************************************
+Invitation =E0 signer
+***************************************
+
+Bonjour Maxime Lebrasseur,
+
+Micha=EBl Labelle ( info@mlabelleimmobilier.com ) vous invite =E0 participe=
+r en tant que signataire =E0 la signature d&apos;un document de signature =
+=E9lectronique Authentisign.
+
+*Nom de signature:* loi 25
+
+COMMENCER =C0 SIGNER ( https://u25875447.ct.sendgrid.net/ls/click?upn=3Du00=
+1.KtGjIRxVJPUD3KSqPzkU4SUZE-2BHJ71CRfF7lJ-2BzOkc-2F90XJAkbEVzPnlgpuE-2FrS35=
+hQLCPM3-2BSmaUeO5MQOI5Fb1K81HWNkei9GIuxLo8MyyJd1DNgNf5N9LsqalWmYV13gyWtucsx=
+3LL5-2Fkjra30Kh3VkuKdK2euj9wYUZt4qy1te5TpgF9S1LMSDgsmWRdAVfRnh7pw97Uc5rUf-2=
+FNV8drfkttauelYDHFyX-2B3TT5ycywDcWUeG7nXWZmFnv-2FGKmxiWfKbiSwvDe-2F78b-2BGO=
+jdC194sknTru-2FPFFtFcMGbKmt6ehRvtogFTETI9DdTcI-2F-2FN4KzCx2CbS2fgtvHWfu3iMa=
+m4yH15Crid8WNxfmDxOvvqsf0K06-2Fzlg5tuhTgtqtpP2xsO61AAOnpWAtJhyrIIJEep5FhOt2=
+x32bEuxeQoVjldDioVcPYu8xsZRjuew2nj_B1h6R6sWpiSjLYqNkBRFLCA8212-2FZT1gfhHWA2=
+V8Pd2k3Em-2FZBXmps5XTOjuCOUTU4Ibyg7Feund4lkx-2FKb-2Bz4Car-2FlqkfxwdMMsXbFRL=
+fFFb55y-2B2fTuu9tCLQOIRPcTimtnF-2F1H7GaPi1YgrRkWPdT26m407rdVUz3G98yVD-2FeqP=
+HVIU3rKRxuWN1Uzp-2FbXDOkbJYJlO2L3GhjiHIV-2BOLLzQNUd-2F59sGcsSRSbwihcTy6AKNy=
+HGSylsD4SAbv-2FyhtPC7PPtT9qrjXE2GPGhI-2FaXpLI1ngsgTTAOo-2BnzbO1pQnjduVxIHD9=
+n9zBfECsh4eIwddXYksrLFfa10GG1qimKKXvEEWKLRlj5-2FcVrhkClExnAEdcsXMSkdlZ25-2F=
+Jfz9wlXYbPkqkeAnX81zeWQ-3D-3D )
+
+ =20
+
+Vous devrez confirmer votre identit=E9, accepter les conditions de service =
+et l&apos;avis de consentement du consommateur..
+
+*Consultez <a href=3D"https://u25875447.ct.sendgrid.net/ls/click?upn=3Du001=
+.KtGjIRxVJPUD3KSqPzkU4c0CRANB8QiH-2FPjUHYoD-2FiWeIzc9i7I4rJgHfmximSUVO-2Bu4=
+ab1aWEdxmaCw23D9vFR8Tj710s76Zyxs4i1C-2Fa-2Bl5XfPw7V8M41dAijP2-2FW-2BQSpLxqn=
+5G7osJiTtXDId7Q3VOhXIXakFPWiM-2Fn3JR-2Bep9VpFwoxt4qIx1x-2Fd-2F14ebU9q1U-2BF=
+-2BrPoTJlIHIoUCOfT8iTlhCa-2FTOWF7kVfbfo-3D7gZD_B1h6R6sWpiSjLYqNkBRFLCA8212-=
+2FZT1gfhHWA2V8Pd2k3Em-2FZBXmps5XTOjuCOUTU4Ibyg7Feund4lkx-2FKb-2Bz4Car-2Flqk=
+fxwdMMsXbFRLfFFb55y-2B2fTuu9tCLQOIRPcTimtnF-2F1H7GaPi1YgrRkWPdT26m407rdVUz3=
+G98yVD-2FeqPHVIU3rKRxuWN1Uzp-2FbXDOkbJYJlO2L3GhjiHIV-2BOLLzQNUd-2F59sGcsSRS=
+bwihcTy6AKNyHGSylsD4SAbv-2FyhtPC7PPtT9qrjXE2GPGhEqnxM9dg3ugAcbctq4EITHvfIM4=
+Ftr09GBLz0cmkwBLRHl4g96raROtqijoCQ-2FBWLmJXxaMK37kXGxYYGbxNcENZT-2FAA5aT-2F=
+vBUq89t9EAzNP4rbfgqA51tCAhYZL6A0A-3D-3D>ici</a> un guide expliquant chaque =
+=E9tape de la signature =E9lectronique afin de vous accompagner dans le pro=
+cessus.* Cette invitation vous a =E9t=E9 envoy=E9e par :
+
+           =20
+
+Micha=EBl Labelle EXP AGENCE IMMOBILI=C8RE T=E9l=E9phone:  T=E9l=E9copieur:=
+  Courriel: info@mlabelleimmobilier.com Micha=EBl Labelle, Courtier immobil=
+ier r=E9sidentiel<br>EXP Agence Immobili=E8re<br>Cell : 514-942-6696<br>@ :=
+ info@mlabelleimmobilier.com
+
+
+ Ne r=E9pondez pas et ne partagez pas ce courriel. Ce courriel contient un =
+lien s=E9curis=E9 vers votre partie de la signature.=20
+
+Le service Authentisign est un des services de documents sans papier d' Lon=
+e Wolf Technologies. Lone Wolf Technologies est en ligne depuis 1998 et com=
+pte actuellement plus de 500 000 professionnels de l'immobilier qui utilise=
+nt nos services.&nbsp;<br><br>Pour plus d'information, veuillez visiter Lon=
+e Wolf Technologies at&nbsp;<a href=3D"https://u25875447.ct.sendgrid.net/ls=
+/click?upn=3Du001.KtGjIRxVJPUD3KSqPzkU4UTA-2BEaeCqPobXOvAqLJ-2FbUDB34mXrSaX=
+-2F2eGpMW4I2bu6lZuzByCT5tasHVmgdsEPlfplmsIJFBmR-2BKhmfaNQjsVRLoGvW4qYTh4GlU=
+-2B4igL1dJ5tyypG1Uda7ZyQwZEA-3D-3DZcYe_B1h6R6sWpiSjLYqNkBRFLCA8212-2FZT1gfh=
+HWA2V8Pd2k3Em-2FZBXmps5XTOjuCOUTU4Ibyg7Feund4lkx-2FKb-2Bz4Car-2FlqkfxwdMMsX=
+bFRLfFFb55y-2B2fTuu9tCLQOIRPcTimtnF-2F1H7GaPi1YgrRkWPdT26m407rdVUz3G98yVD-2=
+FeqPHVIU3rKRxuWN1Uzp-2FbXDOkbJYJlO2L3GhjiHIV-2BOLLzQNUd-2F59sGcsSRSbwihcTy6=
+AKNyHGSylsD4SAbv-2FyhtPC7PPtT9qrjXE2GPGhH8sbMIdyG-2FScaDJd3R1qRZ2Jci9xApzCC=
+Wr2K4ANPIcSgFXwJoTXwJ58zZfUI4jpB8Va-2B-2FYd1dJ-2F1MYSCU8CixT9ELbIA7x7Dn8b66=
+6Bz-2FaByihjIpW-2FknQzkHM7rL4yA-3D-3D target=3D"_new">www.authentisign.com<=
+/a>.
+--5142182c88c0b11731afd45475edff0c08f309e302d6e0e87629f38a80c6
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=iso-8859-1
+Mime-Version: 1.0
+
+<!doctype html>
+<html>
+
+<head>
+    <meta charset=3D"UTF-8">
+    <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+    <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=
+=3D1">
+    <title>Authentisign</title>
+    <style type=3D"text/css">
+        p {
+            margin: 10px 0;
+            padding: 0;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            display: block;
+            margin: 0;
+            padding: 0;
+        }
+
+        img,
+        a img {
+            border: 0;
+            height: auto;
+            outline: none;
+            text-decoration: none;
+        }
+
+        body,
+        #bodyTable,
+        #bodyCell {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+        }
+
+        .mcnPreviewText {
+            display: none !important;
+        }
+
+        #outlook a {
+            padding: 0;
+        }
+
+        img {
+            -ms-interpolation-mode: bicubic;
+        }
+
+        table {
+            mso-table-lspace: 0pt;
+            mso-table-rspace: 0pt;
+        }
+
+        .ReadMsgBody {
+            width: 100%;
+        }
+
+        .ExternalClass {
+            width: 100%;
+        }
+
+        p,
+        a,
+        li,
+        td,
+        blockquote {
+            mso-line-height-rule: exactly;
+        }
+
+        a[href^=3Dtel],
+        a[href^=3Dsms] {
+            color: inherit;
+            cursor: default;
+            text-decoration: none;
+        }
+
+        p,
+        a,
+        li,
+        td,
+        body,
+        table,
+        blockquote {
+            -ms-text-size-adjust: 100%;
+            -webkit-text-size-adjust: 100%;
+        }
+
+        .ExternalClass,
+        .ExternalClass p,
+        .ExternalClass td,
+        .ExternalClass div,
+        .ExternalClass span,
+        .ExternalClass font {
+            line-height: 100%;
+        }
+
+        a[x-apple-data-detectors] {
+            color: inherit !important;
+            text-decoration: none !important;
+            font-size: inherit !important;
+            font-family: inherit !important;
+            font-weight: inherit !important;
+            line-height: inherit !important;
+        }
+
+        #bodyCell {
+            padding: 10px;
+        }
+
+        .templateContainer {
+            max-width: 600px !important;
+        }
+
+        a.mcnButton {
+            display: block;
+            color: #FFFFFF;
+        }
+
+        .mcnImage,
+        .mcnRetinaImage {
+            vertical-align: bottom;
+        }
+
+        .mcnTextContent {
+            word-break: break-word;
+        }
+
+        .mcnTextContent img {
+            height: auto !important;
+        }
+
+        .mcnDividerBlock {
+            table-layout: fixed !important;
+        }
+
+        /*
+@tab Page
+@section Background Style
+@tip Set the background color and top border for your email. You may want t=
+o choose colors that match your company's branding.
+*/
+        body,
+        #bodyTable {
+            background-color: #FAFAFA;
+        }
+
+        /*
+@tab Page
+@section Background Style
+@tip Set the background color and top border for your email. You may want t=
+o choose colors that match your company's branding.
+*/
+        #bodyCell {
+            border-top: 0;
+        }
+
+        /*
+@tab Page
+@section Email Border
+@tip Set the border for your email.
+*/
+        .templateContainer {
+            border: 0;
+        }
+
+        /*
+@tab Page
+@section Heading 1
+@tip Set the styling for all first-level headings in your emails. These sho=
+uld be the largest of your headings.
+@style heading 1
+*/
+        h1 {
+            color: #202020;
+            font-family: Helvetica;
+            font-size: 26px;
+            font-style: normal;
+            font-weight: bold;
+            line-height: 125%;
+            letter-spacing: normal;
+            text-align: left;
+        }
+
+        /*
+@tab Page
+@section Heading 2
+@tip Set the styling for all second-level headings in your emails.
+@style heading 2
+*/
+        h2 {
+            color: #202020;
+            font-family: Helvetica;
+            font-size: 22px;
+            font-style: normal;
+            font-weight: bold;
+            line-height: 125%;
+            letter-spacing: normal;
+            text-align: left;
+        }
+
+        /*
+@tab Page
+@section Heading 3
+@tip Set the styling for all third-level headings in your emails.
+@style heading 3
+*/
+        h3 {
+            color: #202020;
+            font-family: Helvetica;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: bold;
+            line-height: 125%;
+            letter-spacing: normal;
+            text-align: left;
+        }
+
+        /*
+@tab Page
+@section Heading 4
+@tip Set the styling for all fourth-level headings in your emails. These sh=
+ould be the smallest of your headings.
+@style heading 4
+*/
+        h4 {
+            color: #202020;
+            font-family: Helvetica;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: bold;
+            line-height: 125%;
+            letter-spacing: normal;
+            text-align: left;
+        }
+
+        /*
+@tab Preheader
+@section Preheader Style
+@tip Set the background color and borders for your email's preheader area.
+*/
+        #templatePreheader {
+            background-color: #FAFAFA;
+            background-image: none;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            border-top: 0;
+            border-bottom: 0;
+            padding-top: 9px;
+            padding-bottom: 9px;
+        }
+
+        /*
+@tab Preheader
+@section Preheader Text
+@tip Set the styling for your email's preheader text. Choose a size and col=
+or that is easy to read.
+*/
+        #templatePreheader .mcnTextContent,
+        #templatePreheader .mcnTextContent p {
+            color: #656565;
+            font-family: Helvetica;
+            font-size: 12px;
+            line-height: 150%;
+            text-align: left;
+        }
+
+        /*
+@tab Preheader
+@section Preheader Link
+@tip Set the styling for your email's preheader links. Choose a color that =
+helps them stand out from your text.
+*/
+        #templatePreheader .mcnTextContent a,
+        #templatePreheader .mcnTextContent p a {
+            color: #656565;
+            font-weight: normal;
+            text-decoration: underline;
+        }
+
+        /*
+@tab Header
+@section Header Style
+@tip Set the background color and borders for your email's header area.
+*/
+        #templateHeader {
+            background-color: #FFFFFF;
+            background-image: none;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            border-top: 0;
+            border-bottom: 0;
+            padding-top: 9px;
+            padding-bottom: 0;
+        }
+
+        /*
+@tab Header
+@section Header Text
+@tip Set the styling for your email's header text. Choose a size and color =
+that is easy to read.
+*/
+        #templateHeader .mcnTextContent,
+        #templateHeader .mcnTextContent p {
+            color: #202020;
+            font-family: Helvetica;
+            font-size: 16px;
+            line-height: 150%;
+            text-align: left;
+        }
+
+        /*
+@tab Header
+@section Header Link
+@tip Set the styling for your email's header links. Choose a color that hel=
+ps them stand out from your text.
+*/
+        #templateHeader .mcnTextContent a,
+        #templateHeader .mcnTextContent p a {
+            color: #007C89;
+            font-weight: normal;
+            text-decoration: underline;
+        }
+
+        /*
+@tab Body
+@section Body Style
+@tip Set the background color and borders for your email's body area.
+*/
+        #templateBody {
+            background-color: #FFFFFF;
+            background-image: none;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            border-top: 0;
+            border-bottom: 0;
+            padding-top: 0;
+            padding-bottom: 0;
+        }
+
+        /*
+@tab Body
+@section Body Text
+@tip Set the styling for your email's body text. Choose a size and color th=
+at is easy to read.
+*/
+        #templateBody .mcnTextContent,
+        #templateBody .mcnTextContent p {
+            color: #202020;
+            font-family: Helvetica;
+            font-size: 16px;
+            line-height: 150%;
+            text-align: left;
+        }
+
+        /*
+@tab Body
+@section Body Link
+@tip Set the styling for your email's body links. Choose a color that helps=
+ them stand out from your text.
+*/
+        #templateBody .mcnTextContent a,
+        #templateBody .mcnTextContent p a {
+            color: #007C89;
+            font-weight: normal;
+            text-decoration: underline;
+        }
+
+        /*
+@tab Columns
+@section Column Style
+@tip Set the background color and borders for your email's columns.
+*/
+        #templateColumns {
+            background-color: #ffffff;
+            background-image: none;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            border-top: 0;
+            border-bottom: 2px solid #EAEAEA;
+            padding-top: 0;
+            padding-bottom: 9px;
+        }
+
+        /*
+@tab Columns
+@section Column Text
+@tip Set the styling for your email's column text. Choose a size and color =
+that is easy to read.
+*/
+        #templateColumns .columnContainer .mcnTextContent,
+        #templateColumns .columnContainer .mcnTextContent p {
+            color: #202020;
+            font-family: Helvetica;
+            font-size: 16px;
+            line-height: 150%;
+            text-align: left;
+        }
+
+        /*
+@tab Columns
+@section Column Link
+@tip Set the styling for your email's column links. Choose a color that hel=
+ps them stand out from your text.
+*/
+        #templateColumns .columnContainer .mcnTextContent a,
+        #templateColumns .columnContainer .mcnTextContent p a {
+            color: #007C89;
+            font-weight: normal;
+            text-decoration: underline;
+        }
+
+        /*
+@tab Footer
+@section Footer Style
+@tip Set the background color and borders for your email's footer area.
+*/
+        #templateFooter {
+            background-color: #fafafa;
+            background-image: none;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            border-top: 0;
+            border-bottom: 0;
+            padding-top: 9px;
+            padding-bottom: 9px;
+        }
+
+        /*
+@tab Footer
+@section Footer Text
+@tip Set the styling for your email's footer text. Choose a size and color =
+that is easy to read.
+*/
+        #templateFooter .mcnTextContent,
+        #templateFooter .mcnTextContent p {
+            color: #656565;
+            font-family: Helvetica;
+            font-size: 12px;
+            line-height: 150%;
+            text-align: center;
+        }
+
+        /*
+@tab Footer
+@section Footer Link
+@tip Set the styling for your email's footer links. Choose a color that hel=
+ps them stand out from your text.
+*/
+        #templateFooter .mcnTextContent a,
+        #templateFooter .mcnTextContent p a {
+            color: #656565;
+            font-weight: normal;
+            text-decoration: underline;
+        }
+
+        @media only screen and (min-width:768px) {
+            .templateContainer {
+                width: 600px !important;
+            }
+        }
+
+        @media only screen and (max-width: 480px) {
+
+            body,
+            table,
+            td,
+            p,
+            a,
+            li,
+            blockquote {
+                -webkit-text-size-adjust: none !important;
+            }
+
+            body {
+                width: 100% !important;
+                min-width: 100% !important;
+            }
+
+            #bodyCell {
+                padding-top: 10px !important;
+            }
+
+            .columnWrapper {
+                max-width: 100% !important;
+                width: 100% !important;
+            }
+
+            .mcnRetinaImage {
+                max-width: 100% !important;
+            }
+
+            .mcnImage {
+                width: 100% !important;
+            }
+
+            .mcnCartContainer,
+            .mcnCaptionTopContent,
+            .mcnRecContentContainer,
+            .mcnCaptionBottomContent,
+            .mcnTextContentContainer,
+            .mcnBoxedTextContentContainer,
+            .mcnImageGroupContentContainer,
+            .mcnCaptionLeftTextContentContainer,
+            .mcnCaptionRightTextContentContainer,
+            .mcnCaptionLeftImageContentContainer,
+            .mcnCaptionRightImageContentContainer,
+            .mcnImageCardLeftTextContentContainer,
+            .mcnImageCardRightTextContentContainer,
+            .mcnImageCardLeftImageContentContainer,
+            .mcnImageCardRightImageContentContainer {
+                max-width: 100% !important;
+                width: 100% !important;
+            }
+
+            .mcnBoxedTextContentContainer {
+                min-width: 100% !important;
+            }
+
+            .mcnImageGroupContent {
+                padding: 9px !important;
+            }
+
+            .mcnCaptionLeftContentOuter .mcnTextContent,
+            .mcnCaptionRightContentOuter .mcnTextContent {
+                padding-top: 9px !important;
+            }
+
+            .mcnImageCardTopImageContent,
+            .mcnCaptionBottomContent:last-child .mcnCaptionBottomImageConte=
+nt,
+            .mcnCaptionBlockInner .mcnCaptionTopContent:last-child .mcnText=
+Content {
+                padding-top: 18px !important;
+            }
+
+            .mcnImageCardBottomImageContent {
+                padding-bottom: 9px !important;
+            }
+
+            .mcnImageGroupBlockInner {
+                padding-top: 0 !important;
+                padding-bottom: 0 !important;
+            }
+
+            .mcnImageGroupBlockOuter {
+                padding-top: 9px !important;
+                padding-bottom: 9px !important;
+            }
+
+            .mcnTextContent,
+            .mcnBoxedTextContentColumn {
+                padding-right: 18px !important;
+                padding-left: 18px !important;
+            }
+
+            .mcnImageCardLeftImageContent,
+            .mcnImageCardRightImageContent {
+                padding-right: 18px !important;
+                padding-bottom: 0 !important;
+                padding-left: 18px !important;
+            }
+
+            .mcpreview-image-uploader {
+                display: none !important;
+                width: 100% !important;
+            }
+
+            /*
+    @tab Mobile Styles
+    @section Heading 1
+    @tip Make the first-level headings larger in size for better readabilit=
+y on small screens.
+    */
+            h1 {
+                font-size: 22px !important;
+                line-height: 125% !important;
+            }
+
+            /*
+    @tab Mobile Styles
+    @section Heading 2
+    @tip Make the second-level headings larger in size for better readabili=
+ty on small screens.
+    */
+            h2 {
+                font-size: 20px !important;
+                line-height: 125% !important;
+            }
+
+            /*
+    @tab Mobile Styles
+    @section Heading 3
+    @tip Make the third-level headings larger in size for better readabilit=
+y on small screens.
+    */
+            h3 {
+                font-size: 18px !important;
+                line-height: 125% !important;
+            }
+
+            /*
+    @tab Mobile Styles
+    @section Heading 4
+    @tip Make the fourth-level headings larger in size for better readabili=
+ty on small screens.
+    */
+            h4 {
+                font-size: 16px !important;
+                line-height: 150% !important;
+            }
+
+            /*
+    @tab Mobile Styles
+    @section Boxed Text
+    @tip Make the boxed text larger in size for better readability on small=
+ screens. We recommend a font size of at least 16px.
+    */
+            .mcnBoxedTextContentContainer .mcnTextContent,
+            .mcnBoxedTextContentContainer .mcnTextContent p {
+                font-size: 14px !important;
+                line-height: 150% !important;
+            }
+
+            /*
+    @tab Mobile Styles
+    @section Preheader Visibility
+    @tip Set the visibility of the email's preheader on small screens. You =
+can hide it to save space.
+    */
+            #templatePreheader {
+                display: block !important;
+            }
+
+            /*
+    @tab Mobile Styles
+    @section Preheader Text
+    @tip Make the preheader text larger in size for better readability on s=
+mall screens.
+    */
+            #templatePreheader .mcnTextContent,
+            #templatePreheader .mcnTextContent p {
+                font-size: 14px !important;
+                line-height: 150% !important;
+            }
+
+            /*
+    @tab Mobile Styles
+    @section Header Text
+    @tip Make the header text larger in size for better readability on smal=
+l screens.
+    */
+            #templateHeader .mcnTextContent,
+            #templateHeader .mcnTextContent p {
+                font-size: 16px !important;
+                line-height: 150% !important;
+            }
+
+            /*
+    @tab Mobile Styles
+    @section Body Text
+    @tip Make the body text larger in size for better readability on small =
+screens. We recommend a font size of at least 16px.
+    */
+            #templateBody .mcnTextContent,
+            #templateBody .mcnTextContent p {
+                font-size: 16px !important;
+                line-height: 150% !important;
+            }
+
+            /*
+    @tab Mobile Styles
+    @section Column Text
+    @tip Make the column text larger in size for better readability on smal=
+l screens. We recommend a font size of at least 16px.
+    */
+            #templateColumns .columnContainer .mcnTextContent,
+            #templateColumns .columnContainer .mcnTextContent p {
+                font-size: 16px !important;
+                line-height: 150% !important;
+            }
+
+            /*
+    @tab Mobile Styles
+    @section Footer Text
+    @tip Make the footer content text larger in size for better readability=
+ on small screens.
+    */
+            #templateFooter .mcnTextContent,
+            #templateFooter .mcnTextContent p {
+                font-size: 14px !important;
+                line-height: 150% !important;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" height=3D"100%" width=3D"100%" id=3D"bodyTable">
+            <tr>
+                <td align=3D"center" valign=3D"top" id=3D"bodyCell">
+                    <!-- BEGIN TEMPLATE // -->
+                    <!--[if (gte mso 9)|(IE)]>
+                    <table align=3D"center" border=3D"0" cellspacing=3D"0" =
+cellpadding=3D"0" width=3D"600" style=3D"width:600px;">
+                    <tr>
+                    <td align=3D"center" valign=3D"top" width=3D"600" style=
+=3D"width:600px;">
+                    <![endif]-->
+                    <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ width=3D"100%" class=3D"templateContainer">
+                        <tr>
+                            <td valign=3D"top" id=3D"templateHeader">
+                                <table border=3D"0" cellpadding=3D"0" cells=
+pacing=3D"0" width=3D"100%" class=3D"mcnImageBlock"
+                                    style=3D"min-width:100%;">
+                                    <tbody class=3D"mcnImageBlockOuter">
+                                        <tr>
+                                            <td valign=3D"top" style=3D"pad=
+ding:9px" class=3D"mcnImageBlockInner">
+                                                <table align=3D"left" width=
+=3D"100%" border=3D"0" cellpadding=3D"0"
+                                                    cellspacing=3D"0" class=
+=3D"mcnImageContentContainer"
+                                                    style=3D"min-width:100%=
+;">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td class=3D"mc=
+nImageContent" valign=3D"top"
+                                                                style=3D" p=
+adding-top: 0; padding-bottom: 0;">
+                                                                <img align=
+=3D"left" alt=3D"" src=3D"https://app.authentisign.com/Instanet/ASService/a=
+pi/images/branding/2b6f65a9-552b-4171-8e1a-eefc6e6146c3.png/"
+                                                                    width=
+=3D"600"
+                                                                    style=
+=3D"max-width:100%; padding-bottom: 0; display: inline !important; vertical=
+-align: bottom;"
+                                                                    class=
+=3D"mcnImage">
+                                                                &nbsp;
+                                                            </td>
+                                                                           =
+                                         </tr>
+                                                    </tbody>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td id=3D"templateBody" valign=3D"top">
+
+                                <table border=3D"0" cellpadding=3D"0" cells=
+pacing=3D"0" width=3D"100%" class=3D"mcnDividerBlock"
+                                    style=3D"min-width:100%;">
+                                    <tbody class=3D"mcnDividerBlockOuter">
+                                        <tr>
+                                            <td class=3D"mcnDividerBlockInn=
+er"
+                                                style=3D"min-width: 100%; p=
+adding: 10px 18px;">
+                                                <table class=3D"mcnDividerC=
+ontent" border=3D"0" cellpadding=3D"0"
+                                                    cellspacing=3D"0" width=
+=3D"100%"
+                                                    style=3D"min-width: 100=
+%;border-top: 2px solid #FFFFFF;">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>
+                                                                <span></spa=
+n>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <table border=3D"0" cellpadding=3D"0" cells=
+pacing=3D"0" width=3D"100%" class=3D"mcnTextBlock"
+                                    style=3D"min-width:100%;">
+                                    <tbody class=3D"mcnTextBlockOuter">
+                                        <tr>
+                                            <td valign=3D"top" class=3D"mcn=
+TextBlockInner" style=3D"padding-top:9px;">
+                                                <table align=3D"left" borde=
+r=3D"0" cellpadding=3D"0" cellspacing=3D"0"
+                                                    style=3D"max-width:100%=
+; min-width:100%;" width=3D"100%"
+                                                    class=3D"mcnTextContent=
+Container">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td valign=3D"t=
+op" class=3D"mcnTextContent"
+                                                                style=3D"pa=
+dding-top:0; padding-right:18px; padding-bottom:9px;">
+                                                                <table bord=
+er=3D"0" cellpadding=3D"0" cellspacing=3D"0"
+                                                                    width=
+=3D"100%" class=3D"mcnTextBlock"
+                                                                    style=
+=3D"min-width:100%;">
+                                                                    <tbody =
+class=3D"mcnTextBlockOuter">
+                                                                        <tr=
+>
+                                                                           =
+ <td valign=3D"top" class=3D"mcnTextBlockInner"
+                                                                           =
+     style=3D"padding-top:9px;">
+                                                                           =
+     <table align=3D"left" border=3D"0"
+                                                                           =
+         cellpadding=3D"0" cellspacing=3D"0"
+                                                                           =
+         style=3D"max-width:100%; min-width:100%;"
+                                                                           =
+         width=3D"100%"
+                                                                           =
+         class=3D"mcnTextContentContainer">
+                                                                           =
+         <tbody>
+                                                                           =
+             <tr>
+
+                                                                           =
+                 <td valign=3D"top"
+                                                                           =
+                     class=3D"mcnTextContent"
+                                                                           =
+                     style=3D"padding-top:0; padding-right:18px; padding-bo=
+ttom:9px; padding-left:18px;">
+
+                                                                           =
+                     <h1>Invitation =E0 signer
+                                                                           =
+                     </h1>
+                                                                           =
+                     <p>Bonjour
+                                                                           =
+                         Maxime Lebrasseur,
+                                                                           =
+                     </p>
+                                                                           =
+                     <p>
+                                                                           =
+                         Micha=EBl Labelle (<a
+                                                                           =
+                             href=3D"mailto:info@mlabelleimmobilier.com">in=
+fo@mlabelleimmobilier.com</a>)
+                                                                           =
+                         vous invite =E0 participer en tant que signataire =
+=E0 la signature d&apos;un document de signature =E9lectronique Authentisig=
+n.<br>
+                                                                           =
+                         <br>
+                                                                           =
+                         <strong>Nom de signature:</strong>&nbsp;loi 25<br>
+                                                                           =
+                     </p>
+                                                                           =
+                 </td>
+                                                                           =
+             </tr>
+                                                                           =
+         </tbody>
+                                                                           =
+     </table>
+                                                                           =
+ </td>
+                                                                        </t=
+r>
+                                                                    </tbody=
+>
+                                                                </table>
+                                                                <table bord=
+er=3D"0" cellpadding=3D"0" cellspacing=3D"0"
+                                                                    width=
+=3D"100%" class=3D"mcnButtonBlock"
+                                                                    style=
+=3D"min-width:100%;">
+                                                                    <tbody =
+class=3D"mcnButtonBlockOuter">
+                                                                        <tr=
+>
+                                                                           =
+ <td style=3D"padding-top:0; padding-right:18px; padding-bottom:18px; paddi=
+ng-left:18px;"
+                                                                           =
+     valign=3D"top" align=3D"left"
+                                                                           =
+     class=3D"mcnButtonBlockInner">
+                                                                           =
+     <table border=3D"0" cellpadding=3D"0"
+                                                                           =
+         cellspacing=3D"0"
+                                                                           =
+         class=3D"mcnButtonContentContainer"
+                                                                           =
+         style=3D"border-collapse: separate !important;border-radius: 2px;b=
+ackground-color: #3A76CC;color: #FFFFFF;">
+                                                                           =
+         <tbody>
+                                                                           =
+             <tr>
+                                                                           =
+                 <td align=3D"center"
+                                                                           =
+                     valign=3D"middle"
+                                                                           =
+                     class=3D"mcnButtonContent"
+                                                                           =
+                     style=3D"font-family: Lato, 'Helvetica Neue', Helvetic=
+a, Arial, sans-serif; font-size: 16px; padding: 18px;color: #FFFFFF;">
+                                                                           =
+                     <a class=3D"mcnButton "
+                                                                           =
+                         title=3D"COMMENCER =C0 SIGNER"
+                                                                           =
+                         href=3D"https://u25875447.ct.sendgrid.net/ls/click=
+?upn=3Du001.KtGjIRxVJPUD3KSqPzkU4SUZE-2BHJ71CRfF7lJ-2BzOkc-2F90XJAkbEVzPnlg=
+puE-2FrS35hQLCPM3-2BSmaUeO5MQOI5Fb1K81HWNkei9GIuxLo8MyyJd1DNgNf5N9LsqalWmYV=
+13gyWtucsx3LL5-2Fkjra30Kh3VkuKdK2euj9wYUZt4qy1te5TpgF9S1LMSDgsmWRdAVfRnh7pw=
+97Uc5rUf-2FNV8drfkttauelYDHFyX-2B3TT5ycywDcWUeG7nXWZmFnv-2FGKmxiWfKbiSwvDe-=
+2F78b-2BGOjdC194sknTru-2FPFFtFcMGbKmt6ehRvtogFTETI9DdTcI-2F-2FN4KzCx2CbS2fg=
+tvHWfu3iMam4yH15Crid8WNxfmDxOvvqsf0K06-2Fzlg5tuhTgtqtpP2xsO61AAOnpWAtJhyrII=
+JEep5FhOt2x32bEuxeQoVjldDioVcPYu8xsZRjueq0qq_B1h6R6sWpiSjLYqNkBRFLCA8212-2F=
+ZT1gfhHWA2V8Pd2k3Em-2FZBXmps5XTOjuCOUTU4Ibyg7Feund4lkx-2FKb-2Bz4Car-2Flqkfx=
+wdMMsXbFRLfFFb55y-2B2fTuu9tCLQOIRPcTimtnF-2F1H7GaPi1YgrRkWPdT26m407rdVUz3G9=
+8yVD-2FeqPHVIU3rKRxuWN1Uzp-2FbXDOkbJYJlO2L3GhjiHIV-2BOLLzQNUd-2F59sGcsSRSbw=
+ihcTy6AKNyHGSylsD4SAbv-2FyhtPC7PPtT9qrjXE2GPGhMU1l-2BDDJRpt5g-2BNeeAyTpfC9f=
+AR-2BlxwdN0Hp-2F5Rp-2F2B7QqknoWvihsT9m12Mgo4mF1urwZRNb9ql1SyP1c-2FM9HyVNNBb=
+9G6JQKzEdhyI5SKUlNF49BvuBH-2ByGDqjuBNwQ-3D-3D"
+                                                                           =
+                         target=3D"_blank"
+                                                                           =
+                         style=3D"font-weight: bold;letter-spacing: normal;=
+line-height: 100%;text-align: center;text-decoration: none;color: #FFFFFF;b=
+ackground-color: #3A76CC;">
+                                                                           =
+                         COMMENCER =C0 SIGNER</a>
+                                                                           =
+                 </td>
+                                                                           =
+             </tr>
+                                                                           =
+         </tbody>
+                                                                           =
+     </table>
+                                                                           =
+ </td>
+                                                                        </t=
+r>
+                                                                    </tbody=
+>
+                                                                </table>
+                                                                <table bord=
+er=3D"0" cellpadding=3D"0" cellspacing=3D"0"
+                                                                    width=
+=3D"100%" class=3D"mcnTextBlock"
+                                                                    style=
+=3D"min-width:100%;">
+                                                                    <tbody =
+class=3D"mcnTextBlockOuter">
+                                                                        <tr=
+>
+                                                                           =
+ <td valign=3D"top" class=3D"mcnTextBlockInner">
+                                                                           =
+     <table align=3D"left" border=3D"0"
+                                                                           =
+         cellpadding=3D"0" cellspacing=3D"0"
+                                                                           =
+         style=3D"max-width:100%; min-width:100%;"
+                                                                           =
+         width=3D"100%"
+                                                                           =
+         class=3D"mcnTextContentContainer">
+                                                                           =
+         <tbody>
+                                                                           =
+             <tr>
+
+                                                                           =
+                 <td valign=3D"top"
+                                                                           =
+                     class=3D"mcnTextContent"
+                                                                           =
+                     style=3D"padding-top:0; padding-right:18px; padding-bo=
+ttom:9px; padding-left:18px;">
+                                                                           =
+                     <br>
+                                                                           =
+                     <span
+                                                                           =
+                         style=3D"font-size:13px"><em>Vous devrez confirmer=
+ votre identit=E9, accepter les conditions de service et l&apos;avis de con=
+sentement du consommateur.</em>.</span>
+                                                                           =
+                 </td>
+                                                                           =
+             </tr>
+                                                                           =
+         </tbody>
+                                                                           =
+     </table>
+                                                                           =
+ </td>
+                                                                        </t=
+r>
+                                                                       =20
+                                                                        <tr=
+>
+                                                                           =
+ <td valign=3D"top" class=3D"mcnTextContent"
+                                                                           =
+     style=3D"padding-top:0; padding-right:18px; padding-bottom:2px; paddin=
+g-left:18px;">
+                                                                           =
+     Cette invitation vous a =E9t=E9 envoy=E9e par :
+                                                                           =
+ </td>
+                                                                        </t=
+r>
+                                                                    </tbody=
+>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+
+                                                            <td valign=3D"t=
+op" class=3D"mcnTextContent"
+                                                                style=3D"pa=
+dding-top:0; padding-right:18px; padding-bottom:9px;">
+
+                                                                <table bord=
+er=3D"0" cellpadding=3D"0" cellspacing=3D"0"
+                                                                    width=
+=3D"100%" class=3D"mcnTextBlock"
+                                                                    style=
+=3D"min-width:100%;">
+                                                                    <tbody =
+class=3D"mcnTextBlockOuter">
+                                                                        <tr=
+>
+                                                                           =
+ <td class=3D"mcnImageContent" valign=3D"top"
+                                                                           =
+     style=3D"padding-right: 9px; padding-top: 0; padding-bottom: 9px; padd=
+ing-left:18px;">
+                                                                           =
+     <img align=3D"left" alt=3D""
+                                                                           =
+         src=3D"https://app.authentisign.com/Instanet/ASService/api/images/=
+branding/f7d0ee64-7ab6-4d24-8963-ccad66adffaa.png/"
+                                                                           =
+         style=3D" min-width:120px;  max-width:150px; padding-bottom: 0; di=
+splay: inline !important; vertical-align: bottom;"
+                                                                           =
+         class=3D"mcnImage">
+                                                                           =
+ </td>
+                                                                        </t=
+r>
+
+                                                                        <tr=
+>
+                                                                           =
+ <td valign=3D"top" class=3D"mcnTextContent"
+                                                                           =
+     style=3D"padding-top:0; padding-right:18px; padding-bottom:2px; paddin=
+g-left:18px;">
+                                                                           =
+     Micha=EBl Labelle
+                                                                           =
+ </td>
+                                                                        </t=
+r>
+                                                                        <tr=
+>
+                                                                           =
+ <td valign=3D"top" class=3D"mcnTextContent"
+                                                                           =
+     style=3D"padding-top:0; padding-right:18px; padding-bottom:2px; paddin=
+g-left:18px;">
+                                                                           =
+     EXP AGENCE IMMOBILI=C8RE
+                                                                           =
+ </td>
+                                                                        </t=
+r>
+                                                                           =
+                                                                           =
+                                                                 =20
+                                                                        <tr=
+>
+                                                                           =
+ <td valign=3D"top" class=3D"mcnTextContent"
+                                                                           =
+     style=3D"padding-top:0; padding-right:18px; padding-bottom:2px; paddin=
+g-left:18px;">
+                                                                           =
+     Courriel: <a
+                                                                           =
+         href=3D"mailto:">info@mlabelleimmobilier.com</a>
+                                                                           =
+ </td>
+                                                                        </t=
+r>
+                                                                       =20
+                                                                        <tr=
+>
+                                                                           =
+ <td valign=3D"top" class=3D"mcnTextContent"
+                                                                           =
+     style=3D"padding-top:0; padding-right:18px; padding-bottom:2px; paddin=
+g-left:18px;">
+                                                                           =
+     Micha=EBl Labelle, Courtier immobilier r=E9sidentiel<br>EXP Agence Imm=
+obili=E8re<br>Cell : 514-942-6696<br>@ : info@mlabelleimmobilier.com
+                                                                           =
+ </td>
+                                                                        </t=
+r>
+                                                                       =20
+                                                                    </tbody=
+>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+
+                                                    </tbody>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td valign=3D"top" id=3D"templateColumns">
+                                <table align=3D"left" border=3D"0" cellpadd=
+ing=3D"0" cellspacing=3D"0" width=3D"200"
+                                    class=3D"columnWrapper">
+                                    <tr>
+                                        <td valign=3D"top" class=3D"columnC=
+ontainer">
+                                            <table border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" width=3D"100%"
+                                                class=3D"mcnDividerBlock" s=
+tyle=3D"min-width:100%;">
+                                                <tbody class=3D"mcnDividerB=
+lockOuter">
+                                                    <tr>
+                                                        <td class=3D"mcnDiv=
+iderBlockInner"
+                                                            style=3D"min-wi=
+dth:100%; padding:18px;">
+                                                            <table class=3D=
+"mcnDividerContent" border=3D"0" cellpadding=3D"0"
+                                                                cellspacing=
+=3D"0" width=3D"100%"
+                                                                style=3D"mi=
+n-width: 100%;border-top: 2px none #EAEAEA;">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td=
+>
+                                                                           =
+ <span></span>
+                                                                        </t=
+d>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <table align=3D"left" border=3D"0" cellpadd=
+ing=3D"0" cellspacing=3D"0" width=3D"200"
+                                    class=3D"columnWrapper">
+                                    <tr>
+                                        <td valign=3D"top" class=3D"columnC=
+ontainer">
+                                            <table border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" width=3D"100%"
+                                                class=3D"mcnDividerBlock" s=
+tyle=3D"min-width:100%;">
+                                                <tbody class=3D"mcnDividerB=
+lockOuter">
+                                                    <tr>
+                                                        <td class=3D"mcnDiv=
+iderBlockInner"
+                                                            style=3D"min-wi=
+dth:100%; padding:18px;">
+                                                            <table class=3D=
+"mcnDividerContent" border=3D"0" cellpadding=3D"0"
+                                                                cellspacing=
+=3D"0" width=3D"100%"
+                                                                style=3D"mi=
+n-width: 100%;border-top: 2px none #EAEAEA;">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td=
+>
+                                                                           =
+ <span></span>
+                                                                        </t=
+d>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <table align=3D"left" border=3D"0" cellpadd=
+ing=3D"0" cellspacing=3D"0" width=3D"200"
+                                    class=3D"columnWrapper">
+                                    <tr>
+                                        <td valign=3D"top" class=3D"columnC=
+ontainer">
+                                            <table border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" width=3D"100%"
+                                                class=3D"mcnDividerBlock" s=
+tyle=3D"min-width:100%;">
+                                                <tbody class=3D"mcnDividerB=
+lockOuter">
+                                                    <tr>
+                                                        <td class=3D"mcnDiv=
+iderBlockInner"
+                                                            style=3D"min-wi=
+dth:100%; padding:18px;">
+                                                            <table class=3D=
+"mcnDividerContent" border=3D"0" cellpadding=3D"0"
+                                                                cellspacing=
+=3D"0" width=3D"100%"
+                                                                style=3D"mi=
+n-width: 100%;border-top: 2px none #EAEAEA;">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td=
+>
+                                                                           =
+ <span></span>
+                                                                        </t=
+d>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td valign=3D"top" id=3D"templateFooter">
+                                <table border=3D"0" cellpadding=3D"0" cells=
+pacing=3D"0" width=3D"100%" class=3D"mcnTextBlock"
+                                    style=3D"min-width:100%;">
+                                    <tbody class=3D"mcnTextBlockOuter">
+                                        <tr>
+                                            <td valign=3D"top" class=3D"mcn=
+TextBlockInner" style=3D"padding-top:9px;">
+                                                <table align=3D"left" borde=
+r=3D"0" cellpadding=3D"0" cellspacing=3D"0"
+                                                    style=3D"max-width:100%=
+; min-width:100%;" width=3D"100%"
+                                                    class=3D"mcnTextContent=
+Container">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td valign=3D"t=
+op" class=3D"mcnTextContent"
+                                                                style=3D"pa=
+dding-top:0; padding-right:18px; padding-bottom:9px; padding-left:18px;">
+                                                                <span style=
+=3D"font-size:12px; font-weight:bold;">
+                                                                    Ne r=E9=
+pondez pas et ne partagez pas ce courriel. Ce courriel contient un lien s=
+=E9curis=E9 vers votre partie de la signature.
+                                                                </span>
+                                                                           =
+                                                     <br />
+                                                                <br />
+                                                                <span style=
+=3D"font-size:12px">
+                                                                    Le serv=
+ice Authentisign est un des services de documents sans papier d' Lone Wolf =
+Technologies. Lone Wolf Technologies est en ligne depuis 1998 et compte act=
+uellement plus de 500 000 professionnels de l'immobilier qui utilisent nos =
+services.&nbsp;<br><br>Pour plus d'information, veuillez visiter Lone Wolf =
+Technologies at&nbsp;<a href=3D"https://u25875447.ct.sendgrid.net/ls/click?=
+upn=3Du001.KtGjIRxVJPUD3KSqPzkU4UTA-2BEaeCqPobXOvAqLJ-2FbXFEj0bjLG7L-2BdsXx=
+a0VVHgF6ubZrwaPcAbay7SnL56LpTEcUrhX2b2ml6TDbL2WjPcDypyJ1Hy3GoBbYryWY-2BRy72=
+5xzes2fGTOHbjcUHmZw-3D-3D0sBz_B1h6R6sWpiSjLYqNkBRFLCA8212-2FZT1gfhHWA2V8Pd2=
+k3Em-2FZBXmps5XTOjuCOUTU4Ibyg7Feund4lkx-2FKb-2Bz4Car-2FlqkfxwdMMsXbFRLfFFb5=
+5y-2B2fTuu9tCLQOIRPcTimtnF-2F1H7GaPi1YgrRkWPdT26m407rdVUz3G98yVD-2FeqPHVIU3=
+rKRxuWN1Uzp-2FbXDOkbJYJlO2L3GhjiHIV-2BOLLzQNUd-2F59sGcsSRSbwihcTy6AKNyHGSyl=
+sD4SAbv-2FyhtPC7PPtT9qrjXE2GPGhJWTZ96pBmm8P-2FPL0zE1DBkBB7TJOB5jiTaooPavfp8=
+F-2FYdt19UzLiSNV66RsmqnL8PZz24SsOdUzvhadIn0mr3L5pDboXoIiDxJXtkL5fFUOwEs4AcF=
+-2By7MA12hBSrV6w-3D-3D" target=3D"_new">www.authentisign.com</a>.
+                                                                </span>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                    <!--[if (gte mso 9)|(IE)]>
+                    </td>
+                    </tr>
+                    </table>
+                    <![endif]-->
+                    <!-- // END TEMPLATE -->
+                </td>
+            </tr>
+        </table>
+    </center>
+<img src=3D"https://u25875447.ct.sendgrid.net/wf/open?upn=3Du001.BQMNtbz5wY=
+jrj2HGZz5rbmEzyVjOJe6DyB-2BdltdDML0NGbphETxQZSyxBThLSJgD84-2FHbTw1wzeFLTcDn=
+mZLaZDx4lT20uGNIddwA6OcmtI3Nux5Yi8-2FWH-2FDZx6MhkAJnLcdt6nPPoWu7n5w-2FHeCQY=
+xK-2FUKMo9siTzzQmNub4dEsQE1tEd5qbi-2FxMpe-2B7wRpiEhkHh0df0LlB6jboFu4lisU5xi=
+SDRdapbgkdgU7r9QWlf5dW4fPsrdcLuEkFp2Ax6CTHrnccLefbbzGYwnrIhWQPY3R9VGj-2Fs1J=
+S-2FKzDgZkqU49E-2FFD5of4OqfYMx34Q5gtrpAeyn27Yw7GHQofxMXIXU6Z6fgP-2FQ5DyXhLc=
+hKJ7UwuIbS4-2BMnphqHIppDbJEDIinII-2FXqV-2BLe1nV1X843Lfhpq8sVzLaXaoG4U7LE-3D=
+" alt=3D"" width=3D"1" height=3D"1" border=3D"0" style=3D"height:1px !impor=
+tant;width:1px !important;border-width:0 !important;margin-top:0 !important=
+;margin-bottom:0 !important;margin-right:0 !important;margin-left:0 !import=
+ant;padding-top:0 !important;padding-bottom:0 !important;padding-right:0 !i=
+mportant;padding-left:0 !important;"/></body>
+
+</html>
+--5142182c88c0b11731afd45475edff0c08f309e302d6e0e87629f38a80c6--

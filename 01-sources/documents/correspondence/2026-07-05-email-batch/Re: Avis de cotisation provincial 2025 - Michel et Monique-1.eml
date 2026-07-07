@@ -1,0 +1,332 @@
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: maximelebrasseur@gmail.com
+Received: by 2002:a05:7413:f18:b0:1d7:989f:46d9 with SMTP id uu24csp687205rdb;
+        Thu, 28 May 2026 16:02:05 -0700 (PDT)
+X-Received: by 2002:a05:6a00:12d3:b0:83a:7516:5be0 with SMTP id d2e1a72fcca58-84212ca331cmr171848b3a.50.1780009325173;
+        Thu, 28 May 2026 16:02:05 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1780009325; cv=pass;
+        d=google.com; s=arc-20240605;
+        b=XqJq7c8rOKgeSk8jsXpxt2Unq/ALfYrLxswTrie2S1N38q5L6ULO2Y822dabYUhaBk
+         YbTiW9xg5mPcG1B19qP8imbayDMKpbeFwCg3zrzQHrc8QBrQEM5aVtMGUkVz+F0E2VXI
+         DyuWs5QZyASnhmY+xSIwnbUrMuIhnpQ1VrA0KwlG7NJ8xifBMlBY3ViRuKVA2J75xtLl
+         VsSUw/qDk4u5YWlLchSbVnrD3NG3tmb7GHH2VSXaP2E8+R/c0XhhJ5oeRTwsS5bXipgE
+         uvGrG9vTFB+iI+vE8abWR9se3Z+Lxuhav+/OBe1XIenuLwvQZhwbCfVgwl8JKWkUReyU
+         l65g==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=mime-version:msip_labels:content-language:accept-language
+         :in-reply-to:references:message-id:date:thread-index:thread-topic
+         :subject:to:from:dkim-signature;
+        bh=vdrq8ooK+AWYgBILLOM0GWVi3Ldvy9/Oqs3i+7w4D0E=;
+        fh=p96Euozu17yXaQCa3LqiadvyyjsnMREK2j0i5cn7r9g=;
+        b=d20dlMkm9xrnBT9O9Tt2c/ofT1cykkWhL42xSE2n4hQ7QHGULSt3+o08+wTXidNERc
+         ES40sOVq8JRhXxQzbRYmwEvE7S07QtFA6Z/gSSpTgV+tiljsEmiwHOq+q1Pyix63ot/T
+         3KrmMVyD+GOVBMkWsKAlbLeHydvxJmN2vaE0CyZajr3WKqARtkrOc6sFIwlOiTmQsqHW
+         Ycw2t2o8qzbjnyH/RdXHEV5xtMXBjH376DxIBYUrfzug7sNxs3zP6zxmv5XHJN6ZAud9
+         3TWtDzZrfTykIYLZUhPgZsSRgWOan63DapQXBrAJ4LTdrn5iRv2bnslQtnCa48nV+kgm
+         PEYw==;
+        dara=google.com
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@desjardins.com header.s=desjardins01 header.b=Wf1tdCsC;
+       arc=pass (i=1 spf=pass spfdomain=desjardins.com dkim=pass dkdomain=desjardins.com dmarc=pass fromdomain=desjardins.com);
+       spf=pass (google.com: domain of jessica.a.st-pierre@desjardins.com designates 216.71.129.88 as permitted sender) smtp.mailfrom=jessica.a.st-pierre@desjardins.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=desjardins.com
+Return-Path: <jessica.a.st-pierre@desjardins.com>
+Received: from esa.hc784-89.ca.iphmx.com (esa.hc784-89.ca.iphmx.com. [216.71.129.88])
+        by mx.google.com with ESMTPS id d2e1a72fcca58-84213665947si70646b3a.266.2026.05.28.16.02.04
+        for <maximelebrasseur@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-CHACHA20-POLY1305 bits=256/256);
+        Thu, 28 May 2026 16:02:05 -0700 (PDT)
+Received-SPF: pass (google.com: domain of jessica.a.st-pierre@desjardins.com designates 216.71.129.88 as permitted sender) client-ip=216.71.129.88;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@desjardins.com header.s=desjardins01 header.b=Wf1tdCsC;
+       arc=pass (i=1 spf=pass spfdomain=desjardins.com dkim=pass dkdomain=desjardins.com dmarc=pass fromdomain=desjardins.com);
+       spf=pass (google.com: domain of jessica.a.st-pierre@desjardins.com designates 216.71.129.88 as permitted sender) smtp.mailfrom=jessica.a.st-pierre@desjardins.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=desjardins.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple;
+  d=desjardins.com; i=@desjardins.com; q=dns/txt;
+  s=desjardins01; t=1780009325; x=1811545325;
+  h=from:to:subject:date:message-id:references:in-reply-to:
+   mime-version;
+  bh=vdrq8ooK+AWYgBILLOM0GWVi3Ldvy9/Oqs3i+7w4D0E=;
+  b=Wf1tdCsCOOc2cdM+87xExBH97NP6MbswZIDGLzaAQP0IvrPU/+EWAMYd
+   tFGB/NJR9d8goo18v0au8hpa5KNi3UkOB/f4RZ4P0G3YmagI6z3FtLfbz
+   LRFm5A6IcppsGb1yBemSZ/lzJixVug4bboOpkHJJRFkZq1ZCjBbfTvM/N
+   WiuUOHdg7n+GoURbpcAmqM/iJQAmVZjy1r6fPmCxCdajPKFHWQeZylFpA
+   IQbrXFqfn8NTaPb4GOJBBWXe7rY0mPnSUuLdKqlYReASrgq/TTuyaD/Aj
+   Mopka6/cJCzqvwhQPSZffi/jBYtDUgO+zCQ2s+OCXQjl1B8wKlxPaVYiD
+   w==;
+X-CSE-ConnectionGUID: pbAsBbggTA+1TTkm292c7A==
+X-CSE-MsgGUID: OSLvoD+cQIu8IriBc23l6w==
+X-DESJ-BANNER: true
+X-DJDIAG: PINK
+X-IronPort-AV: E=Sophos;i="6.24,174,1774324800"; 
+   d="scan'208,217";a="21590070"
+X-filesizes: None
+X-DSD-OOB: 
+Received: from mail-canadacentralazon11011009.outbound.protection.outlook.com (HELO YT5PR01CU002.outbound.protection.outlook.com) ([40.107.192.9])
+  by ob1.hc784-89.ca.iphmx.com with ESMTP/TLS/ECDHE-RSA-AES256-GCM-SHA384; 28 May 2026 19:02:04 -0400
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector10001; d=microsoft.com; cv=none;
+ b=Dt8opDScCAolCPDiUlGu3Hy5ardIOb4v1yUNVbouS0TRHxX/72pcdFxnXq5/Hu2CFqL9bHDg9UjiACkrk/J/8Jzy04jUVlJxfKN5X6kWc0NjfS97BrlEfmkc0jrwqVDRXtCyAju4P9o5hU+v0oCWyggVPWyj9P5DiNOQoEYYRvothTv8NFoFC+t8qiyr1Hd1SUTmhG6GWyi9yaKAKFw+Rvib6u/i+1kxXrNdRo8QN2b7A+WawkDi/2C/LNL3SbjxClWd7uHIPCfYj+cIaT6+jBT82rG4AYr7fD9RMN57z6EIO8y8MSr1ifTG5hQ6yQsIYFLNYyQZ5HqogCSw+y4gUQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector10001;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=vdrq8ooK+AWYgBILLOM0GWVi3Ldvy9/Oqs3i+7w4D0E=;
+ b=jamVcyY8xBcGNANAPnV2Mq3E1XvBstSyDNmBXe1roeyOdq3Xz2sE11l/W4i3z8Zugq7ks3P4HyN+M/jGdl4wR5FBBoPvYEVxsMljfUJ1552A0Zm7Z8EvsSC0MgGVk0+8pCK+FWCoYqL9X4bh0ta1PmMYlo/6Dngl7eMsvgyGDtj19ScA9CC3Ga3wy8udZH7IEA7e2d9UmXcdrplkHZoRxINoYCyDORZ7H7aOlsfqOwKAk3wGgOXhtnQ80t8VuQfBtNEIy81/t1r5tR/SXaJJqQff/SX7wX+FSH7USZpbeml6d9osHct995B2hvZcxwHGLZw7AZH1q8kyojiKHgvZWw==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=pass
+ smtp.mailfrom=desjardins.com; dmarc=pass action=none
+ header.from=desjardins.com; dkim=pass header.d=desjardins.com; arc=none
+Received: from YT4PR01MB11665.CANPRD01.PROD.OUTLOOK.COM (2603:10b6:b01:159::9)
+ by YT5PR01MB11232.CANPRD01.PROD.OUTLOOK.COM (2603:10b6:b01:137::19) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.21.92.4; Thu, 28 May 2026
+ 23:02:02 +0000
+Received: from YT4PR01MB11665.CANPRD01.PROD.OUTLOOK.COM
+ ([fe80::f7e:f7dd:3a30:a7a7]) by YT4PR01MB11665.CANPRD01.PROD.OUTLOOK.COM
+ ([fe80::f7e:f7dd:3a30:a7a7%4]) with mapi id 15.21.0092.004; Thu, 28 May 2026
+ 23:02:01 +0000
+From: Jessica St-Pierre <jessica.a.st-pierre@desjardins.com>
+To: Maxime Lebrasseur <maximelebrasseur@gmail.com>
+Subject: Re: Avis de cotisation provincial 2025 - Michel et Monique
+Thread-Topic: Avis de cotisation provincial 2025 - Michel et Monique
+Thread-Index: AQHc7vW39959vuG5HEmknulju75QxrYkDgoC
+Date: Thu, 28 May 2026 23:02:01 +0000
+Message-ID:
+ <YT4PR01MB1166515AB8A44568666E0EE1D98092@YT4PR01MB11665.CANPRD01.PROD.OUTLOOK.COM>
+References:
+ <CAAtef9utawKQ7ZELLghjTLfqJkcLG+3DMTpv5rdWa32PV=+cuw@mail.gmail.com>
+In-Reply-To:
+ <CAAtef9utawKQ7ZELLghjTLfqJkcLG+3DMTpv5rdWa32PV=+cuw@mail.gmail.com>
+Accept-Language: fr-FR, en-US
+Content-Language: fr-CA
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+msip_labels:
+ MSIP_Label_a9694e0f-943f-4e6f-bf55-6e34fbc91307_Enabled=True;MSIP_Label_a9694e0f-943f-4e6f-bf55-6e34fbc91307_SiteId=728d20a5-0b44-47dd-9470-20f37cbf2d9a;MSIP_Label_a9694e0f-943f-4e6f-bf55-6e34fbc91307_SetDate=2026-05-28T23:01:55.7295484Z;MSIP_Label_a9694e0f-943f-4e6f-bf55-6e34fbc91307_Name=Usage
+ interne;MSIP_Label_a9694e0f-943f-4e6f-bf55-6e34fbc91307_ContentBits=0;MSIP_Label_a9694e0f-943f-4e6f-bf55-6e34fbc91307_Method=Standard
+x-ms-reactions: allow
+authentication-results: dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=desjardins.com;
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: YT4PR01MB11665:EE_|YT5PR01MB11232:EE_
+x-ms-office365-filtering-correlation-id: 5016ffe8-f0e9-4bb8-3859-08debd0d20bd
+x-outbound-from-o365-to-cisco: True
+x-ms-exchange-senderadcheck: 1
+x-ms-exchange-antispam-relay: 0
+x-microsoft-antispam:
+ BCL:0;ARA:13230040|1800799024|366016|376014|11063799006|18002099003|56012099006|22082099003|8096899003|38070700021;
+x-microsoft-antispam-message-info:
+ 9rsWp0jpHIq4qozKL6ok9r3+kGnDVeG+MuALe/bawWA5qIyqRNCMIbuth78iU4flOBGWbv7Z0TAqWtG7Vg32DYbG0KLQleBe95mnr20f7g7DYmExeJXtSi0+/mjt8qydBmtiFLYCzbb+kXZycOKWdT4qGHT8UaUbJlhzu2z5dyvVioLPx9vO0M1aiT8vErU3hbyAeBxau9nyDPHae1O70L56MJCwGX47HZzGdEZlm1h77uUGDrglIsYAXsJv35gRB9b8raPsIdf8GOIiEQ4IlfwjPG8rfMgB+OWHDJCCs7NZX7wnQ+L5S3IjdnIpBjw35MQJZj9FapAOsf56qlG+nylTNT4yAvkifvwfARjApigXBDTvpIqpjR+paYJjZVXfHL+YpRztJJunNZI94Abw+vONm1bWW6B/Nxhhjaj63bKgNdT8KkZrQZTBqS7nVkGYu4Xs595NQrlCHC1fI0PNTM3OE93TCBQmJ1WZkSouxPIv0NtcnuAiLqDXuikP8aojY55KmJCbQo39zSeGKtx0HqYuTxp+DtTtmk5wmdUs4j54ELqAxUe4ZKQKms7pvlv9ntVYF87WRQtKb8dL2j01c+wNwQ4yV8PfRdJAMKhOEpDC7m7U9bXhWIGsovN2TUkBOeJo7oi4dE8QSk6keEI5rT9B2o4opAk6fH32RTyhXRXqNS4PoT+TbCegd1D2dCkz4rPjxsUzFGUymO4nix75M7sUGBr5Ocan9ICMK7blrgWiBQI31BgDwcb6TZwSCJnL
+x-forefront-antispam-report:
+ CIP:255.255.255.255;CTRY:;LANG:fr;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:YT4PR01MB11665.CANPRD01.PROD.OUTLOOK.COM;PTR:;CAT:NONE;SFS:(13230040)(1800799024)(366016)(376014)(11063799006)(18002099003)(56012099006)(22082099003)(8096899003)(38070700021);DIR:OUT;SFP:1101;
+x-ms-exchange-antispam-messagedata-chunkcount: 2
+x-ms-exchange-antispam-messagedata-0:
+ =?Windows-1252?Q?CdL3uoDDcxRqzSbqec+kex67xrNsUC6NnhKJ9kd3pg9kUVU9j4gmj9fQ?=
+ =?Windows-1252?Q?WHttUylw2qibarcxYD0wIpnKX7xRB8v/WLW9e40T/G15Zeu1cAgIPM/Y?=
+ =?Windows-1252?Q?Y/q41MmXBwVjZ8uO7Gd9q+DReIb4LAiD5q6qj2NHMUy1AMbAOmcat4kc?=
+ =?Windows-1252?Q?g6tnGgIY9bGm0TFgvP8GFwMPX2JSlryQOikcUeZ30PIb+OQSwyrGaHGt?=
+ =?Windows-1252?Q?wp2HcwRHkh1Op+1xu7Z4cdhf65pvooOv/nCTpx7QTx94+CwkNejUnq6u?=
+ =?Windows-1252?Q?qIRDJ4OLEbgOn4kPUQzNfdVr/4wuaZEm6R/eYbKIbPM/nIR79EMNSF6j?=
+ =?Windows-1252?Q?JZcIcRRl9ydUAI2HSUU/QL/f2+IC75BFOrZFNis5kFCixmO8J6UWugO3?=
+ =?Windows-1252?Q?MnlHQeaanuiXrT3eLE20e3Ts5VNoq8kZLD/1oIBKZdLZIeS+WqjPWV4K?=
+ =?Windows-1252?Q?IGgDklk91uXHqIwqrXG1unWNfBGpC2rvdvqtrfjL5IK4+7XJDDnE0/AE?=
+ =?Windows-1252?Q?pGMo5eGbOMKXPY1RpPVX7L6XmypS05CQb76js7E3AyINQamSjD1IIMfc?=
+ =?Windows-1252?Q?KjQOCrHSCy6wRBbJ7cnHxaLBiUuEbxrx5ttF1+MwhQVm3KUlz8eMp403?=
+ =?Windows-1252?Q?nCGOSVdXVntBTrjb3w3n+yRsuxYRhEPbaZmfrhwgRHe/7b3rmwa3rq1I?=
+ =?Windows-1252?Q?D0F+Rasx5o2Q0v2A6e/I0oALmzCTUtcH70fSjn6nz6v0ZLWp0fOhOQLy?=
+ =?Windows-1252?Q?3cct137fvTkamJv3aljkklgeQsJqMdZZBwoo7v4pqakid0gyccZ1mKO4?=
+ =?Windows-1252?Q?Wjnl+Zcl2SqJHFkznkI8OCsbeKhzVNauLGKF9UfMnz62cCy9fJEVYGoZ?=
+ =?Windows-1252?Q?ve+rUKWYcx8PKfAvAGjOnTp9Qzk5J5Z0MlwBW6m/c2p36jTAQ0ZC4ufV?=
+ =?Windows-1252?Q?uwwV2Ytg+kXcWkfcYkBm0jLVoe8Y5F4MWoDw/U0yINYhS2AX+WKaH4dc?=
+ =?Windows-1252?Q?FBMSGquhWEZ9AE+Czob1fn9+smDlsh3C+Nowht0Dv+EGzNSA7jUIGktd?=
+ =?Windows-1252?Q?zcEDedydqSvvq+OhDMRe4Y7h3to1IyH0FLMNRihIPGDEzl+IflMLCXfG?=
+ =?Windows-1252?Q?nA9yxG4EiYvNxnf8+N7WjY8AJaX+qiUeePsUn/0zmkyTauko8MbAt+ZU?=
+ =?Windows-1252?Q?uZnWVNSAvE5CcyQh6TezVKrOUTSzuMwfgWgn39Mik62GAbarUQH4SzC8?=
+ =?Windows-1252?Q?CFUT7xRSUdz7qmAcgihKgkUarjhY/QoF/22GcBEJUOYMzJZzN4t/KoBN?=
+ =?Windows-1252?Q?cB7A8rfBHOJtaRD4SGJ/JnltTikbFVcKllmTihV8RQCtLNx5tlCWHuy2?=
+ =?Windows-1252?Q?hgW7rBnABiskv71XZF6h+TEuNpI9hRiMrpFosNBWpcofEyVzbQgtYGEr?=
+ =?Windows-1252?Q?Nw39brUpCz6rtl+X8UMtaXzBackvldS4DnfGJd4SaS3Wq5SqftvhVajG?=
+ =?Windows-1252?Q?KQjJGz3KXUrNlgOPk3xIWXmH0VgUPVHQClzI8q/2YBYeg+qWTczaClNS?=
+ =?Windows-1252?Q?bOAu+Q1xEvgatpksQCKgxqf9WaS29DhYRbaa1LDHi3NaBw5JxJYLQQU5?=
+ =?Windows-1252?Q?P32DCAZfh5lfhMqK93uMVBUJg9yYnNX/g4gFW0e67R3XDlvY3z6EGW4m?=
+ =?Windows-1252?Q?K8WM8JLzd/V3xwq5ZVNooUj8/29+r326hqCQzU07qAM7f4eUsz6iX+mo?=
+ =?Windows-1252?Q?5eJLGlzrbCdFYino3kFHGki7ljyNyUlTzDYVocCGcgKLpJtSO2lAybPF?=
+ =?Windows-1252?Q?s9JJD9FUd8kmINtK/UB0yOjlH8H6/UL5PWsAmABbvo4+dHMBIzCJkUIR?=
+ =?Windows-1252?Q?FgqEVM7yAQTT/igzN5t1QuGskANvm3GT4c0RzXdqIRLR6uHUZjzPR+Y2?=
+ =?Windows-1252?Q?vPONFLZT?=
+x-ms-exchange-antispam-messagedata-1: 3eyGUAnEGifbKQ==
+Content-Type: multipart/alternative;
+	boundary="_000_YT4PR01MB1166515AB8A44568666E0EE1D98092YT4PR01MB11665CA_"
+MIME-Version: 1.0
+X-Exchange-RoutingPolicyChecked:
+	Y/P3N8875wI9HoXWhzC4W/EUd0vGfanTetmIeg9K2R4aGIXcYQQMO4QGDgkEwxUTDqW1s5Iumb/Grbde68dfQ6BcRSZM0nXF1LYoSeQwHmXA2UuH3mtJNyAhSUMmphnCo9k0BNm4vE7nvGert0kyRrcmtYsY54Z811po+KEYY6nnKMud3jxyb+eCbfOUdJ57CUftqCArI9KMFtlBelZzEPJ2771o54KRYXHQntcqqfZ9am7bIzoof2GxYfPdpef9a2z8Xl6sxuNV4NT7TCNXdfD+nrNBeM0AxtLuPgas+uLRfPwzAp9xnOzCdcdmOl6pFwGAZLne7bubklTdvYIiEQ==
+X-OriginatorOrg: desjardins.com
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: YT4PR01MB11665.CANPRD01.PROD.OUTLOOK.COM
+X-MS-Exchange-CrossTenant-Network-Message-Id: 5016ffe8-f0e9-4bb8-3859-08debd0d20bd
+X-MS-Exchange-CrossTenant-originalarrivaltime: 28 May 2026 23:02:01.4548
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 728d20a5-0b44-47dd-9470-20f37cbf2d9a
+X-MS-Exchange-CrossTenant-mailboxtype: HOSTED
+X-MS-Exchange-CrossTenant-userprincipalname: m/K+LJKran1U0JmkGPVY/KAoJ7QWfX633QgAaONuzcNJtPuCgRdm95JM+4eKjgczXhBven0SwkT5vVZsGOzjacbi2huYO04c5YmyPV+xCq15idpw6RoOexDFOh02ir0U
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: YT5PR01MB11232
+
+--_000_YT4PR01MB1166515AB8A44568666E0EE1D98092YT4PR01MB11665CA_
+Content-Type: text/plain; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+Bien re=E7u merci!!
+
+Jessica St-Pierre
+Repr=E9sentante hypoth=E9caire Desjardins
+514-576-1873
+jessica.a.st-pierre@desjardins.com
+
+
+________________________________
+De : Maxime Lebrasseur <maximelebrasseur@gmail.com>
+Envoy=E9 : Thursday, May 28, 2026 6:59:06 PM
+=C0 : Jessica St-Pierre <jessica.a.st-pierre@desjardins.com>
+Objet : Avis de cotisation provincial 2025 - Michel et Monique
+
+COURRIEL EXTERNE CONTENANT UNE PI=C8CE JOINTE OU UN LIEN URL / EXTERNAL EMA=
+IL WITH AN ATTACHMENT OR A URL LINK
+Soyez vigilant, d=E9veloppez les bons r=E9flexes et ne t=E9l=E9chargez aucu=
+ne pi=E8ce jointe non sollicit=E9e! Au besoin, cliquez sur l=92ic=F4ne Sign=
+aler ou faites suivre ce courriel =E0 protection@desjardins.com. / Be vigil=
+ant, develop the right instincts and do not download any unsolicited attach=
+ment! If required, click the Report button or forward the email at protecti=
+on@desjardins.com
+
+Bonjour Jessica,
+
+Voici les avis de cotisation de mes parents.
+
+Merci,
+
+--
+Maxime Lebrasseur
++1 (514) 647-0509<tel:15146470509>
+maxime.lebrasseur@gmail.com<mailto:maxime.lebrasseur@gmail.com>
+
+--_000_YT4PR01MB1166515AB8A44568666E0EE1D98092YT4PR01MB11665CA_
+Content-Type: text/html; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DWindows-1=
+252">
+</head>
+<body>
+<div style=3D"font-family: Aptos, -apple-system, HelveticaNeue, sans-serif;=
+font-size: 12pt">
+<div style=3D"font-family: Aptos, Aptos_MSFontService, -apple-system, Robot=
+o, Arial, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);" dir=
+=3D"ltr">
+Bien re=E7u merci!!</div>
+</div>
+<div id=3D"ms-outlook-mobile-body-separator-line" style=3D"font-family: Apt=
+os, -apple-system, HelveticaNeue, sans-serif;font-size: 12pt" dir=3D"auto">
+<br>
+</div>
+<div id=3D"ms-outlook-mobile-signature" style=3D"font-family: Aptos, -apple=
+-system, HelveticaNeue, sans-serif;font-size: 12pt">
+<div dir=3D"ltr">
+<div style=3D"direction: ltr; text-align: left;" dir=3D"auto">Jessica St-Pi=
+erre</div>
+<div style=3D"direction: ltr; text-align: left;" dir=3D"auto">Repr=E9sentan=
+te hypoth=E9caire Desjardins</div>
+<div style=3D"direction: ltr;">514-576-1873</div>
+<div style=3D"direction: ltr;">jessica.a.st-pierre@desjardins.com</div>
+<div style=3D"direction: ltr;" dir=3D"ltr"><br>
+</div>
+<div style=3D"direction: ltr;" dir=3D"ltr"><br>
+</div>
+</div>
+</div>
+<hr style=3D"display:inline-block;width:98%" tabindex=3D"-1">
+<div id=3D"divRplyFwdMsg" dir=3D"ltr"><font face=3D"Calibri, sans-serif" st=
+yle=3D"font-size:11pt" color=3D"#000000"><b>De :</b> Maxime Lebrasseur &lt;=
+maximelebrasseur@gmail.com&gt;<br>
+<b>Envoy=E9 :</b> Thursday, May 28, 2026 6:59:06 PM<br>
+<b>=C0 :</b> Jessica St-Pierre &lt;jessica.a.st-pierre@desjardins.com&gt;<b=
+r>
+<b>Objet :</b> Avis de cotisation provincial 2025 - Michel et Monique</font=
+>
+<div>&nbsp;</div>
+</div>
+<div>
+<table class=3D"x_MsoTableGrid" cellspacing=3D"0" cellpadding=3D"0" border=
+=3D"0" style=3D"border-collapse:collapse; border:none; color:#454545; font-=
+size:10pt; font-family:'Segoe UI',sans-serif; width:100%; margin:0; text-al=
+ign:left">
+<tbody>
+<tr>
+<td valign=3D"top" style=3D"width:10px; background:#DCB433; padding:8pt .7p=
+t"></td>
+<td valign=3D"top" style=3D"background:#FEEEBA; padding:2pt 8pt"><span styl=
+e=3D"font-weight:bold">COURRIEL EXTERNE CONTENANT UNE PI=C8CE JOINTE OU UN =
+LIEN URL / EXTERNAL EMAIL WITH AN ATTACHMENT OR A URL LINK</span><br>
+<span style=3D"font-size:9pt"><span style=3D"font-weight:bold">Soyez vigila=
+nt, d=E9veloppez les bons r=E9flexes et ne t=E9l=E9chargez aucune pi=E8ce j=
+ointe non sollicit=E9e!</span> Au besoin, cliquez sur l=92ic=F4ne Signaler =
+ou faites suivre ce courriel =E0 protection@desjardins.com.
+ / <span style=3D"font-weight:bold">Be vigilant, develop the right instinct=
+s and do not download any unsolicited attachment!</span> If required, click=
+ the Report button or forward the email at protection@desjardins.com</span>=
+</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+<div>
+<div dir=3D"ltr">
+<div>Bonjour Jessica,</div>
+<div><br>
+</div>
+<div>Voici les avis de cotisation de mes parents.</div>
+<div><br>
+</div>
+<div>Merci,</div>
+<br>
+<span class=3D"x_gmail_signature_prefix">-- </span><br>
+<div dir=3D"ltr" class=3D"x_gmail_signature" data-smartmail=3D"gmail_signat=
+ure">
+<div dir=3D"ltr">
+<div>
+<div dir=3D"ltr">
+<div>
+<div dir=3D"ltr">
+<div>
+<div dir=3D"ltr">
+<div>
+<div dir=3D"ltr">
+<div><font size=3D"4"><b>Maxime Lebrasseur</b></font><font size=3D"4"><b><f=
+ont size=3D"2"><br>
+</font></b></font><a href=3D"tel:15146470509" target=3D"_blank">+1 (514) 64=
+7-0509</a><font size=3D"4"><font size=3D"2"><br>
+</font></font></div>
+<div><font size=3D"4"><font size=3D"2"><a href=3D"mailto:maxime.lebrasseur@=
+gmail.com" target=3D"_blank">maxime.lebrasseur@gmail.com</a></font><br>
+</font></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
+
+--_000_YT4PR01MB1166515AB8A44568666E0EE1D98092YT4PR01MB11665CA_--

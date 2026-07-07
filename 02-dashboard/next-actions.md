@@ -1,38 +1,51 @@
 # Next Actions
 
-Last updated: 2026-07-05
+Last updated: 2026-07-06
 
 ## Urgent
 
 | Action | Owner | Due Date | Related Area | Source | Status |
 |---|---|---|---|---|---|
-| Provide and process the later document that resolves construction year |  |  | Property | SRC-2026-001, SRC-2026-003, SRC-2026-004, SRC-2026-006 | Open |
-| Confirm accepted PA/PL date, deed date, occupancy date, and accepted purchase price |  |  | Legal / closing | SRC-2026-001, SRC-2026-002 | Open |
-| Ask notary how 2026 municipal and 2025-2026 school taxes will be adjusted at closing |  | Before closing | Finance / taxes | SRC-2026-004, SRC-2026-005 | Open |
-| Confirm whether a current certificate of location is required |  | Before closing | Legal / closing | SRC-2026-001, SRC-2026-003 | Open |
-| Request documentation for prior oil or fuel tank disclosure |  | Before inspection / closing | Inspection | SRC-2026-003 | Open |
-| Tell notary, insurer, and lender the property is a legal 2 unit building with a rentable second unit |  | Before closing | Legal / insurance / financing | SRC-2026-001, SRC-2026-004, SRC-2026-007, SRC-2026-008 | Open |
+| Confirm buyer's notary and provide PA, MOs, mortgage acceptance, tax, and inspection documents |  | Before deed | Legal / closing | SRC-2026-011, SRC-2026-012, SRC-2026-014, SRC-2026-015 | Open |
+| Ask notary how 2026 municipal and 2025-2026 school taxes will be adjusted at deed signature |  | Before deed | Finance / taxes | SRC-2026-004, SRC-2026-005, SRC-2026-011 | Open |
+| Confirm whether seller will provide current certificate of location or pay 2,000 CAD compensation |  | Before deed | Legal / closing | SRC-2026-011 | Open |
+| Ensure notary retains the 1,500 CAD seller repair holdback at deed signature |  | 2026-08-31 | Legal / repairs | SRC-2026-012 | Open |
+| Verify seller repair completion and garage-ceiling before/after photos |  | Before occupancy | Inspection / repairs | SRC-2026-012, SRC-2026-015 | Open |
+| Schedule and bind home insurance |  | Before deed / lender deadline | Insurance | SRC-2026-016 | Open |
+| Confirm final mortgage offer terms |  | One month before deed; by 2026-07-31 if deed is 2026-08-31 | Financing | SRC-2026-014 | Open |
+| Confirm loan contract and mortgage deed signing appointment |  | Before 2026-09-05 | Financing | SRC-2026-014 | Open |
+| Request documentation for prior oil or fuel tank disclosure |  | Before deed / insurance binding | Inspection / insurance | SRC-2026-003 | Open |
+| Tell notary, insurer, and lender the property is a legal 2 unit building with a rentable second unit |  | Before deed / insurance binding | Legal / insurance / financing | SRC-2026-001, SRC-2026-004, SRC-2026-007, SRC-2026-008, SRC-2026-014, SRC-2026-016 | Open |
 
 ## Upcoming
 
 | Action | Owner | Due Date | Related Area | Source | Status |
 |---|---|---|---|---|---|
-| Request details for seller-declared additions, replacements, or modifications since 2018 |  |  | Legal / inspection | SRC-2026-003 | Open |
 | Keep or request documentation confirming the second unit's legal rental status |  |  | Legal / property | SRC-2026-004, SRC-2026-007, SRC-2026-008 | Open |
 | Ask when the bachelor unit was added |  |  | Property history | SRC-2026-007, SRC-2026-008 | Open |
-| Verify backwater valve status |  |  | Inspection / plumbing | SRC-2026-003 | Open |
-| Reconcile air-exchanger conflict |  |  | HVAC | SRC-2026-001, SRC-2026-003 | Open |
+| Request quote or expert review for foundation cracks |  |  | Foundation | SRC-2026-015 | Open |
+| Request plumber review for garage exterior drain basin and water infiltration risk |  |  | Drainage / garage | SRC-2026-015 | Open |
+| Confirm whether garage ceiling material contains asbestos before removal |  | Before seller / contractor removal | Garage / environmental | SRC-2026-012, SRC-2026-015 | Open |
+| Request masonry review for mortar cracks and damaged concrete sills |  |  | Exterior | SRC-2026-015 | Open |
+| Confirm water heater installation year conflict, 2021 vs 2023 |  |  | Plumbing / insurance | SRC-2026-003, SRC-2026-015 | Open |
+| Replace exterior outlets with GFI outlets or get electrician quote |  |  | Electrical | SRC-2026-015 | Open |
 | Request supporting documents for heat pump, air conditioning, sump pump, water heater, roof, and electrical panel |  |  | Property systems | SRC-2026-003 | Open |
-| Focus inspection on drainage, sump pump, French drain access, foundation, prior oil tank indicators, HVAC, and electrical panel |  |  | Inspection | SRC-2026-003 | Open |
+| Confirm French drain condition or access options if needed |  |  | Drainage | SRC-2026-003, SRC-2026-015 | Open |
 
 ## Waiting On
 
 | Item | Waiting On | Since | Source | Notes |
 |---|---|---|---|---|
-| Construction-year resolution document | User | 2026-07-05 | SRC-2026-006 | Current sources conflict between 1963 and 1970 |
+| Final mortgage offer terms | Desjardins / Jessica St-Pierre | 2026-07-05 | SRC-2026-014 | Acceptance letter does not include final rate, payment, frequency, or first payment date |
+| Home insurance quote / policy | Desjardins Assurances / user | 2026-07-05 | SRC-2026-016 | Quote contact received; policy not yet recorded |
+| Seller repair completion proof | Seller / buyer broker | 2026-07-05 | SRC-2026-012 | Includes garage-ceiling before/after photos |
 
 ## Done
 
 | Date Completed | Action | Source | Notes |
 |---|---|---|---|
 | 2026-07-05 | Processed initial source documents from inbox | SRC-2026-001, SRC-2026-002, SRC-2026-003, SRC-2026-004, SRC-2026-005, SRC-2026-006 | Originals archived and source notes created |
+| 2026-07-05 | Recorded buyer-side and seller contact details | SRC-2026-009, SRC-2026-010 | Jessica St-Pierre, Michaël Labelle, and Jacob cellphone added |
+| 2026-07-05 | Processed signed PA, modifications, mortgage, inspection, insurance, tax-support, and correspondence email batch | SRC-2026-011, SRC-2026-012, SRC-2026-013, SRC-2026-014, SRC-2026-015, SRC-2026-016, SRC-2026-017, SRC-2026-018, SRC-2026-019 | 40 .eml files archived; key PDFs extracted |
+| 2026-07-05 | Resolved construction year to 1963 | SRC-2026-013 | MO-58842 modifies D2.2 to 1963 |
+| 2026-07-05 | Resolved backwater valve status and air-exchanger conflict | SRC-2026-015 | Backwater valve identified; no air exchanger present |

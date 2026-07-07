@@ -1,0 +1,631 @@
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: maxime.lebrasseur@gmail.com
+Received: by 2002:a05:7412:2007:b0:1d7:989f:46d9 with SMTP id u7csp520983rda;
+        Thu, 11 Jun 2026 12:25:29 -0700 (PDT)
+X-Received: by 2002:a17:90b:5607:b0:35e:d015:d675 with SMTP id 98e67ed59e1d1-3779d7a1208mr4969047a91.7.1781205929172;
+        Thu, 11 Jun 2026 12:25:29 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1781205929; cv=pass;
+        d=google.com; s=arc-20240605;
+        b=hmF9bvNSsWGAupVmyGhzjyJiPB910+fZExLEe0M6kCdLkmRS13HuXDUaHe9t54xU8L
+         jGL0aF3h21Rhv+sN2O7MrmYTibbeigLD4GofdoVz5+kePAKrKo81dVS5B6C42XpmypEA
+         UnIGmebUyqyeJ3OuQBUDiVqGTJuPr66NB1beHIRMl4YpzCf6r5gpPZfbFu6ITyCzipol
+         H4XCI7d79F8Ki2TYoyGj6XiSrwT4joulxZvUEu5usNV6FwyEbq/xpVF+Pfmjq5ngczhf
+         5cuTlKjJh+wsM/kPHCCqbdLsH0iroWkzLTjeq9X6O3qythwGdqp1Kl9w9w5Tw8VktDka
+         BHWA==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=mime-version:msip_labels:content-language:accept-language
+         :message-id:date:thread-index:thread-topic:subject:to:from
+         :dkim-signature;
+        bh=ZN2ZqHeqKLifi5ZUIEq1g4KvOK1ktP4LQ/cidpjc0gQ=;
+        fh=cztF0LhvyRkpuPnP1l1rZ5CIYKyAptbhxB8dbh0dS+8=;
+        b=OmngFFYb5AOplxIt6botFv/90Xjb/36NwIbAzjAdselD3fFvh4xkhsQX57Q2uYlxmg
+         IG+CGnnhfvlvZjuCtRrzDU4X1FzIPW1X3vVkDQ3ymfEM4y23dZqEd6fn3w0jbYcuDjDW
+         ICak0U3TtHEHhR18Tr86shqPTBk5jMhonr/lFBxGo9RKLwNCug8OUDNbi8+FG9jfThb/
+         fO6vWYf7tfl5aqqid7deCxQ79XBpQBdUh5IGMwSQeT36XTn5JffD3E2v4ToEA0J0qbWa
+         +V+H835odWodtELk9zZfguzUL8TgGT+LZIvIt5PHAA1nxklcOJJ4Xw8Xr+pvh+Rl24AW
+         WBrQ==;
+        dara=google.com
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@dgag.ca header.s=SDESJ01 header.b=l+BSBuJ7;
+       arc=pass (i=1 spf=pass spfdomain=dgag.ca dkim=pass dkdomain=dgag.ca dmarc=pass fromdomain=dgag.ca);
+       spf=pass (google.com: domain of carole.sabourin@dgag.ca designates 216.71.129.88 as permitted sender) smtp.mailfrom=carole.sabourin@dgag.ca;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=dgag.ca
+Return-Path: <carole.sabourin@dgag.ca>
+Received: from esa.hc784-89.ca.iphmx.com (esa.hc784-89.ca.iphmx.com. [216.71.129.88])
+        by mx.google.com with ESMTPS id 98e67ed59e1d1-37756be3026si7544114a91.11.2026.06.11.12.25.28
+        for <maxime.lebrasseur@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-CHACHA20-POLY1305 bits=256/256);
+        Thu, 11 Jun 2026 12:25:29 -0700 (PDT)
+Received-SPF: pass (google.com: domain of carole.sabourin@dgag.ca designates 216.71.129.88 as permitted sender) client-ip=216.71.129.88;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@dgag.ca header.s=SDESJ01 header.b=l+BSBuJ7;
+       arc=pass (i=1 spf=pass spfdomain=dgag.ca dkim=pass dkdomain=dgag.ca dmarc=pass fromdomain=dgag.ca);
+       spf=pass (google.com: domain of carole.sabourin@dgag.ca designates 216.71.129.88 as permitted sender) smtp.mailfrom=carole.sabourin@dgag.ca;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=dgag.ca
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple;
+  d=dgag.ca; i=@dgag.ca; q=dns/txt; s=SDESJ01;
+  t=1781205929; x=1812741929;
+  h=from:to:subject:date:message-id:mime-version;
+  bh=Q3i5iOQytcV545ARnb7//U9DUb6CwV3jv/mV9SjBQOc=;
+  b=l+BSBuJ716NCeoJ3N4nhqTs+aw4q4pdv8wXfFpIUWu9ty5zOB9n7IGkT
+   29q2M5q8a42+yaoAzcXkPcnA4x0zY1JTcbg/KDyEVGX1BpbLLB2w8/UDx
+   OBNLTOy2mzabAVMYNZbVeuYFH9uBmGjuyhto35zLghatrH3V9/1zp/VKw
+   0IH/VcqLfiS3LoJlSi/qZmty1+hyQGQtzR7XUEAXbLCKRfZEg65IAeiiR
+   CBcOBEDrUvCKkt9Ki7aQF1yDiJY2aCcn1LVSkcHpsrwqwIzqZDMjqJ17k
+   k3Gh17Rqk2BJbFyR9Um03G8sVTwhq0rNct732kN43rVlxfahhX9q6GHUp
+   Q==;
+X-CSE-ConnectionGUID: ruro9cYOScubFlKUtMQlpA==
+X-CSE-MsgGUID: Ev/hu1FoTvi4tJEW88V4fA==
+X-DESJ-BANNER: true
+X-DJDIAG: PINK
+X-IronPort-AV: E=Sophos;i="6.24,199,1774324800"; 
+   d="gif'147?scan'147,208,217,147";a="22544963"
+X-filesizes: 2714
+X-DSD-OOB: 
+Received: from mail-canadaeastazon11010024.outbound.protection.outlook.com (HELO YQZPR01CU011.outbound.protection.outlook.com) ([52.101.191.24])
+  by ob1.hc784-89.ca.iphmx.com with ESMTP/TLS/ECDHE-RSA-AES256-GCM-SHA384; 11 Jun 2026 15:25:28 -0400
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector10001; d=microsoft.com; cv=none;
+ b=R0AHZmg4e1tkwKM5kYLWR/Wd+DL59w6zVk6dQhLAAoCBn0tlw2nNYrW4aPHRGgMGiS8i3u7LE85UFFtnVcsM0AI+VS5t3Rl7jmkoyiTDjJx+6NCedP1Grc0NxsquTtIiXE8tGVbaOk+i7uGy0D8A7IuAgDnsVKaTw5EI3ihvomkiHC8hrHqPbapWHpPogX2XpZyqA2CjdQLtuTA1zdZlLdVmstLdQj1lqkNKH+NXV4j/gs6pB1KbLKcFactIgMXPGiUjAHfbYzhHsZeIoetOjqKkGy0lCPX/1edU8J97T6GZ+iTk7k9gXTPiXj0NfJaJI4kwT6xrWcexy3zPMvXMEg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector10001;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=ZN2ZqHeqKLifi5ZUIEq1g4KvOK1ktP4LQ/cidpjc0gQ=;
+ b=f8mbodCGWT9O9VFTaVe3bPTxPTZS8TsLr9QcJ0Xs71qbcD7HJuie9RKmkKzWAooPq4ZEz9johsgbZqFrD0EpM3jsCemxT/auAUQDU/foLF6FjGfw6BmnPTe0XTxz7aZejIEoTjQzf85R+r6WJC1SAL5AfSlzSZsfEYQhY/4NGD86EhCcAMFmUnMeU4kBCRrxzcAVBk1JIfLpg7Gxf2kV4tmQaR0uXnNErhljZyObD0CuLbsw1r9gdGsCmb3Gdms3SqNEX9l73mLVlff9df/YD2wrBgmC8FACX0VsRgbFu/at3FbIbzpL5C5kNdVJbU0FEyEE8GDFEF077RMOGwZwmA==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=pass
+ smtp.mailfrom=dgag.ca; dmarc=pass action=none header.from=dgag.ca; dkim=pass
+ header.d=dgag.ca; arc=none
+Received: from YT1PR01MB8874.CANPRD01.PROD.OUTLOOK.COM (2603:10b6:b01:c9::19)
+ by YT5PR01MB11779.CANPRD01.PROD.OUTLOOK.COM (2603:10b6:b01:17d::16) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.21.113.14; Thu, 11 Jun
+ 2026 19:25:26 +0000
+Received: from YT1PR01MB8874.CANPRD01.PROD.OUTLOOK.COM
+ ([fe80::cb9e:9a49:18ac:bec5]) by YT1PR01MB8874.CANPRD01.PROD.OUTLOOK.COM
+ ([fe80::cb9e:9a49:18ac:bec5%5]) with mapi id 15.21.0113.011; Thu, 11 Jun 2026
+ 19:25:26 +0000
+From: Carole Sabourin <carole.sabourin@dgag.ca>
+To: "maxime.lebrasseur@gmail.com" <maxime.lebrasseur@gmail.com>
+Subject: =?iso-8859-1?Q?Desjardins_Assurances_pour_votre_future_r=E9sidence?=
+Thread-Topic:
+ =?iso-8859-1?Q?Desjardins_Assurances_pour_votre_future_r=E9sidence?=
+Thread-Index: Adz51+MC3eNN4IEeQX6R+4R/JR4Z3w==
+Date: Thu, 11 Jun 2026 19:25:26 +0000
+Message-ID:
+ <YT1PR01MB8874470C2E0ED4266D69E406F41B2@YT1PR01MB8874.CANPRD01.PROD.OUTLOOK.COM>
+Accept-Language: fr-CA, en-US
+Content-Language: fr-FR
+X-MS-Has-Attach: yes
+X-MS-TNEF-Correlator:
+msip_labels:
+ MSIP_Label_69aa3318-d4f4-410a-9e17-448de05f8ebd_ActionId=3ebf43be-4562-4950-896c-13082afad667;MSIP_Label_69aa3318-d4f4-410a-9e17-448de05f8ebd_ContentBits=0;MSIP_Label_69aa3318-d4f4-410a-9e17-448de05f8ebd_Enabled=true;MSIP_Label_69aa3318-d4f4-410a-9e17-448de05f8ebd_Method=Privileged;MSIP_Label_69aa3318-d4f4-410a-9e17-448de05f8ebd_Name=Confidentiels;MSIP_Label_69aa3318-d4f4-410a-9e17-448de05f8ebd_SetDate=2026-06-11T19:25:14Z;MSIP_Label_69aa3318-d4f4-410a-9e17-448de05f8ebd_SiteId=728d20a5-0b44-47dd-9470-20f37cbf2d9a;MSIP_Label_69aa3318-d4f4-410a-9e17-448de05f8ebd_Tag=10,
+ 0, 1, 1;
+authentication-results: dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=dgag.ca;
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: YT1PR01MB8874:EE_|YT5PR01MB11779:EE_
+x-ms-office365-filtering-correlation-id: 6c1296f3-096e-47f9-c1b7-08dec7ef30cd
+x-outbound-from-o365-to-cisco: True
+x-ms-exchange-senderadcheck: 1
+x-ms-exchange-antispam-relay: 0
+x-microsoft-antispam:
+ BCL:0;ARA:13230040|23010399003|1800799024|376014|6049299003|366016|8096899003|56012099006|11063799006|38070700021|4053099003|18002099003;
+x-microsoft-antispam-message-info:
+ jjvJn9pxrvbyYEA/m4bjW/TX8CYuBTt7VNkpOVW6IxVAg0jmWo2Ix7TICfK8+SsOCmxgBR/7qNiJOy2G42cYCvug+ZuIbnhfTj2vOCDN8gS0gzzetWbc+RWXf5U+bUw6t6MnF8sYm/kk/TwnCx5RFQ5ONX3vbiZzZhn8IigLBlq2E5uiq9W5y4b2cFDiJnNzAwsswlCVIm5fpl5Okd4/wh+sxDmal5YOmWejo7ic69gAPIOW60zSqJ+B6qbRSP4YwBb0qkA7uTC83GXZrGkcwnK8kIW0HdisAfq5Wef05NrgZZO1oxCw9Pp8nEerE7zvuQstojH2e/jv53jJpdHBQB8/4wACWyd2lG8ce142lsIggPU5C5C3R7obL55WACraLyZl0j05aRQQ6ueUzeBwM2cYSCEXxQ7j4tR0qeh9xbwTHmzotlMdwF6UaC97SNUQ/w3GhcF7xDOIFpVzeghFKCbWxM85IMq/OEmYRRS9f/hAM5jFFLeIypjj1dGDudS7PnhLFXINm6peQEZtL6W+LPC19oUsTP6DosbLw9YwL7QrLWGiMcCcAJyaFlcMDAxImGsQSW+A4JKYjFCv7kbQj8DrsQIjS6G7FMoIz51CJfQEOMysb07nN/XZ34qkjT4IcMVgGVpFzK3z5pef1yC5TbM+ajN8zVHSTlFyUbGAbi+N0+6HTf+hNnljOLkfVbEFu5wqGT/Wemalk9h4D696nl6883QmCmqH+hSF3+fZ264xVLu3cJQug70JbtLLPeDH
+x-forefront-antispam-report:
+ CIP:255.255.255.255;CTRY:;LANG:fr;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:YT1PR01MB8874.CANPRD01.PROD.OUTLOOK.COM;PTR:;CAT:NONE;SFS:(13230040)(23010399003)(1800799024)(376014)(6049299003)(366016)(8096899003)(56012099006)(11063799006)(38070700021)(4053099003)(18002099003);DIR:OUT;SFP:1101;
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0:
+ =?iso-8859-1?Q?jmenPWZZ/1PE1mpFn2FHwCmBKHu9rT53gwJWxGTpODYZbQDtFbK14VwRcy?=
+ =?iso-8859-1?Q?xfTbDtWb9fODsjOySiBREhNjrfbJF79QkEw/NASviBRDXJwGP/QkQhm2um?=
+ =?iso-8859-1?Q?/eAGwnV/4K8xUGVIVpGUHmIqu51fV1pu7yUCvgNe1MCtU/fWC9OFSmvYjx?=
+ =?iso-8859-1?Q?3E9f43SmqcCd8OZAE1MFqcicRgXxrkbkNSHbD9zGfcY91lnBKZ6V6oY3Uo?=
+ =?iso-8859-1?Q?W6GOaMy6syQGi/syHW084+wzNulbphu4amhYNpRwMnmnbjj2Ra73kMVXPl?=
+ =?iso-8859-1?Q?dSmCJ9VF+xt9bMq17ZzUC9QFUn1G7WzgE4+1Va/dwEh7LTWMBHAtUrJgv/?=
+ =?iso-8859-1?Q?vjrKnjNPAvKanh2n20qKi8CTvLib/EOXqHjwp6vMomQyFd8QQLFTCrvFam?=
+ =?iso-8859-1?Q?P5Yb2F7GOc0LJTryUGl4kP4c/IIGDQ0s1Ji8sZSIpFURVJs2kbulJuTD6s?=
+ =?iso-8859-1?Q?GuQOORSngp9k/aQfiuNgXO2gIfZIOrL6SuKZc0hM1BrusIJJqVRXqt1yUQ?=
+ =?iso-8859-1?Q?HzIJfYc+/cmkNsR7lZZZktV043RdpZo8PYEZ1S1i3ENZIydJxSv+HmSgxE?=
+ =?iso-8859-1?Q?X74DSX5aveXqXOLqN8Xei/DAYbuov5PtldMMYblirlmYV+T/4DviS2ieQ0?=
+ =?iso-8859-1?Q?ilk4QG9Kk11998vyNAc96kokN5UB70t/R0WEVagvPMbCkQYXrBcObJxbhp?=
+ =?iso-8859-1?Q?Oo1tWvYrGcUqmI/OQPf9RNlQ15vMU8f/CziAlTaJdlzkg/Yy0T+H20xZ0v?=
+ =?iso-8859-1?Q?QgK2sUx2x9rlEHe6KUJFLkLwctTnPuSQ5eh9B+cB4Ufh4issxEIkXOsYac?=
+ =?iso-8859-1?Q?HJAGTyJvqsF0dVfbSsW7AQC4PSanCvpkvavTavggZCgWG0qhPN6Na2E2yj?=
+ =?iso-8859-1?Q?M44BinbDrX+2BkuAnG2WmGhoCqnS/v3qhlapJXUTHXACxN0DZuSCwHXqoa?=
+ =?iso-8859-1?Q?dNtP6iR/f6I5oIScR/cTMAvG8VgkC0RnjyrJyqHISNQ/20tnj/FxqsE//D?=
+ =?iso-8859-1?Q?gPo7c6/BKBA3Q4UO6NvbTeZrt1vrCYU2Mvv/KIkxoGK2m6BHLB/rzG+3i+?=
+ =?iso-8859-1?Q?Zb6FI+MAupDZWA0bEWlcgdR3wIxs+IBVz6CfZrEFEHi9eQTjixOKCYJYyu?=
+ =?iso-8859-1?Q?hPT6PGhDL6lq9uhKfQfVeGFeJgvcRT9uKtXJbCdxgnoKLsWhYde7gP8JXM?=
+ =?iso-8859-1?Q?dXw8lU0yxmcCGC8NGsGV611LaK0NIMiSNyLyu8SW+lf6L5f2TdDgf7VAJY?=
+ =?iso-8859-1?Q?PI4QTZAWAWCGNNkundkr3h3w6IoM8G2Jf8Pu1iCuSI36cpLB9nXNXjwlOM?=
+ =?iso-8859-1?Q?YQ9uDtddxVQZRir1qvnKqNqVsix7F1hUFgDNinXS7e0uqEmgFuE7ryoEix?=
+ =?iso-8859-1?Q?9V3OwSmFvtCwXuUmaaf03ZRZyje1oUVU2/DsIydOGb+0U21rYC7Q/nJmHE?=
+ =?iso-8859-1?Q?fvh33sAkH5FM2Nsm4ZK09dTThrcDbyw2D2rhmxrd5e+EsUaM00bDz2/tzE?=
+ =?iso-8859-1?Q?gBXZmrMaF7mH5c1HlJlEypg65kLttSSR+z8GT/XOD9TRVCdt3XNG+oECsO?=
+ =?iso-8859-1?Q?DafP73bCWND5R2LzUPtHOGgXUKPm7ZVLaeMdmVS+cu87Z+g9HYeBOUvrEy?=
+ =?iso-8859-1?Q?lwERtGVxCpW5nm3CK7elS5QwmGNk/haVbPLlsDhweIYXyOsEqwgx18VgwD?=
+ =?iso-8859-1?Q?INrTCZFb/SQaqiK1mV27jMKUgmn9YGM1oF5ChTKyRGBPB/jipu+ej6EtDj?=
+ =?iso-8859-1?Q?nXOoLqa8+KQpOeq+kv+Slm3Q4fOPcN5JZEjRb31fYfnZSt/WHdtRIZfppO?=
+ =?iso-8859-1?Q?6tkkjt4iCg=3D=3D?=
+Content-Type: multipart/related;
+	boundary="_004_YT1PR01MB8874470C2E0ED4266D69E406F41B2YT1PR01MB8874CANP_";
+	type="multipart/alternative"
+MIME-Version: 1.0
+X-Exchange-RoutingPolicyChecked:
+	JkAx2rwibGsRJLeHlDBW0SQTPNvLhr7dSzHKF253etpiG/PQBepT7FYwO3r3eefOobth0e2K/cwuIP2GSLv1Kkum+NW4z4IM1FxcrAgF1tHPD0p9+vE6qI6AJ+Lu6Lb+Z10gt4E+K0lSyQ7kVMd+7PLLGdBo+RF4Cwk4KbP2Wy0QeH/qVW6l4kIm/PPZr/NmYQBTKHTEeaHCQ14C5czKQU+oQPy096ZtpMrDR5wECjQbymk8nYxngjBLvTDYtoUP1+0HkQpIVul95HjXswoI0MUjJN8HotNNm3spCvqWa9sbVZCF8gqnObrZWrCM/kRPTSxuhrFYd8/BjXdzlKKNoQ==
+X-OriginatorOrg: dgag.ca
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: YT1PR01MB8874.CANPRD01.PROD.OUTLOOK.COM
+X-MS-Exchange-CrossTenant-Network-Message-Id: 6c1296f3-096e-47f9-c1b7-08dec7ef30cd
+X-MS-Exchange-CrossTenant-originalarrivaltime: 11 Jun 2026 19:25:26.2900
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 728d20a5-0b44-47dd-9470-20f37cbf2d9a
+X-MS-Exchange-CrossTenant-mailboxtype: HOSTED
+X-MS-Exchange-CrossTenant-userprincipalname: Ux/WmGpBFV48f1p8r9DpOJ3FybGgaWPIjLPBDCL3ek/zqGiGMzOUcng9dZntP2+E7ukzP86J+XSBE4axRKauQA==
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: YT5PR01MB11779
+
+--_004_YT1PR01MB8874470C2E0ED4266D69E406F41B2YT1PR01MB8874CANP_
+Content-Type: multipart/alternative;
+	boundary="_000_YT1PR01MB8874470C2E0ED4266D69E406F41B2YT1PR01MB8874CANP_"
+
+--_000_YT1PR01MB8874470C2E0ED4266D69E406F41B2YT1PR01MB8874CANP_
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+F=E9licitations pour votre nouvelle r=E9sidence!
+
+Bonjour Maxime,
+
+Pour faire suite =E0 mon appel et =E0 votre rencontre avec votre repr=E9sen=
+tante hypoth=E9caire Desjardins Jessica St-Pierre, cette derni=E8re m'a tra=
+nsmis, comme convenu, vos coordonn=E9es afin de vous offrir une soumission =
+d'assurance habitation pour votre nouvelle r=E9sidence.
+
+Je peux =E9galement vous offrir une soumission d'assurance auto, en date de=
+ votre prochain renouvellement, pour vous faire b=E9n=E9ficier de tous les =
+avantages d'=EAtre client chez Desjardins Assurances
+
+Merci de bien vouloir me contacter au moment de votre choix afin de fixer u=
+n rendez-vous t=E9l=E9phonique.
+
+1-888-835-9062 poste 453 2575
+
+Au plaisir de vous accompagner pour vos besoins en assurance!
+
+
+
+
+Carole Sabourin
+
+
+
+
+[D_Assurances]
+
+Carole Sabourin
+
+Agente en assurance de dommages
+Ventes et d=E9veloppement des affaires
+
+Desjardins Assurances g=E9n=E9rales inc.
+Agence en assurance de dommages
+Cabinet de services financiers
+
+
+
+6500, boul. Guillaume-Couture
+L=E9vis (Qc) G6V 9H3
+1 888 835-9062, poste 4532575
+
+
+Desjardins Assurances d=E9signe Desjardins Assurances g=E9n=E9rales inc.
+
+Les clauses et modalit=E9s relatives aux protections d=E9crites, le cas =E9=
+ch=E9ant, sont pr=E9cis=E9es au contrat d'assurance, lequel pr=E9vaut en to=
+ut temps.
+
+Les offres et rabais peuvent =EAtre assujettis =E0 certaines conditions, ex=
+clusions et limitations, et peuvent =EAtre modifi=E9s ou retir=E9s sans pr=
+=E9avis. Pour plus d'information, veuillez visiter notre site internet =E0 =
+l'adresse desjardinsassurancesgenerales.com.
+
+Desjardins Assurances n'envoie jamais de courriel =E0 ses clients ou client=
+s potentiels leur demandant de fournir des informations confidentielles (p.=
+ ex., mot de passe, num=E9ro d'assurance sociale, NIP). De plus, Desjardins=
+ Assurances n'envoie jamais de courriel contenant des liens les dirigeant v=
+ers une page d'authentification ou une page qui requiert l'entr=E9e d'infor=
+mations confidentielles. Si vous recevez un tel courriel, transf=E9rez-le =
+=E0 protection@desjardins.com<mailto:protection@desjardins.com> et supprime=
+z-le. Pour plus de d=E9tails, visitez desjardins.com/hame=E7onnage ou compo=
+sez le 1 866 710-4759.
+
+Ce courriel est confidentiel, peut =EAtre prot=E9g=E9 par le secret profess=
+ionnel et est adress=E9 exclusivement au destinataire. Il est strictement i=
+nterdit =E0 toute autre personne de diffuser, distribuer ou reproduire ce m=
+essage. Si vous l'avez re=E7u par erreur, veuillez imm=E9diatement le d=E9t=
+ruire et aviser l'exp=E9diteur.
+
+Si vous ne souhaitez plus recevoir de messages =E9lectroniques commerciaux =
+de la part de Desjardins Assurances g=E9n=E9rales inc., communiquez avec no=
+us par t=E9l=E9phone au 1 866 710-4759 ou =E9crivez-nous =E0 l'adresse cour=
+riel suivante Soutien.Operations@dgag.ca<mailto:Soutien.Operations@dgag.ca>=
+. Vous continuerez toutefois =E0 recevoir des courriels de nature informati=
+onnelle.
+
+
+--_000_YT1PR01MB8874470C2E0ED4266D69E406F41B2YT1PR01MB8874CANP_
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)">
+<!--[if !mso]><style>v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style><![endif]--><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Verdana;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+@font-face
+	{font-family:Aptos;}
+@font-face
+	{font-family:"Segoe UI";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+@font-face
+	{font-family:"Bradley Hand ITC";
+	panose-1:3 7 4 2 5 3 2 3 2 3;}
+@font-face
+	{font-family:Aparajita;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:8.0pt;
+	margin-left:0cm;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Aptos",serif;
+	mso-ligatures:standardcontextual;
+	mso-fareast-language:EN-US;}
+span.EmailStyle44
+	{mso-style-type:personal-compose;
+	font-family:"Aptos",serif;
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:11.0pt;
+	mso-fareast-language:EN-US;}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	margin-bottom:8.0pt;
+	line-height:107%;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang=3D"FR-CA" link=3D"#467886" vlink=3D"#96607D" style=3D"word-wrap:=
+break-word">
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal" style=3D"line-height:106%"><span style=3D"font-size:=
+12.0pt;line-height:106%;font-family:&quot;Segoe UI&quot;,sans-serif;color:#=
+00B050">F=E9licitations pour votre nouvelle r=E9sidence!
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"line-height:106%"><span style=3D"font-size:=
+12.0pt;line-height:106%;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p>&=
+nbsp;</o:p></span></p>
+<p class=3D"MsoNormal" style=3D"line-height:106%"><span style=3D"font-size:=
+12.0pt;line-height:106%;font-family:&quot;Segoe UI&quot;,sans-serif">Bonjou=
+r Maxime,<o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"line-height:106%"><span style=3D"font-size:=
+12.0pt;line-height:106%;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p>&=
+nbsp;</o:p></span></p>
+<p class=3D"MsoNormal" style=3D"line-height:106%"><span style=3D"font-size:=
+12.0pt;line-height:106%;font-family:&quot;Segoe UI&quot;,sans-serif">Pour f=
+aire suite =E0 mon appel et =E0 votre rencontre avec votre repr=E9sentante =
+hypoth=E9caire Desjardins Jessica St-Pierre, cette derni=E8re
+ m&#8217;a transmis, comme convenu, vos coordonn=E9es afin de vous offrir u=
+ne soumission d&#8217;assurance habitation pour votre nouvelle r=E9sidence.
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"line-height:106%"><span style=3D"font-famil=
+y:&quot;Calibri&quot;,sans-serif"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal" style=3D"line-height:106%"><span style=3D"font-size:=
+12.0pt;line-height:106%;font-family:&quot;Segoe UI&quot;,sans-serif;mso-far=
+east-language:FR-CA">Je peux =E9galement vous offrir une soumission d&#8217=
+;assurance auto, en date de votre prochain renouvellement,
+ pour vous faire b=E9n=E9ficier de tous les avantages d&#8217;=EAtre client=
+ chez Desjardins Assurances</span><o:p></o:p></p>
+<p class=3D"MsoNormal" style=3D"line-height:106%"><span style=3D"font-size:=
+12.0pt;line-height:106%;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p>&=
+nbsp;</o:p></span></p>
+<p class=3D"MsoNormal" style=3D"line-height:106%"><span style=3D"font-size:=
+12.0pt;line-height:106%;font-family:&quot;Segoe UI&quot;,sans-serif">Merci =
+de bien vouloir me contacter au moment de votre choix afin de
+<span style=3D"color:#00B050">fixer un rendez-vous t=E9l=E9phonique.</span>=
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"line-height:106%"><b><span style=3D"font-si=
+ze:12.0pt;line-height:106%;font-family:&quot;Segoe UI&quot;,sans-serif;mso-=
+fareast-language:FR-CA"><o:p>&nbsp;</o:p></span></b></p>
+<p class=3D"MsoNormal" style=3D"line-height:106%"><b><span style=3D"font-si=
+ze:12.0pt;line-height:106%;font-family:&quot;Segoe UI&quot;,sans-serif;mso-=
+fareast-language:FR-CA">1-888-835-9062 poste 453 2575<o:p></o:p></span></b>=
+</p>
+<p class=3D"MsoNormal" style=3D"line-height:106%"><span style=3D"font-size:=
+12.0pt;line-height:106%;font-family:&quot;Segoe UI&quot;,sans-serif;mso-far=
+east-language:FR-CA"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-bottom:0cm;line-height:normal;vertic=
+al-align:baseline">
+<span style=3D"font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif=
+;mso-ligatures:none;mso-fareast-language:FR-CA">Au plaisir de vous accompag=
+ner pour vos besoins en assurance!
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"line-height:106%"><span style=3D"font-famil=
+y:&quot;Calibri&quot;,sans-serif"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal" style=3D"line-height:106%"><b><span style=3D"font-si=
+ze:14.0pt;line-height:106%;font-family:&quot;Aparajita&quot;,serif;mso-fare=
+ast-language:FR-CA"><o:p>&nbsp;</o:p></span></b></p>
+<p class=3D"MsoNormal" style=3D"line-height:106%"><span style=3D"font-famil=
+y:&quot;Calibri&quot;,sans-serif"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal" style=3D"line-height:106%"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal" style=3D"line-height:106%"><b><span style=3D"font-si=
+ze:14.0pt;line-height:106%;font-family:&quot;Bradley Hand ITC&quot;;mso-far=
+east-language:FR-CA">Carole Sabourin</span></b><span style=3D"font-family:&=
+quot;Bradley Hand ITC&quot;"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal" style=3D"margin-bottom:0cm;line-height:normal"><span=
+ style=3D"mso-fareast-language:FR-CA"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-bottom:0cm;line-height:normal"><span=
+ style=3D"mso-fareast-language:FR-CA"><o:p>&nbsp;</o:p></span></p>
+<table class=3D"MsoNormalTable" border=3D"0" cellpadding=3D"0" width=3D"636=
+" style=3D"width:477.15pt">
+<tbody>
+<tr>
+<td width=3D"331" valign=3D"top" style=3D"width:248.1pt;padding:.75pt .75pt=
+ .75pt .75pt">
+<p class=3D"MsoNormal" style=3D"margin-bottom:0cm;line-height:115%"><span s=
+tyle=3D"font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman=
+&quot;,serif;mso-fareast-language:FR-CA"><img width=3D"136" height=3D"38" s=
+tyle=3D"width:1.4166in;height:.3958in" id=3D"Image_x0020_1" src=3D"cid:imag=
+e001.gif@01DCF9B6.813AC9F0" alt=3D"D_Assurances"></span><span style=3D"mso-=
+fareast-language:FR-CA"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-bottom:0cm;line-height:115%"><b><spa=
+n style=3D"font-size:8.0pt;line-height:115%;font-family:&quot;Verdana&quot;=
+,sans-serif;color:black;mso-fareast-language:FR-CA">&nbsp;</span></b><span =
+style=3D"mso-fareast-language:FR-CA"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-bottom:0cm;line-height:115%"><b><spa=
+n style=3D"font-size:8.0pt;line-height:115%;font-family:&quot;Verdana&quot;=
+,sans-serif;color:black;mso-fareast-language:FR-CA">Carole Sabourin</span><=
+/b><span style=3D"mso-fareast-language:FR-CA"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-bottom:0cm;line-height:115%"><span s=
+tyle=3D"font-size:8.0pt;line-height:115%;font-family:&quot;Verdana&quot;,sa=
+ns-serif;color:black;mso-fareast-language:FR-CA"><br>
+Agente</span><span style=3D"font-size:8.0pt;line-height:115%;font-family:&q=
+uot;Verdana&quot;,sans-serif;color:red;mso-fareast-language:FR-CA">
+</span><span style=3D"font-size:8.0pt;line-height:115%;font-family:&quot;Ve=
+rdana&quot;,sans-serif;color:black;mso-fareast-language:FR-CA">en assurance=
+ de dommages</span><span style=3D"mso-fareast-language:FR-CA"><o:p></o:p></=
+span></p>
+<p class=3D"MsoNormal" style=3D"margin-bottom:0cm;line-height:115%"><span s=
+tyle=3D"font-size:8.0pt;line-height:115%;font-family:&quot;Verdana&quot;,sa=
+ns-serif;color:black;mso-fareast-language:FR-CA">Ventes et d=E9veloppement =
+des affaires</span><span style=3D"mso-fareast-language:FR-CA"><o:p></o:p></=
+span></p>
+<p class=3D"MsoNormal" style=3D"margin-bottom:0cm;line-height:115%"><span s=
+tyle=3D"font-size:8.0pt;line-height:115%;font-family:&quot;Verdana&quot;,sa=
+ns-serif;color:black;mso-fareast-language:FR-CA"><br>
+Desjardins Assurances g=E9n=E9rales inc.</span><span style=3D"mso-fareast-l=
+anguage:FR-CA"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-bottom:0cm;line-height:115%"><span s=
+tyle=3D"font-size:8.0pt;line-height:115%;font-family:&quot;Verdana&quot;,sa=
+ns-serif;color:black;mso-fareast-language:FR-CA">Agence en assurance de dom=
+mages</span><span style=3D"mso-fareast-language:FR-CA"><o:p></o:p></span></=
+p>
+<p class=3D"MsoNormal" style=3D"margin-bottom:12.0pt;line-height:115%"><spa=
+n style=3D"font-size:8.0pt;line-height:115%;font-family:&quot;Verdana&quot;=
+,sans-serif;color:black;mso-fareast-language:FR-CA">Cabinet de services fin=
+anciers</span><span style=3D"mso-fareast-language:FR-CA"><o:p></o:p></span>=
+</p>
+<p class=3D"MsoNormal" style=3D"margin-bottom:0cm;line-height:115%"><span s=
+tyle=3D"font-size:8.0pt;line-height:115%;font-family:&quot;Verdana&quot;,sa=
+ns-serif;color:black;mso-fareast-language:FR-CA">&nbsp;</span><span style=
+=3D"mso-fareast-language:FR-CA"><o:p></o:p></span></p>
+</td>
+<td width=3D"299" valign=3D"top" style=3D"width:224.55pt;padding:.75pt .75p=
+t .75pt .75pt">
+<p class=3D"MsoNormal" style=3D"margin-bottom:12.0pt;line-height:115%"><spa=
+n style=3D"font-size:8.0pt;line-height:115%;font-family:&quot;Verdana&quot;=
+,sans-serif;color:black;mso-fareast-language:FR-CA">&nbsp;</span><span styl=
+e=3D"mso-fareast-language:FR-CA"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-bottom:0cm;line-height:115%"><span s=
+tyle=3D"font-size:8.0pt;line-height:115%;font-family:&quot;Verdana&quot;,sa=
+ns-serif;color:black;mso-fareast-language:FR-CA">&nbsp;</span><span style=
+=3D"mso-fareast-language:FR-CA"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-bottom:0cm;line-height:115%"><span s=
+tyle=3D"font-size:8.0pt;line-height:115%;font-family:&quot;Verdana&quot;,sa=
+ns-serif;color:black;mso-fareast-language:FR-CA">6500, boul. Guillaume-Cout=
+ure</span><span style=3D"mso-fareast-language:FR-CA"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-bottom:12.0pt;line-height:115%"><spa=
+n style=3D"font-size:8.0pt;line-height:115%;font-family:&quot;Verdana&quot;=
+,sans-serif;color:black;mso-fareast-language:FR-CA">L=E9vis (Qc) G6V 9H3</s=
+pan><span style=3D"mso-fareast-language:FR-CA"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-bottom:0cm;line-height:115%"><span s=
+tyle=3D"font-size:8.0pt;line-height:115%;font-family:&quot;Verdana&quot;,sa=
+ns-serif;color:black;mso-fareast-language:FR-CA">1&nbsp;888&nbsp;835-9062, =
+poste
+</span><span style=3D"font-size:8.0pt;line-height:115%;font-family:&quot;Ve=
+rdana&quot;,sans-serif;mso-fareast-language:FR-CA">4532575</span><span styl=
+e=3D"mso-fareast-language:FR-CA"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-bottom:0cm;line-height:115%"><span s=
+tyle=3D"font-size:8.0pt;line-height:115%;font-family:&quot;Verdana&quot;,sa=
+ns-serif;color:black;mso-fareast-language:FR-CA">&nbsp;</span><span style=
+=3D"mso-fareast-language:FR-CA"><o:p></o:p></span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p class=3D"MsoNormal" style=3D"margin-bottom:0cm;line-height:normal"><span=
+ style=3D"font-size:7.0pt;font-family:&quot;Verdana&quot;,sans-serif;color:=
+gray;mso-fareast-language:FR-CA">&nbsp;</span><span lang=3D"EN-CA"><o:p></o=
+:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-bottom:0cm;line-height:normal"><span=
+ style=3D"font-size:7.0pt;font-family:&quot;Verdana&quot;,sans-serif;color:=
+#7F7F7F;mso-fareast-language:FR-CA">Desjardins Assurances d=E9signe Desjard=
+ins Assurances g=E9n=E9rales inc.</span><span style=3D"mso-fareast-language=
+:FR-CA"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-bottom:0cm;line-height:normal"><span=
+ style=3D"font-size:7.0pt;font-family:&quot;Verdana&quot;,sans-serif;color:=
+#7F7F7F;mso-fareast-language:FR-CA">&nbsp;</span><o:p></o:p></p>
+<p class=3D"MsoNormal" style=3D"margin-bottom:0cm;line-height:normal"><span=
+ style=3D"font-size:7.0pt;font-family:&quot;Verdana&quot;,sans-serif;color:=
+#7F7F7F;mso-fareast-language:FR-CA">Les clauses et modalit=E9s relatives au=
+x protections d=E9crites, le cas =E9ch=E9ant, sont pr=E9cis=E9es
+ au contrat d'assurance, lequel pr=E9vaut en tout temps.</span><span style=
+=3D"mso-fareast-language:FR-CA"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-bottom:0cm;line-height:normal"><span=
+ style=3D"font-size:7.0pt;font-family:&quot;Verdana&quot;,sans-serif;color:=
+#7F7F7F;mso-fareast-language:FR-CA"><br>
+Les offres et rabais peuvent =EAtre assujettis =E0 certaines conditions, ex=
+clusions et limitations, et peuvent =EAtre modifi=E9s ou retir=E9s sans pr=
+=E9avis. Pour plus d'information, veuillez visiter notre site internet =E0 =
+l'adresse desjardinsassurancesgenerales.com.
+</span><span style=3D"mso-fareast-language:FR-CA"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-bottom:0cm;line-height:normal"><span=
+ style=3D"font-size:7.0pt;font-family:&quot;Verdana&quot;,sans-serif;color:=
+#7F7F7F;mso-fareast-language:FR-CA"><br>
+Desjardins Assurances n'envoie jamais de courriel =E0 ses clients ou client=
+s potentiels leur demandant de fournir des informations confidentielles (p.=
+ ex., mot de passe, num=E9ro d'assurance sociale, NIP). De plus, Desjardins=
+ Assurances n'envoie jamais de courriel
+ contenant des liens les dirigeant vers une page d'authentification ou une =
+page qui requiert l'entr=E9e d'informations confidentielles. Si vous receve=
+z un tel courriel, transf=E9rez-le =E0
+</span><span style=3D"mso-fareast-language:FR-CA"><a href=3D"mailto:protect=
+ion@desjardins.com"><span style=3D"font-size:7.0pt;font-family:&quot;Verdan=
+a&quot;,sans-serif;color:#7F7F7F">protection@desjardins.com</span></a></spa=
+n><span style=3D"font-size:7.0pt;font-family:&quot;Verdana&quot;,sans-serif=
+;color:#7F7F7F;mso-fareast-language:FR-CA">
+ et supprimez-le. Pour plus de d=E9tails, visitez desjardins.com/hame=E7onn=
+age ou composez le 1 866 710-4759.</span><span style=3D"mso-fareast-languag=
+e:FR-CA"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-bottom:0cm;line-height:normal"><span=
+ style=3D"font-size:7.0pt;font-family:&quot;Verdana&quot;,sans-serif;color:=
+#7F7F7F;mso-fareast-language:FR-CA">&nbsp;</span><span style=3D"mso-fareast=
+-language:FR-CA"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-bottom:0cm;line-height:normal"><span=
+ style=3D"font-size:7.0pt;font-family:&quot;Verdana&quot;,sans-serif;color:=
+#7F7F7F;mso-fareast-language:FR-CA">Ce courriel est confidentiel, peut =EAt=
+re prot=E9g=E9 par le secret professionnel et est adress=E9
+ exclusivement au destinataire. Il est strictement interdit =E0 toute autre=
+ personne de diffuser, distribuer ou reproduire ce message. Si vous l'avez =
+re=E7u par erreur, veuillez imm=E9diatement le d=E9truire et aviser l'exp=
+=E9diteur.
+</span><span style=3D"mso-fareast-language:FR-CA"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-bottom:0cm;line-height:normal"><span=
+ style=3D"font-size:7.0pt;font-family:&quot;Verdana&quot;,sans-serif;color:=
+#7F7F7F;mso-fareast-language:FR-CA">&nbsp;</span><span style=3D"mso-fareast=
+-language:FR-CA"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-bottom:0cm;line-height:normal"><span=
+ style=3D"font-size:7.0pt;font-family:&quot;Verdana&quot;,sans-serif;color:=
+#7F7F7F;mso-fareast-language:FR-CA">Si vous ne souhaitez plus recevoir de m=
+essages =E9lectroniques commerciaux de la part de
+ Desjardins Assurances g=E9n=E9rales inc., communiquez avec nous par t=E9l=
+=E9phone au 1&nbsp;866 710-4759 ou =E9crivez-nous =E0 l&#8217;adresse courr=
+iel suivante
+</span><span style=3D"mso-fareast-language:FR-CA"><a href=3D"mailto:Soutien=
+.Operations@dgag.ca"><span style=3D"font-size:7.0pt;font-family:&quot;Verda=
+na&quot;,sans-serif;color:gray">Soutien.Operations@dgag.ca</span></a></span=
+><span style=3D"font-size:7.0pt;font-family:&quot;Verdana&quot;,sans-serif;=
+color:gray;mso-fareast-language:FR-CA">.
+ Vous </span><span style=3D"font-size:7.0pt;font-family:&quot;Verdana&quot;=
+,sans-serif;color:#7F7F7F;mso-fareast-language:FR-CA">continuerez toutefois=
+ =E0 recevoir des courriels de nature informationnelle.</span><span style=
+=3D"mso-fareast-language:FR-CA"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+</div>
+</body>
+</html>
+
+--_000_YT1PR01MB8874470C2E0ED4266D69E406F41B2YT1PR01MB8874CANP_--
+
+--_004_YT1PR01MB8874470C2E0ED4266D69E406F41B2YT1PR01MB8874CANP_
+Content-Type: image/gif; name="image001.gif"
+Content-Description: image001.gif
+Content-Disposition: inline; filename="image001.gif"; size=2714;
+	creation-date="Thu, 11 Jun 2026 19:25:26 GMT";
+	modification-date="Thu, 11 Jun 2026 19:25:26 GMT"
+Content-ID: <image001.gif@01DCF9B6.813AC9F0>
+Content-Transfer-Encoding: base64
+
+R0lGODlhjwAoANUgAInHq/H49R2VY+Lx6mRmaC+cbtPq4MvMzGy5l6fUwT6jeLbbyz1AQnvAoUpN
+TouNjl2yjZjOt9jZ2ZeZmldZW+Xl5vLy8rGys36AgXFzdL6/wKSlpk6rgsTi1jAzNQmOWP///wAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C1hNUCBEYXRhWE1QPD94cGFja2V0
+IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4
+bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMxMzgg
+NzkuMTU5ODI0LCAyMDE2LzA5LzE0LTAxOjA5OjAxICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpy
+ZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRl
+c2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94
+YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlw
+ZS9SZXNvdXJjZVJlZiMiIHhtbG5zOnhtcD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLyIg
+eG1sbnM6ZGM9Imh0dHA6Ly9wdXJsLm9yZy9kYy9lbGVtZW50cy8xLjEvIiB4bXBNTTpPcmlnaW5h
+bERvY3VtZW50SUQ9InV1aWQ6NUQyMDg5MjQ5M0JGREIxMTkxNEE4NTkwRDMxNTA4QzgiIHhtcE1N
+OkRvY3VtZW50SUQ9InhtcC5kaWQ6NzVCQjgxMEMyQUE4MTFFOEE5NTlDQUMyRjlERUI4QzQiIHht
+cE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NzVCQjgxMEIyQUE4MTFFOEE5NTlDQUMyRjlERUI4QzQi
+IHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgSWxsdXN0cmF0b3IgQ0MgMjAxNyAoTWFjaW50b3NoKSI+
+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOmUyMGJiOGM0LTAy
+ZWYtNDc4OS04ZjFiLTFjNDIyNTFlZTAzOSIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDplMjBi
+YjhjNC0wMmVmLTQ3ODktOGYxYi0xYzQyMjUxZWUwMzkiLz4gPGRjOnRpdGxlPiA8cmRmOkFsdD4g
+PHJkZjpsaSB4bWw6bGFuZz0ieC1kZWZhdWx0Ij5Mb2dvX0Rlc2phcmRpbnNfX21hc3Rlcl9SR0I8
+L3JkZjpsaT4gPC9yZGY6QWx0PiA8L2RjOnRpdGxlPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6
+UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PgH//v38+/r5+Pf29fTz8vHw7+7t
+7Ovq6ejn5uXk4+Lh4N/e3dzb2tnY19bV1NPS0dDPzs3My8rJyMfGxcTDwsHAv769vLu6ubi3trW0
+s7KxsK+urayrqqmop6alpKOioaCfnp2cm5qZmJeWlZSTkpGQj46NjIuKiYiHhoWEg4KBgH9+fXx7
+enl4d3Z1dHNycXBvbm1sa2ppaGdmZWRjYmFgX15dXFtaWVhXVlVUU1JRUE9OTUxLSklIR0ZFRENC
+QUA/Pj08Ozo5ODc2NTQzMjEwLy4tLCsqKSgnJiUkIyIhIB8eHRwbGhkYFxYVFBMSERAPDg0MCwoJ
+CAcGBQQDAgEAACH5BAEAACAALAAAAACPACgAAAb/QJBwSAQNOB9AoMhsOp/QqHRKrVqhAcBn+xEk
+ruCweEy+JgTcNKdTbrvf8GJHka5vEYO4fs93DhB2BQ1oaQIAfYiJbVmEXIZCAYB1BQuKlpdSCwV2
+CEtEHUh1HAZPAx2nqB15fAEREZ5xqJ4RSm2haqROCZt1h01adl14eqEQe1xsDVsKbZNfUVmiTsDB
+W75vjsdbbLfNW4awUgMQXBzT1WkIcMofDdofbMDmZeVh9b/IQwu3H5Vvp3zygTDAxtuHeVfuMaFW
+cIikDwUwkREIR6EVi0QYMuEFb0gWXgKGDflDSEGEIQ04cHAHIgudLRAaJlC5hpwvkssW5Ju5UgjN
+/5lcIOQSAiooG4xUkArRWCQBF18GGjnKFUDqsiWhzAV4WecZtacDraaJt2UeOgG5dHJSKoUtUyID
+grbkWEfAkghcFIAklbXlSwW3BCy1o0TsWBDyhKCDKOSlgFtcEV4se25bk3pOrQlRmwQEuYNCIqD1
+SdmIF6L5vnKIMICakmipS6c5GYkLKbCRFARgG8UtxZFyQxVI9dkcNQ7+hvQd0iFBBwO8yN4Z8lKd
+w9igQXCx3pLLSY4IhvKG4ttyU7B0gxlxprz0AsPSP8D6bQC72S3PGmv+evBo6YT/FfHWEBxVYlga
+m1llXV8doBMfEb/FZVli2plHWmcgsJNGZtkB2P+hgL+B8FBEIISiQCqpeARUPn19hsApmkzIBRG8
+XAMCh9Ld11F7GBrRAEeNSFZFeTsGsEsa/miYHyiwIPCMhJ31FUpB9cm4BRGSjBaWfYpZWKJmAYwS
+WjANhBOFAbcIOQR/wXA3QCMKAPDXEpJwAMBDX7S4TASDYPcBEVWWxU9HFP4WihLVATCoIydBo2GA
+GS3WoxAc1pUHV4VgRRlndjxIRKWdIiabl4e+GQwHn6Ux3BOi2dHoQtUIsooc6YnZ0qMQ5bLcoxC8
+5CkRMXKhYY5d7njhIUfUAcESHaT3AQSzEuUstKWgCJAUBiwQgSpMBNBBBAsM9WWHAyyQACkEdbD/
+hCnXMtHcAnnIYsQpucg7RLqzlgsAt0S02su6qebVkES6vKcZwW8EgGsXCwvwKsJN7LYhxHCgKWmZ
+FD/RYF4ZxxGsKNF2XIQBCKiEschwANAIJSi3DDFJNros88xRVEAAARbQrHMiG3jgwQU7B72HAz5T
+QMQBEgxxwAFCIN100khXkHQFB1QghARMO60000JYoDUIXlstdBwSeJABBR5YXQEDRVuAtgcMVOAB
+AULMDQLcc2fgswcPgEAA3nyDcAHbHjggweA+46zB3n2P/cYDP/c8AQgTeIDBAw8cMPcEGdxNt+d3
+F/7ABQ9MwLbfZkPugQVsY87AAa3rPcHfnGvgsPgbrWNQOAiLz62B3IUDbTfohec8AdE+H/B3zmhr
+joHScBOANgGqY5D07WX0vrcHTGvwNtV6/ww3CHLTbXfZFBzP/d9C/K35514XPsEEo1NOtAPYlyH7
+0pBjoIED6tsAAx7wtw0QDQNEMx/dNJc+tinPA+2DINsygIHXsQ0DFdQAASsHwfyJwQI+yxn54IY4
+yx0AeRSwwAWKZrfhvY1oD4wgCCSAPMPRsGgSUN3PWhYEADs=
+
+--_004_YT1PR01MB8874470C2E0ED4266D69E406F41B2YT1PR01MB8874CANP_--
