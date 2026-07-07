@@ -4,6 +4,8 @@ This repo is the operating record for the house: documents, facts, projects, mon
 
 ## Default Flow
 
+Start every request by inspecting the repo's current state and the files related to the user's request. Do this before any substantive answer, recommendation, blueprint, or change, and do not rely on memory of earlier repo state.
+
 Stay in blueprint mode unless the user explicitly says `go`.
 
 In blueprint mode:
@@ -13,7 +15,7 @@ In blueprint mode:
 - List the files that would change.
 - Wait for `go`.
 
-When inspecting, check both new inputs and relevant existing markdown files. Keep inspection targeted to the request, likely affected dashboards, indexes, finance files, project files, contacts, and decision records.
+Scope inspection to new inputs and relevant existing markdown files, including likely affected dashboards, indexes, finance files, project files, contacts, and decision records.
 
 After `go`:
 - Make the approved changes.
