@@ -1,23 +1,25 @@
 # Next Actions
 
-Last updated: 2026-07-07
+Last updated: 2026-07-15
 
 ## Urgent
 
 | Action | Owner | Due Date | Related Area | Source | Status |
 |---|---|---|---|---|---|
 | Confirm buyer's notary and provide PA, MOs, mortgage acceptance, tax, and inspection documents |  | Before deed | Legal / closing | SRC-2026-011, SRC-2026-012, SRC-2026-014, SRC-2026-015 | Open |
-| Request CSEM employment confirmation letter or equivalent proof stating permanent role and no probation | Maxime | As soon as available | Financing | SRC-2026-022 | Open |
-| Obtain first CSEM pay document and send it with employment proof to Jessica St-Pierre for Maxime-only reassessment | Maxime | Before final mortgage documents; target before 2026-07-31 | Financing | SRC-2026-014, SRC-2026-022 | Open |
-| Ask Jessica to confirm in writing whether Maxime can be sole borrower / sole person on Desjardins financing documents | Maxime | Before notary finalizes deed and mortgage documents | Financing | SRC-2026-014, SRC-2026-022 | Open |
-| Ask notary / broker what amendment or document is needed to change from three buyers to Maxime alone if Desjardins approves | Maxime | Before deed | Legal / closing | SRC-2026-011, SRC-2026-022 | Open |
-| If Maxime-only documents are not possible, ask notary to draft or advise on fallback ownership / economic agreement before deed signature | Maxime | Before deed | Legal / ownership | SRC-2026-022 | Open |
+| Obtain Jessica's Maxime-only feasibility calculation | Maxime / Jessica St-Pierre | Before any PA amendment; follow up promptly before 2026-07-31 | Financing | SRC-2026-023 | Waiting |
+| Alert Michaël Labelle that a PA amendment may be needed and confirm he can coordinate it if Jessica's calculation is positive | Maxime / Michaël Labelle | While calculation is pending | Purchase / legal | SRC-2026-011, SRC-2026-023 | Open |
+| If Jessica's calculation is positive, have Michaël coordinate the required signed PA amendment removing Monique Berthelot and Michel Lebrasseur | Maxime / Michaël Labelle | Before new financing submission | Purchase / legal | SRC-2026-011, SRC-2026-023 | Conditional |
+| Send the completed PA amendment to Jessica for the new Maxime-only financing submission | Maxime | Immediately after the amendment is completed | Financing | SRC-2026-023 | Conditional |
+| Obtain written Desjardins approval and final terms for the new Maxime-only financing before relying on that structure | Maxime / Jessica St-Pierre | Before notary finalizes deed and mortgage documents | Financing | SRC-2026-014, SRC-2026-023 | Conditional |
+| Confirm how Desjardins will treat the existing accepted financing while the PA amendment and new request are pending | Maxime / Jessica St-Pierre | Before changing or relying on financing structure | Financing | SRC-2026-014, SRC-2026-023 | Open |
+| If Jessica's calculation is negative or new financing is not approved, ask the notary to advise on the documented fallback before deed signature | Maxime | Before deed | Legal / ownership | SRC-2026-022, SRC-2026-023 | Conditional |
 | Ask notary how 2026 municipal and 2025-2026 school taxes will be adjusted at deed signature |  | Before deed | Finance / taxes | SRC-2026-004, SRC-2026-005, SRC-2026-011 | Open |
 | Confirm whether seller will provide current certificate of location or pay 2,000 CAD compensation |  | Before deed | Legal / closing | SRC-2026-011 | Open |
 | Ensure notary retains the 1,500 CAD seller repair holdback at deed signature |  | 2026-08-31 | Legal / repairs | SRC-2026-012 | Open |
 | Verify seller repair completion and garage-ceiling before/after photos |  | Before occupancy | Inspection / repairs | SRC-2026-012, SRC-2026-015 | Open |
 | Schedule and bind home insurance |  | Before deed / lender deadline | Insurance | SRC-2026-016 | Open |
-| Confirm final mortgage offer terms |  | One month before deed; by 2026-07-31 if deed is 2026-08-31 | Financing | SRC-2026-014 | Open |
+| Confirm final mortgage offer terms and how the 2026-07-31 condition applies if a new Maxime-only request proceeds | Maxime / Jessica St-Pierre | One month before deed; by 2026-07-31 if deed is 2026-08-31 | Financing | SRC-2026-014, SRC-2026-023 | Open |
 | Confirm loan contract and mortgage deed signing appointment |  | Before 2026-09-05 | Financing | SRC-2026-014 | Open |
 | Request documentation for prior oil or fuel tank disclosure |  | Before deed / insurance binding | Inspection / insurance | SRC-2026-003 | Open |
 | Tell notary, insurer, and lender the property is a legal 2 unit building with a rentable second unit |  | Before deed / insurance binding | Legal / insurance / financing | SRC-2026-001, SRC-2026-004, SRC-2026-007, SRC-2026-008, SRC-2026-014, SRC-2026-016 | Open |
@@ -43,8 +45,8 @@ Last updated: 2026-07-07
 
 | Item | Waiting On | Since | Source | Notes |
 |---|---|---|---|---|
-| Final mortgage offer terms | Desjardins / Jessica St-Pierre | 2026-07-05 | SRC-2026-014 | Acceptance letter does not include final rate, payment, frequency, or first payment date |
-| Maxime-only financing reassessment | CSEM proof / Desjardins / Jessica St-Pierre | 2026-07-07 | SRC-2026-022 | Employment proof and first pay document still needed before Desjardins can confirm whether parents can be removed from financing documents |
+| Final mortgage offer terms and treatment of existing approval | Desjardins / Jessica St-Pierre | 2026-07-05 | SRC-2026-014, SRC-2026-023 | Existing acceptance omits final terms; status during the proposed PA amendment and new financing request is unconfirmed |
+| Maxime-only feasibility calculation | Desjardins / Jessica St-Pierre | 2026-07-15 | SRC-2026-023 | CSEM documents are submitted; positive feasibility would trigger the PA amendment before a new financing submission |
 | Home insurance quote / policy | Desjardins Assurances / user | 2026-07-05 | SRC-2026-016 | Quote contact received; policy not yet recorded |
 | Seller repair completion proof | Seller / buyer broker | 2026-07-05 | SRC-2026-012 | Includes garage-ceiling before/after photos |
 
@@ -52,6 +54,7 @@ Last updated: 2026-07-07
 
 | Date Completed | Action | Source | Notes |
 |---|---|---|---|
+| By 2026-07-15 | Submitted CSEM permanent-employment proof and first pay document to Jessica St-Pierre | SRC-2026-023 | Completion was reported on 2026-07-15; actual send date is not recorded; submission is not approval |
 | 2026-07-05 | Processed initial source documents from inbox | SRC-2026-001, SRC-2026-002, SRC-2026-003, SRC-2026-004, SRC-2026-005, SRC-2026-006 | Originals archived and source notes created |
 | 2026-07-05 | Recorded buyer-side and seller contact details | SRC-2026-009, SRC-2026-010 | Jessica St-Pierre, Michaël Labelle, and Jacob cellphone added |
 | 2026-07-05 | Processed signed PA, modifications, mortgage, inspection, insurance, tax-support, and correspondence email batch | SRC-2026-011, SRC-2026-012, SRC-2026-013, SRC-2026-014, SRC-2026-015, SRC-2026-016, SRC-2026-017, SRC-2026-018, SRC-2026-019 | 40 .eml files archived; key PDFs extracted |

@@ -1,14 +1,14 @@
 # Current Status
 
-Last updated: 2026-07-07
+Last updated: 2026-07-15
 
 ## Snapshot
 
 | Area | Status | Source | Notes |
 |---|---|---|---|
-| Purchase | Signed PA recorded | SRC-2026-011 | PA-07184 generated/finalized 2026-06-01; seller response acknowledged 2026-06-04; purchase price 640,000 CAD |
-| Financing | Mortgage financing accepted; Maxime-only reassessment pending | SRC-2026-011, SRC-2026-014, SRC-2026-022 | Desjardins accepted 512,000 CAD financing; final mortgage terms still needed; CSEM employment proof may allow Maxime-only financing documents |
-| Legal / closing | Deed and occupancy dates recorded; notary details still needed | SRC-2026-011, SRC-2026-012 | Deed by 2026-08-31; occupancy 2026-09-09 at 13:00 |
+| Purchase | Signed PA recorded; current PA still lists three buyers | SRC-2026-011, SRC-2026-023 | PA-07184 purchase price is 640,000 CAD; a Maxime-only path would require a PA amendment before the new financing submission |
+| Financing | Existing financing accepted; Maxime-only feasibility calculation pending | SRC-2026-011, SRC-2026-014, SRC-2026-022, SRC-2026-023 | CSEM employment proof and first pay document were submitted; Jessica is calculating feasibility; no amended PA, new submission, or new approval is recorded |
+| Legal / closing | Deed and occupancy dates recorded; notary details and possible PA amendment still needed | SRC-2026-011, SRC-2026-012, SRC-2026-023 | Deed by 2026-08-31; occupancy 2026-09-09 at 13:00; parents remain on the current PA |
 | Insurance | Quote contact received; policy not yet recorded | SRC-2026-016 | Desjardins Assurances contact received from Carole Sabourin |
 | Moving | Unknown |  |  |
 | Inspection / repairs | Inspection completed; seller repair modification signed | SRC-2026-012, SRC-2026-015 | Seller repair list has 1,500 CAD notary holdback; buyer-side specialist follow-ups remain |
@@ -17,7 +17,8 @@ Last updated: 2026-07-07
 ## Current Focus
 
 - Initial property, seller declaration, tax, listing, signed PA/MO, mortgage, inspection, insurance-contact, and correspondence sources processed.
-- Highest-priority follow-up is notary/closing coordination, CSEM employment proof for Maxime-only financing reassessment, final mortgage terms, insurance binding, seller repair verification, certificate of location handling, and tax adjustments.
+- Highest-priority financing follow-up is Jessica's Maxime-only feasibility calculation. If positive, confirm with Michaël the required PA amendment process for removing Monique Berthelot and Michel Lebrasseur before the amended PA is submitted for new financing.
+- In parallel, continue notary/closing coordination, clarify how the existing financing is treated during the proposed change, obtain final written financing terms, bind insurance, verify seller repairs, track the certificate of location, and confirm tax adjustments.
 - Renovation follow-up is to contact at least 3 driveway/drainage/retaining-wall contractors and at least 3 foundation crack specialists by 2026-07-31, then coordinate both jobs for September 2026 if quotes and access allow.
 
 ## Important Dates
@@ -25,6 +26,7 @@ Last updated: 2026-07-07
 | Date | Item | Source | Notes |
 |---|---|---|---|
 | 2026-07-14 | Municipal tax installment | SRC-2026-004 | 952.49 CAD, responsibility depends on closing/tax adjustment |
+| 2026-07-15 | CSEM document submission reported | SRC-2026-023 | Maxime reported that the employment proof and first pay document had been submitted; Jessica is calculating feasibility; this is not a new financing approval |
 | 2026-07-31 | Final mortgage offer terms deadline | SRC-2026-014 | Derived from one-month-before-transaction condition if deed is 2026-08-31 |
 | 2026-07-31 | Renovation quote outreach target | SRC-2026-021 | Contact at least 3 contractors for each of driveway/drainage/retaining-wall and foundation crack projects |
 | 2026-08-31 | Deed deadline | SRC-2026-012 | Before buyer's notary |

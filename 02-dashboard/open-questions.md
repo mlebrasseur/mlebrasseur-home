@@ -1,16 +1,18 @@
 # Open Questions
 
-Last updated: 2026-07-07
+Last updated: 2026-07-15
 
 | Question | Area | Priority | Source | Owner | Status | Notes |
 |---|---|---|---|---|---|---|
 | Who is the buyer's notary? | Legal / closing | High | SRC-2026-011, SRC-2026-012 |  | Open | Deed must be before buyer's notary by 2026-08-31 |
 | Will the seller provide a current certificate of location or pay the 2,000 CAD compensation? | Legal / closing | High | SRC-2026-011 |  | Open | PA requires certificate by deed signature or seller compensation |
 | How will occupancy compensation be calculated if deed occurs before 2026-09-09 at 13:00? | Legal / closing | Medium | SRC-2026-011, SRC-2026-012 |  | Open | PA says seller compensates buyer if occupancy follows deed |
-| Will Desjardins approve Maxime alone after reviewing CSEM permanent-employment proof and first pay document? | Financing / ownership | High | SRC-2026-014, SRC-2026-022 | Maxime / Jessica St-Pierre | Open | User reports Jessica indicated this may allow Maxime to be the only person on Desjardins financing documents |
-| If Desjardins approves Maxime alone, what amendment or document is needed to remove Monique Berthelot and Michel Lebrasseur from the purchase, deed, and mortgage documents? | Legal / closing | High | SRC-2026-011, SRC-2026-022 | Maxime / notary / broker | Open | PA currently lists three buyers |
-| If Maxime-only documents are not approved, what notary-drafted fallback should reflect Maxime as sole payer and intended economic owner? | Legal / ownership | High | SRC-2026-022 | Maxime / notary | Open | 98% / 1% / 1% and sale-proceeds language should not be informal |
-| What are the final mortgage rate, term, payment amount, payment frequency, and first payment date? | Financing | High | SRC-2026-014 |  | Open | Desjardins acceptance does not include final terms |
+| Will Jessica's calculations show that Maxime-only financing is feasible? | Financing / ownership | High | SRC-2026-014, SRC-2026-022, SRC-2026-023 | Maxime / Jessica St-Pierre | Open | CSEM employment proof and first pay document were reported as submitted by 2026-07-15; calculation pending |
+| What PA amendment form and signatures are required to remove Monique Berthelot and Michel Lebrasseur before the new financing submission? | Purchase / legal | High | SRC-2026-011, SRC-2026-023 | Maxime / Michaël Labelle | Open | Current PA lists three buyers; Jessica said the PA change comes after a positive calculation and before new financing is submitted |
+| Will Desjardins approve the new Maxime-only financing after receiving the amended PA? | Financing / ownership | High | SRC-2026-014, SRC-2026-023 | Maxime / Jessica St-Pierre | Open | A positive calculation is a feasibility result, not final financing approval |
+| How will Desjardins treat the existing accepted financing while the PA amendment and new Maxime-only request are pending? | Financing | High | SRC-2026-014, SRC-2026-023 | Maxime / Jessica St-Pierre | Open | Existing approval should not be assumed replaced, preserved, or transferable without confirmation |
+| If Maxime-only documents are not approved, what notary-drafted fallback should reflect Maxime as sole payer and intended economic owner? | Legal / ownership | High | SRC-2026-022, SRC-2026-023 | Maxime / notary | Open | 98% / 1% / 1% and sale-proceeds language should not be informal |
+| What are the final mortgage rate, term, payment amount, payment frequency, and first payment date? | Financing | High | SRC-2026-014, SRC-2026-023 | Maxime / Jessica St-Pierre | Open | Existing acceptance omits final terms; a new Maxime-only approval may have different terms |
 | Are any lender conditions still open before signing loan documents? | Financing | High | SRC-2026-014 |  | Open | Loan contract and mortgage deed must be signed by 2026-09-05 |
 | What home insurance coverage, premium, deductible, start date, and requirements will be selected? | Insurance | High | SRC-2026-016 |  | Open | Quote contact received but no policy recorded |
 | Have seller repairs been completed, and are garage-ceiling before/after photos available? | Inspection / repairs | High | SRC-2026-012, SRC-2026-015 |  | Open | Repairs tied to 1,500 CAD notary holdback |

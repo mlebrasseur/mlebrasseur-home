@@ -15,7 +15,7 @@
 
 | Source | Amount | Status | Source Ref | Notes |
 |---|---:|---|---|---|
-| Mortgage financing | 512000.00 | Accepted; final terms and borrower structure pending | SRC-2026-011, SRC-2026-014, SRC-2026-022 | Source of funds, not a cost; Maxime-only reassessment pending CSEM proof |
+| Mortgage financing | 512000.00 | Existing financing accepted; final terms and Maxime-only feasibility pending | SRC-2026-011, SRC-2026-014, SRC-2026-022, SRC-2026-023 | Source of funds, not a cost; CSEM document submission was reported complete by 2026-07-15 and Jessica's calculation is pending |
 | Buyer additional funds | 128000.00 | Required at deed before adjustments | SRC-2026-011, SRC-2026-022 | PA clause 5.2; user states Maxime intends to provide these funds personally |
 
 ## Notes
