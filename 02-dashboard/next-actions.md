@@ -1,28 +1,28 @@
 # Next Actions
 
-Last updated: 2026-07-15
+Last updated: 2026-07-16
 
 ## Urgent
 
 | Action | Owner | Due Date | Related Area | Source | Status |
 |---|---|---|---|---|---|
-| Confirm buyer's notary and provide PA, MOs, mortgage acceptance, tax, and inspection documents |  | Before deed | Legal / closing | SRC-2026-011, SRC-2026-012, SRC-2026-014, SRC-2026-015 | Open |
-| Obtain Jessica's Maxime-only feasibility calculation | Maxime / Jessica St-Pierre | Before any PA amendment; follow up promptly before 2026-07-31 | Financing | SRC-2026-023 | Waiting |
-| Alert Michaël Labelle that a PA amendment may be needed and confirm he can coordinate it if Jessica's calculation is positive | Maxime / Michaël Labelle | While calculation is pending | Purchase / legal | SRC-2026-011, SRC-2026-023 | Open |
-| If Jessica's calculation is positive, have Michaël coordinate the required signed PA amendment removing Monique Berthelot and Michel Lebrasseur | Maxime / Michaël Labelle | Before new financing submission | Purchase / legal | SRC-2026-011, SRC-2026-023 | Conditional |
-| Send the completed PA amendment to Jessica for the new Maxime-only financing submission | Maxime | Immediately after the amendment is completed | Financing | SRC-2026-023 | Conditional |
-| Obtain written Desjardins approval and final terms for the new Maxime-only financing before relying on that structure | Maxime / Jessica St-Pierre | Before notary finalizes deed and mortgage documents | Financing | SRC-2026-014, SRC-2026-023 | Conditional |
-| Confirm how Desjardins will treat the existing accepted financing while the PA amendment and new request are pending | Maxime / Jessica St-Pierre | Before changing or relying on financing structure | Financing | SRC-2026-014, SRC-2026-023 | Open |
-| If Jessica's calculation is negative or new financing is not approved, ask the notary to advise on the documented fallback before deed signature | Maxime | Before deed | Legal / ownership | SRC-2026-022, SRC-2026-023 | Conditional |
-| Ask notary how 2026 municipal and 2025-2026 school taxes will be adjusted at deed signature |  | Before deed | Finance / taxes | SRC-2026-004, SRC-2026-005, SRC-2026-011 | Open |
-| Confirm whether seller will provide current certificate of location or pay 2,000 CAD compensation |  | Before deed | Legal / closing | SRC-2026-011 | Open |
-| Ensure notary retains the 1,500 CAD seller repair holdback at deed signature |  | 2026-08-31 | Legal / repairs | SRC-2026-012 | Open |
+| Verify delivery of the scheduled Audrey-Ann Lapierre follow-up and obtain file-opening, fee and signing details | Maxime / Audrey-Ann Lapierre | 2026-07-16 after 08:00 | Legal / closing | SRC-2026-027, SRC-2026-031 | Scheduled / not sent |
+| Confirm that Michaël or Desjardins transmitted the purchase and financing file to Audrey-Ann | Maxime / Michaël Labelle / Desjardins | Promptly; before deed | Legal / closing | SRC-2026-011, SRC-2026-012, SRC-2026-014, SRC-2026-027, SRC-2026-031, SRC-2026-032 | Open; Michaël committed to handle it |
+| Receive the PA amendment documents from Michaël and confirm all required signatures | Michaël Labelle / Maxime | Promptly; before new financing submission | Purchase / legal | SRC-2026-011, SRC-2026-023, SRC-2026-025 | Waiting |
+| Complete the PA amendment removing Monique Berthelot and Michel Lebrasseur | Maxime / Michaël Labelle / required signatories | Before new financing submission | Purchase / legal | SRC-2026-011, SRC-2026-023, SRC-2026-025 | Waiting |
+| Send the completed PA amendment to Jessica for the new Maxime-only financing submission | Maxime | Immediately after the amendment is completed | Financing | SRC-2026-023, SRC-2026-025 | Conditional |
+| Obtain written Desjardins approval and final terms for the new Maxime-only financing before relying on that structure | Maxime / Jessica St-Pierre | Before notary finalizes deed and mortgage documents | Financing | SRC-2026-014, SRC-2026-023, SRC-2026-025 | Conditional |
+| Confirm how Desjardins will treat the existing accepted financing while the PA amendment and new request are pending | Maxime / Jessica St-Pierre | Before changing or relying on financing structure | Financing | SRC-2026-014, SRC-2026-023, SRC-2026-025 | Open |
+| If new Maxime-only financing is not approved, ask the notary to advise on the documented fallback before deed signature | Maxime | Before deed | Legal / ownership | SRC-2026-022, SRC-2026-023, SRC-2026-025 | Conditional |
+| Ask Audrey-Ann how 2026 municipal and 2025-2026 school taxes will be adjusted at deed signature | Maxime / Audrey-Ann Lapierre | Before deed | Finance / taxes | SRC-2026-004, SRC-2026-005, SRC-2026-011, SRC-2026-027 | Open |
+| Confirm with Audrey-Ann whether the seller will provide a current certificate of location or pay 2,000 CAD compensation | Maxime / Audrey-Ann Lapierre | Before deed | Legal / closing | SRC-2026-011, SRC-2026-027 | Open |
+| Ensure Audrey-Ann retains the 1,500 CAD seller repair holdback at deed signature | Maxime / Audrey-Ann Lapierre | 2026-08-31 | Legal / repairs | SRC-2026-012, SRC-2026-027 | Open |
 | Verify seller repair completion and garage-ceiling before/after photos |  | Before occupancy | Inspection / repairs | SRC-2026-012, SRC-2026-015 | Open |
 | Schedule and bind home insurance |  | Before deed / lender deadline | Insurance | SRC-2026-016 | Open |
-| Confirm final mortgage offer terms and how the 2026-07-31 condition applies if a new Maxime-only request proceeds | Maxime / Jessica St-Pierre | One month before deed; by 2026-07-31 if deed is 2026-08-31 | Financing | SRC-2026-014, SRC-2026-023 | Open |
+| Confirm final mortgage offer terms and how the 2026-07-31 condition applies to the new Maxime-only request | Maxime / Jessica St-Pierre | One month before deed; by 2026-07-31 if deed is 2026-08-31 | Financing | SRC-2026-014, SRC-2026-023, SRC-2026-025 | Open |
 | Confirm loan contract and mortgage deed signing appointment |  | Before 2026-09-05 | Financing | SRC-2026-014 | Open |
 | Request documentation for prior oil or fuel tank disclosure |  | Before deed / insurance binding | Inspection / insurance | SRC-2026-003 | Open |
-| Tell notary, insurer, and lender the property is a legal 2 unit building with a rentable second unit |  | Before deed / insurance binding | Legal / insurance / financing | SRC-2026-001, SRC-2026-004, SRC-2026-007, SRC-2026-008, SRC-2026-014, SRC-2026-016 | Open |
+| Tell Audrey-Ann, the insurer, and the lender the property is a legal 2 unit building with a rentable second unit | Maxime | Before deed / insurance binding | Legal / insurance / financing | SRC-2026-001, SRC-2026-004, SRC-2026-007, SRC-2026-008, SRC-2026-014, SRC-2026-016, SRC-2026-027 | Open |
 
 ## Upcoming
 
@@ -30,8 +30,9 @@ Last updated: 2026-07-15
 |---|---|---|---|---|---|
 | Keep or request documentation confirming the second unit's legal rental status |  |  | Legal / property | SRC-2026-004, SRC-2026-007, SRC-2026-008 | Open |
 | Ask when the bachelor unit was added |  |  | Property history | SRC-2026-007, SRC-2026-008 | Open |
-| Contact at least 3 contractors for garage driveway/drainage/retaining-wall quotes | User | 2026-07-31 | Driveway / drainage / retaining wall | SRC-2026-015, SRC-2026-020, SRC-2026-021 | Open |
-| Contact at least 3 foundation crack specialists for quotes | User | 2026-07-31 | Foundation | SRC-2026-015, SRC-2026-021 | Open |
+| Verify successful transmission of the scheduled Steve Charbonneau referral email | Maxime | 2026-07-16 after 08:00 | Renovations | SRC-2026-015, SRC-2026-026, SRC-2026-028 | Scheduled / not sent |
+| Verify successful transmission of the five scheduled garage driveway/drainage/retaining-wall emails | Maxime | 2026-07-16 after 08:00 | Driveway / drainage / retaining walls | SRC-2026-015, SRC-2026-020, SRC-2026-021, SRC-2026-026, SRC-2026-028 | Scheduled / not sent |
+| Verify successful transmission of the five scheduled foundation-crack specialist emails | Maxime | 2026-07-16 after 08:00 | Foundation | SRC-2026-015, SRC-2026-021, SRC-2026-026, SRC-2026-030 | Scheduled / not sent |
 | Coordinate selected driveway and foundation contractors before final driveway finish | User / contractors | Before 2026-09 work | Exterior / foundation | SRC-2026-021 | Open |
 | Confirm with Terrebonne Urbanisme whether bachelor expansion into garage space affects permits, use, or unit status | User | Before design spend | Bachelor expansion / permits | SRC-2026-008, SRC-2026-021 | Open |
 | Confirm whether garage ceiling material contains asbestos before removal |  | Before seller / contractor removal | Garage / environmental | SRC-2026-012, SRC-2026-015 | Open |
@@ -45,8 +46,8 @@ Last updated: 2026-07-15
 
 | Item | Waiting On | Since | Source | Notes |
 |---|---|---|---|---|
-| Final mortgage offer terms and treatment of existing approval | Desjardins / Jessica St-Pierre | 2026-07-05 | SRC-2026-014, SRC-2026-023 | Existing acceptance omits final terms; status during the proposed PA amendment and new financing request is unconfirmed |
-| Maxime-only feasibility calculation | Desjardins / Jessica St-Pierre | 2026-07-15 | SRC-2026-023 | CSEM documents are submitted; positive feasibility would trigger the PA amendment before a new financing submission |
+| Final mortgage offer terms and treatment of existing approval | Desjardins / Jessica St-Pierre | 2026-07-05 | SRC-2026-014, SRC-2026-023, SRC-2026-025 | Existing acceptance omits final terms; status during the requested PA amendment and planned new financing request is unconfirmed |
+| PA amendment documents | Michaël Labelle | 2026-07-15 | SRC-2026-025 | Maxime requested the documents after Jessica confirmed the ratios; no response or documents recorded yet |
 | Home insurance quote / policy | Desjardins Assurances / user | 2026-07-05 | SRC-2026-016 | Quote contact received; policy not yet recorded |
 | Seller repair completion proof | Seller / buyer broker | 2026-07-05 | SRC-2026-012 | Includes garage-ceiling before/after photos |
 
@@ -54,6 +55,14 @@ Last updated: 2026-07-15
 
 | Date Completed | Action | Source | Notes |
 |---|---|---|---|
+| 2026-07-15 | Scheduled the Steve referral and all five driveway contractor emails | SRC-2026-028 | Scheduled for 2026-07-16 at 08:00; scheduling is complete, but delivery remains unconfirmed |
+| 2026-07-15 | Scheduled all five foundation-crack specialist emails | SRC-2026-030 | Scheduled for 2026-07-16 at 08:00; scheduling is complete, but delivery remains unconfirmed |
+| 2026-07-15 | Scheduled the Audrey-Ann Lapierre follow-up | SRC-2026-031 | Scheduled for 2026-07-16 at 08:00 with no attachment; delivery remains unconfirmed |
+| 2026-07-15 | Prepared the foundation and driveway contractor photo packages | SRC-2026-015, SRC-2026-026 | 17 inspection-report photos extracted; front overview copied into each folder; 7 foundation and 12 driveway JPEG attachments ready |
+| 2026-06-18 | Sent Audrey-Ann Lapierre's details to Michaël and asked who would transmit the documents | SRC-2026-032 | Michaël acknowledged the selection and said he would handle the documents; actual transmission and notary receipt remain unconfirmed |
+| 2026-06-18 | Selected Audrey-Ann Lapierre of LRV Notaires as buyer's notary | SRC-2026-027, SRC-2026-031 | Audrey-Ann later accepted the mandate and quoted 2,040 CAD taxes included for a regular lender; file receipt and appointment remain outstanding |
+| 2026-07-15 | Received Jessica's positive Maxime-only ratio result | SRC-2026-025 | Feasibility gate passed; this is not new financing approval |
+| 2026-07-15 | Asked Michaël Labelle to prepare the PA amendment documents | SRC-2026-025 | Documents are intended for Maxime and his parents to sign; exact required signatures remain for Michaël and the transaction parties to confirm |
 | By 2026-07-15 | Submitted CSEM permanent-employment proof and first pay document to Jessica St-Pierre | SRC-2026-023 | Completion was reported on 2026-07-15; actual send date is not recorded; submission is not approval |
 | 2026-07-05 | Processed initial source documents from inbox | SRC-2026-001, SRC-2026-002, SRC-2026-003, SRC-2026-004, SRC-2026-005, SRC-2026-006 | Originals archived and source notes created |
 | 2026-07-05 | Recorded buyer-side and seller contact details | SRC-2026-009, SRC-2026-010 | Jessica St-Pierre, Michaël Labelle, and Jacob cellphone added |

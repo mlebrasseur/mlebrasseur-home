@@ -50,9 +50,10 @@
 - Air exchanger: no air exchanger present.
 - Heat pump / central AC: central heat pump installed in 2025, operating through garage furnace.
 - Ventilation maintenance: duct and exterior grille cleaning every two years recommended; broken ventilation grille behind AC near rear wall should be replaced.
-- Retaining wall / driveway: signs of settlement on a section of retaining wall on right side of driveway; paving-stone expert and budget recommended.
+- Retaining wall / driveway: the existing driveway is pavé uni; signs of settlement were observed on a section of the right-side retaining wall; the report recommends a paving-stone expert and budgeting to redo the driveway pavers.
 - Exterior water tap: damaged exterior tap on left wall should be replaced.
 - Inspection conclusion: minor and considerable issues are present; specialists should evaluate corrective work before purchase.
+- Contractor photo packages: 17 original embedded inspection JPEGs were extracted on 2026-07-15 and organized with a front overview into separate foundation and driveway attachment folders. See `01-sources/extractions/2026/2026-06-06-inspection-contractor-photos/README.md`.
 - Interac payment proof: 600.00 CAD sent to Steve Charbonneau was deposited on 2026-06-06.
 - Interac reference number: CACN9PX2.
 - Interac message: Inspection - 866 Rue St Sacrement, Terrebonne.
@@ -96,6 +97,7 @@
 
 - Track seller repair obligations from MO-57236 against inspection findings.
 - Request or schedule specialist quotes for remaining buyer-side work not covered by seller repairs.
+- Use the prepared foundation and driveway photo folders for contractor outreach; retain the report-page manifest with the files.
 - Install/test CO detectors after possession.
 - Confirm water heater age and insurance implications.
 - Keep Interac payment proof in ledger.

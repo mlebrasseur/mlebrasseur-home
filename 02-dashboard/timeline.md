@@ -1,6 +1,6 @@
 # Timeline
 
-Last updated: 2026-07-15
+Last updated: 2026-07-16
 
 ## Chronological Timeline
 
@@ -25,17 +25,26 @@ Last updated: 2026-07-15
 | 2026-06-11 | Loi 25 consent completed | Legal / admin | SRC-2026-017 | Brokerage privacy consent |
 | 2026-06-11 | Insurance quote contact email received | Insurance | SRC-2026-016 | Desjardins Assurances / Carole Sabourin |
 | 2026-06-14 | Financing acceptance transmitted by broker | Financing | SRC-2026-014 | FIN_AccR.pdf |
+| 2026-06-18 | Audrey-Ann Lapierre selected and her details sent to Michaël | Legal / closing | SRC-2026-027, SRC-2026-032 | Michaël acknowledged the selection and said he would handle the documents; actual file transmission and notary receipt remain unconfirmed |
 | 2026-07-05 | Repository structure initialized | Admin | N/A | Ready for document and chat intake |
 | 2026-07-05 | Initial house sources processed | Intake | SRC-2026-001, SRC-2026-002, SRC-2026-003, SRC-2026-004, SRC-2026-005, SRC-2026-006 | Originals archived and source notes created |
 | 2026-07-05 | Email batch processed | Intake | SRC-2026-011, SRC-2026-012, SRC-2026-013, SRC-2026-014, SRC-2026-015, SRC-2026-016, SRC-2026-017, SRC-2026-018, SRC-2026-019 | 40 .eml files archived and key PDFs extracted |
 | 2026-07-07 | Renovation priority and bachelor expansion plan recorded | Renovations | SRC-2026-021 | July quote targets, September parallel work target, and future bachelor expansion concept |
 | 2026-07-14 | Municipal tax installment due | Tax | SRC-2026-004 | 952.49 CAD; payment and closing-adjustment status remain unconfirmed |
-| 2026-07-15 | CSEM document submission reported | Financing | SRC-2026-023 | Maxime reported the employment proof and first pay document had been sent; actual send date is not recorded; Jessica is calculating Maxime-only feasibility |
+| 2026-07-15 | CSEM document submission reported | Financing | SRC-2026-023, SRC-2026-025 | Maxime reported the employment proof and first pay document had been sent; at that point Jessica was calculating feasibility, with a positive result reported later the same day |
+| 2026-07-15 | Maxime-only ratios confirmed and PA amendment requested | Financing / legal | SRC-2026-025 | Jessica confirmed the ratios work; Maxime asked Michaël to prepare amendment documents and is waiting for a response |
+| 2026-07-15 | Renovation outreach drafts and project photo packages prepared | Renovations | SRC-2026-015, SRC-2026-026 | 17 report photos extracted into separate foundation and driveway folders; Steve and all ten shortlisted contractors remain uncontacted |
+| 2026-07-15 | Steve referral and five driveway contractor emails scheduled | Renovations | SRC-2026-028 | Scheduled for 2026-07-16 at 08:00; both retaining walls included in the driveway quote scope; no message sent yet |
+| 2026-07-15 | Five foundation-crack specialist emails scheduled | Renovations | SRC-2026-030 | Scheduled for 2026-07-16 at 08:00; no message sent yet |
+| 2026-07-15 | Audrey-Ann Lapierre follow-up scheduled | Legal / closing | SRC-2026-031 | Scheduled for 2026-07-16 at 08:00 with no attachment; no message sent yet |
 
 ## Future Dates
 
 | Date | Event | Category | Source | Notes |
 |---|---|---|---|---|
+| 2026-07-16 08:00 | Scheduled Steve referral and driveway-contractor email transmission | Renovations | SRC-2026-028 | Six messages scheduled; verify successful transmission before marking recipients contacted |
+| 2026-07-16 08:00 | Scheduled foundation-specialist email transmission | Renovations | SRC-2026-030 | Five messages scheduled; verify successful transmission before marking recipients contacted |
+| 2026-07-16 08:00 | Scheduled notary follow-up transmission | Legal / closing | SRC-2026-031 | One message scheduled; verify successful transmission before marking Audrey-Ann contacted |
 | 2026-07-31 | Final mortgage offer terms deadline | Financing | SRC-2026-014 | Derived from one-month-before-transaction condition if deed is 2026-08-31 |
 | 2026-07-31 | Renovation quote outreach target | Renovations | SRC-2026-021 | Contact at least 3 contractors for each of the driveway/drainage/retaining-wall and foundation crack projects |
 | 2026-08-31 | Deed deadline | Legal / closing | SRC-2026-012 | Before buyer's notary |
