@@ -29,8 +29,8 @@
 |---|---|---|---|---|---|
 | Confirm seller repairs are complete | Seller / broker | Before occupancy | SRC-2026-012, SRC-2026-015 | Open | Tied to 1,500 CAD holdback |
 | Obtain garage-ceiling before/after photos | Seller / broker | Before occupancy | SRC-2026-012 | Open | Required by MO-57236 |
-| Contact at least 3 contractors for garage driveway/drainage/retaining-wall project | User | 2026-07-31 | SRC-2026-015, SRC-2026-020, SRC-2026-021 | Open | Include driveway condition, garage entrance grading, exterior drain basin, retaining-wall settlement, and garage water infiltration risk |
-| Contact at least 3 foundation crack specialists | User | 2026-07-31 | SRC-2026-015, SRC-2026-021 | Open | Front, left, and rear cracks observed; request September availability |
+| Contact at least 3 contractors for garage driveway/drainage/retaining-wall project | User | 2026-07-31 | SRC-2026-015, SRC-2026-020, SRC-2026-021, SRC-2026-037 | Done | All five shortlisted contractors were emailed; responses and quotes are pending |
+| Contact at least 3 foundation crack specialists | User | 2026-07-31 | SRC-2026-015, SRC-2026-021, SRC-2026-037 | Done | All five shortlisted specialists were emailed; responses and quotes are pending |
 | Coordinate driveway and foundation contractors before final driveway finish | User / contractors | Before 2026-09 work | SRC-2026-015, SRC-2026-021 | Open | Foundation repair may require exterior access or excavation |
 | Confirm garage-ceiling material handling / asbestos status |  | Before removal or acceptance | SRC-2026-015 | Open | Inspector recommended sample analysis |
 | Get electrician quote for exterior GFI outlets |  |  | SRC-2026-015 | Open | Inspection recommendation |

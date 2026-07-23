@@ -7,7 +7,8 @@ Use this file for analysis and recommendations. Recommendations should be clearl
 | Date | Topic | Recommendation | Source | Status | Notes |
 |---|---|---|---|---|---|
 | 2026-07-07 | Buyer / borrower structure | Pursue Maxime-only Desjardins approval first using CSEM employment proof; keep 98% / 1% / 1% as fallback only if Maxime-only is not approved | SRC-2026-011, SRC-2026-014, SRC-2026-022 | Superseded | Sequence replaced by the 2026-07-15 recommendation after Jessica clarified that the PA amendment precedes the new financing submission |
-| 2026-07-15 | Maxime-only financing sequence | Complete the requested PA amendment, submit it to Jessica for new Maxime-only financing, and obtain written approval before relying on the new structure | SRC-2026-011, SRC-2026-014, SRC-2026-022, SRC-2026-023, SRC-2026-025 | Active | Ratio feasibility is confirmed and Michaël has been asked to prepare the amendment; documents are still outstanding |
+| 2026-07-15 | Maxime-only financing sequence | Complete the requested PA amendment, submit it to Jessica for new Maxime-only financing, and obtain written approval before relying on the new structure | SRC-2026-011, SRC-2026-014, SRC-2026-022, SRC-2026-023, SRC-2026-025, SRC-2026-033, SRC-2026-035 | Completed | MO-05850 was finalized 2026-07-16 and Desjardins issued Maxime-only acceptance 2026-07-22 |
+| 2026-07-23 | Mortgage closing and rate comparison | Preserve the accepted Desjardins path while obtaining any competing written offer; prioritize the scheduled Teams meeting, lender instructions, and notary scheduling before considering a switch | SRC-2026-033, SRC-2026-034, SRC-2026-035, SRC-2026-036, SRC-2026-039 | Active | Desjardins approval is complete and a Teams meeting is scheduled for 2026-07-30 at 14:00 America/Toronto; formal offer, meeting details, notary instructions, signing appointments, and competing terms remain open |
 
 ## Detailed Recommendations
 
@@ -81,7 +82,9 @@ Status: Superseded on 2026-07-15 by the clarified sequence in SRC-2026-023.
 
 ## 2026-07-15 - Maxime-Only Financing Sequence
 
-### Situation
+Status: Completed on 2026-07-22 through signed MO-05850 and the final Desjardins acceptance in SRC-2026-033 and SRC-2026-035.
+
+### Situation At The Time
 
 - The current accepted PA lists Maxime Lebrasseur, Monique Berthelot, and Michel Lebrasseur as buyers.
 - On 2026-07-15, Maxime reported that he had submitted CSEM permanent-employment proof and a first pay document to Jessica St-Pierre; the actual send date is not recorded.
@@ -118,18 +121,79 @@ Status: Superseded on 2026-07-15 by the clarified sequence in SRC-2026-023.
 
 ### Sources
 
-- Source IDs: SRC-2026-011, SRC-2026-014, SRC-2026-022, SRC-2026-023, SRC-2026-025
+- Source IDs: SRC-2026-011, SRC-2026-014, SRC-2026-022, SRC-2026-023, SRC-2026-025, SRC-2026-033, SRC-2026-035
 - Source paths:
   - 01-sources/extractions/2026/2026-06-01-legal-signed-pa-07184.md
   - 01-sources/extractions/2026/2026-06-10-financing-desjardins-preauthorization-and-acceptance.md
   - 01-sources/chat/2026/2026-07-07-financing-csem-maxime-only-path.md
   - 01-sources/chat/2026/2026-07-15-financing-csem-documents-and-pa-sequence.md
   - 01-sources/chat/2026/2026-07-15-financing-positive-ratios-and-pa-amendment-request.md
+  - 01-sources/extractions/2026/2026-07-16-legal-mo-05850-maxime-only-buyer.md
+  - 01-sources/extractions/2026/2026-07-22-financing-desjardins-final-acceptance.md
 
-### Next Actions
+### Original Next Actions
 
 - Await Michaël's response and amendment documents.
 - Confirm the exact form and all required signatures, then complete the amendment.
 - Send the completed amendment to Jessica for the new Maxime-only financing submission.
 - Obtain written new financing approval and terms.
 - Confirm the final structure with the notary before deed documents are prepared.
+
+### Completion Outcome
+
+- Signed MO-05850 was finalized on 2026-07-16, removing Monique Berthelot and Michel Lebrasseur and making Maxime the sole buyer.
+- Desjardins issued the final 512,000 CAD Maxime-only acceptance on 2026-07-22.
+- The original amendment and financing-approval action sequence is complete.
+
+## 2026-07-23 - Mortgage Closing And Rate Comparison
+
+### Situation
+
+- Signed MO-05850 makes Maxime the sole buyer.
+- Desjardins has accepted 512,000 CAD financing for Maxime alone.
+- Audrey-Ann's office opened the notary file but was waiting for lender instructions as of 2026-07-16.
+- Audrey-Ann will be away for two weeks beginning 2026-08-07.
+- A Desjardins financing Teams meeting is scheduled for 2026-07-30 at 14:00 America/Toronto. Jessica reported that Jean-Marc had confirmed he would contact Maxime beforehand; that contact and the meeting's purpose, participants, and invitation link remain unconfirmed.
+- Michael Sciascia is looking for a better mortgage rate, but no competing written terms are recorded.
+
+### Recommendation
+
+- Keep the accepted Desjardins financing as the executable closing path unless a complete alternative is approved and can meet the closing schedule.
+- Confirm Jean-Marc's promised pre-meeting contact, confirm the Teams invitation and expected agenda, attend the 2026-07-30 14:00 America/Toronto meeting, and record its outcome.
+- Confirm the formal Desjardins offer and lender instructions, separately confirm Michaël transmitted MO-05850, and obtain the signing appointments promptly.
+- Ask Michael for a complete written proposal, including lender, rate formula, term, payment, rate hold, fees, cashback, penalties, privileges, conditions, and closing timeline.
+- Compare total borrowing terms and execution risk, not only the headline rate.
+- Do not cancel or replace Desjardins instructions until the alternative lender, broker, and notary confirm the replacement can close on time.
+
+### Reasoning
+
+- Desjardins approval substantially reduces the main financing-approval risk but does not eliminate it because the formal offer, remaining conditions, and notary instructions are still to be confirmed.
+- A lender change can restart underwriting and notary instructions close to Audrey-Ann's absence and the 2026-08-31 deed deadline.
+- A lower rate can still be worse overall if it adds fees, restrictive penalties, weak prepayment privileges, or closing uncertainty.
+
+### Assumptions
+
+- No competing written offer or approval has been received.
+- Desjardins has not yet been cancelled or replaced.
+- The meeting platform, date, time, and America/Toronto timezone are confirmed, but its purpose, participants, invitation link, and Jean-Marc's full identity are not recorded.
+- Audrey-Ann has not yet confirmed receipt of final Desjardins instructions or the signing appointments.
+
+### Sources
+
+- Source IDs: SRC-2026-033, SRC-2026-034, SRC-2026-035, SRC-2026-036, SRC-2026-039
+- Source paths:
+  - 01-sources/extractions/2026/2026-07-16-legal-mo-05850-maxime-only-buyer.md
+  - 01-sources/extractions/2026/2026-07-16-legal-notary-file-opening-and-instructions.md
+  - 01-sources/extractions/2026/2026-07-22-financing-desjardins-final-acceptance.md
+  - 01-sources/chat/2026/2026-07-23-financing-michael-sciascia-rate-shopping.md
+  - 01-sources/chat/2026/2026-07-23-financing-desjardins-teams-meeting-scheduled.md
+
+### Next Actions
+
+- Confirm Jean-Marc contacts Maxime before the scheduled meeting.
+- Confirm the Teams invitation or link and expected agenda, attend the 2026-07-30 14:00 America/Toronto meeting, and record the outcome.
+- Confirm Desjardins sent its final lender instructions to Audrey-Ann.
+- Confirm Michaël transmitted signed MO-05850 to Audrey-Ann.
+- Obtain signing dates from Audrey-Ann.
+- Obtain Michael's complete written proposal.
+- Compare both options before authorizing any lender change.

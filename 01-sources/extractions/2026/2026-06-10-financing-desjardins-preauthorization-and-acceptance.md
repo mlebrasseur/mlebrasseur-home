@@ -11,6 +11,12 @@
 - Related project: Financing
 - Confidence: High for Desjardins letter facts. Specific final rate, payment amount, payment frequency, and first payment date are not included in these extracted letters.
 
+## Supersession
+
+- This source remains the historical record of the 2026-06-10 acceptance.
+- SRC-2026-035 supersedes it for the current borrower structure, mortgage terms, and loan/mortgage-document deadline.
+- The current acceptance names Maxime Lebrasseur alone and sets a 2026-10-15 deadline instead of the 2026-09-05 deadline below.
+
 ## Key Facts
 
 - Preauthorization letter dated 2026-06-01.
