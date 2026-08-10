@@ -19,13 +19,13 @@
 | Request prior oil or fuel tank documentation | High |  | Exterior / environmental | SRC-2026-003 | Open | Seller disclosed prior tank and no known contamination |
 | Request heat pump and central AC documents | Medium |  | HVAC | SRC-2026-003 | Open | Seller says documents exist |
 | Verify French drain access and condition | Medium |  | Drainage | SRC-2026-003, SRC-2026-015 | Open | Inspection could not access lookouts or confirm condition |
-| Confirm roof documentation or expected remaining life | Medium |  | Roof | SRC-2026-003 | Open | Seller says roof covering installed 2015 but has no documents |
+| Confirm roof documentation or expected remaining life | Medium |  | Roof | SRC-2026-003, SRC-2026-042 | Open | Seller says roof covering installed 2015; Intact policy records roof renovation in 2016; no supporting documents recorded |
 | Scope garage driveway / drainage / retaining-wall redo | High | As responses arrive; before 2026-09 work | Driveway / retaining walls / garage drainage | SRC-2026-015, SRC-2026-020, SRC-2026-021, SRC-2026-028, SRC-2026-029, SRC-2026-030, SRC-2026-037 | Open | All five contractor messages were delivered; responses, visits and quotes are pending. Existing surface is pavé uni; visits should address drain design, grading, infiltration risk, both walls, and paver reuse versus replacement. |
 | Get foundation-crack specialist quotes | High | As responses arrive; before 2026-09 work | Foundation | SRC-2026-015, SRC-2026-021, SRC-2026-030, SRC-2026-037 | Open | All five specialist messages were delivered; responses, visits and quotes are pending; front, left, and rear cracks observed; coordinate with driveway work if exterior access is needed |
 | Test garage-ceiling material before removal if not already handled | High | Before removal | Garage / environmental | SRC-2026-012, SRC-2026-015 | Open | Inspector notes material may contain asbestos |
 | Replace exterior outlets with GFI outlets | Medium |  | Electrical | SRC-2026-015 | Open | Inspection recommendation |
 | Replace garage-to-basement door hinges with self-closing spring hinges | Medium |  | Garage / CO safety | SRC-2026-015 | Open | Prevent CO infiltration from attached garage |
 | Add / verify CO detectors on each floor | High | At possession | Safety | SRC-2026-015 | Open | Attached garage |
-| Confirm water heater year | Medium |  | Plumbing / insurance | SRC-2026-003, SRC-2026-015 | Open | 2021 in inspection vs 2023 in seller declaration |
+| Confirm water heater year | Medium |  | Plumbing / insurance | SRC-2026-003, SRC-2026-015, SRC-2026-042 | Open | 2021 in inspection and Intact policy vs 2023 in seller declaration |
 | Replace broken ventilation grille behind AC | Low |  | HVAC | SRC-2026-015 | Open | Near rear wall |
 | Repair damaged exterior tap | Low |  | Exterior plumbing | SRC-2026-015 | Open | Left exterior wall |

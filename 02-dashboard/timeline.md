@@ -1,6 +1,6 @@
 # Timeline
 
-Last updated: 2026-07-23
+Last updated: 2026-08-10
 
 ## Chronological Timeline
 
@@ -46,17 +46,24 @@ Last updated: 2026-07-23
 | 2026-07-23 | Delivery of all eleven renovation outreach emails confirmed; July outreach target completed early | Renovations | SRC-2026-021, SRC-2026-037 | All eleven had been sent on 2026-07-16; delivery was confirmed on 2026-07-23; exact individual delivery times not recorded |
 | 2026-07-23 | Notary's July 31 date reference clarified as an apparent error | Legal / closing | SRC-2026-012, SRC-2026-034, SRC-2026-038 | User confirmed the correction; signed 2026-08-31 deed deadline remains controlling |
 | 2026-07-23 | Desjardins Teams meeting schedule recorded | Financing | SRC-2026-035, SRC-2026-039 | Meeting scheduled for 2026-07-30 at 14:00 America/Toronto; purpose, participants, and invitation link not recorded |
+| 2026-08-05 | Ancillary Desjardins forms signed | Financing / insurance | SRC-2026-041 | Maxime declined mortgage life and disability insurance and signed the rate-conversion agreement; final loan and mortgage signing remains scheduled for 2026-08-26 |
+| 2026-08-06 | Intact home-insurance proof issued | Insurance | SRC-2026-042 | Policy KK6-79EW effective 2026-08-31; 581,000 CAD building coverage |
+| 2026-08-06 | LRV signing appointment and closing-fund request issued | Legal / closing | SRC-2026-043 | 2026-08-26 13:30 appointment; 130,038.27 CAD requested through Assyst |
+| 2026-08-07 | Formal Desjardins mortgage offer issued | Financing | SRC-2026-044 | 512,000 CAD loan at prime minus 0.85%; 768,000 CAD proposed registered mortgage amount |
+| 2026-08-10 | Closing-fund transfer submitted | Finance / legal closing | SRC-2026-043, SRC-2026-045 | Full 130,038.27 CAD Assyst request reported submitted; trust-account receipt pending |
 
 ## Future Dates
 
 | Date | Event | Category | Source | Notes |
 |---|---|---|---|---|
-| 2026-07-30 14:00 America/Toronto | Desjardins financing Teams meeting | Financing | SRC-2026-035, SRC-2026-039 | Scheduled; Jean-Marc's promised pre-meeting contact and the meeting details remain to be confirmed |
-| 2026-07-31 | Formal financing offer target | Financing | SRC-2026-035 | Derived from one-month-before-transaction condition if deed is 2026-08-31; acceptance and emailed terms already received |
-| 2026-08-07 | Audrey-Ann Lapierre begins two-week absence | Legal / closing | SRC-2026-034 | Practical target to resolve lender instructions and scheduling before this date |
+| 2026-08-13 | Practical follow-up for Assyst receipt | Finance / legal closing | SRC-2026-043, SRC-2026-045 | Confirm funds reached LRV's trust account after processing |
+| 2026-08-26 13:30 | Mortgage and purchase-deed signing appointment | Legal / financing | SRC-2026-043 | LRV Notaires, 3215 boulevard de la Pinière, suite 207, Terrebonne |
+| 2026-08-28 | Planned mortgage disbursement | Financing | SRC-2026-041 | Actual disbursement remains to confirm |
 | 2026-08-31 | Deed deadline | Legal / closing | SRC-2026-012 | Before buyer's notary |
+| 2026-08-31 | Intact home-insurance policy begins | Insurance | SRC-2026-042, SRC-2026-043 | Effective at 00:01 local time |
+| 2026-09-01 | Expected first mortgage payment if planned disbursement occurs | Financing | SRC-2026-041, SRC-2026-044 | Contract requires first payment on the first day of the month after disbursement |
 | 2026-09-09 13:00 | Occupancy | Legal / moving | SRC-2026-012 | Modified by MO-57236 |
 | 2026-09 | Exterior/foundation renovation target | Renovations | SRC-2026-021 | Driveway/drainage/retaining-wall work and foundation crack work targeted to run in parallel |
 | 2026-09-15 | Municipal tax installment due | Tax | SRC-2026-004 | 952.49 CAD, payment responsibility to confirm |
-| 2026-10-15 | Desjardins mortgage-document signing deadline | Financing | SRC-2026-035 | Deadline stated in the acceptance letter; operational signing must occur for closing no later than the 2026-08-31 deed deadline |
+| 2026-10-15 | Desjardins mortgage-document outside deadline | Financing | SRC-2026-044 | Formal-offer deadline; operational signing is booked for 2026-08-26 |
 | 2026-10-20 | Municipal tax installment due | Tax | SRC-2026-004 | 952.48 CAD, payment responsibility to confirm |

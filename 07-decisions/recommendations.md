@@ -8,7 +8,8 @@ Use this file for analysis and recommendations. Recommendations should be clearl
 |---|---|---|---|---|---|
 | 2026-07-07 | Buyer / borrower structure | Pursue Maxime-only Desjardins approval first using CSEM employment proof; keep 98% / 1% / 1% as fallback only if Maxime-only is not approved | SRC-2026-011, SRC-2026-014, SRC-2026-022 | Superseded | Sequence replaced by the 2026-07-15 recommendation after Jessica clarified that the PA amendment precedes the new financing submission |
 | 2026-07-15 | Maxime-only financing sequence | Complete the requested PA amendment, submit it to Jessica for new Maxime-only financing, and obtain written approval before relying on the new structure | SRC-2026-011, SRC-2026-014, SRC-2026-022, SRC-2026-023, SRC-2026-025, SRC-2026-033, SRC-2026-035 | Completed | MO-05850 was finalized 2026-07-16 and Desjardins issued Maxime-only acceptance 2026-07-22 |
-| 2026-07-23 | Mortgage closing and rate comparison | Preserve the accepted Desjardins path while obtaining any competing written offer; prioritize the scheduled Teams meeting, lender instructions, and notary scheduling before considering a switch | SRC-2026-033, SRC-2026-034, SRC-2026-035, SRC-2026-036, SRC-2026-039 | Active | Desjardins approval is complete and a Teams meeting is scheduled for 2026-07-30 at 14:00 America/Toronto; formal offer, meeting details, notary instructions, signing appointments, and competing terms remain open |
+| 2026-07-23 | Mortgage closing and rate comparison | Preserve the accepted Desjardins path while obtaining any competing written offer; do not replace it unless the alternative is fully approved and can meet closing | SRC-2026-033, SRC-2026-034, SRC-2026-035, SRC-2026-036, SRC-2026-041, SRC-2026-043, SRC-2026-044 | Active | Formal offer received, ancillary forms signed, insurance bound, funds submitted, and final notary signing booked; no competing terms recorded |
+| 2026-08-10 | Registered mortgage amount | Do not accept 768,000 CAD by default without deciding; use 512,000 CAD if no future Desjardins-secured borrowing is expected, or retain 768,000 CAD only if its future-borrowing convenience is useful and its secured-debt scope is understood | SRC-2026-044 | Active | The larger registration does not itself create approved or drawable credit; additional borrowing depends on Desjardins's accepted property value, available equity, product limits, and approval |
 
 ## Detailed Recommendations
 
@@ -147,7 +148,7 @@ Status: Completed on 2026-07-22 through signed MO-05850 and the final Desjardins
 
 ## 2026-07-23 - Mortgage Closing And Rate Comparison
 
-### Situation
+### Situation At The Time
 
 - Signed MO-05850 makes Maxime the sole buyer.
 - Desjardins has accepted 512,000 CAD financing for Maxime alone.
@@ -156,7 +157,7 @@ Status: Completed on 2026-07-22 through signed MO-05850 and the final Desjardins
 - A Desjardins financing Teams meeting is scheduled for 2026-07-30 at 14:00 America/Toronto. Jessica reported that Jean-Marc had confirmed he would contact Maxime beforehand; that contact and the meeting's purpose, participants, and invitation link remain unconfirmed.
 - Michael Sciascia is looking for a better mortgage rate, but no competing written terms are recorded.
 
-### Recommendation
+### Original Recommendation
 
 - Keep the accepted Desjardins financing as the executable closing path unless a complete alternative is approved and can meet the closing schedule.
 - Confirm Jean-Marc's promised pre-meeting contact, confirm the Teams invitation and expected agenda, attend the 2026-07-30 14:00 America/Toronto meeting, and record its outcome.
@@ -165,13 +166,13 @@ Status: Completed on 2026-07-22 through signed MO-05850 and the final Desjardins
 - Compare total borrowing terms and execution risk, not only the headline rate.
 - Do not cancel or replace Desjardins instructions until the alternative lender, broker, and notary confirm the replacement can close on time.
 
-### Reasoning
+### Original Reasoning
 
 - Desjardins approval substantially reduces the main financing-approval risk but does not eliminate it because the formal offer, remaining conditions, and notary instructions are still to be confirmed.
 - A lender change can restart underwriting and notary instructions close to Audrey-Ann's absence and the 2026-08-31 deed deadline.
 - A lower rate can still be worse overall if it adds fees, restrictive penalties, weak prepayment privileges, or closing uncertainty.
 
-### Assumptions
+### Original Assumptions
 
 - No competing written offer or approval has been received.
 - Desjardins has not yet been cancelled or replaced.
@@ -188,7 +189,7 @@ Status: Completed on 2026-07-22 through signed MO-05850 and the final Desjardins
   - 01-sources/chat/2026/2026-07-23-financing-michael-sciascia-rate-shopping.md
   - 01-sources/chat/2026/2026-07-23-financing-desjardins-teams-meeting-scheduled.md
 
-### Next Actions
+### Original Next Actions
 
 - Confirm Jean-Marc contacts Maxime before the scheduled meeting.
 - Confirm the Teams invitation or link and expected agenda, attend the 2026-07-30 14:00 America/Toronto meeting, and record the outcome.
@@ -197,3 +198,50 @@ Status: Completed on 2026-07-22 through signed MO-05850 and the final Desjardins
 - Obtain signing dates from Audrey-Ann.
 - Obtain Michael's complete written proposal.
 - Compare both options before authorizing any lender change.
+
+### 2026-08-10 Status Update
+
+- The formal offer was received, ancillary Desjardins forms were signed, insurance was bound, closing funds were submitted, and the final loan, mortgage, and purchase-deed signing was booked for 2026-08-26 at 13:30. (SRC-2026-041, SRC-2026-042, SRC-2026-043, SRC-2026-044, SRC-2026-045)
+- The original execution-risk recommendation remains active only as a warning not to replace the now-executable Desjardins path without a fully approved alternative.
+- No competing written proposal is recorded.
+
+## 2026-08-10 - Registered Mortgage Amount
+
+### Situation
+
+- The formal Desjardins offer lends 512,000 CAD but proposes registering a first-ranking mortgage for 768,000 CAD.
+- The 768,000 CAD amount is 150% of the current loan and is security, not current borrowing.
+- The offer says the larger amount may support future secured borrowing without registering a new mortgage, subject to future credit approval, property value, and Desjardins practices.
+- Unless Maxime gives contrary instructions before signing, Desjardins will use 768,000 CAD.
+- The deed will also contain a separate additional-mortgage clause of 20% for specified additional amounts owing.
+- The larger registration does not itself create approved or drawable credit. Any additional borrowing depends on Desjardins's accepted property value, available equity, product limits, and approval.
+
+### Recommendation
+
+- Make an explicit choice before the 2026-08-26 appointment; do not let the default determine the registered amount.
+- If Maxime does not expect to borrow against future equity through Desjardins, ask Brigida Rizzuto and LRV Notaires to use 512,000 CAD or another deliberately selected amount.
+- If future Desjardins financing for renovations is likely, retaining 768,000 CAD may avoid a later mortgage-registration step, but confirm in writing what present and future debts the security can cover.
+- Ask Brigida or the notary to explain the separate 20% clause and any discharge, transfer, or refinancing implications before signing.
+
+### Reasoning
+
+- A larger collateral registration does not increase the current payment or interest because interest applies to money actually borrowed.
+- It may make future borrowing with Desjardins easier, but future credit is not automatic.
+- The [Financial Consumer Agency of Canada](https://www.canada.ca/en/financial-consumer-agency/services/mortgages/choose-mortgage.html) explains that a collateral charge may secure multiple loans and may be registered above the original mortgage amount.
+- The agency also notes that [switching lenders with collateral security](https://www.canada.ca/en/financial-consumer-agency/services/mortgages/renew-mortgage.html) may require discharge and new-registration fees and repayment or transfer of all secured agreements.
+
+### Assumptions
+
+- No decision on the registered amount has been recorded.
+- No immediate additional Desjardins credit has been approved.
+
+### Sources
+
+- Source ID: SRC-2026-044
+- Source path: 01-sources/extractions/2026/2026-08-07-financing-formal-mortgage-offer.md
+
+### Next Actions
+
+- Select 768,000 CAD, 512,000 CAD, or another agreed amount.
+- Give any change instruction to Brigida Rizzuto and LRV Notaires before 2026-08-26.
+- Confirm the final figure in the draft mortgage deed before signing.

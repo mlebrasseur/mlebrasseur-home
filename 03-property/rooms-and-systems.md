@@ -14,8 +14,8 @@
 
 | System | Age | Condition | Service Provider | Known Issues | Source |
 |---|---|---|---|---|---|
-| Roof | Asphalt shingles installed 2015 per seller | Adequate at inspection with no observed degradation |  | No supporting replacement documents declared | SRC-2026-003, SRC-2026-015 |
+| Roof | Conflicting: asphalt shingles installed 2015 per seller; Intact policy records roof renovation in 2016 | Adequate at inspection with no observed degradation |  | No supporting replacement documents declared; confirm 2015 versus 2016 | SRC-2026-003, SRC-2026-015, SRC-2026-042 |
 | HVAC | Central heat pump / central AC installed 2025; electric forced-air furnace; basement convect-air | Furnace working at inspection; no air exchanger present; garage/furnace duct separation should be improved for CO risk |  | Replace filter every 3 months or 4 times/year; filter size 20x25x2 | SRC-2026-003, SRC-2026-015 |
 | Electrical | 200 amp Square D breaker panel; copper wiring; private EV charger | Panel observed adequate and safe; exterior outlets should be GFI |  | Panel change year still unknown | SRC-2026-003, SRC-2026-015 |
 | Plumbing | Municipal water and sewer; sump/pit in garage; French drain present | Backwater valve identified; French drain access/lookouts not accessible; garage drain basin/infiltration issue; faucet leaks | Ville de Terrebonne | Plumber follow-up recommended | SRC-2026-003, SRC-2026-004, SRC-2026-015 |
-| Water heater | Conflicting: seller declaration says installed 2023; inspection says Giant electric 40 gal, owned, year 2021 | Functional at inspection; no drain pan noted |  | Confirm actual year for insurance/maintenance | SRC-2026-003, SRC-2026-015 |
+| Water heater | Conflicting: seller declaration says installed 2023; inspection and Intact policy say 2021; Giant electric 40 gal, owned | Functional at inspection; no drain pan noted |  | Confirm actual year for insurance/maintenance; insurance currently uses 2021 | SRC-2026-003, SRC-2026-015, SRC-2026-042 |

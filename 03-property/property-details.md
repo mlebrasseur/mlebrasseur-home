@@ -11,11 +11,11 @@
 | Property type | Detached bungalow, 2 unit building with legal rentable basement bachelor | SRC-2026-001, SRC-2026-002, SRC-2026-004, SRC-2026-007, SRC-2026-008 |
 | Year built | 1963 | SRC-2026-001, SRC-2026-004, SRC-2026-013 |
 | Lot size | 4,750.11 sq ft / 441.300 m2 | SRC-2026-001, SRC-2026-004 |
-| Living area | Not provided | SRC-2026-001 |
+| Living area | 1,673 sq ft excluding basement, as recorded for insurance; not independently measured | SRC-2026-001, SRC-2026-042 |
 | Bedrooms | 3+1 / 4 total | SRC-2026-001, SRC-2026-002 |
 | Bathrooms | 2+0 | SRC-2026-001, SRC-2026-002 |
 | Parking | Driveway 4, garage 2 | SRC-2026-001, SRC-2026-002 |
-| Units | 2 dwellings / 2 units; second unit is legal and rentable | SRC-2026-004, SRC-2026-007, SRC-2026-008 |
+| Units | 2 dwellings / 2 units; second unit is legal and rentable; Intact policy records a basement apartment | SRC-2026-004, SRC-2026-007, SRC-2026-008, SRC-2026-042 |
 | Cadastre | 2442111 | SRC-2026-001, SRC-2026-004, SRC-2026-005 |
 | Municipal matricule | 9362-93-9862-4-000-0000 | SRC-2026-004 |
 | Zoning | Residential | SRC-2026-001 |
@@ -26,3 +26,4 @@
 - Property postal code is treated as J6W 3E8 per SRC-2026-006. The municipal tax source shows J6W 3B8 as a mailing address only.
 - Construction year is treated as 1963 because MO-58842 modifies seller-declaration field D2.2 to 1963.
 - The bachelor unit is believed to have been added later; user confirms it is a legal unit that can be rented. Retain supporting documentation when available.
+- The 1,673 sq ft area is an insurance-policy declaration, not a survey or appraisal measurement.
