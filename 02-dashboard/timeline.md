@@ -51,6 +51,7 @@ Last updated: 2026-08-10
 | 2026-08-06 | LRV signing appointment and closing-fund request issued | Legal / closing | SRC-2026-043 | 2026-08-26 13:30 appointment; 130,038.27 CAD requested through Assyst |
 | 2026-08-07 | Formal Desjardins mortgage offer issued | Financing | SRC-2026-044 | 512,000 CAD loan at prime minus 0.85%; 768,000 CAD proposed registered mortgage amount |
 | 2026-08-10 | Closing-fund transfer submitted | Finance / legal closing | SRC-2026-043, SRC-2026-045 | Full 130,038.27 CAD Assyst request reported submitted; trust-account receipt pending |
+| 2026-08-10 | Three exterior-renovation contractor visits completed and first written estimates received | Renovations | SRC-2026-046, SRC-2026-047, SRC-2026-048, SRC-2026-049 | K.I. Bon written driveway total 28,513.80 CAD; Akton written three-crack total 3,506.74 CAD; Fissure et Drain Laval verbal alternative recorded; Karl Morin quote pending |
 
 ## Future Dates
 

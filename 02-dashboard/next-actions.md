@@ -28,7 +28,10 @@ Last updated: 2026-08-10
 |---|---|---|---|---|---|
 | Keep or request documentation confirming the second unit's legal rental status |  |  | Legal / property | SRC-2026-004, SRC-2026-007, SRC-2026-008 | Open |
 | Ask when the bachelor unit was added |  |  | Property history | SRC-2026-007, SRC-2026-008 | Open |
-| Track renovation outreach responses, arrange site visits, and record quotes or declines | Maxime | As received; before 2026-09 work | Exterior / foundation | SRC-2026-021, SRC-2026-037 | Open; Steve referral plus all ten contractor emails delivered |
+| Ask K.I. Bon to clarify quantities, base, compaction, grading, catch-basin design, wall construction, warranty, schedule and exclusions | Maxime / Tony Sigga | Before driveway quote acceptance | Exterior / driveway | SRC-2026-046 | Open; written total is 28,513.80 CAD including taxes |
+| Obtain Karl Morin's written driveway quote and confirm the contracting entity, applicable RBQ, insurance, scope and warranty | Maxime / Karl Morin | Before driveway selection | Exterior / driveway | SRC-2026-048 | Waiting; family referral; public review and licence evidence is incomplete |
+| Expose enough of the two under-window cracks to determine whether they continue through infill blocks or the poured foundation | Maxime / foundation contractor | Before foundation scope selection | Foundation | SRC-2026-015, SRC-2026-048 | Open; Jacques's explanation is a hypothesis and differs from the inspection classification |
+| Clarify Akton estimate ESTF107164 and obtain Fissure et Drain Laval's property-specific written scope and warranty | Maxime / Cesar Guevara / Jacques Robert | Before foundation selection | Foundation | SRC-2026-047, SRC-2026-048, SRC-2026-049 | Open; confirm Akton's A/B/C locations, rear-window observation, non-refundable 500.00 CAD line and validity; Jacques's price, method and 20-year warranty remain verbal |
 | Coordinate selected driveway and foundation contractors before final driveway finish | User / contractors | Before 2026-09 work | Exterior / foundation | SRC-2026-021 | Open |
 | Confirm with Terrebonne Urbanisme whether bachelor expansion into garage space affects permits, use, or unit status | User | Before design spend | Bachelor expansion / permits | SRC-2026-008, SRC-2026-021 | Open |
 | Confirm whether garage ceiling material contains asbestos before removal |  | Before seller / contractor removal | Garage / environmental | SRC-2026-012, SRC-2026-015 | Open |
@@ -46,7 +49,8 @@ Last updated: 2026-08-10
 | Trust-account receipt of reported closing funds | LRV Notaires / Assyst processing | 2026-08-10 | SRC-2026-043, SRC-2026-045 | Transfer reported submitted; the 130,038.27 CAD amount and Assyst method are inferred from the coupon context; follow up by 2026-08-13 if no confirmation arrives |
 | Acceptance of insurance proof | LRV Notaires | 2026-08-06 | SRC-2026-042, SRC-2026-043 | Policy appears to meet stated requirements; transmission/acceptance not documented |
 | Registered mortgage amount decision | Maxime / Brigida Rizzuto / LRV Notaires | 2026-08-07 | SRC-2026-044 | Default 768,000 CAD amount can be changed before signing |
-| Steve referral and contractor responses / quotes | Steve Charbonneau / ten contractors | 2026-07-16 | SRC-2026-021, SRC-2026-037 | All eleven emails were sent on 2026-07-16; delivery was confirmed on 2026-07-23; replies, visits, declines and quotes remain to be recorded |
+| Karl Morin written driveway quote | Karl Morin / Les Pavés Morin | 2026-08-10 | SRC-2026-048 | Family referral; compare with K.I. Bon after legal entity, applicable RBQ, insurance, scope and warranty are identified |
+| Written foundation scope and warranty | Fissure et Drain Laval | 2026-08-10 | SRC-2026-048, SRC-2026-049 | Akton ESTF107164 is now written; Jacques's proposal remains verbal, and the number of required repairs remains unresolved pending the under-window crack check |
 | Competing mortgage proposal | Michael Sciascia | 2026-07-23 | SRC-2026-036 | Rate shopping underway; no written terms recorded |
 | Seller repair completion proof | Seller / buyer broker | 2026-07-05 | SRC-2026-012 | Includes garage-ceiling before/after photos |
 
@@ -54,6 +58,7 @@ Last updated: 2026-08-10
 
 | Date Completed | Action | Source | Notes |
 |---|---|---|---|
+| 2026-08-10 | Completed K.I. Bon, Akton and Fissure et Drain Laval site visits and recorded available quote terms | SRC-2026-046, SRC-2026-047, SRC-2026-048, SRC-2026-049 | K.I. Bon provided a written 28,513.80 CAD driveway quote; Akton provided written estimate ESTF107164 totaling 3,506.74 CAD; Fissure et Drain Laval remains verbal |
 | 2026-08-10 | Reported submission of the closing-fund transfer | SRC-2026-043, SRC-2026-045 | The 130,038.27 CAD amount, Assyst method, and component split are inferred from the immediately preceding coupon context; banking confirmation and trust-account receipt are pending |
 | 2026-08-07 | Received formal Desjardins mortgage offer | SRC-2026-044 | 512,000 CAD loan; variable prime minus 0.85%; proposed 768,000 CAD registered mortgage amount |
 | 2026-08-06 | Bound Intact home insurance and received proof | SRC-2026-042 | Policy effective 2026-08-31 with 581,000 CAD building coverage; LRV receipt to confirm |
@@ -61,8 +66,8 @@ Last updated: 2026-08-10
 | 2026-08-05 | Completed ancillary Desjardins e-signature package and declined mortgage life/disability insurance | SRC-2026-041 | Package excludes the final loan contract and notarial mortgage deed; planned disbursement stated as 2026-08-28 |
 | By 2026-07-23 (reported) | Recorded broker confirmation that transaction parties were informed of the final Maxime-only acceptance | SRC-2026-035, SRC-2026-040 | Michaël Labelle reportedly said the parties were informed; exact recipients, notification date and method, and seller-facing PDF delivery were not recorded |
 | 2026-07-16 | Sent the Steve Charbonneau referral email | SRC-2026-028, SRC-2026-037 | Sent on the scheduled date; delivery confirmed 2026-07-23; exact send and delivery times not recorded; response pending |
-| 2026-07-16 | Sent all five garage driveway, drainage and retaining-wall emails | SRC-2026-028, SRC-2026-029, SRC-2026-037 | Sent on the scheduled date; delivery confirmed 2026-07-23; exact individual send and delivery times not recorded; responses, visits and quotes pending |
-| 2026-07-16 | Sent all five foundation-crack specialist emails | SRC-2026-030, SRC-2026-037 | Sent on the scheduled date; delivery confirmed 2026-07-23; exact individual send and delivery times not recorded; responses, visits and quotes pending |
+| 2026-07-16 | Sent all five garage driveway, drainage and retaining-wall emails | SRC-2026-028, SRC-2026-029, SRC-2026-037, SRC-2026-046, SRC-2026-048 | Sent on the scheduled date; delivery confirmed 2026-07-23; exact individual send and delivery times not recorded. At that point responses, visits and quotes were pending; K.I. Bon later visited and provided a written estimate, and Karl Morin's quote remains pending. |
+| 2026-07-16 | Sent all five foundation-crack specialist emails | SRC-2026-030, SRC-2026-037, SRC-2026-047, SRC-2026-048, SRC-2026-049 | Sent on the scheduled date; delivery confirmed 2026-07-23; exact individual send and delivery times not recorded. At that point responses, visits and quotes were pending; Akton and Fissure et Drain Laval later visited, and Akton provided written estimate ESTF107164. |
 | 2026-07-22 | Received final Maxime-only Desjardins acceptance | SRC-2026-035 | 512,000 CAD; five-year variable at prime minus 0.85%; 3.60% current rate; 2,590.74 CAD monthly |
 | 2026-07-16 | Completed signed MO-05850 | SRC-2026-033 | Monique Berthelot and Michel Lebrasseur removed; Maxime is the sole buyer |
 | 2026-07-16 | Sent Audrey-Ann follow-up and confirmed file opening and fee | SRC-2026-034 | File open from broker documents; 2,040 CAD taxes included; lender instructions and notary signing appointment pending |

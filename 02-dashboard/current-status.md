@@ -12,7 +12,7 @@ Last updated: 2026-08-10
 | Insurance | Intact policy KK6-79EW bound effective 2026-08-31 | SRC-2026-042, SRC-2026-043 | 581,000 CAD building coverage; 1,691 CAD premium before taxes/fees; LRV receipt and policy-declaration review remain open |
 | Moving | Unknown |  |  |
 | Inspection / repairs | Inspection completed; seller repair modification signed | SRC-2026-012, SRC-2026-015 | Seller repair list has 1,500 CAD notary holdback; buyer-side specialist follow-ups remain |
-| Renovations | The Steve referral and all ten contractor emails were sent on 2026-07-16 and delivered; replies, visits and quotes are pending | SRC-2026-012, SRC-2026-015, SRC-2026-020, SRC-2026-021, SRC-2026-026, SRC-2026-028, SRC-2026-029, SRC-2026-030, SRC-2026-037 | All eleven transmissions are confirmed delivered. Exact individual send and delivery times are not recorded. The existing driveway is pavé uni; reuse versus replacement remains open pending contractor visits. Both retaining walls are included in the quote scope. A large rectangular drain near the garage door is the working intent, but its exact configuration and capacity remain subject to onsite design. |
+| Renovations | Three contractor visits completed 2026-08-10; written K.I. Bon driveway and Akton three-crack estimates received; Fissure et Drain Laval remains verbal; Karl Morin driveway quote pending | SRC-2026-015, SRC-2026-037, SRC-2026-046, SRC-2026-047, SRC-2026-048, SRC-2026-049 | K.I. Bon total is 28,513.80 CAD and Akton total is 3,506.74 CAD, both including taxes and neither accepted. Clarify K.I. Bon technical details and Akton's crack identification/exclusions. Jacques questioned whether two smaller under-window conditions are in infill blocks and need repair. |
 
 ## Current Focus
 
@@ -22,7 +22,7 @@ Last updated: 2026-08-10
 - Confirm tax adjustments, the certificate of location or 2,000 CAD compensation, the 1,500 CAD seller-repair holdback, and the distinction between the 2026-08-31 insurance/acquisition date and 2026-09-09 occupancy.
 - Prepare two valid photo IDs and personal cheques or a debit card for the 2026-08-26 13:30 appointment.
 - Any competing mortgage should not replace the executable Desjardins closing path unless it is fully approved and confirmed able to close on time.
-- All eleven renovation outreach emails were sent on 2026-07-16 and delivered, completing the 2026-07-31 outreach target early. Record replies and arrange contractor visits; driveway visits should address reuse or replacement of the existing pavé uni and the technical design of the intended large rectangular garage-entry drain.
+- For the exterior work, clarify K.I. Bon's driveway construction and drainage details, wait for Karl Morin's written comparison, expose enough of the two under-window conditions to confirm whether they continue through infill blocks or the foundation, clarify Akton estimate ESTF107164, and obtain Fissure et Drain Laval's written scope and warranty before selection.
 
 ## Important Dates
 
@@ -41,6 +41,7 @@ Last updated: 2026-08-10
 | 2026-08-06 | Intact policy and LRV signing/funding instructions issued | SRC-2026-042, SRC-2026-043 | Policy effective 2026-08-31; signing booked for 2026-08-26 at 13:30 |
 | 2026-08-07 | Formal Desjardins offer issued | SRC-2026-044 | 512,000 CAD loan; proposed 768,000 CAD registered mortgage amount |
 | 2026-08-10 | Closing-fund transfer submitted | SRC-2026-043, SRC-2026-045 | 130,038.27 CAD through Assyst; trust-account receipt pending |
+| 2026-08-10 | K.I. Bon, Akton and Fissure et Drain Laval site visits | SRC-2026-046, SRC-2026-047, SRC-2026-048, SRC-2026-049 | Written K.I. Bon driveway and Akton foundation estimates received; Fissure et Drain Laval remains verbal; Karl Morin driveway quote pending |
 | 2026-08-13 | Practical trust-receipt follow-up | SRC-2026-043, SRC-2026-045 | Confirm LRV received the submitted transfer |
 | 2026-08-26 13:30 | Mortgage and purchase-deed signing appointment | SRC-2026-043 | LRV Terrebonne office; bring two photo IDs and payment method for adjustments |
 | 2026-08-28 | Planned mortgage disbursement | SRC-2026-041 | Form date only; actual disbursement remains to confirm |

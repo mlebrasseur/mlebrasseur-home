@@ -9,5 +9,5 @@ Use one file per renovation area. Keep quotes, scope, decisions, dependencies, a
 | Kitchen | `kitchen.md` | Not started |
 | Bathroom | `bathroom.md` | Not started |
 | Basement | `basement.md` | Not started |
-| Exterior | `exterior.md` | Steve and all ten contractor emails delivered; responses, visits and quotes pending |
+| Exterior | `exterior.md` | Three visits completed; K.I. Bon and Akton written estimates received; Fissure et Drain Laval and Karl Morin written quotes pending |
 | General | `general.md` | Inspection follow-up started |
