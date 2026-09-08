@@ -18,8 +18,8 @@
 | Units | 2 dwellings / 2 units; second unit is legal and rentable; Intact policy records a basement apartment | SRC-2026-004, SRC-2026-007, SRC-2026-008, SRC-2026-042 |
 | Cadastre | 2442111 | SRC-2026-001, SRC-2026-004, SRC-2026-005 |
 | Municipal matricule | 9362-93-9862-4-000-0000 | SRC-2026-004 |
-| Zoning | Residential | SRC-2026-001 |
-| Certificate of location | Seller must provide current certificate by deed signature or pay buyer 2,000 CAD compensation; seller pays title insurance if notary requires it | SRC-2026-011 |
+| Zoning | Zone 9462-02 per July 2026 certificate | SRC-2026-051 |
+| Certificate of location | July 20, 2026 certificate held; minute 4847. Boundary and setback findings require follow-up; notary treatment unrecorded | SRC-2026-051 |
 
 ## Notes
 
@@ -27,3 +27,9 @@
 - Construction year is treated as 1963 because MO-58842 modifies seller-declaration field D2.2 to 1963.
 - The bachelor unit is believed to have been added later; user confirms it is a legal unit that can be rented. Retain supporting documentation when available.
 - The 1,673 sq ft area is an insurance-policy declaration, not a survey or appraisal measurement.
+
+## Certificate Findings — 2026-09-08
+
+- North fence/hedge and west fence create apparent encroachments as described by the surveyor. Bell servitude 214 731 is shown on the plan. (SRC-2026-051)
+- House north setback is 0.65 m versus the report’s 1.50 m requirement; rear gallery/terrace also have north setback exceptions. Acquired rights are not determined. (SRC-2026-051)
+- The certificate describes a single-family house; it does not resolve the separately recorded basement rental-unit status. (SRC-2026-051, SRC-2026-008)

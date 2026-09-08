@@ -1,28 +1,28 @@
 # Current Status
 
-Last updated: 2026-08-10
+Last updated: 2026-09-08
 
 ## Snapshot
 
 | Area | Status | Source | Notes |
 |---|---|---|---|
-| Purchase | Signed MO-05850 makes Maxime the sole buyer; all other PA conditions remain unchanged | SRC-2026-011, SRC-2026-012, SRC-2026-033 | Buyer structure resolved on 2026-07-16 |
-| Financing | Formal 512,000 CAD Desjardins offer received; ancillary e-signature package completed; final loan and mortgage signing booked for 2026-08-26 | SRC-2026-035, SRC-2026-041, SRC-2026-043, SRC-2026-044 | Five-year variable at prime minus 0.85%, 3.60% as of 2026-08-07; 2,590.74 CAD monthly; life/disability insurance declined; proposed 768,000 CAD registered mortgage amount remains to be decided |
-| Legal / closing | Mortgage and purchase-deed signing booked for 2026-08-26 at 13:30; 130,038.27 CAD Assyst transfer submitted 2026-08-10 | SRC-2026-012, SRC-2026-043, SRC-2026-045 | Trust-account receipt, insurance-proof delivery, fee reconciliation, tax/certificate items, and seller holdback remain to confirm |
+| Purchase | Signing and closing completed, confirmed 2026-09-08 | SRC-2026-052 | Exact execution date and settlement details not separately confirmed |
+| Financing | Formal 512,000 CAD Desjardins offer received; ancillary e-signature package completed; signing/closing completed per September 8 confirmation | SRC-2026-035, SRC-2026-041, SRC-2026-043, SRC-2026-044, SRC-2026-052 | Five-year variable at prime minus 0.85%, 3.60% as of 2026-08-07; 2,590.74 CAD monthly; life/disability insurance declined; final registered mortgage amount remains to be documented |
+| Legal / closing | Completed; July 20 certificate now held | SRC-2026-051, SRC-2026-052 | Reconcile settlement documents, holdback and certificate findings |
 | Insurance | Intact policy KK6-79EW bound effective 2026-08-31 | SRC-2026-042, SRC-2026-043 | 581,000 CAD building coverage; 1,691 CAD premium before taxes/fees; LRV receipt and policy-declaration review remain open |
-| Moving | Unknown |  |  |
+| Moving | Keys/access from Jacob September 9 at 13:00, with parents; then inspection, appliance measurements/purchases and move | SRC-2026-053 | Physical move and internet transfer dates unset; handover completion pending |
+| Utilities | Hydro-Québec signup completed, effective 2026-09-09 | SRC-2026-053 | Internet moving date still to schedule |
 | Inspection / repairs | Inspection completed; seller repair modification signed | SRC-2026-012, SRC-2026-015 | Seller repair list has 1,500 CAD notary holdback; buyer-side specialist follow-ups remain |
-| Renovations | Three contractor visits completed 2026-08-10; written K.I. Bon driveway and Akton three-crack estimates received; Fissure et Drain Laval remains verbal; Karl Morin driveway quote pending | SRC-2026-015, SRC-2026-037, SRC-2026-046, SRC-2026-047, SRC-2026-048, SRC-2026-049 | K.I. Bon total is 28,513.80 CAD and Akton total is 3,506.74 CAD, both including taxes and neither accepted. Clarify K.I. Bon technical details and Akton's crack identification/exclusions. Jacques questioned whether two smaller under-window conditions are in infill blocks and need repair. |
+| Renovations | Phone follow-ups completed; awaiting additional estimates before reconsidering scope, materials and contractor | SRC-2026-054, SRC-2026-050, SRC-2026-049 | Karl quote 1290 processed: 43,544.48 CAD including tax for broader scope; no final selection or work booking (SRC-2026-055) |
 
 ## Current Focus
 
-- The formal mortgage offer, ancillary e-signature package, home-insurance proof, notary appointment, and Assyst funding request are processed. The final loan contract and mortgage deed remain scheduled for signature on 2026-08-26.
-- Highest-priority follow-up is to confirm LRV received the 130,038.27 CAD transfer and Intact policy proof, then reconcile the 1.73 CAD notary-fee difference.
-- Before 2026-08-26, decide whether the mortgage should be registered for the proposed 768,000 CAD or a lower deliberate amount. The actual loan remains 512,000 CAD.
-- Confirm tax adjustments, the certificate of location or 2,000 CAD compensation, the 1,500 CAD seller-repair holdback, and the distinction between the 2026-08-31 insurance/acquisition date and 2026-09-09 occupancy.
-- Prepare two valid photo IDs and personal cheques or a debit card for the 2026-08-26 13:30 appointment.
-- Any competing mortgage should not replace the executable Desjardins closing path unless it is fully approved and confirmed able to close on time.
-- For the exterior work, clarify K.I. Bon's driveway construction and drainage details, wait for Karl Morin's written comparison, expose enough of the two under-window conditions to confirm whether they continue through infill blocks or the foundation, clarify Akton estimate ESTF107164, and obtain Fissure et Drain Laval's written scope and warranty before selection.
+- Collect keys/access from Jacob on 2026-09-09 at 13:00 with parents, then inspect the house and verify seller repairs and garage-ceiling photos. Holdback handling remains to confirm. (SRC-2026-053, SRC-2026-012)
+- Measure appliance spaces after inspection, then order/buy appliances; arrange the move and internet transfer date. Hydro-Québec signup is already complete, effective September 9. (SRC-2026-053)
+- Retain final closing documents and reconcile actual execution/funding dates, first debit, registered mortgage amount, taxes and fees; general closing completion does not confirm those details. (SRC-2026-052)
+- Certificate received: record notary treatment of boundary/setback findings and any title insurance or compensation. (SRC-2026-051)
+- Await estimates following phone follow-ups, then reconsider exterior scope, materials and contractor. Draft emails were not sent. Karl’s quote is processed; compare scope and clarify credentials/drainage before acceptance. No confirmed work date. (SRC-2026-054, SRC-2026-055)
+- Confirm responsibility for the September 15 municipal tax installment. (SRC-2026-004, SRC-2026-052)
 
 ## Important Dates
 
@@ -43,13 +43,16 @@ Last updated: 2026-08-10
 | 2026-08-10 | Closing-fund transfer submitted | SRC-2026-043, SRC-2026-045 | 130,038.27 CAD through Assyst; trust-account receipt pending |
 | 2026-08-10 | K.I. Bon, Akton and Fissure et Drain Laval site visits | SRC-2026-046, SRC-2026-047, SRC-2026-048, SRC-2026-049 | Written K.I. Bon driveway and Akton foundation estimates received; Fissure et Drain Laval remains verbal; Karl Morin driveway quote pending |
 | 2026-08-13 | Practical trust-receipt follow-up | SRC-2026-043, SRC-2026-045 | Confirm LRV received the submitted transfer |
+| 2026-08-25 | Revised K.I. Bon quote issued | SRC-2026-050 | Asphalt/existing-block repair; 12,500 CAD before tax calculated |
 | 2026-08-26 13:30 | Mortgage and purchase-deed signing appointment | SRC-2026-043 | LRV Terrebonne office; bring two photo IDs and payment method for adjustments |
 | 2026-08-28 | Planned mortgage disbursement | SRC-2026-041 | Form date only; actual disbursement remains to confirm |
 | 2026-08-31 | Deed deadline | SRC-2026-012 | Before buyer's notary |
 | 2026-08-31 | Intact policy effective date | SRC-2026-042, SRC-2026-043 | Notary email calls this the possession date; signed occupancy remains 2026-09-09 at 13:00 unless amended |
-| 2026-09-01 | Expected first mortgage payment if 2026-08-28 disbursement occurs | SRC-2026-041, SRC-2026-044 | Confirm after funding |
-| 2026-09-09 13:00 | Occupancy | SRC-2026-012 | Modified by MO-57236 |
 | 2026-09 | Exterior/foundation renovation target | SRC-2026-021 | Driveway/drainage/retaining-wall work and foundation crack work targeted to run in parallel |
+| 2026-09-01 | Expected first mortgage payment if 2026-08-28 disbursement occurs | SRC-2026-041, SRC-2026-044 | Confirm after funding |
+| 2026-09-08 | Closing completion and next-day handover confirmed | SRC-2026-052 | Actual closing date not independently supplied |
+| 2026-09-09 13:00 | Keys/access from Jacob, with parents | SRC-2026-012, SRC-2026-053 | Inspect house and seller repairs afterwards; completion pending |
+| 2026-09-09 | Hydro-Québec subscription effective | SRC-2026-053 | Signup already completed per user |
 | 2026-09-15 | Municipal tax installment | SRC-2026-004 | 952.49 CAD, responsibility depends on closing/tax adjustment |
-| 2026-10-15 | Desjardins mortgage-document outside deadline | SRC-2026-044 | Formal-offer deadline; operational signing is booked for 2026-08-26 |
+| 2026-10-15 | Desjardins mortgage-document outside deadline | SRC-2026-044 | Original formal-offer deadline; closing since confirmed complete (SRC-2026-052) |
 | 2026-10-20 | Municipal tax installment | SRC-2026-004 | 952.48 CAD, responsibility depends on closing/tax adjustment |

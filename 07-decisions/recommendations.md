@@ -8,8 +8,8 @@ Use this file for analysis and recommendations. Recommendations should be clearl
 |---|---|---|---|---|---|
 | 2026-07-07 | Buyer / borrower structure | Pursue Maxime-only Desjardins approval first using CSEM employment proof; keep 98% / 1% / 1% as fallback only if Maxime-only is not approved | SRC-2026-011, SRC-2026-014, SRC-2026-022 | Superseded | Sequence replaced by the 2026-07-15 recommendation after Jessica clarified that the PA amendment precedes the new financing submission |
 | 2026-07-15 | Maxime-only financing sequence | Complete the requested PA amendment, submit it to Jessica for new Maxime-only financing, and obtain written approval before relying on the new structure | SRC-2026-011, SRC-2026-014, SRC-2026-022, SRC-2026-023, SRC-2026-025, SRC-2026-033, SRC-2026-035 | Completed | MO-05850 was finalized 2026-07-16 and Desjardins issued Maxime-only acceptance 2026-07-22 |
-| 2026-07-23 | Mortgage closing and rate comparison | Preserve the accepted Desjardins path while obtaining any competing written offer; do not replace it unless the alternative is fully approved and can meet closing | SRC-2026-033, SRC-2026-034, SRC-2026-035, SRC-2026-036, SRC-2026-041, SRC-2026-043, SRC-2026-044 | Active | Formal offer received, ancillary forms signed, insurance bound, funds submitted, and final notary signing booked; no competing terms recorded |
-| 2026-08-10 | Registered mortgage amount | Do not accept 768,000 CAD by default without deciding; use 512,000 CAD if no future Desjardins-secured borrowing is expected, or retain 768,000 CAD only if its future-borrowing convenience is useful and its secured-debt scope is understood | SRC-2026-044 | Active | The larger registration does not itself create approved or drawable credit; additional borrowing depends on Desjardins's accepted property value, available equity, product limits, and approval |
+| 2026-07-23 | Mortgage closing and rate comparison | Preserve the accepted financing path through closing | SRC-2026-035, SRC-2026-044, SRC-2026-052 | Retired after closing | Signing/closing confirmed complete September 8; no competing offer outcome recorded |
+| 2026-08-10 | Registered mortgage amount | Retain executed deed and record final registered amount | SRC-2026-044, SRC-2026-052 | Post-closing documentation open | Earlier pre-signing choice advice is historical; final amount remains unconfirmed |
 
 ## Detailed Recommendations
 
@@ -148,6 +148,8 @@ Status: Completed on 2026-07-22 through signed MO-05850 and the final Desjardins
 
 ## 2026-07-23 - Mortgage Closing And Rate Comparison
 
+September 8 update: closing is complete (SRC-2026-052). The original pre-closing advice below is historical and no longer an active lender-selection task.
+
 ### Situation At The Time
 
 - Signed MO-05850 makes Maxime the sole buyer.
@@ -202,10 +204,12 @@ Status: Completed on 2026-07-22 through signed MO-05850 and the final Desjardins
 ### 2026-08-10 Status Update
 
 - The formal offer was received, ancillary Desjardins forms were signed, insurance was bound, closing funds were submitted, and the final loan, mortgage, and purchase-deed signing was booked for 2026-08-26 at 13:30. (SRC-2026-041, SRC-2026-042, SRC-2026-043, SRC-2026-044, SRC-2026-045)
-- The original execution-risk recommendation remains active only as a warning not to replace the now-executable Desjardins path without a fully approved alternative.
+- At the time, the original execution-risk recommendation remained active until closing; it was retired following SRC-2026-052.
 - No competing written proposal is recorded.
 
 ## 2026-08-10 - Registered Mortgage Amount
+
+September 8 update: signing/closing completed (SRC-2026-052). The recommendation and assumptions below describe the pre-signing situation; retain the executed deed to record the final security amount.
 
 ### Situation
 
@@ -240,8 +244,6 @@ Status: Completed on 2026-07-22 through signed MO-05850 and the final Desjardins
 - Source ID: SRC-2026-044
 - Source path: 01-sources/extractions/2026/2026-08-07-financing-formal-mortgage-offer.md
 
-### Next Actions
+### Current Next Action
 
-- Select 768,000 CAD, 512,000 CAD, or another agreed amount.
-- Give any change instruction to Brigida Rizzuto and LRV Notaires before 2026-08-26.
-- Confirm the final figure in the draft mortgage deed before signing.
+- Retain the executed mortgage deed and record the final registered amount and additional security clause; completion of closing alone does not establish these terms. (SRC-2026-052)

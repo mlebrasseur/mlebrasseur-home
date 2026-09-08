@@ -1,35 +1,49 @@
 # Next Actions
 
-Last updated: 2026-08-10
+Last updated: 2026-09-08
 
 ## Urgent
 
+Closing is completed per SRC-2026-052. Remaining closing items below are document/settlement reconciliation, not prerequisites to an upcoming signing. Certificate received under SRC-2026-051; contractor acceptance remains unconfirmed under SRC-2026-050.
+
 | Action | Owner | Due Date | Related Area | Source | Status |
 |---|---|---|---|---|---|
-| Confirm the reported closing-fund transfer reached LRV's trust account | Maxime / Sarah-Maude Lapierre | Practical follow-up 2026-08-13; before signing | Legal closing / finance | SRC-2026-043, SRC-2026-045 | Open; transfer reported submitted 2026-08-10; the 130,038.27 CAD amount and Assyst method are inferred from the coupon context; receipt pending |
-| Confirm LRV received and accepted the Intact insurance proof | Maxime / Sarah-Maude Lapierre | Before 2026-08-26 at 13:30 | Insurance / legal closing | SRC-2026-042, SRC-2026-043 | Open; policy is bound but transmission is not documented |
-| Decide whether the registered mortgage amount will be 768,000 CAD, 512,000 CAD, or another agreed amount | Maxime / Brigida Rizzuto / LRV Notaires | Before 2026-08-26 at 13:30 | Financing / legal closing | SRC-2026-044 | Open; 768,000 CAD is the default, while the actual loan remains 512,000 CAD |
-| Reconcile the 2,038.27 CAD Assyst fee component with the prior 2,040.00 CAD notary quote | Maxime / Sarah-Maude Lapierre | Before 2026-08-26 at 13:30 | Legal closing / finance | SRC-2026-034, SRC-2026-043 | Open; difference is 1.73 CAD |
-| Confirm whether 2026-08-31 is the acquisition/insurance date while occupancy remains 2026-09-09 at 13:00 | Maxime / Sarah-Maude Lapierre | Before signing | Legal closing | SRC-2026-012, SRC-2026-043 | Open; no later written amendment to occupancy is recorded |
-| Ask Audrey-Ann how 2026 municipal and 2025-2026 school taxes will be adjusted at deed signature | Maxime / Audrey-Ann Lapierre | Before 2026-08-26 at 13:30 | Finance / taxes | SRC-2026-004, SRC-2026-005, SRC-2026-011, SRC-2026-027 | Open |
-| Confirm with Audrey-Ann whether the seller will provide a current certificate of location or pay 2,000 CAD compensation | Maxime / Audrey-Ann Lapierre | Before 2026-08-26 at 13:30 | Legal / closing | SRC-2026-011, SRC-2026-027 | Open |
-| Ensure Audrey-Ann retains the 1,500 CAD seller repair holdback at deed signature | Maxime / Audrey-Ann Lapierre | Before 2026-08-26 at 13:30 | Legal / repairs | SRC-2026-012, SRC-2026-027 | Open |
-| Verify seller repair completion and garage-ceiling before/after photos |  | Before occupancy | Inspection / repairs | SRC-2026-012, SRC-2026-015 | Open |
-| Attend the mortgage and purchase-deed signing with two valid photo IDs and payment method for adjustments | Maxime | 2026-08-26 at 13:30 | Financing / legal closing | SRC-2026-043 | Scheduled; LRV Terrebonne office |
+| Confirm the reported closing-fund transfer reached LRV's trust account | Maxime / Sarah-Maude Lapierre | Post-closing records | Legal closing / finance | SRC-2026-043, SRC-2026-045 | Open; transfer reported submitted 2026-08-10; the 130,038.27 CAD amount and Assyst method are inferred from the coupon context; receipt pending |
+| Confirm LRV received and accepted the Intact insurance proof | Maxime / Sarah-Maude Lapierre | Post-closing reconciliation | Insurance / legal closing | SRC-2026-042, SRC-2026-043 | Open; policy is bound but transmission is not documented |
+| Record the final registered mortgage amount from the signed deed | Maxime / Brigida Rizzuto / LRV Notaires | Post-closing reconciliation | Financing / legal closing | SRC-2026-044 | Open; final amount unconfirmed; prior proposal was 768,000 CAD (SRC-2026-052) |
+| Reconcile the 2,038.27 CAD Assyst fee component with the prior 2,040.00 CAD notary quote | Maxime / Sarah-Maude Lapierre | Post-closing reconciliation | Legal closing / finance | SRC-2026-034, SRC-2026-043 | Open; difference is 1.73 CAD |
+| Confirm whether 2026-08-31 is the acquisition/insurance date while occupancy remains 2026-09-09 at 13:00 | Maxime / Sarah-Maude Lapierre | Post-closing records | Legal closing | SRC-2026-012, SRC-2026-043 | Handover September 9 at 13:00 reconfirmed; actual acquisition date remains to document (SRC-2026-052) |
+| Ask Audrey-Ann how 2026 municipal and 2025-2026 school taxes will be adjusted at deed signature | Maxime / Audrey-Ann Lapierre | Post-closing reconciliation | Finance / taxes | SRC-2026-004, SRC-2026-005, SRC-2026-011, SRC-2026-027 | Open |
+| Retain notary treatment of received certificate, title insurance and any compensation | Maxime / Audrey-Ann Lapierre | Post-closing reconciliation | Legal / closing | SRC-2026-011, SRC-2026-027 | Open |
+| Confirm the 1,500 CAD seller repair holdback was retained and document release conditions | Maxime / Audrey-Ann Lapierre | Post-closing reconciliation | Legal / repairs | SRC-2026-012, SRC-2026-027 | Open |
+| Inspect house and verify seller repairs and garage-ceiling before/after photos | Maxime | After access September 9 at 13:00 | Inspection / repairs | SRC-2026-012, SRC-2026-015, SRC-2026-053 | Planned; results unconfirmed |
+| Attend the mortgage and purchase-deed signing with two valid photo IDs and payment method for adjustments | Maxime | 2026-08-26 at 13:30 | Financing / legal closing | SRC-2026-043 | Done; signing/closing confirmed 2026-09-08, actual execution date not separately supplied (SRC-2026-052) |
 | Confirm actual mortgage disbursement and first payment date | Maxime / Brigida Rizzuto | After signing / funding | Financing | SRC-2026-041, SRC-2026-044 | Open; expected first payment is 2026-09-01 only if the planned 2026-08-28 disbursement occurs |
 | Review Intact policy declarations and optional coverages | Maxime / Agence La Turquoise | Promptly; before a claim | Insurance | SRC-2026-042 | Open; verify renovation years, professional activity, water protection, and spa/pool coverage charge |
 | Request documentation for prior oil or fuel tank disclosure |  | Before deed / insurance binding | Inspection / insurance | SRC-2026-003 | Open |
-| Confirm Audrey-Ann and the lender have the legal 2 unit/rentable-unit information | Maxime | Before signing | Legal / financing | SRC-2026-001, SRC-2026-004, SRC-2026-007, SRC-2026-008, SRC-2026-027, SRC-2026-042 | Open; Intact policy already records two units and a basement apartment |
-| Obtain and compare any written proposal from Michael Sciascia only before considering a lender change | Maxime / Michael Sciascia | Before changing lender or notary instructions | Financing | SRC-2026-035, SRC-2026-036, SRC-2026-043, SRC-2026-044 | Open; no competing terms recorded and Desjardins closing is executable |
+| Confirm Audrey-Ann and the lender have the legal 2 unit/rentable-unit information | Maxime | Post-closing records | Legal / financing | SRC-2026-001, SRC-2026-004, SRC-2026-007, SRC-2026-008, SRC-2026-027, SRC-2026-042 | Open; Intact policy already records two units and a basement apartment |
+| Obtain and compare any written proposal from Michael Sciascia only before considering a lender change | Maxime / Michael Sciascia | Before changing lender or notary instructions | Financing | SRC-2026-035, SRC-2026-036, SRC-2026-043, SRC-2026-044 | Retired as pre-closing action; closing is completed (SRC-2026-052) |
+| Collect keys and access from Jacob, accompanied by parents | Maxime | 2026-09-09 at 13:00 | Moving | SRC-2026-053 | Scheduled |
+| Retain notary explanation of apparent encroachments and north setback exceptions | Maxime / LRV | Post-closing follow-up | Legal / property | SRC-2026-051 | Open; acquired rights not determined by surveyor |
 
 ## Upcoming
 
+Exterior: phone follow-ups completed; await additional estimates before choosing scope, materials or contractor. No individual response or visit date was supplied. Draft follow-up email was not sent. (SRC-2026-054)
+
+Immediate sequence: keys/access → house and repair inspection → appliance measurements → appliance purchase → move and internet scheduling. Move and internet dates remain unset. (SRC-2026-053)
+
+
 | Action | Owner | Due Date | Related Area | Source | Status |
 |---|---|---|---|---|---|
+| Measure appliance spaces | Maxime | After inspection; before purchase | Appliances | SRC-2026-053 | Planned |
+| Order/buy household appliances | Maxime | After measurements | Appliances | SRC-2026-053 | Planned; selections and delivery dates unset |
+| Arrange physical move | Maxime | Date unset | Moving | SRC-2026-053 | Planned |
+| Set internet moving date | Maxime | Coordinate with move; date unset | Utilities | SRC-2026-053 | Planned; provider unrecorded |
 | Keep or request documentation confirming the second unit's legal rental status |  |  | Legal / property | SRC-2026-004, SRC-2026-007, SRC-2026-008 | Open |
 | Ask when the bachelor unit was added |  |  | Property history | SRC-2026-007, SRC-2026-008 | Open |
-| Ask K.I. Bon to clarify quantities, base, compaction, grading, catch-basin design, wall construction, warranty, schedule and exclusions | Maxime / Tony Sigga | Before driveway quote acceptance | Exterior / driveway | SRC-2026-046 | Open; written total is 28,513.80 CAD including taxes |
-| Obtain Karl Morin's written driveway quote and confirm the contracting entity, applicable RBQ, insurance, scope and warranty | Maxime / Karl Morin | Before driveway selection | Exterior / driveway | SRC-2026-048 | Waiting; family referral; public review and licence evidence is incomplete |
+| Ask K.I. Bon to clarify quantities, base, compaction, grading, catch-basin design, wall construction, warranty, schedule and exclusions | Maxime / Tony Sigga | Before driveway quote acceptance | Exterior / driveway | SRC-2026-046 | Open; revised August 25 asphalt/existing-wall quote totals 12,500 CAD before tax, calculated; tax/total fields blank (SRC-2026-050) |
+| Clarify Karl Morin’s applicable RBQ, insurance, garage-only scope, drainage and warranty | Maxime / Karl Morin | Before driveway selection | Exterior / driveway | SRC-2026-055 | Quote processed; clarification pending |
+| Await additional estimates, compare proposals and reconsider scope/materials/contractor | Maxime | After estimates arrive; no firm reply deadline | Exterior / driveway | SRC-2026-054 | Waiting; phone follow-ups completed |
 | Expose enough of the two under-window cracks to determine whether they continue through infill blocks or the poured foundation | Maxime / foundation contractor | Before foundation scope selection | Foundation | SRC-2026-015, SRC-2026-048 | Open; Jacques's explanation is a hypothesis and differs from the inspection classification |
 | Clarify Akton estimate ESTF107164 and obtain Fissure et Drain Laval's property-specific written scope and warranty | Maxime / Cesar Guevara / Jacques Robert | Before foundation selection | Foundation | SRC-2026-047, SRC-2026-048, SRC-2026-049 | Open; confirm Akton's A/B/C locations, rear-window observation, non-refundable 500.00 CAD line and validity; Jacques's price, method and 20-year warranty remain verbal |
 | Coordinate selected driveway and foundation contractors before final driveway finish | User / contractors | Before 2026-09 work | Exterior / foundation | SRC-2026-021 | Open |
@@ -46,12 +60,12 @@ Last updated: 2026-08-10
 
 | Item | Waiting On | Since | Source | Notes |
 |---|---|---|---|---|
-| Trust-account receipt of reported closing funds | LRV Notaires / Assyst processing | 2026-08-10 | SRC-2026-043, SRC-2026-045 | Transfer reported submitted; the 130,038.27 CAD amount and Assyst method are inferred from the coupon context; follow up by 2026-08-13 if no confirmation arrives |
+| Trust-account receipt of reported closing funds | LRV Notaires / Assyst processing | 2026-08-10 | SRC-2026-043, SRC-2026-045 | Transfer reported submitted; the 130,038.27 CAD amount and Assyst method are inferred from the coupon context; closing is complete; retain receipt as supporting evidence (SRC-2026-052) |
 | Acceptance of insurance proof | LRV Notaires | 2026-08-06 | SRC-2026-042, SRC-2026-043 | Policy appears to meet stated requirements; transmission/acceptance not documented |
-| Registered mortgage amount decision | Maxime / Brigida Rizzuto / LRV Notaires | 2026-08-07 | SRC-2026-044 | Default 768,000 CAD amount can be changed before signing |
-| Karl Morin written driveway quote | Karl Morin / Les Pavés Morin | 2026-08-10 | SRC-2026-048 | Family referral; compare with K.I. Bon after legal entity, applicable RBQ, insurance, scope and warranty are identified |
+| Final registered mortgage amount documentation | Maxime / Brigida Rizzuto / LRV Notaires | 2026-08-07 | SRC-2026-044 | Read final amount from executed deed; general closing completion does not establish it (SRC-2026-052) |
+| Additional driveway estimates following phone follow-ups | Remaining driveway contractors | Reported 2026-09-08 | SRC-2026-054 | Individual replies/appointments unrecorded; Karl quote processed under SRC-2026-055 |
 | Written foundation scope and warranty | Fissure et Drain Laval | 2026-08-10 | SRC-2026-048, SRC-2026-049 | Akton ESTF107164 is now written; Jacques's proposal remains verbal, and the number of required repairs remains unresolved pending the under-window crack check |
-| Competing mortgage proposal | Michael Sciascia | 2026-07-23 | SRC-2026-036 | Rate shopping underway; no written terms recorded |
+| Competing mortgage proposal | Michael Sciascia | 2026-07-23 | SRC-2026-036 | Pre-closing comparison retired following completed closing (SRC-2026-052) |
 | Seller repair completion proof | Seller / buyer broker | 2026-07-05 | SRC-2026-012 | Includes garage-ceiling before/after photos |
 
 ## Done
@@ -66,7 +80,7 @@ Last updated: 2026-08-10
 | 2026-08-05 | Completed ancillary Desjardins e-signature package and declined mortgage life/disability insurance | SRC-2026-041 | Package excludes the final loan contract and notarial mortgage deed; planned disbursement stated as 2026-08-28 |
 | By 2026-07-23 (reported) | Recorded broker confirmation that transaction parties were informed of the final Maxime-only acceptance | SRC-2026-035, SRC-2026-040 | Michaël Labelle reportedly said the parties were informed; exact recipients, notification date and method, and seller-facing PDF delivery were not recorded |
 | 2026-07-16 | Sent the Steve Charbonneau referral email | SRC-2026-028, SRC-2026-037 | Sent on the scheduled date; delivery confirmed 2026-07-23; exact send and delivery times not recorded; response pending |
-| 2026-07-16 | Sent all five garage driveway, drainage and retaining-wall emails | SRC-2026-028, SRC-2026-029, SRC-2026-037, SRC-2026-046, SRC-2026-048 | Sent on the scheduled date; delivery confirmed 2026-07-23; exact individual send and delivery times not recorded. At that point responses, visits and quotes were pending; K.I. Bon later visited and provided a written estimate, and Karl Morin's quote remains pending. |
+| 2026-07-16 | Sent all five garage driveway, drainage and retaining-wall emails | SRC-2026-028, SRC-2026-029, SRC-2026-037, SRC-2026-046, SRC-2026-048 | Sent on the scheduled date; delivery confirmed 2026-07-23; exact individual send and delivery times not recorded. At that point responses, visits and quotes were pending; K.I. Bon later visited and provided a written estimate, and Karl Morin's quote was subsequently received and processed (SRC-2026-055). |
 | 2026-07-16 | Sent all five foundation-crack specialist emails | SRC-2026-030, SRC-2026-037, SRC-2026-047, SRC-2026-048, SRC-2026-049 | Sent on the scheduled date; delivery confirmed 2026-07-23; exact individual send and delivery times not recorded. At that point responses, visits and quotes were pending; Akton and Fissure et Drain Laval later visited, and Akton provided written estimate ESTF107164. |
 | 2026-07-22 | Received final Maxime-only Desjardins acceptance | SRC-2026-035 | 512,000 CAD; five-year variable at prime minus 0.85%; 3.60% current rate; 2,590.74 CAD monthly |
 | 2026-07-16 | Completed signed MO-05850 | SRC-2026-033 | Monique Berthelot and Michel Lebrasseur removed; Maxime is the sole buyer |
@@ -85,3 +99,15 @@ Last updated: 2026-08-10
 | 2026-07-05 | Processed signed PA, modifications, mortgage, inspection, insurance, tax-support, and correspondence email batch | SRC-2026-011, SRC-2026-012, SRC-2026-013, SRC-2026-014, SRC-2026-015, SRC-2026-016, SRC-2026-017, SRC-2026-018, SRC-2026-019 | 40 .eml files archived; key PDFs extracted |
 | 2026-07-05 | Resolved construction year to 1963 | SRC-2026-013 | MO-58842 modifies D2.2 to 1963 |
 | 2026-07-05 | Resolved backwater valve status and air-exchanger conflict | SRC-2026-015 | Backwater valve identified; no air exchanger present |
+
+## September 8 Recorded Completions
+
+- Signing and closing completed, confirmed by Maxime; actual date not separately supplied. (SRC-2026-052)
+- Current certificate received and archived; findings and settlement treatment remain to follow up. (SRC-2026-051)
+- Revised August 25 K.I. Bon quote archived; no acceptance recorded. (SRC-2026-050)
+
+- Hydro-Québec signup reported complete on September 8, effective September 9. Exact signup date not supplied. (SRC-2026-053)
+
+- Phone follow-ups with remaining contractors reported completed; drafted email not sent. Waiting for estimates before deciding. (SRC-2026-054)
+
+- Karl quote 1290 archived and extracted; no acceptance or payment reported. (SRC-2026-055)

@@ -1,12 +1,20 @@
 # Exterior Renovation
 
+Last updated: 2026-09-08
+
 ## Status
 
 | Field | Value | Source |
 |---|---|---|
-| Status | Three site visits completed 2026-08-10. K.I. Bon and Akton provided written estimates; Fissure et Drain Laval provided a verbal foundation-crack price; Karl Morin driveway quote pending | SRC-2026-046, SRC-2026-047, SRC-2026-048, SRC-2026-049; earlier outreach in SRC-2026-037 |
-| Target date | Outreach target completed; work targeted for 2026-09 | SRC-2026-021, SRC-2026-037 |
-| Budget | No project budget adopted. K.I. Bon and Akton written estimates total 32,020.54 CAD including taxes; the foundation alternatives remain non-equivalent | SRC-2026-046, SRC-2026-048, SRC-2026-049 |
+| Status | Phone follow-ups completed with remaining contractors; await estimates before reconsidering scope, materials and contractor. Karl quote 1290 processed; no selection | SRC-2026-055, SRC-2026-054, SRC-2026-050, SRC-2026-049, SRC-2026-048 |
+| Target date | Earlier September target remains unbooked; timing to reconsider after estimates | SRC-2026-021, SRC-2026-054 |
+| Budget | No adopted budget. Revised K.I. Bon 12,500 CAD before tax (calculated); Akton 3,506.74 CAD including tax. Combined total not stated because tax bases differ | SRC-2026-050, SRC-2026-049 |
+
+## Current Position — 2026-09-08
+
+Maxime followed up by phone with the remaining contractors and will wait for estimates before reconsidering the work. Individual call outcomes were not supplied. Drafted emails were not sent; surface, wall material and final scope remain undecided. The September 11 deadline suggested in an unsent draft is not an agreed contractor deadline. (SRC-2026-054)
+
+The scope below remains planning context, not an accepted contract.
 
 ## Scope
 
@@ -48,13 +56,13 @@ Contact all five to improve the chance of receiving at least three comparable wr
 |---:|---|---|---|---|---|---|---|
 | 1 | [Pavage NMS](https://www.pavagenms.ca/pavage-terrebonne) | [5587-0604-01](https://veribat.ca/rbq/5587-0604-01) — active since 2008-12-08 | [4.7/5, 60 reviews](https://guide.inputkit.io/paving-and-asphalt/region/rive-nord-de-montreal/) | 450-621-5828 | pavage_nms@hotmail.com | Terrebonne company; asphalt, excavation, grading, drainage and sewer work. Best fit for the water-management scope. | Sent 2026-07-16; delivery confirmed 2026-07-23 |
 | 2 | [Asphalte et Pavage Beaux Lieux M-S](https://www.beauxlieuxms.com/) | [5655-1328-01](https://veribat.ca/rbq/5655-1328-01) — active since 2012-09-05 | [5.0/5, 33 reviews](https://guide.inputkit.io/paving-and-asphalt/region/rive-nord-de-montreal/) | 514-755-1030 | beauxlieuxms@live.ca | Terrebonne company; paving, excavation, catch-basin/drain repair, concrete and paver work. | Sent 2026-07-16; delivery confirmed 2026-07-23 |
-| 3 | [Les Pavages K.I. Bon](https://pavageskibon.com/pavage-asphalte-terrebonne.html) | [1827-6675-67](https://veribat.ca/rbq/1827-6675-67) — active since 1984-01-31 | [4.9/5, 112 reviews](https://guide.inputkit.io/pavage-et-asphalte/les-cedres/) | 514-323-0179; quote contact 514-838-1486 | info@pavageskibon.com | Explicit Terrebonne coverage; asphalt, excavation, grading, drainage, pavers and retaining walls. Strong experience/review combination. | Visited 2026-08-10; written quote received for 28,513.80 CAD including taxes; clarification and comparison pending (SRC-2026-046) |
+| 3 | [Les Pavages K.I. Bon](https://pavageskibon.com/pavage-asphalte-terrebonne.html) | [1827-6675-67](https://veribat.ca/rbq/1827-6675-67) — active since 1984-01-31 | [4.9/5, 112 reviews](https://guide.inputkit.io/pavage-et-asphalte/les-cedres/) | 514-323-0179; quote contact 514-838-1486 | info@pavageskibon.com | Explicit Terrebonne coverage; asphalt, excavation, grading, drainage, pavers and retaining walls. Strong experience/review combination. | Revised August 25 quote: 12,500 CAD before tax, calculated; asphalt and existing-block wall repair; acceptance unconfirmed (SRC-2026-050) |
 | 4 | [Pavage Élite](https://www.pavageelite.ca/) | [5623-9452-01](https://veribat.ca/rbq/5623-9452-01) — active since 2011-06-22 | [4.7 current Google rating](https://www.google.com/maps/search/?api=1&query=Pavage+Elite+Montreal); [92 reviews at last indexed count](https://soumissionsasphalte.ca/top-10-meilleures-compagnies-pavage-montreal/) | 514-507-1442 | info@pavageelite.ca | Explicit Terrebonne coverage; complete removal, base preparation, asphalt, mini-excavation and drain replacement. | Sent 2026-07-16; delivery confirmed 2026-07-23 |
 | 5 | [Pavé Boisbriand](https://paveboisbriand.com/) | [8335-1395-43](https://veribat.ca/rbq/8335-1395-43) — active since 2006-08-01 | [4.6/5, 141 reviews](https://guide.inputkit.io/paving-and-asphalt/region/rive-nord-de-montreal/) | 450-434-4181 | jvachon@paveboisbriand.com | Located in Terrebonne; strong fit for comparing reuse of the existing pavers with replacement while integrating grading, drainage and retaining-wall work. | Sent 2026-07-16; delivery confirmed 2026-07-23 |
 
 ### Additional family referral — driveway
 
-Karl Morin / [Les Pavés Morin](https://www.lespavesmorin.com/) is a family referral and is preparing a quote. Keep this lead outside the original ranked shortlist because the same screening evidence is not available: no Google rating or review count was located, the Soumission Rénovation profile showed zero verified reviews, and approximately 617 Facebook likes are not reviews. No exact active RBQ dataset match was found using the published identifiers on 2026-08-10; this is an unresolved identity/licence check, not proof that no applicable licence exists. Confirm the contracting legal entity, RBQ licence, insurance, written scope and warranty when the quote arrives. Published contact: 438-492-4140 and lespavesmorin@gmail.com. (SRC-2026-048)
+Karl Morin / [Les Pavés Morin](https://www.lespavesmorin.com/) is a family referral; quote 1290 is processed under SRC-2026-055. Keep this lead outside the original ranked shortlist because the same screening evidence is not available: no Google rating or review count was located, the Soumission Rénovation profile showed zero verified reviews, and approximately 617 Facebook likes are not reviews. No exact active RBQ dataset match was found using the published identifiers on 2026-08-10; this is an unresolved identity/licence check, not proof that no applicable licence exists. The quote identifies Les pavés Morin inc.; applicable RBQ licence, insurance, drainage scope and warranty remain to clarify (SRC-2026-055). Published contact: 438-492-4140 and lespavesmorin@gmail.com. (SRC-2026-048)
 
 ### Foundation cracks and waterproofing
 
@@ -68,13 +76,25 @@ Contact all five to improve the chance of receiving at least three comparable wr
 | 4 | [Alerte Fissure](https://www.alertefissure.qc.ca/en/) | [8108-4030-08](https://veribat.ca/rbq/8108-4030-08) — active since 1998-04-07 | [4.8/5, 165 Google reviews](https://www.alertefissure.qc.ca/en/) | 514-645-6052 | sdumont@alertefissure.qc.ca | Explicit Terrebonne coverage; structural assessment and piling capability if cracks indicate movement rather than simple leakage. | Sent 2026-07-16; delivery confirmed 2026-07-23 |
 | 5 | [Akton Injection](https://www.aktoninjection.ca/) | [8350-4001-10](https://veribat.ca/rbq/8350-4001-10) — active since 2007-10-23 | [4.9/5, 410+ Google reviews](https://www.aktoninjection.ca/) | 450-231-1836 | cesar@akton.ca; info@akton.ca | Cesar Guevara visited; Laval office and Rive-Nord service; crack injection, exterior membranes, French drains, foundation repair and garage drainage. Strongest review volume. | Visit completed and written estimate ESTF107164 received 2026-08-10 for 3,506.74 CAD including taxes; not accepted (SRC-2026-047, SRC-2026-048, SRC-2026-049) |
 
+## Karl Morin Quote 1290 — Received and Processed September 8
+
+The August 19 quote totals 43,544.48 CAD including taxes: garage driveway/walls 19,750 CAD before tax, walkway 2,100 CAD, main parking 12,523 CAD, and removal/disposal 3,500 CAD. The garage component includes BLU 80 mm and 150 sq. ft. of Brandon walls with rear drainage; it is not a standalone price. Channel drainage remains “à vérifier.” (SRC-2026-055)
+
+Terms: 50% at signing, 25% during work, 25% at completion; start undetermined; validity 30 days following August 19 (calculated September 18, confirm with contractor). No workmanship warranty, RBQ number or insurance evidence is supplied. No acceptance or payment reported. (SRC-2026-055)
+
+## Latest K.I. Bon Quote — 2026-08-25
+
+K.I. Bon now quotes asphalt marked 25X12, approximately 15-inch excavation, geotextile, 0–3/4 stone as needed and a 16X16 catch basin for 6,500 CAD, plus removal, base recompaction and reinstallation of existing wall blocks for 6,000 CAD. Units for the marked dimensions are not stated. The calculated sum is 12,500 CAD before tax; subtotal, tax and total boxes are blank. Acceptance is unconfirmed. (SRC-2026-050)
+
+This differs from the original new-paver/new-wall scope below. Confirm asphalt mix/thickness, base depth, compaction, slopes, basin outlet, wall drainage and block suitability, taxes, warranty and schedule. The certificate records boundary and setback findings; it is restricted to sale/mortgage use without author authorization for other purposes. (SRC-2026-050, SRC-2026-051)
+
 ## 2026-08-10 Site-Visit Findings and Comparison
 
 ### Driveway
 
-- K.I. Bon is the only written quote received. It covers removal of the existing pavé uni, 18-to-24-inch excavation, geotextile, BLU 80 mm pavers, a 16-by-16 catch basin, and two Raffinato-block retaining walls with 3/4-inch clean stone behind them. The total is 28,513.80 CAD including taxes. (SRC-2026-046)
+- The original August 10 K.I. Bon quote covers removal of the existing pavé uni, 18-to-24-inch excavation, geotextile, BLU 80 mm pavers, a 16-by-16 catch basin, and two Raffinato-block retaining walls with 3/4-inch clean stone behind them. The total is 28,513.80 CAD including taxes. (SRC-2026-046)
 - Before acceptance, clarify the measurement units and final quantities; granular base materials and layer depths; compaction; finished elevations and slopes; catch-basin load rating, outlet, capacity and overflow/backflow strategy; wall foundation and drainage; warranty; schedule; exclusions; contingencies; and surface restoration.
-- Wait for Karl Morin's written quote and verify its contracting entity, applicable RBQ licence, insurance and warranty before comparing the two proposals. (SRC-2026-048)
+- Compare Karl Morin's processed quote 1290 with additional estimates; applicable RBQ, insurance, warranty and garage-only scope remain to clarify. (SRC-2026-055, SRC-2026-054)
 
 ### Foundation cracks
 
@@ -190,11 +210,12 @@ Maxime Lebrasseur
 
 | Project | Date | Contractor | Amount | Tax Included | Source | Status | Notes |
 |---|---|---|---:|---|---|---|---|
-| Driveway, catch basin and two retaining walls | 2026-08-10 | Les Pavages K.I. Bon et Paysagistes ltée | 28513.80 | Yes | SRC-2026-046 | Written / not committed | 24,800.00 CAD before tax; technical clarifications and Karl Morin comparison pending |
+| Driveway, catch basin and two retaining walls | 2026-08-10 | Les Pavages K.I. Bon et Paysagistes ltée | 28513.80 | Yes | SRC-2026-046 | Prior different scope / not committed | 24,800.00 CAD before tax; technical clarifications and Karl Morin comparison pending |
+| Asphalt, catch basin and existing-wall repair | 2026-08-25 | Les Pavages K.I. Bon et Paysagistes ltée | 12500.00 | No | SRC-2026-050 | Acceptance unconfirmed | Calculated line-item sum; tax/total fields blank |
 | Exterior repair of three reported cracks | 2026-08-10 | Akton Injection | 3506.74 | Yes | SRC-2026-048, SRC-2026-049 | Written / not committed | ESTF107164: 3,050.00 CAD before tax; 500.00 CAD mobilization/site preparation plus 850.00 CAD per crack; 10-year transferable infiltration warranty with exclusions |
 | Exterior repair of front crack, contractor excavation | 2026-08-10 | Fissure et Drain Laval | 650.00 | No | SRC-2026-048 | Verbal / written quote pending | Approximately 747.34 CAD including taxes; reported 20-year warranty |
 | Exterior repair of front crack, excavation supplied separately | 2026-08-10 | Fissure et Drain Laval | 450.00 | No | SRC-2026-048 | Verbal alternative / written quote pending | Approximately 517.39 CAD including taxes; responsibility and warranty handoff must be written |
-| Driveway, drainage and retaining walls |  | Les Pavés Morin inc. / Karl Morin |  |  | SRC-2026-048 | Written quote pending | Family referral; contracting entity, RBQ, insurance, scope and warranty to confirm |
+| Garage/walls, front walkway, main parking and disposal | 2026-08-19 | Les pavés Morin inc. / Karl Morin | 43544.48 | Yes | SRC-2026-055 | Written / not accepted | Garage/walls component 19,750 CAD before tax is not standalone; demolition allocation unresolved |
 
 ## Tasks
 
@@ -204,9 +225,9 @@ Maxime Lebrasseur
 | Prepare the driveway and foundation photo packages | User | 2026-07-15 | SRC-2026-015, SRC-2026-026; [photo manifest](../../01-sources/extractions/2026/2026-06-06-inspection-contractor-photos/README.md) | Done | 17 report photos extracted; front overview copied into each package; 7 foundation and 12 driveway JPEG attachments ready |
 | Contact all 5 shortlisted driveway contractors individually | User | 2026-07-16 08:00 | SRC-2026-015, SRC-2026-020, SRC-2026-021, SRC-2026-026, SRC-2026-028, SRC-2026-029, SRC-2026-037; final selected body above | Done | All five sent 2026-07-16; delivery confirmed 2026-07-23; exact individual send and delivery times not recorded; target at least 3 written quotes and onsite recommendations on reusing versus replacing the existing pavé uni |
 | Contact all 5 shortlisted foundation contractors individually | User | 2026-07-16 08:00 | SRC-2026-015, SRC-2026-021, SRC-2026-026, SRC-2026-030, SRC-2026-037; final selected body above | Done | All five sent 2026-07-16; delivery confirmed 2026-07-23; exact individual send and delivery times not recorded; target at least 3 comparable written quotes and ask for diagnosis, repair options and September availability |
-| Record responses and quotes in this file | User | As received | SRC-2026-046, SRC-2026-047, SRC-2026-048, SRC-2026-049; future quote or contractor correspondence | In progress | Three visits, written K.I. Bon and Akton estimates, and one verbal Fissure et Drain Laval proposal recorded; Karl Morin and written Fissure et Drain Laval quotes pending |
+| Record responses and quotes in this file | User | As received | SRC-2026-046, SRC-2026-047, SRC-2026-048, SRC-2026-049; future quote or contractor correspondence | In progress | Three visits, written K.I. Bon and Akton estimates, and one verbal Fissure et Drain Laval proposal recorded; Karl Morin quote processed (SRC-2026-055); written Fissure et Drain Laval quote pending |
 | Clarify the K.I. Bon written scope | User / Tony Sigga | Before quote acceptance | SRC-2026-046 | Open | Confirm quantities, base, compaction, slopes, catch-basin design, wall construction, warranty, schedule, exclusions and optional front-left excavation |
-| Obtain Karl Morin's written driveway quote and contractor identifiers | User / Karl Morin | Before driveway selection | SRC-2026-048 | Waiting | Confirm legal entity, applicable RBQ, insurance, scope, warranty and comparable drainage/retaining-wall details |
+| Clarify Karl Morin's garage-only scope and contractor credentials | User / Karl Morin | Before driveway selection | SRC-2026-055 | Open clarification | Legal entity identified in quote; confirm applicable RBQ, insurance, warranty, drainage and demolition allocation |
 | Expose enough of the two under-window cracks to confirm wall construction and crack paths | User / foundation contractor | Before selecting repair scope | SRC-2026-015, SRC-2026-048 | Open | Jacques's block-infill explanation is plausible but unverified; avoid damaging waterproofing or utilities and document what is exposed |
 | Clarify Akton ESTF107164 and obtain Fissure et Drain Laval's written scope and warranty | User / Cesar Guevara / Jacques Robert | Before foundation selection | SRC-2026-047, SRC-2026-048, SRC-2026-049 | Open | Confirm Akton's A/B/C locations, rear-window observation, non-refundable line and validity; obtain Jacques's written method, excavation split, exclusions, restoration and warranty responsibility |
 | Compare quotes and select one contractor for each project | User | Before contractor coordination and 2026-09 work | SRC-2026-021, SRC-2026-046, SRC-2026-048, SRC-2026-049 | Open | Keep the two project decisions separate; crack proposals are not comparable until the two smaller conditions are confirmed and Fissure et Drain Laval supplies a written scope |
