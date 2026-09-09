@@ -112,3 +112,7 @@
 ## Assumptions
 
 - The Interac payment is for the inspection report based on the payment message and recipient.
+
+## September 8 Supporting Agreement
+
+The signed [service agreement and completion attestation](2026-06-06-inspection-service-agreement-and-attestation.md) (SRC-2026-061) now accompanies this report. Its final page acknowledges the same 600.00 CAD received June 6 by Interac; no additional payment. Tax fields are blank. See that note for inspection scope and unresolved handwritten fields.

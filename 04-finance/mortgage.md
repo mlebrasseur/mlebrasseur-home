@@ -6,24 +6,24 @@ Last updated: 2026-09-08
 
 | Field | Value | Source |
 |---|---|---|
-| Status | Signing and closing completed, confirmed 2026-09-08; actual execution/funding dates and final deed details remain unconfirmed | SRC-2026-052 |
+| Status | Loan contract signed August 26; closing completed; 512,000 CAD financing recorded received by LRV; first payment September 1 user-reported | SRC-2026-052, SRC-2026-057, SRC-2026-059, SRC-2026-063 |
 | Accepted lender | Caisse Desjardins du Centre et de l'Est de Laval | SRC-2026-035 |
 | Mortgage representative | Jessica St-Pierre, Desjardins | SRC-2026-009, SRC-2026-014, SRC-2026-035 |
 | Assigned mortgage adviser | Brigida Rizzuto, Desjardins | SRC-2026-041, SRC-2026-044 |
 | Alternative-rate contact | Michael Sciascia, Mortgages Montreal | SRC-2026-036 |
-| Mortgage amount | 512,000.00 CAD | SRC-2026-011, SRC-2026-035 |
+| Mortgage amount | 512,000.00 CAD | SRC-2026-011, SRC-2026-035, SRC-2026-057 |
 | Purchase price / down payment | 640,000.00 CAD / 128,000.00 CAD (20%) | SRC-2026-011, SRC-2026-035 |
 | Borrower / buyer structure | Maxime Lebrasseur alone; signed MO-05850 removed Monique Berthelot and Michel Lebrasseur from PA-07184 | SRC-2026-033, SRC-2026-035 |
 | Employment support for reassessment | CSEM permanent-employment proof and first pay document reported as submitted to Jessica St-Pierre by 2026-07-15; actual send date not recorded | SRC-2026-023 |
-| Interest rate | Desjardins prime minus 0.85%; 3.60% based on 4.45% prime as stated on 2026-08-07 | SRC-2026-035, SRC-2026-044 |
-| Rate type | Variable rate with fixed payment | SRC-2026-035 |
-| Term | 5 years | SRC-2026-035 |
-| Amortization | 25 years | SRC-2026-035 |
-| Payment amount | 2,590.74 CAD | SRC-2026-035 |
-| Payment frequency | Monthly | SRC-2026-035 |
+| Interest rate | Desjardins prime minus 0.85%; 3.60% at contract date August 26 (prime 4.45%), calculated monthly; semi-annual equivalent 3.6271% | SRC-2026-057 |
+| Rate type | Variable rate with fixed payment | SRC-2026-035, SRC-2026-057 |
+| Term | 60 months from mortgage-deed signature; exact deed date and maturity remain to document | SRC-2026-057 |
+| Amortization | 25 years | SRC-2026-035, SRC-2026-057 |
+| Payment amount | 2,590.74 CAD | SRC-2026-035, SRC-2026-057 |
+| Payment frequency | Monthly | SRC-2026-035, SRC-2026-057 |
 | Life / disability protection | Both declined by Maxime in the signed 2026-08-05 loan-insurance application | SRC-2026-041 |
-| Planned disbursement | 2026-08-28 in the loan-insurance application; actual funding remains to confirm | SRC-2026-041 |
-| First payment date | First day of the month after disbursement; 2026-09-01 if the planned 2026-08-28 disbursement occurs | SRC-2026-041, SRC-2026-044 |
+| Disbursement | 512,000 CAD received per LRV statement; actual date unconfirmed; August 28 was the prior planned date | SRC-2026-041, SRC-2026-059 |
+| First payment | 2,590.74 CAD paid September 1, user-reported September 8; signed contract specifies first of month after deed signature | SRC-2026-057, SRC-2026-063 |
 | Proposed registered mortgage amount | Prior offer proposed 768,000.00 CAD; final executed amount remains to document; loan offer was 512,000.00 CAD | SRC-2026-044, SRC-2026-052 |
 | Additional mortgage clause | 20% additional security for specified additional amounts owing, regardless of the selected registered amount | SRC-2026-044 |
 | Variable-to-fixed conversion | Normally applicable closed fixed rate less 0.10 percentage points per year | SRC-2026-041 |
@@ -44,8 +44,8 @@ Last updated: 2026-09-08
 | Notary confirms deed and mortgage signing appointments | Before deed deadline | SRC-2026-012, SRC-2026-043 | Done | Combined mortgage and purchase-deed signing booked for 2026-08-26 at 13:30 |
 | Record final registered mortgage amount | Post-closing reconciliation | SRC-2026-044, SRC-2026-052 | Open documentation | Read executed deed; general closing confirmation does not establish the final amount |
 | Retain evidence of lender acceptance of home-insurance proof | Post-closing records | SRC-2026-042, SRC-2026-043, SRC-2026-044 | Policy bound / receipt to confirm | Intact policy appears to meet the stated date, amount, and mortgage-creditor requirements |
-| Loan contract and mortgage deed signed for closing | Completion confirmed 2026-09-08 | SRC-2026-052 | Done / user reported | Previously booked August 26 at 13:30; actual execution date not separately supplied |
-| Confirm actual disbursement and first payment date | After mortgage signing / funding | SRC-2026-041, SRC-2026-044 | Open | Planned disbursement is 2026-08-28; first payment would be 2026-09-01 if that date holds |
+| Loan contract and mortgage deed signed for closing | Loan contract August 26; closing completion reported September 8 | SRC-2026-052, SRC-2026-057 | Loan contract archived; deed copy still needed | Maxime and Melissa Alvarez signed loan contract; this does not independently prove mortgage-deed registration details. |
+| Confirm actual disbursement date | Post-closing records | SRC-2026-041, SRC-2026-059, SRC-2026-063 | Open for funding date only | LRV records 512,000 CAD received; September 1 first payment now reported paid. |
 | No material change to property or Maxime's financial situation | Historical pre-closing condition | SRC-2026-035, SRC-2026-052 | Retired as closing blocker | Closing completed; this does not independently confirm each historical condition |
 | Compare any written alternative mortgage against Desjardins | Historical pre-closing action | SRC-2026-035, SRC-2026-036, SRC-2026-052 | Retired after closing | No competing proposal outcome recorded |
 
@@ -53,10 +53,19 @@ Last updated: 2026-09-08
 
 - MO-05850 and the 2026-07-22 Desjardins acceptance align Maxime as the sole buyer and mortgage applicant.
 - The 3.60% figure was reconfirmed on 2026-08-07 from a 4.45% prime rate less 0.85 percentage points; it is not a fixed five-year rate.
-- The payment is described as fixed even though the interest rate is variable. Use the final loan documents for trigger-rate mechanics and payment allocation.
-- Signing and closing are complete per SRC-2026-052; supporting receipt and settlement documents remain to retain. Planned funding and payment dates are not confirmed actual dates.
+- Fixed payments with variable interest: unpaid interest may capitalize. Article 4.1 permits an excess-payment demand and revised terms when total amounts owing exceed initial principal plus 5% of lender-accepted property value; that value is not supplied. Payments go to interest and applicable insurance costs before principal. (SRC-2026-057)
+- Signed loan contract and trust receipt are now held. First debit of 2,590.74 CAD on September 1 is user-reported; actual funding date and mortgage-deed details remain open. (SRC-2026-057, SRC-2026-059, SRC-2026-063)
 - The proposed 768,000 CAD registered mortgage is security, not additional borrowing. Future credit would still require Desjardins approval and sufficient equity. Maxime pays interest only on amounts actually borrowed.
 - The offer allowed a change to the proposed registered amount before signing. Retain the executed deed to establish the final amount. (SRC-2026-044, SRC-2026-052)
 - Maxime declined Desjardins life and disability insurance. No lender-provided coverage is expected under this application.
 - The 2026-07-30 Teams meeting outcome remains unrecorded; later signed documents supersede several of its operational questions.
 - Pre-closing rate shopping is retired following completed closing. No competing quote, application, approval, or rate hold was recorded. (SRC-2026-052)
+
+## Signed Contract Privileges
+
+Source: SRC-2026-057, articles 6–8; see the extraction for limitations and the original for full terms.
+
+- Payments may increase once per calendar year, up to double the original amount over the term, and later reduce to the original amount.
+- Partial prepayments of at least 100 CAD up to 15% of initial principal per calendar year: 76,800 CAD calculated; unused allowance does not carry forward. Regular payments continue.
+- Excess partial prepayments generally incur three months' interest on the excess; full payoff has separate rules and generally does not deduct the annual allowance. No payoff amount is calculated here.
+- Conversion to closed fixed rate requires a new agreement; retain the separate 0.10-point discount agreement (SRC-2026-041).

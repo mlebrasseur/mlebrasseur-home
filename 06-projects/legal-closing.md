@@ -11,19 +11,19 @@ Last updated: 2026-09-08
 | PA generated / finalized | 2026-06-01 | SRC-2026-011 |
 | Seller response / buyer acknowledgment | 2026-06-04 | SRC-2026-011 |
 | Deed deadline | 2026-08-31 | SRC-2026-012 |
-| Signing appointment | Previously booked 2026-08-26 at 13:30; completion confirmed 2026-09-08, actual execution date not separately confirmed | SRC-2026-043, SRC-2026-052 |
+| Signing appointment | Previously booked August 26 at 13:30; signed loan contract dated August 26 now held; separate deed dates still to document | SRC-2026-043, SRC-2026-052, SRC-2026-057 |
 | Desjardins mortgage-document outside deadline | 2026-10-15 | SRC-2026-044 |
 | Notary / lawyer | Audrey-Ann Lapierre, LRV Notaires S.E.N.C.R.L.; Sarah-Maude Lapierre is the closing contact for the appointment and funds | SRC-2026-027, SRC-2026-031, SRC-2026-034, SRC-2026-043 |
-| Notary fee | Prior quote 2,040.00 CAD taxes included; Assyst coupon requests 2,038.27 CAD | SRC-2026-034, SRC-2026-043 |
+| Notary fee | 2,038.27 CAD final invoice, stamped paid; 1,382.65 trust allocation plus 655.62 debit | SRC-2026-056, SRC-2026-059 |
 | Buyer / title structure | Maxime Lebrasseur is the sole buyer under signed MO-05850 | SRC-2026-011, SRC-2026-033 |
 | Mortgage applicant | Maxime Lebrasseur alone; 512,000 CAD Desjardins acceptance issued 2026-07-22 | SRC-2026-035 |
 | Financing meeting | Microsoft Teams meeting was scheduled for 2026-07-30 at 14:00 America/Toronto; outcome not recorded; ancillary Desjardins forms were signed 2026-08-05 | SRC-2026-035, SRC-2026-039, SRC-2026-041 |
 | Home insurance | Intact policy KK6-79EW effective 2026-08-31; 581,000 CAD building coverage; LRV receipt to confirm | SRC-2026-042, SRC-2026-043 |
-| Closing funds | Transfer reported submitted 2026-08-10; the 130,038.27 CAD amount and Assyst method are inferred from the coupon context; banking and trust-account confirmation pending | SRC-2026-043, SRC-2026-045 |
+| Closing funds | LRV records 130,038.27 buyer funds and 512,000 financing received; zero buyer trust balance/refund; separate August 26 debit 655.62 reconciles fees | SRC-2026-045, SRC-2026-056, SRC-2026-059 |
 | Occupancy timing | 2026-09-09 at 13:00; reconfirmed 2026-09-08 | SRC-2026-012, SRC-2026-052 |
 | Unit status | 2 unit building with legal rentable basement bachelor | SRC-2026-001, SRC-2026-004, SRC-2026-007, SRC-2026-008 |
 | Certificate of location | July 20 certificate held; minute 4847; notary treatment of findings and any compensation/title insurance unconfirmed | SRC-2026-011, SRC-2026-051 |
-| Seller repair holdback | 1,500 CAD retained by notary at deed signature | SRC-2026-012 |
+| Seller repair holdback | 1,500 CAD required under amendment; actual retention/release not established by buyer statement | SRC-2026-012, SRC-2026-059 |
 
 ## Tasks
 
@@ -43,18 +43,18 @@ Last updated: 2026-09-08
 | Confirm deed and mortgage signing appointments | Maxime / LRV Notaires | 2026-08-26 at 13:30 | SRC-2026-012, SRC-2026-043 | Done | Combined appointment at 3215 boulevard de la Pinière, suite 207, Terrebonne |
 | Receive the formal financing offer | Maxime / Brigida Rizzuto | Before signing | SRC-2026-035, SRC-2026-044 | Done | Formal offer dated and received 2026-08-07 |
 | Record the final registered mortgage amount | Maxime / Brigida Rizzuto / LRV Notaires | Post-closing reconciliation | SRC-2026-044 | Open | Final registered amount remains unconfirmed after closing; prior proposed amount was 768,000 CAD (SRC-2026-052) |
-| Confirm actual mortgage disbursement and first debit date | Maxime / Brigida Rizzuto | After signing / funding | SRC-2026-041, SRC-2026-044 | Open | Planned disbursement is 2026-08-28; first debit would be 2026-09-01 if that date holds |
-| Confirm tax adjustments for municipal and school taxes | Maxime / Audrey-Ann Lapierre | Post-closing reconciliation | SRC-2026-004, SRC-2026-005, SRC-2026-011, SRC-2026-027, SRC-2026-043 | Open | Need seller payment status and notary adjustment at deed signature |
+| Confirm actual mortgage disbursement date | Maxime / Desjardins | Post-closing records | SRC-2026-041, SRC-2026-059, SRC-2026-063 | Open for funding date only | LRV records financing received; first 2,590.74 payment September 1 user-reported paid. |
+| Confirm tax adjustments for municipal and school taxes | Maxime / LRV | August 31 adjustment | SRC-2026-058, SRC-2026-059, SRC-2026-060 | Done / statement held | Municipal year seller-paid; buyer charge 1,604.87, school credit 55.54, occupancy credit 893.71; net 655.62. |
 | Confirm notary treatment of received certificate and any compensation | Maxime / Audrey-Ann Lapierre | Post-closing reconciliation | SRC-2026-011, SRC-2026-027, SRC-2026-043 | Open | Seller also pays title insurance if Audrey-Ann judges necessary |
 | Confirm handling of seller mortgage and Bell Canada servitude |  | Post-closing reconciliation | SRC-2026-003, SRC-2026-043 | Open | Mortgage to Caisse Desjardins de Terrebonne and Bell servitude 214 731 disclosed |
 | Ensure 1,500 CAD seller repair holdback is retained and release conditions are clear | Maxime / Audrey-Ann Lapierre | Post-closing reconciliation | SRC-2026-012, SRC-2026-027, SRC-2026-043 | Open | Holdback released after buyer's reasonable satisfaction |
 | Inspect house and verify seller repair completion and garage-ceiling photos | Maxime | After keys/access on 2026-09-09 at 13:00 | SRC-2026-012, SRC-2026-015, SRC-2026-053 | Planned; results unconfirmed | Attending with parents; basement light, attic duct, bathroom fan switch, garage ceiling/debris |
 | Bind home insurance and obtain proof meeting LRV requirements | Maxime | Before 2026-08-26 | SRC-2026-042, SRC-2026-043 | Done | Intact policy effective 2026-08-31 with 581,000 CAD building coverage and Desjardins named as first mortgage creditor |
 | Confirm LRV received and accepted the insurance proof | Maxime / Sarah-Maude Lapierre | Post-closing reconciliation | SRC-2026-042, SRC-2026-043 | Open | Repository possession is not proof of transmission to LRV |
-| Transfer requested closing funds only through Assyst Paiement | Maxime | 2026-08-26; allow processing time | SRC-2026-034, SRC-2026-043, SRC-2026-045 | Reported submitted / confirmation pending | User reported a transfer on 2026-08-10; the full 130,038.27 CAD amount and Assyst method are inferred from the coupon context |
-| Confirm closing funds reached LRV's trust account | Maxime / Sarah-Maude Lapierre | Post-closing records | SRC-2026-043, SRC-2026-045 | Open | Banking submission is not trust-account receipt; retain confirmation |
-| Reconcile 2,038.27 CAD coupon fee against prior 2,040.00 CAD quote | Maxime / Sarah-Maude Lapierre | Post-closing reconciliation | SRC-2026-034, SRC-2026-043 | Open | Difference is 1.73 CAD; seller adjustments may still be payable separately |
-| Attend mortgage and purchase-deed signing with two photo IDs and payment method for adjustments | Maxime | 2026-08-26 at 13:30 | SRC-2026-043 | Done / user confirmed | Completion confirmed 2026-09-08; actual signing date and adjustment payments not separately supplied (SRC-2026-052) |
+| Transfer requested closing funds only through Assyst Paiement | Maxime | Submission reported August 10 | SRC-2026-034, SRC-2026-043, SRC-2026-045, SRC-2026-059 | Submitted / amount and trust receipt corroborated | Method remains context-inferred; notary records 130,038.27 received. |
+| Confirm closing funds reached LRV's trust account | Maxime / LRV | Post-closing records | SRC-2026-045, SRC-2026-059 | Done / notary statement evidence | Full 130,038.27 receipt recorded; exact receipt date and method not independently documented. |
+| Reconcile 2,038.27 CAD coupon fee against prior 2,040.00 CAD quote | Maxime / LRV | Post-closing records | SRC-2026-056, SRC-2026-059 | Done | Final invoice 2,038.27 stamped paid, 1.73 below quote; separate debit reconciled with trust allocation. |
+| Attend mortgage and purchase-deed signing with two photo IDs and payment method for adjustments | Maxime | August 26 appointment | SRC-2026-052, SRC-2026-056, SRC-2026-057 | Done / loan contract archived | August 26 signed loan contract and 655.62 debit receipt; separate deed execution dates not established. |
 | Make sure Audrey-Ann, the insurer, and the lender know the property is a legal 2 unit building with rentable second unit | Maxime | Before deed / insurance binding | SRC-2026-001, SRC-2026-004, SRC-2026-007, SRC-2026-008, SRC-2026-027 | Open | User confirms legal rental status; keep supporting documentation when available |
 
 ## Notary Follow-Up Outcome
@@ -77,23 +77,23 @@ Recommendation:
 
 Outcome:
 
-- Maxime reported submitting a closing-fund transfer on 2026-08-10. The complete 130,038.27 CAD amount and Assyst method are inferred from the immediately preceding coupon context; banking confirmation and trust-account receipt remain to be confirmed. (SRC-2026-043, SRC-2026-045)
+- Maxime reported submission August 10. LRV buyer statement now corroborates 130,038.27 CAD received; exact receipt date and Assyst method remain unverified by that document. Additional 655.62 debit on August 26 has an approved receipt. (SRC-2026-043, SRC-2026-045, SRC-2026-056, SRC-2026-059)
 
 ## Notes
 
 - PA-07184 and MOs 57236/58842/05850 are now the controlling purchase documents on file.
-- Audrey-Ann Lapierre of LRV Notaires was selected as the buyer's notary on 2026-06-18. The combined mortgage and purchase-deed signing is booked for 2026-08-26 at 13:30. The Assyst coupon uses a 2,038.27 CAD fee component rather than the earlier 2,040.00 CAD quote.
+- Audrey-Ann Lapierre of LRV Notaires was selected as the buyer's notary on 2026-06-18. The combined appointment was booked for August 26 at 13:30; signed August 26 loan contract is now held. Final 2,038.27 CAD invoice replaces the 2,040.00 quote and is stamped paid. (SRC-2026-056, SRC-2026-057)
 - Monique Berthelot and Michel Lebrasseur were removed through signed MO-05850; Maxime is now the sole buyer.
 - CSEM employment proof and a first pay document were reported as submitted by 2026-07-15; the actual send date is not recorded.
 - Signed MO-05850 was finalized on 2026-07-16, and Desjardins issued the final Maxime-only acceptance on 2026-07-22.
-- The Desjardins financing Teams meeting was scheduled for 2026-07-30 at 14:00 America/Toronto; its outcome remains unrecorded. Ancillary forms were electronically signed on 2026-08-05 and the formal offer was received 2026-08-07; the final loan contract and notarial mortgage deed remain scheduled for 2026-08-26.
+- The Desjardins financing Teams meeting was scheduled for 2026-07-30 at 14:00 America/Toronto; its outcome remains unrecorded. Ancillary forms were electronically signed on 2026-08-05 and the formal offer was received 2026-08-07; the loan contract signed August 26 is now archived, while the separate executed mortgage deed remains to retain. (SRC-2026-057)
 - Closing completed per September 8 confirmation; current follow-up is final-document reconciliation, certificate findings, seller repairs and handover. (SRC-2026-051, SRC-2026-052)
 - The municipal role shows 2 dwellings and the user confirms this is a 2 unit building with a legal rentable second unit.
 - If deed occurs before occupancy, PA-07184 says seller compensates buyer for occupancy from deed signature until occupancy and remains responsible for heating, electricity, and general maintenance during that period.
 
 ## 2026-09-08 Follow-Up
 
-Signing and closing are complete on the user’s confirmation (SRC-2026-052). Remaining receipt, insurance-delivery and settlement tasks are documentation follow-ups, not current barriers to closing. Do not infer the final registered amount, actual funding date, taxes or holdback handling from general completion.
+Signing and closing are complete on the user’s confirmation (SRC-2026-052). Receipt, final fees and tax/occupancy adjustments are now documented in SRC-2026-056, SRC-2026-059 and SRC-2026-060. Deed registration, actual funding date, insurance-delivery evidence, certificate treatment and holdback handling remain documentation follow-ups.
 
 The current certificate is held (SRC-2026-051). Retain the notary’s explanation of apparent north/west encroachments, Bell servitude and north setback exceptions; acquired rights are not determined by the surveyor. Seller repairs and the 1,500 CAD holdback remain to verify before release.
 
@@ -110,3 +110,12 @@ Checklist from MO-57236 (SRC-2026-012); all results remain unconfirmed:
 - Garage-ceiling before/after photos supplied.
 
 Inspection completion, buyer acceptance and holdback release have not been reported. (SRC-2026-053)
+
+## September 8 Closing-Document Reconciliation
+
+- Signed loan contract August 26: 512,000 CAD, 2,590.74 monthly, prime minus 0.85%; separate mortgage deed needed for registered amount and term dates. (SRC-2026-057)
+- Trust statement: 130,038.27 buyer funds and 512,000 financing received; uses 640,655.62 seller balance and 1,382.65 fee advance; zero buyer balance/refund. (SRC-2026-059)
+- Paid invoice 2,038.27 reconciles with fee advance plus approved 655.62 debit on August 26. Total buyer closing cash 130,693.89. (SRC-2026-056, SRC-2026-059)
+- August 31 adjustment: municipal year fully seller-paid, buyer reimbursement 1,604.87; school credit 55.54 and nine-day occupancy credit 893.71; net buyer adjustment 655.62 included in trust statement. (SRC-2026-060)
+- School-tax 186.52 installment paid September 8, user-reported; 196.74 remains due December 9. First mortgage payment 2,590.74 made September 1, user-reported. (SRC-2026-062, SRC-2026-063)
+- Buyer statements have blank signature fields and do not establish deed execution dates, seller holdback retention/release, title-insurance treatment or mortgage discharge. Those questions stay open. (SRC-2026-059, SRC-2026-060)
