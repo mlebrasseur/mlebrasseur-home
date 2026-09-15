@@ -21,3 +21,14 @@ Source: [SRC-2026-064](../01-sources/chat/2026/2026-09-14-property-handover-repa
 Source: [SRC-2026-065](../01-sources/chat/2026/2026-09-14-renovation-painting-and-moving-schedule.md). Reported September 14, 2026.
 
 Engage painters for white painting of main floor, common areas and side entrance at 4,650 CAD. Commitment reported; actual engagement date, taxes and payment status unspecified.
+
+## September 15 Communication Decisions
+
+Source: [SRC-2026-066](../01-sources/chat/2026/2026-09-15-property-seller-calls-and-follow-up.md). Reported September 14–15; updated September 15, 2026.
+
+| Decision | Status | Date context |
+|---|---|---|
+| Continue exchanges with Jacob by text to keep a written record | Chosen | Reported September 14 |
+| Use the selected short, friendly text about mice/traps and remaining garage ceiling, with photos | Selected; send planned September 16 | Confirmed September 15 |
+
+Initial concern about effort is retained in the source as context; it is not a final abandonment. Jacob reportedly considers the situation resolved, but no mutual settlement or acceptance of all repairs is reported.

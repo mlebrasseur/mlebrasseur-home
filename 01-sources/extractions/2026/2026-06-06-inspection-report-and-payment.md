@@ -116,3 +116,13 @@
 ## September 8 Supporting Agreement
 
 The signed [service agreement and completion attestation](2026-06-06-inspection-service-agreement-and-attestation.md) (SRC-2026-061) now accompanies this report. Its final page acknowledges the same 600.00 CAD received June 6 by Interac; no additional payment. Tax fields are blank. See that note for inspection scope and unresolved handwritten fields.
+
+## September 15 Review — Attic and Ceiling Stains
+
+Checked the [original report](../../documents/inspection/2026-06-06-inspection-report-steve-charbonneau.pdf):
+
+- Page 12: inspector records no visible mould or water-infiltration indicators during the attic inspection on June 6.
+- Page 35, Walls and Ceilings: comments identify garage-ceiling damage and possible asbestos; no written mention of the left-side bedroom or main-floor bathroom water stains. No written mention of these stains was found in the report text.
+- Page 44: garage water-infiltration indicators are expressly documented.
+
+The [later homeowner report, SRC-2026-066](../../chat/2026/2026-09-15-property-seller-calls-and-follow-up.md) includes Jacob's September 11 text claiming the inspector saw the stains and was told they predated Jacob's purchase. The inspection report does not document that exchange. Its silence does not establish whether the stains were present or visible on June 6; the attic observation does not establish the cause or current status of the stains.

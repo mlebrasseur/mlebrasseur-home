@@ -1,6 +1,6 @@
 # Risks
 
-Last updated: 2026-09-14
+Last updated: 2026-09-15
 
 | Risk | Area | Severity | Likelihood | Source | Mitigation | Status |
 |---|---|---|---|---|---|---|
@@ -27,3 +27,9 @@ Last updated: 2026-09-14
 Source: [SRC-2026-064](../01-sources/chat/2026/2026-09-14-property-handover-repairs-and-access.md). Reported September 14, 2026.
 
 Two dead mice found and suspected mouse heard in basement/garage wall on September 9. Current activity, extent and entry points unknown; assessment pending.
+
+## September 15 Stains and Mouse Follow-Up
+
+Source: [SRC-2026-066](../01-sources/chat/2026/2026-09-15-property-seller-calls-and-follow-up.md). Reported September 14–15; updated September 15, 2026.
+
+Water-like stains in left-side bedroom and main-floor bathroom are of unknown cause/age; dry during reported rain. Inspection page 12's negative visual attic finding is dated June 6, not a current diagnosis. Continuing sounds attributed to mice remain to assess. Jacob's alleged 2010 electrical/ceiling history and assertion of no asbestos do not confirm material composition. Photos taken; technical checks remain open.

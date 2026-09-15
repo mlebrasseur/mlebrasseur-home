@@ -49,3 +49,17 @@ Source: [SRC-2026-065](../01-sources/chat/2026/2026-09-14-renovation-painting-an
 | Assess three existing exterior cameras and alarm needs | After move and Internet installation | Open |
 | Remove old alarm equipment from primary-bedroom walk-in and set aside | Date unset | Open |
 | Assess front lateral gutter extensions toward street; discuss possible joining with neighbour | Date unset | Open option; route and arrangement unconfirmed |
+
+## September 15 Evidence and Checks
+
+Source: [SRC-2026-066](../01-sources/chat/2026/2026-09-15-property-seller-calls-and-follow-up.md). Reported September 14–15; updated September 15, 2026.
+
+| Task | Status | Timing |
+|---|---|---|
+| Photograph observed issues, including dead mice | Done / homeowner report | Exact dates unknown |
+| Archive existing photos and copied exchanges | Pending; archive paths not supplied | To arrange |
+| Check attic above bedroom/bathroom stains and previously required duct repair | Open | To arrange |
+| Assess current mouse activity and entry points | Open; continuing sounds reported | To arrange |
+| Clarify ceiling material and any supporting 2010 work records | Open; seller statements unverified | Before further disturbance |
+
+Retain a distinction between owner photos already taken and seller-required before/after photos still absent from the record.

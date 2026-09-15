@@ -1,6 +1,6 @@
 # Current Status
 
-Last updated: 2026-09-14
+Last updated: 2026-09-15
 
 ## Snapshot
 
@@ -77,3 +77,9 @@ Painting commitment 4,650 CAD; payments unknown. Prepare September 27–29 insta
 Source: [SRC-2026-064](../01-sources/chat/2026/2026-09-14-property-handover-repairs-and-access.md). Reported September 14, 2026.
 
 Access reset September 9–10. Holdback released. Remaining repair checks and mouse activity follow-up documented in the source.
+
+## September 15 Seller Follow-Up
+
+Source: [SRC-2026-066](../01-sources/chat/2026/2026-09-15-property-seller-calls-and-follow-up.md). Reported September 14–15; updated September 15, 2026.
+
+Photos of all issues already taken; stain photo/text sent September 11 around 12:50 with seller reply received. Cernes in left-side bedroom and main-floor bathroom observed dry during rain; cause unknown. Continuing mouse sounds reported. Selected friendly text on mice/traps and incomplete ceiling planned September 16; no send or agreement confirmed. Communication by text chosen. Holdback remains released; remaining technical checks stay open.

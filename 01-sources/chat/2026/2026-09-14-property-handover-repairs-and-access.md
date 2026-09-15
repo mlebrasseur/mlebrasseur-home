@@ -40,3 +40,7 @@ Maxime found two dead mice. On the evening of September 9 he heard a sound he at
 - [Inspection, SRC-2026-015](../../extractions/2026/2026-06-06-inspection-report-and-payment.md).
 - [Purchase agreement, SRC-2026-011](../../extractions/2026/2026-06-01-legal-signed-pa-07184.md): appliances broadly excluded; dishwasher not separately named in the extraction. Actual items left are recorded above.
 - [Installation plans, SRC-2026-065](2026-09-14-renovation-painting-and-moving-schedule.md).
+
+## Later Clarifications
+
+[September 15 supplement, SRC-2026-066](2026-09-15-property-seller-calls-and-follow-up.md) records September 10 calls, the September 11 stain text/reply, seller explanations, photos already taken, continuing mouse sounds and the September 16 planned text. The original report above is retained as history.

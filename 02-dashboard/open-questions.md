@@ -1,6 +1,6 @@
 # Open Questions
 
-Last updated: 2026-09-14
+Last updated: 2026-09-15
 
 Closing is completed (SRC-2026-052). Receipt and settlement questions below remain documentation follow-ups; the new certificate is held (SRC-2026-051).
 
@@ -45,3 +45,19 @@ Closing is completed (SRC-2026-052). Receipt and settlement questions below rema
 Source: [SRC-2026-065](../01-sources/chat/2026/2026-09-14-renovation-painting-and-moving-schedule.md). Reported September 14, 2026.
 
 Painting: contractor, work dates, tax basis and payments unknown. Internet: provider/appointment unknown. Appliances: models, prices and installation unknown. Gutter extension to street and possible neighbour joining: route, feasibility, applicable permissions and agreement to assess. Camera operation/access and alarm needs to assess after move/Internet.
+
+## September 15 Seller Clarifications
+
+Source: [SRC-2026-066](../01-sources/chat/2026/2026-09-15-property-seller-calls-and-follow-up.md). Reported September 14–15; updated September 15, 2026.
+
+| Question | Status |
+|---|---|
+| What caused the bedroom/bathroom stains, and is the condition recurring? | Unknown; seller says old, owner observed dry zones |
+| Did the inspector see/discuss these stains as Jacob states? | Not documented in report; seller statement only |
+| When/where did Jacob place mouse traps, and were any mice caught? | Planned question in September 16 text |
+| What is causing current mouse sounds and how extensive is activity? | Assessment pending |
+| What exact electrical work occurred in 2010, and what establishes ceiling age/material? | Seller assertion; supporting records unspecified |
+| How will remaining ceiling sections be handled? | Planned question; no agreement reported |
+| Was the September 16 text sent and what was the response? | Sending still planned |
+
+Stain photo transmission and reply are resolved: September 11 around 12:50. Owner photography is done as reported; archival and seller before/after photos remain separate follow-ups.

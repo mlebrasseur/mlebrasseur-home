@@ -1,6 +1,6 @@
 # Legal Closing
 
-Last updated: 2026-09-14
+Last updated: 2026-09-15
 
 ## Status
 
@@ -98,7 +98,7 @@ The current certificate is held (SRC-2026-051). Retain the notary’s explanatio
 
 ## September 9 Handover and Repair Check — Reported September 14
 
-Access received September 9 at 13:00 via side-door code. Fan switch and basement light repaired. Garage ceiling removed by hand, less than 5% remaining around fixtures and anchors. Attic duct repair unchecked; photos and debris removal not established. (SRC-2026-064)
+Access received September 9 at 13:00 via side-door code. Fan switch and basement light repaired. Garage ceiling removed by hand, less than 5% remaining around fixtures and anchors. Attic duct repair unchecked; seller before/after photos and debris removal not established. (SRC-2026-064)
 
 At an unspecified date, broker Michaël Labelle reportedly announced repairs complete without photos and reassured Maxime about returning against the seller if dissatisfied. This is an attributed statement. Holdback of 1,500 CAD released as reported; date unknown. Full repair acceptance is not independently reported. (SRC-2026-064)
 
@@ -116,3 +116,13 @@ At an unspecified date, broker Michaël Labelle reportedly announced repairs com
 Source: [SRC-2026-064](../01-sources/chat/2026/2026-09-14-property-handover-repairs-and-access.md). Reported September 14, 2026.
 
 Handover, broker call, partial repair verification and released holdback are documented in the linked homeowner report.
+
+## September 15 Seller Communication Update
+
+Source: [SRC-2026-066](../01-sources/chat/2026/2026-09-15-property-seller-calls-and-follow-up.md). Reported September 14–15; updated September 15, 2026.
+
+- September 10: Maxime raised mice, known garage water issues and incomplete ceiling work with Michaël; Jacob called later the same day after hearing from his own broker.
+- Seller statements about mice/traps, hand removal with friends, complexity, old stains and alleged 2010 electrical/ceiling work are attributed in the source; no technical conclusions established.
+- September 11 around 12:50: stain text/photo sent and reply received. Jacob denies water during his ownership and says the inspector saw the stains; the report does not document that exchange.
+- Owner photos taken, including dead mice. Seller before/after photos remain separate. Continuing mouse sounds reported.
+- Short friendly text about mice/traps and finishing the ceiling selected for September 16. Communication by text chosen; sending/scheduling and any agreement unconfirmed. Holdback remains released.

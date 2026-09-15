@@ -1,6 +1,6 @@
 # Timeline
 
-Last updated: 2026-09-14
+Last updated: 2026-09-15
 
 ## Chronological Timeline
 
@@ -115,3 +115,17 @@ Source: [SRC-2026-065](../01-sources/chat/2026/2026-09-14-renovation-painting-an
 | 2026-09-28 | Internet | Planned |
 | 2026-09-29 | Appliance arrival | Planned; remove old dishwasher first |
 | After move and Internet | Camera and alarm assessment | Planned |
+
+## September 15 Communication Update
+
+Source: [SRC-2026-066](../01-sources/chat/2026/2026-09-15-property-seller-calls-and-follow-up.md). Reported September 14–15; updated September 15, 2026.
+
+| Event date (America/Toronto) | Event | Status |
+|---|---|---|
+| 2026-09-10 | Maxime calls Michaël about mice, garage water and incomplete ceiling | User-reported |
+| 2026-09-10, later that day | Jacob calls; seller explanations and preference for direct resolution | User-reported; statements attributed |
+| 2026-09-11, approximately 12:50 | Stain photo/text sent; Jacob replies | Copied text supplied September 15 |
+| Dates unspecified; reported September 14–15 | All issues photographed; further sounds attributed to mice | User-reported |
+| 2026-09-16 | Selected friendly text and mouse/ceiling photos to Jacob | Planned, time unspecified; not scheduled/sent as far as reported |
+
+Earlier tentative September 15 morning send plan superseded. Prior broker call announcing completed repairs remains undated.

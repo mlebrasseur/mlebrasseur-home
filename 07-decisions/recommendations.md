@@ -247,3 +247,13 @@ September 8 update: signing/closing completed (SRC-2026-052). The recommendation
 ### Current Next Action
 
 - Retain the executed mortgage deed and record the final registered amount and additional security clause; completion of closing alone does not establish these terms. (SRC-2026-052)
+
+## September 15 Limited Written Follow-Up
+
+Source: [SRC-2026-066](../01-sources/chat/2026/2026-09-15-property-seller-calls-and-follow-up.md). Reported September 14–15; updated September 15, 2026.
+
+**Broker advice, reported by Maxime:** Michaël recommended sending photos and a list of observations to Jacob and trying to reach agreement.
+
+**Assistant recommendation discussed:** keep the effort limited, factual and friendly; retain the existing photos and exchanges, archive them, and prioritize the attic/stain, mouse and ceiling checks. Reassess further negotiation once the response and scope/cost of corrections are known.
+
+**Owner's selected approach:** text communication; short mouse/ceiling message planned September 16. Stain photo/text already sent September 11 with reply. Photography is completed as reported; do not list taking these same photographs as unfinished work. No send, settlement, new payment or technical conclusion is inferred.

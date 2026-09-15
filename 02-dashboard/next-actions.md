@@ -1,6 +1,6 @@
 # Next Actions
 
-Last updated: 2026-09-14
+Last updated: 2026-09-15
 
 ## Urgent
 
@@ -12,7 +12,7 @@ Closing is completed per SRC-2026-052. Remaining closing items below are documen
 | Record the final registered mortgage amount from the signed deed | Maxime / Brigida Rizzuto / LRV Notaires | Post-closing reconciliation | Financing / legal closing | SRC-2026-044 | Open; final amount unconfirmed; prior proposal was 768,000 CAD (SRC-2026-052) |
 | Retain executed sale and mortgage deeds with execution/registration dates | Maxime / LRV | Post-closing records | Legal closing | SRC-2026-057, SRC-2026-059, SRC-2026-060 | Loan contract signed August 26; adjustment date August 31; occupancy credit 893.71 recorded. Deed dates remain to verify. |
 | Retain notary treatment of received certificate, title insurance and any compensation | Maxime / Audrey-Ann Lapierre | Post-closing reconciliation | Legal / closing | SRC-2026-011, SRC-2026-027 | Open |
-| Inspect house and verify seller repairs and garage-ceiling before/after photos | Maxime | After access September 9 at 13:00 | Inspection / repairs | SRC-2026-012, SRC-2026-015, SRC-2026-064 | Partially verified; attic unchecked, ceiling residual/photos/debris follow-up |
+| Inspect house and verify seller repairs and garage-ceiling before/after photos | Maxime | After access September 9 at 13:00 | Inspection / repairs | SRC-2026-012, SRC-2026-015, SRC-2026-064 | Partially verified; attic unchecked, ceiling residual/seller before-after photos/debris follow-up |
 | Attend the mortgage and purchase-deed signing with two valid photo IDs and payment method for adjustments | Maxime | 2026-08-26 at 13:30 | Financing / legal closing | SRC-2026-052, SRC-2026-056, SRC-2026-057 | Done; signed August 26 loan contract and 655.62 debit receipt archived; separate deed dates still to document. |
 | Confirm actual mortgage disbursement date | Maxime / Desjardins | Post-closing records | Financing | SRC-2026-059, SRC-2026-063 | Open for funding date only; LRV received 512,000 and user reports first payment September 1. |
 | Review Intact policy declarations and optional coverages | Maxime / Agence La Turquoise | Promptly; before a claim | Insurance | SRC-2026-042 | Open; verify renovation years, professional activity, water protection, and spa/pool coverage charge |
@@ -131,4 +131,19 @@ Source: [SRC-2026-065](../01-sources/chat/2026/2026-09-14-renovation-painting-an
 
 Source: [SRC-2026-064](../01-sources/chat/2026/2026-09-14-property-handover-repairs-and-access.md). Reported September 14, 2026.
 
-Verify attic duct repair, garage ceiling residual/photos/debris and material status; assess current mouse activity. Holdback release is completed as reported; exact date unknown.
+Verify attic duct repair, garage ceiling residual/seller before-after photos/debris and material status; assess current mouse activity. Holdback release is completed as reported; exact date unknown.
+
+## September 15 Written Follow-Up
+
+Source: [SRC-2026-066](../01-sources/chat/2026/2026-09-15-property-seller-calls-and-follow-up.md). Reported September 14–15; updated September 15, 2026.
+
+| Action | Owner | Due | Status |
+|---|---|---|---|
+| Photograph problems including dead mice | Maxime | Dates unspecified | Done / user-reported |
+| Send stain text/photo to Jacob | Maxime | 2026-09-11 around 12:50 | Done; reply received |
+| Send selected friendly text with mouse/ceiling photos; ask when/where traps were placed, catches and how to finish ceiling | Maxime | 2026-09-16; time unspecified | Planned; not confirmed scheduled/sent |
+| Retain reply and any proposed arrangement | Maxime | After response | Pending |
+| Archive photos already taken | Maxime | To arrange | Not confirmed archived |
+| Check attic/stains, continuing mouse activity and residual ceiling | Maxime | To arrange | Open |
+
+Continue communication with Jacob by text. Stains already reported; next message focuses on mice and ceiling. Seller-required before/after photos remain distinct from homeowner photographs.
