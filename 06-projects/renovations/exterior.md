@@ -1,6 +1,6 @@
 # Exterior Renovation
 
-Last updated: 2026-09-08
+Last updated: 2026-09-14
 
 ## Status
 
@@ -127,7 +127,7 @@ This differs from the original new-paver/new-wall scope below. Confirm asphalt m
 
 The Steve referral email, all five driveway emails and all five foundation emails were sent on 2026-07-16, and delivery was confirmed on 2026-07-23. Exact individual send and delivery times were not provided. Record replies, site visits and quotes in this file as they arrive. (SRC-2026-037)
 
-The property is not occupied by the buyer until 2026-09-09 at 13:00. State that any earlier site visit requires coordination; do not imply that access is already available.
+Access was received September 9 at 13:00 (SRC-2026-064). Coordinate contractor visits with Maxime; physical move estimated September 27 (SRC-2026-065).
 
 ### Attachment matrix
 
@@ -233,3 +233,9 @@ Maxime Lebrasseur
 | Compare quotes and select one contractor for each project | User | Before contractor coordination and 2026-09 work | SRC-2026-021, SRC-2026-046, SRC-2026-048, SRC-2026-049 | Open | Keep the two project decisions separate; crack proposals are not comparable until the two smaller conditions are confirmed and Fissure et Drain Laval supplies a written scope |
 | Recheck RBQ licence, subclasses, insurance and reviews | User | Before signing | SRC-2026-046, SRC-2026-048; RBQ and contractor documents | In progress | K.I. Bon and Fissure et Drain Laval identifiers are recorded; obtain current proof and insurance from the selected contractors; Karl Morin contracting identity remains to confirm |
 | Coordinate site access or optional shared excavation | User / selected contractors | Before 2026-09 work | Written accepted scopes | Open | Coordination may reduce mobilization costs but is not required for project sequencing |
+
+## September 14 Gutter and Exterior Follow-Up
+
+Source: [SRC-2026-065](../../01-sources/chat/2026/2026-09-14-renovation-painting-and-moving-schedule.md). Reported September 14, 2026.
+
+Explore extending front lateral gutter outlets toward the street and discuss possible joining with neighbour. Route, discharge feasibility, applicable permissions, agreement, costs and schedule remain open. Coordinate the assessment with exterior drainage planning. Outdoor sofas, table and reported propane fire pit are to be discarded; removal arrangements unspecified.

@@ -1,6 +1,6 @@
 # Risks
 
-Last updated: 2026-09-08
+Last updated: 2026-09-14
 
 | Risk | Area | Severity | Likelihood | Source | Mitigation | Status |
 |---|---|---|---|---|---|---|
@@ -12,8 +12,8 @@ Last updated: 2026-09-08
 | Fraudulent or misdirected closing-fund instructions could cause an irreversible loss. | Legal / closing security | High | Low | SRC-2026-034, SRC-2026-056, SRC-2026-059 | Original transfer receipt and additional debit now reconciled; independently verify any future changed instructions using known contact details. | Original receipt resolved; future-payment precaution |
 | The submitted closing transfer may not have reached LRV. | Legal / finance | High | Low | SRC-2026-045, SRC-2026-059 | Buyer trust statement records 130,038.27 received; retain banking date/method evidence. | Resolved by notary statement |
 | Remaining school-tax installment could be missed. | Finance / taxes | Medium | Unknown | SRC-2026-058, SRC-2026-060, SRC-2026-062 | September 186.52 paid September 8 as reported; verify posting and pay 196.74 by December 9. Municipal year fully seller-paid per notary adjustment. | December installment open |
-| Seller repairs may be incomplete before occupancy. | Inspection / repairs | High | Medium | SRC-2026-012, SRC-2026-015 | Ensure 1,500 CAD holdback is retained and verify work/photos before release. | Open |
-| Garage ceiling material may contain asbestos. | Garage / environmental | High | Medium | SRC-2026-015 | Get sample/material analysis before removal or require controlled handling. | Open |
+| Seller repairs remain partially verified after handover. | Inspection / repairs | High | Confirmed partial verification | SRC-2026-012, SRC-2026-064 | Verify attic duct, remaining ceiling and photos/debris status. | Open; 1,500 CAD holdback released |
+| Garage ceiling material composition remains unknown after removal. | Garage / environmental | High | Unknown | SRC-2026-015, SRC-2026-064 | Clarify material analysis and handling history, including residual material. | Open; ceiling removed by hand with less than 5% remaining as reported |
 | The driveway/drainage quote could be accepted without a defined base, compaction standard, final grading, catch-basin outlet/capacity, overflow/backflow strategy or warranty. | Garage / drainage | High | Medium | SRC-2026-015, SRC-2026-046, SRC-2026-050 | Obtain written K.I. Bon clarifications and compare the same technical scope with Karl Morin before acceptance. | Open |
 | A three-crack repair scope could be accepted before confirming whether the two under-window conditions are in infill blocks or the poured foundation. | Foundation | Medium | Medium | SRC-2026-015, SRC-2026-047, SRC-2026-048, SRC-2026-049 | Expose and document the crack paths; clarify Akton's A/B/C locations, warranty exclusions and rear-window observation; obtain Fissure et Drain Laval's written scope before selection. | Open |
 | Final registered mortgage amount is not yet documented in the working record. | Financing / legal closing | Medium | Unknown | SRC-2026-044, SRC-2026-052 | Retain executed deed and record final security amount; general completion does not confirm the proposed amount. | Open documentation |
@@ -21,3 +21,9 @@ Last updated: 2026-09-08
 | LRV may not yet have received the bound home-insurance proof required before signing. | Insurance / legal closing | High | Low | SRC-2026-042, SRC-2026-043 | Send or confirm delivery of the Intact proof and obtain LRV acceptance before 2026-08-26. | Retired as closing blocker; closing confirmed SRC-2026-052; supporting records remain to retain |
 | Material inaccuracies in the Intact policy declarations could affect premium or coverage. | Insurance | High | Low | SRC-2026-003, SRC-2026-015, SRC-2026-042 | Review the two-unit use, professional activity, renovation years, water protection, and optional spa/pool coverage with Agence La Turquoise. | Open |
 | A substantial deposit could be paid before Karl’s drainage scope, credentials, warranty and start date are clarified. | Renovations / contractor | Medium | Unknown | SRC-2026-055 | Clarify before acceptance; quote requires 50% at signing, with start date undetermined and channel drainage still to verify. | Open; no payment reported |
+
+## Mouse Activity Report
+
+Source: [SRC-2026-064](../01-sources/chat/2026/2026-09-14-property-handover-repairs-and-access.md). Reported September 14, 2026.
+
+Two dead mice found and suspected mouse heard in basement/garage wall on September 9. Current activity, extent and entry points unknown; assessment pending.

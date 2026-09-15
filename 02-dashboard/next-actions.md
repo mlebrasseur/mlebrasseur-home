@@ -1,10 +1,10 @@
 # Next Actions
 
-Last updated: 2026-09-08
+Last updated: 2026-09-14
 
 ## Urgent
 
-Closing is completed per SRC-2026-052. Remaining closing items below are document/settlement reconciliation, not prerequisites to an upcoming signing. Certificate received under SRC-2026-051; contractor acceptance remains unconfirmed under SRC-2026-050.
+Closing is completed per SRC-2026-052. Remaining closing items below are document/settlement reconciliation, not prerequisites to an upcoming signing. Certificate received under SRC-2026-051; exterior contractor acceptance remains unconfirmed under SRC-2026-050; painting is contracted under SRC-2026-065.
 
 | Action | Owner | Due Date | Related Area | Source | Status |
 |---|---|---|---|---|---|
@@ -12,22 +12,21 @@ Closing is completed per SRC-2026-052. Remaining closing items below are documen
 | Record the final registered mortgage amount from the signed deed | Maxime / Brigida Rizzuto / LRV Notaires | Post-closing reconciliation | Financing / legal closing | SRC-2026-044 | Open; final amount unconfirmed; prior proposal was 768,000 CAD (SRC-2026-052) |
 | Retain executed sale and mortgage deeds with execution/registration dates | Maxime / LRV | Post-closing records | Legal closing | SRC-2026-057, SRC-2026-059, SRC-2026-060 | Loan contract signed August 26; adjustment date August 31; occupancy credit 893.71 recorded. Deed dates remain to verify. |
 | Retain notary treatment of received certificate, title insurance and any compensation | Maxime / Audrey-Ann Lapierre | Post-closing reconciliation | Legal / closing | SRC-2026-011, SRC-2026-027 | Open |
-| Confirm the 1,500 CAD seller repair holdback was retained and document release conditions | Maxime / Audrey-Ann Lapierre | Post-closing reconciliation | Legal / repairs | SRC-2026-012, SRC-2026-027 | Open |
-| Inspect house and verify seller repairs and garage-ceiling before/after photos | Maxime | After access September 9 at 13:00 | Inspection / repairs | SRC-2026-012, SRC-2026-015, SRC-2026-053 | Planned; results unconfirmed |
+| Inspect house and verify seller repairs and garage-ceiling before/after photos | Maxime | After access September 9 at 13:00 | Inspection / repairs | SRC-2026-012, SRC-2026-015, SRC-2026-064 | Partially verified; attic unchecked, ceiling residual/photos/debris follow-up |
 | Attend the mortgage and purchase-deed signing with two valid photo IDs and payment method for adjustments | Maxime | 2026-08-26 at 13:30 | Financing / legal closing | SRC-2026-052, SRC-2026-056, SRC-2026-057 | Done; signed August 26 loan contract and 655.62 debit receipt archived; separate deed dates still to document. |
 | Confirm actual mortgage disbursement date | Maxime / Desjardins | Post-closing records | Financing | SRC-2026-059, SRC-2026-063 | Open for funding date only; LRV received 512,000 and user reports first payment September 1. |
 | Review Intact policy declarations and optional coverages | Maxime / Agence La Turquoise | Promptly; before a claim | Insurance | SRC-2026-042 | Open; verify renovation years, professional activity, water protection, and spa/pool coverage charge |
 | Request documentation for prior oil or fuel tank disclosure |  | Before deed / insurance binding | Inspection / insurance | SRC-2026-003 | Open |
 | Confirm Audrey-Ann and the lender have the legal 2 unit/rentable-unit information | Maxime | Post-closing records | Legal / financing | SRC-2026-001, SRC-2026-004, SRC-2026-007, SRC-2026-008, SRC-2026-027, SRC-2026-042 | Open; Intact policy already records two units and a basement apartment |
 | Obtain and compare any written proposal from Michael Sciascia only before considering a lender change | Maxime / Michael Sciascia | Before changing lender or notary instructions | Financing | SRC-2026-035, SRC-2026-036, SRC-2026-043, SRC-2026-044 | Retired as pre-closing action; closing is completed (SRC-2026-052) |
-| Collect keys and access from Jacob, accompanied by parents | Maxime | 2026-09-09 at 13:00 | Moving | SRC-2026-053 | Scheduled |
+| Obtain side-door access from Jacob | Maxime | 2026-09-09 at 13:00 | Moving | SRC-2026-064 | Done: side-door access code received |
 | Retain notary explanation of apparent encroachments and north setback exceptions | Maxime / LRV | Post-closing follow-up | Legal / property | SRC-2026-051 | Open; acquired rights not determined by surveyor |
 
 ## Upcoming
 
 Exterior: phone follow-ups completed; await additional estimates before choosing scope, materials or contractor. No individual response or visit date was supplied. Draft follow-up email was not sent. (SRC-2026-054)
 
-Immediate sequence: keys/access → house and repair inspection → appliance measurements → appliance purchase → move and internet scheduling. Move and internet dates remain unset. (SRC-2026-053)
+Current sequence: prepare estimated September 27 move → September 28 Internet → September 29 appliance arrival. Remove old dishwasher before delivery. Remaining repair checks proceed separately. (SRC-2026-064, SRC-2026-065)
 
 
 | Action | Owner | Due Date | Related Area | Source | Status |
@@ -35,9 +34,9 @@ Immediate sequence: keys/access → house and repair inspection → appliance me
 | Pay December school-tax installment of 196.74 CAD | Maxime | 2026-12-09 | Taxes | SRC-2026-058, SRC-2026-062 | Outstanding; September installment paid as reported |
 | Retain September school-tax payment confirmation and verify posting | Maxime | After bank processing | Taxes | SRC-2026-062 | 186.52 CAD paid September 8, user-reported |
 | Measure appliance spaces | Maxime | After inspection; before purchase | Appliances | SRC-2026-053 | Planned |
-| Order/buy household appliances | Maxime | After measurements | Appliances | SRC-2026-053 | Planned; selections and delivery dates unset |
-| Arrange physical move | Maxime | Date unset | Moving | SRC-2026-053 | Planned |
-| Set internet moving date | Maxime | Coordinate with move; date unset | Utilities | SRC-2026-053 | Planned; provider unrecorded |
+| Order/buy household appliances | Maxime | After measurements | Appliances | SRC-2026-053 | Arrival planned September 29; selections and costs unknown (SRC-2026-065) |
+| Arrange physical move | Maxime | 2026-09-27 estimated | Moving | SRC-2026-065 | Planned |
+| Set internet moving date | Maxime | 2026-09-28 | Utilities | SRC-2026-065 | Planned; provider unknown |
 | Keep or request documentation confirming the second unit's legal rental status |  |  | Legal / property | SRC-2026-004, SRC-2026-007, SRC-2026-008 | Open |
 | Ask when the bachelor unit was added |  |  | Property history | SRC-2026-007, SRC-2026-008 | Open |
 | Ask K.I. Bon to clarify quantities, base, compaction, grading, catch-basin design, wall construction, warranty, schedule and exclusions | Maxime / Tony Sigga | Before driveway quote acceptance | Exterior / driveway | SRC-2026-046 | Open; revised August 25 asphalt/existing-wall quote totals 12,500 CAD before tax, calculated; tax/total fields blank (SRC-2026-050) |
@@ -47,7 +46,7 @@ Immediate sequence: keys/access → house and repair inspection → appliance me
 | Clarify Akton estimate ESTF107164 and obtain Fissure et Drain Laval's property-specific written scope and warranty | Maxime / Cesar Guevara / Jacques Robert | Before foundation selection | Foundation | SRC-2026-047, SRC-2026-048, SRC-2026-049 | Open; confirm Akton's A/B/C locations, rear-window observation, non-refundable 500.00 CAD line and validity; Jacques's price, method and 20-year warranty remain verbal |
 | Coordinate selected driveway and foundation contractors before final driveway finish | User / contractors | Before 2026-09 work | Exterior / foundation | SRC-2026-021 | Open |
 | Confirm with Terrebonne Urbanisme whether bachelor expansion into garage space affects permits, use, or unit status | User | Before design spend | Bachelor expansion / permits | SRC-2026-008, SRC-2026-021 | Open |
-| Confirm whether garage ceiling material contains asbestos before removal |  | Before seller / contractor removal | Garage / environmental | SRC-2026-012, SRC-2026-015 | Open |
+| Clarify garage-ceiling material analysis and handling history | Maxime | Before further disturbance | Garage / environmental | SRC-2026-012, SRC-2026-015 | Open |
 | Request masonry review for mortar cracks and damaged concrete sills |  |  | Exterior | SRC-2026-015 | Open |
 | Confirm water heater installation year conflict, 2021 vs 2023 |  |  | Plumbing / insurance | SRC-2026-003, SRC-2026-015, SRC-2026-042 | Open; Intact policy also uses 2021 |
 | Confirm roof installation/renovation year, 2015 vs 2016 |  |  | Roof / insurance | SRC-2026-003, SRC-2026-042 | Open |
@@ -113,3 +112,23 @@ Immediate sequence: keys/access → house and repair inspection → appliance me
 - Phone follow-ups with remaining contractors reported completed; drafted email not sent. Waiting for estimates before deciding. (SRC-2026-054)
 
 - Karl quote 1290 archived and extracted; no acceptance or payment reported. (SRC-2026-055)
+
+## September 14 Installation Tasks
+
+Source: [SRC-2026-065](../01-sources/chat/2026/2026-09-14-renovation-painting-and-moving-schedule.md). Reported September 14, 2026.
+
+| Task | Timing | Status |
+|---|---|---|
+| Measure main-floor windows, then order blinds | Before ordering | Open; basement blinds already present |
+| Remove old dishwasher | Before September 29 appliance arrival | Open |
+| Receive new appliances | September 29, 2026 | Planned; details unknown |
+| Dispose of outdoor sofas, table and reported propane fire pit | Date unset | Decided; removal arrangements unspecified |
+| Assess three existing exterior cameras and alarm needs | After move and Internet installation | Open |
+| Remove old alarm equipment from primary-bedroom walk-in and set aside | Date unset | Open |
+| Assess front lateral gutter extensions toward street; discuss possible joining with neighbour | Date unset | Open option; route and arrangement unconfirmed |
+
+## Remaining Handover Follow-Up
+
+Source: [SRC-2026-064](../01-sources/chat/2026/2026-09-14-property-handover-repairs-and-access.md). Reported September 14, 2026.
+
+Verify attic duct repair, garage ceiling residual/photos/debris and material status; assess current mouse activity. Holdback release is completed as reported; exact date unknown.

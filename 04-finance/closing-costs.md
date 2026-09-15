@@ -1,6 +1,6 @@
 # Closing Costs
 
-Last updated: 2026-09-08
+Last updated: 2026-09-14
 
 Closing is complete per SRC-2026-052. The August 26 invoice/receipt and August 31 adjustment/trust statements now reconcile buyer funds and fees. August 31 is the adjustment date; exact deed execution/registration and lender-funding dates remain to document.
 
@@ -30,6 +30,12 @@ These are not additional buyer costs.
 
 | Item | Amount | Due Date | Source | Status | Notes |
 |---|---:|---|---|---|---|
-| Seller repair holdback | 1500.00 | Post-closing / before release | SRC-2026-012, SRC-2026-059 | Still unconfirmed | Buyer trust statement does not establish seller-side retention or release; verify with notary and seller repair results. |
+| Seller repair holdback | 1500.00 | Release date unspecified | SRC-2026-012, SRC-2026-064 | Released / user reported | Confirmed September 14; not an additional personal payment. |
 | Certificate of location compensation | 2000.00 | Post-closing reconciliation | SRC-2026-011, SRC-2026-051, SRC-2026-059 | Settlement treatment unconfirmed | No conclusion about compensation or title insurance from absence in buyer statement. |
 | Seller occupancy credit | 893.71 | August 31 adjustment | SRC-2026-060 | Netted at closing | Nine days; municipal 117.43, school 9.70, principal/interest 766.58. No separate cash receipt. |
+
+## September 14 Holdback Update
+
+Source: [SRC-2026-064](../01-sources/chat/2026/2026-09-14-property-handover-repairs-and-access.md). Reported September 14, 2026.
+
+Maxime confirms the 1,500 CAD seller repair holdback is released. Actual release date unspecified; no additional buyer payment reported.

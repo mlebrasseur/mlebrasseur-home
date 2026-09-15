@@ -15,17 +15,37 @@
 
 | Task | Priority | Due Date | Related Area | Source | Status | Notes |
 |---|---|---|---|---|---|---|
-| Confirm seller repairs and holdback handling | High | Before occupancy | Repairs / legal | SRC-2026-012, SRC-2026-015 | Open | Basement light, attic duct, bathroom fan switch, garage ceiling removal; 1,500 CAD holdback |
+| Complete remaining seller-repair checks | High | Post-handover | Repairs / legal | SRC-2026-012, SRC-2026-015 | Partially verified | Basement light, attic duct, bathroom fan switch, garage ceiling removal; holdback released (SRC-2026-064) |
 | Request prior oil or fuel tank documentation | High |  | Exterior / environmental | SRC-2026-003 | Open | Seller disclosed prior tank and no known contamination |
 | Request heat pump and central AC documents | Medium |  | HVAC | SRC-2026-003 | Open | Seller says documents exist |
 | Verify French drain access and condition | Medium |  | Drainage | SRC-2026-003, SRC-2026-015 | Open | Inspection could not access lookouts or confirm condition |
 | Confirm roof documentation or expected remaining life | Medium |  | Roof | SRC-2026-003, SRC-2026-042 | Open | Seller says roof covering installed 2015; Intact policy records roof renovation in 2016; no supporting documents recorded |
 | Scope garage driveway / drainage / retaining-wall redo | High | Before 2026-09 work | Driveway / retaining walls / garage drainage | SRC-2026-015, SRC-2026-020, SRC-2026-021, SRC-2026-028, SRC-2026-029, SRC-2026-030, SRC-2026-037, SRC-2026-046, SRC-2026-048 | In progress | K.I. Bon visited and provided a written quote for 28,513.80 CAD including taxes; clarify base, compaction, grading, drain, wall, warranty and schedule details. Karl Morin's comparison quote is pending. |
 | Confirm foundation-crack scope and obtain written proposals | High | Before 2026-09 work | Foundation | SRC-2026-015, SRC-2026-021, SRC-2026-030, SRC-2026-037, SRC-2026-047, SRC-2026-048, SRC-2026-049 | In progress | Akton provided written estimate ESTF107164 for three repairs; Fissure et Drain Laval remains verbal. Confirm whether the two under-window cracks are in infill blocks or the foundation, clarify Akton's terms and obtain Jacques's written method, responsibilities and warranty. |
-| Test garage-ceiling material before removal if not already handled | High | Before removal | Garage / environmental | SRC-2026-012, SRC-2026-015 | Open | Inspector notes material may contain asbestos |
+| Clarify garage-ceiling material analysis and handling history | High | Before further disturbance | Garage / environmental | SRC-2026-012, SRC-2026-015 | Open | Inspector notes possible asbestos; ceiling largely removed by hand, composition unknown (SRC-2026-064) |
 | Replace exterior outlets with GFI outlets | Medium |  | Electrical | SRC-2026-015 | Open | Inspection recommendation |
 | Replace garage-to-basement door hinges with self-closing spring hinges | Medium |  | Garage / CO safety | SRC-2026-015 | Open | Prevent CO infiltration from attached garage |
 | Add / verify CO detectors on each floor | High | At possession | Safety | SRC-2026-015 | Open | Attached garage |
 | Confirm water heater year | Medium |  | Plumbing / insurance | SRC-2026-003, SRC-2026-015, SRC-2026-042 | Open | 2021 in inspection and Intact policy vs 2023 in seller declaration |
 | Replace broken ventilation grille behind AC | Low |  | HVAC | SRC-2026-015 | Open | Near rear wall |
 | Repair damaged exterior tap | Low |  | Exterior plumbing | SRC-2026-015 | Open | Left exterior wall |
+
+## September 14 Follow-Up
+
+Source: [SRC-2026-064](../01-sources/chat/2026/2026-09-14-property-handover-repairs-and-access.md). Reported September 14, 2026.
+
+Verify attic duct, residual garage ceiling, photos/debris status and material composition; assess current mouse activity. Holdback is released as reported; repair verification remains partial.
+
+## Gutters and Installation
+
+Source: [SRC-2026-065](../01-sources/chat/2026/2026-09-14-renovation-painting-and-moving-schedule.md). Reported September 14, 2026.
+
+| Task | Timing | Status |
+|---|---|---|
+| Measure main-floor windows, then order blinds | Before ordering | Open; basement blinds already present |
+| Remove old dishwasher | Before September 29 appliance arrival | Open |
+| Receive new appliances | September 29, 2026 | Planned; details unknown |
+| Dispose of outdoor sofas, table and reported propane fire pit | Date unset | Decided; removal arrangements unspecified |
+| Assess three existing exterior cameras and alarm needs | After move and Internet installation | Open |
+| Remove old alarm equipment from primary-bedroom walk-in and set aside | Date unset | Open |
+| Assess front lateral gutter extensions toward street; discuss possible joining with neighbour | Date unset | Open option; route and arrangement unconfirmed |

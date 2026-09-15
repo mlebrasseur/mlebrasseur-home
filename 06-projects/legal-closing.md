@@ -1,12 +1,12 @@
 # Legal Closing
 
-Last updated: 2026-09-08
+Last updated: 2026-09-14
 
 ## Status
 
 | Field | Value | Source |
 |---|---|---|
-| Status | Signing and closing completed, confirmed 2026-09-08; handover scheduled 2026-09-09 at 13:00; settlement documentation remains to reconcile | SRC-2026-052 |
+| Status | Signing and closing completed, confirmed September 8; side-door access received September 9 at 13:00; remaining deed/title documentation follow-ups | SRC-2026-052, SRC-2026-064 |
 | Accepted purchase price | 640,000.00 CAD | SRC-2026-011 |
 | PA generated / finalized | 2026-06-01 | SRC-2026-011 |
 | Seller response / buyer acknowledgment | 2026-06-04 | SRC-2026-011 |
@@ -23,7 +23,7 @@ Last updated: 2026-09-08
 | Occupancy timing | 2026-09-09 at 13:00; reconfirmed 2026-09-08 | SRC-2026-012, SRC-2026-052 |
 | Unit status | 2 unit building with legal rentable basement bachelor | SRC-2026-001, SRC-2026-004, SRC-2026-007, SRC-2026-008 |
 | Certificate of location | July 20 certificate held; minute 4847; notary treatment of findings and any compensation/title insurance unconfirmed | SRC-2026-011, SRC-2026-051 |
-| Seller repair holdback | 1,500 CAD required under amendment; actual retention/release not established by buyer statement | SRC-2026-012, SRC-2026-059 |
+| Seller repair holdback | 1,500 CAD released, user-reported September 14; exact release date unknown | SRC-2026-064 |
 
 ## Tasks
 
@@ -47,8 +47,7 @@ Last updated: 2026-09-08
 | Confirm tax adjustments for municipal and school taxes | Maxime / LRV | August 31 adjustment | SRC-2026-058, SRC-2026-059, SRC-2026-060 | Done / statement held | Municipal year seller-paid; buyer charge 1,604.87, school credit 55.54, occupancy credit 893.71; net 655.62. |
 | Confirm notary treatment of received certificate and any compensation | Maxime / Audrey-Ann Lapierre | Post-closing reconciliation | SRC-2026-011, SRC-2026-027, SRC-2026-043 | Open | Seller also pays title insurance if Audrey-Ann judges necessary |
 | Confirm handling of seller mortgage and Bell Canada servitude |  | Post-closing reconciliation | SRC-2026-003, SRC-2026-043 | Open | Mortgage to Caisse Desjardins de Terrebonne and Bell servitude 214 731 disclosed |
-| Ensure 1,500 CAD seller repair holdback is retained and release conditions are clear | Maxime / Audrey-Ann Lapierre | Post-closing reconciliation | SRC-2026-012, SRC-2026-027, SRC-2026-043 | Open | Holdback released after buyer's reasonable satisfaction |
-| Inspect house and verify seller repair completion and garage-ceiling photos | Maxime | After keys/access on 2026-09-09 at 13:00 | SRC-2026-012, SRC-2026-015, SRC-2026-053 | Planned; results unconfirmed | Attending with parents; basement light, attic duct, bathroom fan switch, garage ceiling/debris |
+| Inspect house and verify seller repair completion and garage-ceiling photos | Maxime | After keys/access on 2026-09-09 at 13:00 | SRC-2026-012, SRC-2026-015, SRC-2026-064 | Partially verified | Switch/light repaired; attic unchecked; ceiling residual, debris and photos to verify. |
 | Bind home insurance and obtain proof meeting LRV requirements | Maxime | Before 2026-08-26 | SRC-2026-042, SRC-2026-043 | Done | Intact policy effective 2026-08-31 with 581,000 CAD building coverage and Desjardins named as first mortgage creditor |
 | Confirm LRV received and accepted the insurance proof | Maxime / Sarah-Maude Lapierre | Post-closing reconciliation | SRC-2026-042, SRC-2026-043 | Open | Repository possession is not proof of transmission to LRV |
 | Transfer requested closing funds only through Assyst Paiement | Maxime | Submission reported August 10 | SRC-2026-034, SRC-2026-043, SRC-2026-045, SRC-2026-059 | Submitted / amount and trust receipt corroborated | Method remains context-inferred; notary records 130,038.27 received. |
@@ -91,25 +90,17 @@ Outcome:
 - The municipal role shows 2 dwellings and the user confirms this is a 2 unit building with a legal rentable second unit.
 - If deed occurs before occupancy, PA-07184 says seller compensates buyer for occupancy from deed signature until occupancy and remains responsible for heating, electricity, and general maintenance during that period.
 
-## 2026-09-08 Follow-Up
+## Closing Follow-Up — Updated September 14, 2026
 
-Signing and closing are complete on the user’s confirmation (SRC-2026-052). Receipt, final fees and tax/occupancy adjustments are now documented in SRC-2026-056, SRC-2026-059 and SRC-2026-060. Deed registration, actual funding date, insurance-delivery evidence, certificate treatment and holdback handling remain documentation follow-ups.
+Signing and closing are complete on the user’s confirmation (SRC-2026-052). Receipt, final fees and tax/occupancy adjustments are now documented in SRC-2026-056, SRC-2026-059 and SRC-2026-060. Deed registration, actual funding date, insurance-delivery evidence, and certificate treatment remain documentation follow-ups. Holdback release is now user-confirmed (SRC-2026-064).
 
-The current certificate is held (SRC-2026-051). Retain the notary’s explanation of apparent north/west encroachments, Bell servitude and north setback exceptions; acquired rights are not determined by the surveyor. Seller repairs and the 1,500 CAD holdback remain to verify before release.
+The current certificate is held (SRC-2026-051). Retain the notary’s explanation of apparent north/west encroachments, Bell servitude and north setback exceptions; acquired rights are not determined by the surveyor. Seller repairs remain partially verified; the 1,500 CAD holdback is released as reported (SRC-2026-064).
 
-## September 9 Handover and Repair Check
+## September 9 Handover and Repair Check — Reported September 14
 
-Maxime will collect keys and access from Jacob at 13:00 with his parents, then inspect the house and verify seller repairs. (SRC-2026-053)
+Access received September 9 at 13:00 via side-door code. Fan switch and basement light repaired. Garage ceiling removed by hand, less than 5% remaining around fixtures and anchors. Attic duct repair unchecked; photos and debris removal not established. (SRC-2026-064)
 
-Checklist from MO-57236 (SRC-2026-012); all results remain unconfirmed:
-
-- Basement recessed light repaired.
-- Attic ventilation duct repaired and properly reconnected.
-- Bathroom fan switch repaired or replaced and functioning.
-- Entire garage ceiling removed, with resulting materials and debris removed.
-- Garage-ceiling before/after photos supplied.
-
-Inspection completion, buyer acceptance and holdback release have not been reported. (SRC-2026-053)
+At an unspecified date, broker Michaël Labelle reportedly announced repairs complete without photos and reassured Maxime about returning against the seller if dissatisfied. This is an attributed statement. Holdback of 1,500 CAD released as reported; date unknown. Full repair acceptance is not independently reported. (SRC-2026-064)
 
 ## September 8 Closing-Document Reconciliation
 
@@ -118,4 +109,10 @@ Inspection completion, buyer acceptance and holdback release have not been repor
 - Paid invoice 2,038.27 reconciles with fee advance plus approved 655.62 debit on August 26. Total buyer closing cash 130,693.89. (SRC-2026-056, SRC-2026-059)
 - August 31 adjustment: municipal year fully seller-paid, buyer reimbursement 1,604.87; school credit 55.54 and nine-day occupancy credit 893.71; net buyer adjustment 655.62 included in trust statement. (SRC-2026-060)
 - School-tax 186.52 installment paid September 8, user-reported; 196.74 remains due December 9. First mortgage payment 2,590.74 made September 1, user-reported. (SRC-2026-062, SRC-2026-063)
-- Buyer statements have blank signature fields and do not establish deed execution dates, seller holdback retention/release, title-insurance treatment or mortgage discharge. Those questions stay open. (SRC-2026-059, SRC-2026-060)
+- Buyer statements have blank signature fields and do not establish deed execution dates, seller holdback retention/release, title-insurance treatment or mortgage discharge. Holdback release is subsequently user-confirmed under SRC-2026-064; other documentation questions remain open. (SRC-2026-059, SRC-2026-060)
+
+## September 14 Source
+
+Source: [SRC-2026-064](../01-sources/chat/2026/2026-09-14-property-handover-repairs-and-access.md). Reported September 14, 2026.
+
+Handover, broker call, partial repair verification and released holdback are documented in the linked homeowner report.

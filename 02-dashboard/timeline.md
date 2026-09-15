@@ -1,6 +1,6 @@
 # Timeline
 
-Last updated: 2026-09-08
+Last updated: 2026-09-14
 
 ## Chronological Timeline
 
@@ -82,7 +82,7 @@ Original schedule retained below with later evidence noted. August 26 loan contr
 | Date | Event | Category | Source | Notes |
 |---|---|---|---|---|
 | 2026-09-09 | Hydro-Québec subscription effective | Utilities | SRC-2026-053 | Signup complete per user; no bill/payment reported |
-| 2026-09-09 13:00 | Keys/access from Jacob; Maxime attending with parents | Legal / moving | SRC-2026-012, SRC-2026-053 | House and seller-repair inspection afterwards; completion pending |
+| 2026-09-09 13:00 | Side-door access from Jacob | Legal / moving | SRC-2026-012, SRC-2026-053 | Access received; repairs partially verified (SRC-2026-064) |
 | 2026-09 | Exterior/foundation renovation target | Renovations | SRC-2026-021 | Earlier target only; no booking. Awaiting estimates and reconsideration per SRC-2026-054 |
 | 2026-09-10 | School-tax installment deadline | Taxes | SRC-2026-058, SRC-2026-062 | 186.52 paid September 8 as reported; verify posting |
 | 2026-09-15 | Municipal tax installment due | Tax | SRC-2026-004, SRC-2026-060 | Original schedule; 2026 taxes fully seller-paid per notary adjustment, buyer reimbursement netted at closing. |
@@ -90,4 +90,28 @@ Original schedule retained below with later evidence noted. August 26 loan contr
 | 2026-10-20 | Municipal tax installment due | Tax | SRC-2026-004, SRC-2026-060 | Original schedule; 2026 taxes fully seller-paid per notary adjustment, buyer reimbursement netted at closing. |
 | 2026-12-09 | School-tax installment due | Taxes | SRC-2026-058, SRC-2026-062 | 196.74 CAD outstanding |
 
-Move and internet transfer dates remain unset. Planned sequence after access: inspect, measure appliance spaces, order/buy appliances, then move and schedule internet. (SRC-2026-053)
+Updated plan: move estimated September 27, Internet September 28, appliances September 29. Remove old dishwasher before appliance arrival. (SRC-2026-065)
+
+## Events Reported September 14
+
+Source: [SRC-2026-064](../01-sources/chat/2026/2026-09-14-property-handover-repairs-and-access.md). Reported September 14, 2026.
+
+| Date | Event |
+|---|---|
+| 2026-09-09 13:00 | Side-door access code received |
+| 2026-09-09, after access | Fan switch and basement light repairs observed; garage ceiling largely removed, attic unchecked; two dead mice found |
+| 2026-09-09 evening | Suspected mouse heard in basement/garage wall |
+| 2026-09-09–10 | Side-door access reset; two garage remotes and exterior keypad paired |
+| Date unspecified; reported 2026-09-14 | Broker call about repairs; 1,500 CAD holdback release confirmed by owner |
+
+## Installation Schedule Reported September 14
+
+Source: [SRC-2026-065](../01-sources/chat/2026/2026-09-14-renovation-painting-and-moving-schedule.md). Reported September 14, 2026.
+
+| Date | Event | Status |
+|---|---|---|
+| Engagement date unspecified | White painting contracted for 4,650 CAD | Reported commitment; work/payment dates unknown |
+| 2026-09-27 | Physical move | Estimated |
+| 2026-09-28 | Internet | Planned |
+| 2026-09-29 | Appliance arrival | Planned; remove old dishwasher first |
+| After move and Internet | Camera and alarm assessment | Planned |

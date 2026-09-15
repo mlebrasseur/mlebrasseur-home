@@ -1,6 +1,6 @@
 # Open Questions
 
-Last updated: 2026-09-08
+Last updated: 2026-09-14
 
 Closing is completed (SRC-2026-052). Receipt and settlement questions below remain documentation follow-ups; the new certificate is held (SRC-2026-051).
 
@@ -15,7 +15,7 @@ Closing is completed (SRC-2026-052). Receipt and settlement questions below rema
 | What is the actual mortgage disbursement date? | Financing | Medium | SRC-2026-041, SRC-2026-059, SRC-2026-063 | Maxime / Desjardins | Open for funding date | 512,000 received per LRV; first 2,590.74 payment September 1 now user-reported paid. August 28 remains a planned funding date only. |
 | Can Michael Sciascia provide a complete written mortgage proposal that improves on Desjardins without putting the closing schedule at risk? | Financing | High | SRC-2026-035, SRC-2026-036 | Maxime / Michael Sciascia | Retired after closing | Compare lender, rate, rate hold, term, payment, penalties, privileges, fees, approval conditions, and notary timing |
 | Are the Intact policy declarations and optional coverages accurate? | Insurance | High | SRC-2026-003, SRC-2026-015, SRC-2026-042 | Maxime / Agence La Turquoise | Open | Review two-unit use, professional activity, renovation years, water protection, and the spa/pool coverage charge despite the policy saying no pool |
-| Have seller repairs been completed, and are garage-ceiling before/after photos available? | Inspection / repairs | High | SRC-2026-012, SRC-2026-015 |  | Open | Repairs tied to 1,500 CAD notary holdback |
+| Have remaining repairs and garage-ceiling photos/debris been verified? | Inspection / repairs | High | SRC-2026-012, SRC-2026-064 | Maxime | Partially resolved | Fan switch/light repaired; ceiling less than 5% remaining, attic unchecked; no photos in record. Holdback released. |
 | Does the garage ceiling material contain asbestos? | Garage / environmental | High | SRC-2026-015 |  | Open | Inspector recommended sample analysis |
 | What is the actual water heater installation year, 2021 or 2023? | Plumbing / insurance | Medium | SRC-2026-003, SRC-2026-015, SRC-2026-042 |  | Open | Seller declaration says 2023; inspection report and Intact policy say 2021 |
 | Was the roof covering installed in 2015 or renovated in 2016? | Roof / insurance | Medium | SRC-2026-003, SRC-2026-042 |  | Open | Seller declaration says 2015; Intact policy records 2016 |
@@ -39,3 +39,9 @@ Closing is completed (SRC-2026-052). Receipt and settlement questions below rema
 
 - September school-tax payment: retain confirmation and verify recipient posting; 186.52 CAD paid September 8 as reported, no confirmation number supplied. December 9 installment remains 196.74 CAD. (SRC-2026-058, SRC-2026-062)
 - First mortgage payment: date and amount resolved by user report; retain banking statement for principal/interest split. (SRC-2026-063)
+
+## September 14 Installation Details
+
+Source: [SRC-2026-065](../01-sources/chat/2026/2026-09-14-renovation-painting-and-moving-schedule.md). Reported September 14, 2026.
+
+Painting: contractor, work dates, tax basis and payments unknown. Internet: provider/appointment unknown. Appliances: models, prices and installation unknown. Gutter extension to street and possible neighbour joining: route, feasibility, applicable permissions and agreement to assess. Camera operation/access and alarm needs to assess after move/Internet.

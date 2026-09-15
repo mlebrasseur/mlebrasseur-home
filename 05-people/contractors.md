@@ -7,3 +7,9 @@
 | Cesar Guevara | Akton Injection | Foundation-crack repair and waterproofing | cesar@akton.ca; info@akton.ca | 450-231-1836 | 3,050.00 CAD before tax; 3,506.74 CAD total for three cracks | SRC-2026-047, SRC-2026-048, SRC-2026-049 | Site visit complete / written quote received / not accepted | Estimate ESTF107164; 10-year transferable warranty covers infiltration through repaired cracks but excludes movement, parging, landscaping and consequential damage |
 | Jacques Robert | 9154-9907 Québec inc. / Fissure et Drain Laval | Foundation-crack repair, waterproofing and excavation | fissuredrainlaval@gmail.com | 514-754-4556 | 650.00 CAD before tax, or 450.00 CAD if excavation is supplied separately; verbal | SRC-2026-048 | Site visit complete / written quote pending | Exterior front-crack repair and 20-year warranty reported verbally; active RBQ 8330-8114-04; registry identity is background only |
 | Karl Morin | Les pavés Morin inc. | Paving, excavation and retaining walls | lespavesmorin@gmail.com | 438-492-4140 | Quote 1290: 43,544.48 CAD including tax; garage/walls line 19,750 CAD before tax | SRC-2026-048, SRC-2026-055 | Written quote processed / not accepted | Full project includes main parking and walkway; garage line is not standalone. Legal name shown on quote; applicable RBQ and insurance unverified; no workmanship warranty supplied; 50% deposit, start undetermined |
+
+## Painting Contractor — Identity Pending
+
+Source: [SRC-2026-065](../01-sources/chat/2026/2026-09-14-renovation-painting-and-moving-schedule.md). Reported September 14, 2026.
+
+Painters engaged, homeowner-reported: main floor, common areas and side entrance in white, 4,650 CAD. Name, company, contact details, work dates, tax inclusion and payment status not supplied.

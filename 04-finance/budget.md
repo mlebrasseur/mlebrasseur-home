@@ -1,6 +1,6 @@
 # Budget
 
-Last updated: 2026-09-08
+Last updated: 2026-09-14
 
 ## Uses / Costs
 
@@ -13,7 +13,7 @@ Last updated: 2026-09-08
 | School tax, outstanding installments at closing |  | 383.26 | 186.52 | 196.74 | SRC-2026-058, SRC-2026-060, SRC-2026-062 | September payment user-reported; December 9 remaining. Seller credit 55.54 already netted in closing adjustment. |
 | Home insurance |  | 1691.00 |  | 1691.00 | SRC-2026-042 | Annual premium excludes taxes and applicable fees; payment status and billing schedule are not recorded |
 | Moving |  |  |  |  |  |  |
-| Renovations |  |  |  |  |  |  |
+| Renovations |  | 4650.00 |  |  | SRC-2026-065 | Painting committed, user-reported; tax basis, payments and remaining balance unknown. |
 | Utilities setup |  |  |  |  | SRC-2026-001, SRC-2026-003, SRC-2026-004 | Electricity, municipal water/sewer, and no gas facts extracted |
 | Maintenance / inspection |  | 600.00 | 600.00 | 0.00 | SRC-2026-015, SRC-2026-061 | One June 6 Interac payment; agreement corroborates existing ledger entry. |
 
@@ -31,3 +31,9 @@ Last updated: 2026-09-08
 - Pre-closing rate comparison is historical; Desjardins funding is recorded in the notary statement. (SRC-2026-052, SRC-2026-059)
 - Insurance billing, moving/appliance costs and selected renovation commitments remain to complete the operating budget; current mortgage and tax payments are recorded above.
 - Do not interpret mortgage financing as an expense line; it is a funding source for the purchase price.
+
+## September 14 Painting Commitment
+
+Source: [SRC-2026-065](../01-sources/chat/2026/2026-09-14-renovation-painting-and-moving-schedule.md). Reported September 14, 2026.
+
+4,650 CAD committed for painting; contractor, tax inclusion, deposit/payment history and balance unknown. No new personal payment reported.

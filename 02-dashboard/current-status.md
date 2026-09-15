@@ -1,6 +1,6 @@
 # Current Status
 
-Last updated: 2026-09-08
+Last updated: 2026-09-14
 
 ## Snapshot
 
@@ -8,18 +8,18 @@ Last updated: 2026-09-08
 |---|---|---|---|
 | Purchase | Signing and closing completed; loan contract signed August 26 | SRC-2026-052, SRC-2026-057, SRC-2026-060 | August 31 is adjustment date; separate deed execution/registration dates still to document |
 | Financing | Signed 512,000 CAD loan contract and notary funding receipt held; first 2,590.74 payment made September 1 as reported | SRC-2026-057, SRC-2026-059, SRC-2026-063 | Prime minus 0.85%, 3.60% at August 26; 60-month term, 25-year amortization. Funding date and registered amount remain open |
-| Legal / closing | Buyer trust statement, paid invoice and tax/occupancy adjustments reconciled | SRC-2026-056, SRC-2026-059, SRC-2026-060 | Total closing cash 130,693.89; seller holdback and certificate/title treatment remain open |
+| Legal / closing | Buyer trust statement, paid invoice and tax/occupancy adjustments reconciled | SRC-2026-056, SRC-2026-059, SRC-2026-060 | Total closing cash 130,693.89; holdback released (SRC-2026-064); certificate/title treatment remains open |
 | Taxes | September school-tax installment 186.52 paid September 8, user-reported; next 196.74 due December 9 | SRC-2026-058, SRC-2026-060, SRC-2026-062 | Municipal 2026 taxes fully seller-paid per adjustment; buyer share netted at closing |
 | Insurance | Intact policy KK6-79EW bound effective 2026-08-31 | SRC-2026-042, SRC-2026-043 | 581,000 CAD building coverage; 1,691 CAD premium before taxes/fees; LRV receipt and policy-declaration review remain open |
-| Moving | Keys/access from Jacob September 9 at 13:00, with parents; then inspection, appliance measurements/purchases and move | SRC-2026-053 | Physical move and internet transfer dates unset; handover completion pending |
-| Utilities | Hydro-Québec signup completed, effective 2026-09-09 | SRC-2026-053 | Internet moving date still to schedule |
-| Inspection / repairs | Inspection completed; seller repair modification signed | SRC-2026-012, SRC-2026-015 | Seller repair list has 1,500 CAD notary holdback; buyer-side specialist follow-ups remain |
-| Renovations | Phone follow-ups completed; awaiting additional estimates before reconsidering scope, materials and contractor | SRC-2026-054, SRC-2026-050, SRC-2026-049 | Karl quote 1290 processed: 43,544.48 CAD including tax for broader scope; no final selection or work booking (SRC-2026-055) |
+| Moving | Access received September 9; move estimated September 27 | SRC-2026-064, SRC-2026-065 | Internet September 28; appliances September 29 planned |
+| Utilities | Hydro signup effective September 9; Internet planned September 28 | SRC-2026-053, SRC-2026-065 | Internet provider/details unknown |
+| Inspection / repairs | Fan switch and basement light repaired; garage ceiling less than 5% remains; attic unchecked | SRC-2026-064 | Holdback released; mice follow-up open |
+| Renovations | White painting contracted for 4,650 CAD; exterior estimates/selection still pending | SRC-2026-065, SRC-2026-054 | Painting dates, taxes and payments unknown; gutter options to assess |
 
 ## Current Focus
 
-- Collect keys/access from Jacob on 2026-09-09 at 13:00 with parents, then inspect the house and verify seller repairs and garage-ceiling photos. Holdback handling remains to confirm. (SRC-2026-053, SRC-2026-012)
-- Measure appliance spaces after inspection, then order/buy appliances; arrange the move and internet transfer date. Hydro-Québec signup is already complete, effective September 9. (SRC-2026-053)
+- Access received September 9 at 13:00. Complete remaining repair checks; holdback released. Assess mouse activity. (SRC-2026-064)
+- Prepare estimated September 27 move, September 28 Internet and September 29 appliance arrival; remove old dishwasher first. Measure windows/order blinds and arrange exterior disposal. (SRC-2026-065)
 - Retain executed deeds, registered mortgage amount and exact funding date. Trust receipt, fees and tax/occupancy adjustments now reconcile; first mortgage payment September 1 is user-reported paid. (SRC-2026-056, SRC-2026-057, SRC-2026-059, SRC-2026-060, SRC-2026-063)
 - Certificate received: record notary treatment of boundary/setback findings and any title insurance or compensation. (SRC-2026-051)
 - Await estimates following phone follow-ups, then reconsider exterior scope, materials and contractor. Draft emails were not sent. Karl’s quote is processed; compare scope and clarify credentials/drainage before acceptance. No confirmed work date. (SRC-2026-054, SRC-2026-055)
@@ -52,7 +52,7 @@ Last updated: 2026-09-08
 | 2026-09 | Exterior/foundation renovation target | SRC-2026-021 | Driveway/drainage/retaining-wall work and foundation crack work targeted to run in parallel |
 | 2026-09-01 | First mortgage payment made | SRC-2026-057, SRC-2026-063 | 2,590.74 CAD paid, user-reported September 8; funding date remains unconfirmed. |
 | 2026-09-08 | Closing completion and next-day handover confirmed | SRC-2026-052 | Actual closing date not independently supplied |
-| 2026-09-09 13:00 | Keys/access from Jacob, with parents | SRC-2026-012, SRC-2026-053 | Inspect house and seller repairs afterwards; completion pending |
+| 2026-09-09 13:00 | Side-door access from Jacob | SRC-2026-012, SRC-2026-053 | Access received; repairs partially verified (SRC-2026-064) |
 | 2026-09-09 | Hydro-Québec subscription effective | SRC-2026-053 | Signup already completed per user |
 | 2026-09-15 | Municipal tax installment | SRC-2026-004, SRC-2026-060 | Original schedule; 2026 taxes fully seller-paid per notary adjustment, buyer reimbursement netted at closing. |
 | 2026-10-15 | Desjardins mortgage-document outside deadline | SRC-2026-044 | Original formal-offer deadline; closing since confirmed complete (SRC-2026-052) |
@@ -65,3 +65,15 @@ Last updated: 2026-09-08
 - September 1: first mortgage payment 2,590.74, user-reported. (SRC-2026-063)
 - September 8: school-tax payment 186.52, user-reported; due September 10. (SRC-2026-062)
 - December 9: remaining school-tax installment 196.74 due. (SRC-2026-058)
+
+## September 14 Priorities
+
+Source: [SRC-2026-065](../01-sources/chat/2026/2026-09-14-renovation-painting-and-moving-schedule.md). Reported September 14, 2026.
+
+Painting commitment 4,650 CAD; payments unknown. Prepare September 27–29 installation schedule, blinds and disposal. Assess cameras and alarm after move/Internet; explore gutter extension and neighbour option.
+
+## September 14 Handover Record
+
+Source: [SRC-2026-064](../01-sources/chat/2026/2026-09-14-property-handover-repairs-and-access.md). Reported September 14, 2026.
+
+Access reset September 9–10. Holdback released. Remaining repair checks and mouse activity follow-up documented in the source.
