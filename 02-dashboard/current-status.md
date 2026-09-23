@@ -1,6 +1,6 @@
 # Current Status
 
-Last updated: 2026-09-15
+Last updated: 2026-09-23
 
 ## Snapshot
 
@@ -11,18 +11,18 @@ Last updated: 2026-09-15
 | Legal / closing | Buyer trust statement, paid invoice and tax/occupancy adjustments reconciled | SRC-2026-056, SRC-2026-059, SRC-2026-060 | Total closing cash 130,693.89; holdback released (SRC-2026-064); certificate/title treatment remains open |
 | Taxes | September school-tax installment 186.52 paid September 8, user-reported; next 196.74 due December 9 | SRC-2026-058, SRC-2026-060, SRC-2026-062 | Municipal 2026 taxes fully seller-paid per adjustment; buyer share netted at closing |
 | Insurance | Intact policy KK6-79EW bound effective 2026-08-31 | SRC-2026-042, SRC-2026-043 | 581,000 CAD building coverage; 1,691 CAD premium before taxes/fees; LRV receipt and policy-declaration review remain open |
-| Moving | Access received September 9; move estimated September 27 | SRC-2026-064, SRC-2026-065 | Internet September 28; appliances September 29 planned |
+| Moving | September 27 move planned; U-Haul reservation 86175039 confirmed, 11:00–17:00 | SRC-2026-065, SRC-2026-071 | 15-foot truck, Boutique Potiron; mobile required; Internet September 28 and appliances September 29 planned |
 | Utilities | Hydro signup effective September 9; Internet planned September 28 | SRC-2026-053, SRC-2026-065 | Internet provider/details unknown |
-| Inspection / repairs | Fan switch and basement light repaired; garage ceiling less than 5% remains; attic unchecked | SRC-2026-064 | Holdback released; mice follow-up open |
-| Renovations | White painting contracted for 4,650 CAD; exterior estimates/selection still pending | SRC-2026-065, SRC-2026-054 | Painting dates, taxes and payments unknown; gutter options to assess |
+| Inspection / repairs | Seller follow-up sent; no reply as of September 22. Four traps placed September 21; one mouse captured September 22 | SRC-2026-064, SRC-2026-069 | Current mouse activity reported; extent/entry points unknown. Attic and remaining garage ceiling checks open; holdback released |
+| Renovations | Marbel quote accepted; 27,700 CAD subtotal, 800 extra separately listed; painting committed at 4,650 CAD | SRC-2026-065, SRC-2026-067, SRC-2026-070 | Marbel start expected week of September 28 or October 5; exact date, extra inclusion, final taxes and payments unknown |
 
 ## Current Focus
 
-- Access received September 9 at 13:00. Complete remaining repair checks; holdback released. Assess mouse activity. (SRC-2026-064)
-- Prepare estimated September 27 move, September 28 Internet and September 29 appliance arrival; remove old dishwasher first. Measure windows/order blinds and arrange exterior disposal. (SRC-2026-065)
+- Monitor traps and assess mouse entry points after one capture September 22. Seller follow-up sent; no reply as of September 22. Complete remaining attic/ceiling checks. (SRC-2026-064, SRC-2026-069)
+- Prepare September 27 move: collect 15-foot U-Haul at Boutique Potiron at 11:00 with a mobile device; return by 17:00. Clarify quoted mileage. Internet September 28 and appliances September 29 remain planned; remove old dishwasher first. Measure windows/order blinds and arrange exterior disposal. (SRC-2026-065, SRC-2026-071)
 - Retain executed deeds, registered mortgage amount and exact funding date. Trust receipt, fees and tax/occupancy adjustments now reconcile; first mortgage payment September 1 is user-reported paid. (SRC-2026-056, SRC-2026-057, SRC-2026-059, SRC-2026-060, SRC-2026-063)
 - Certificate received: record notary treatment of boundary/setback findings and any title insurance or compensation. (SRC-2026-051)
-- Await estimates following phone follow-ups, then reconsider exterior scope, materials and contractor. Draft emails were not sent. Karl’s quote is processed; compare scope and clarify credentials/drainage before acceptance. No confirmed work date. (SRC-2026-054, SRC-2026-055)
+- Prepare for accepted Marbel paving/wall/drainage work; confirm exact start, access, 800 CAD extra inclusion and final payment/tax details. Expected week of September 28 or October 5. Large rectangular drain and gutter drainage included in extra; concrete connection verbally committed. Garage drain reuses existing pipe; separate gutters run beside the wall at the property edge and join neighbour gutter drainage (SRC-2026-072). Foundation-crack selection remains separate. (SRC-2026-067, SRC-2026-070)
 - Retain confirmation of September school-tax payment and verify posting; next installment 196.74 CAD due December 9. Municipal taxes fully seller-paid per notary adjustment. (SRC-2026-058, SRC-2026-060, SRC-2026-062)
 
 ## Important Dates
@@ -70,7 +70,7 @@ Last updated: 2026-09-15
 
 Source: [SRC-2026-065](../01-sources/chat/2026/2026-09-14-renovation-painting-and-moving-schedule.md). Reported September 14, 2026.
 
-Painting commitment 4,650 CAD; payments unknown. Prepare September 27–29 installation schedule, blinds and disposal. Assess cameras and alarm after move/Internet; explore gutter extension and neighbour option.
+Painting commitment 4,650 CAD; payments unknown. Prepare September 27–29 installation schedule, blinds and disposal. Assess cameras and alarm after move/Internet; gutter drainage now planned separately beside the wall/property edge, joining neighbour gutter drainage (September 23 clarification, SRC-2026-072).
 
 ## September 14 Handover Record
 
@@ -82,4 +82,14 @@ Access reset September 9–10. Holdback released. Remaining repair checks and mo
 
 Source: [SRC-2026-066](../01-sources/chat/2026/2026-09-15-property-seller-calls-and-follow-up.md). Reported September 14–15; updated September 15, 2026.
 
-Photos of all issues already taken; stain photo/text sent September 11 around 12:50 with seller reply received. Cernes in left-side bedroom and main-floor bathroom observed dry during rain; cause unknown. Continuing mouse sounds reported. Selected friendly text on mice/traps and incomplete ceiling planned September 16; no send or agreement confirmed. Communication by text chosen. Holdback remains released; remaining technical checks stay open.
+Photos of all issues already taken; stain photo/text sent September 11 around 12:50 with seller reply received. Cernes in left-side bedroom and main-floor bathroom observed dry during rain; cause unknown. Continuing mouse sounds reported. September 22 update: selected mice/ceiling text sent; exact send date unspecified, no answer as of September 22 and no agreement reported (SRC-2026-069). Communication by text chosen. Holdback remains released; remaining technical checks stay open.
+
+## September 22–23 Update
+
+Four traps installed by Maxime’s father September 21; one mouse captured September 22. U-Haul confirmation quotes 70.75 CAD plus tax, with a 13 km / 23.80 CAD mismatch at 1.19/km; payment unknown. Marbel contact and accepted scope are recorded in [exterior.md](../06-projects/renovations/exterior.md). (SRC-2026-067, SRC-2026-068, SRC-2026-069, SRC-2026-070, SRC-2026-071)
+
+## September 22–23 Sources
+
+[SRC-2026-067](../01-sources/extractions/2026/2026-09-21-renovation-marbel-quote.md); [SRC-2026-068](../01-sources/extractions/2026/2026-09-22-renovation-marbel-contact.md); [SRC-2026-069](../01-sources/chat/2026/2026-09-22-property-seller-follow-up-and-mouse-traps.md); [SRC-2026-070](../01-sources/chat/2026/2026-09-22-renovation-marbel-acceptance-and-scope.md); [SRC-2026-071](../01-sources/chat/2026/2026-09-23-moving-uhaul-reservation.md).
+
+September 23: driveway excavation remains 20 inches in the quote; Martin verbally described 20–25 inches depending on conditions. Garage drain reuses the existing pipe; separate gutter routing beside the wall/property edge joins neighbour gutter drainage. Planned work, homeowner-reported. [SRC-2026-072](../01-sources/chat/2026/2026-09-23-renovation-marbel-drainage-clarifications.md).

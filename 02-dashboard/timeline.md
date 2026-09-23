@@ -1,6 +1,6 @@
 # Timeline
 
-Last updated: 2026-09-15
+Last updated: 2026-09-23
 
 ## Chronological Timeline
 
@@ -83,14 +83,14 @@ Original schedule retained below with later evidence noted. August 26 loan contr
 |---|---|---|---|---|
 | 2026-09-09 | Hydro-Québec subscription effective | Utilities | SRC-2026-053 | Signup complete per user; no bill/payment reported |
 | 2026-09-09 13:00 | Side-door access from Jacob | Legal / moving | SRC-2026-012, SRC-2026-053 | Access received; repairs partially verified (SRC-2026-064) |
-| 2026-09 | Exterior/foundation renovation target | Renovations | SRC-2026-021 | Earlier target only; no booking. Awaiting estimates and reconsideration per SRC-2026-054 |
+| Week of 2026-09-28 or 2026-10-05 | Marbel start expected | Renovations | SRC-2026-070 | Interpreted from September 22 report; exact start pending, foundation selection separate |
 | 2026-09-10 | School-tax installment deadline | Taxes | SRC-2026-058, SRC-2026-062 | 186.52 paid September 8 as reported; verify posting |
 | 2026-09-15 | Municipal tax installment due | Tax | SRC-2026-004, SRC-2026-060 | Original schedule; 2026 taxes fully seller-paid per notary adjustment, buyer reimbursement netted at closing. |
-| 2026-09-18 | Calculated end of Karl quote’s 30-day validity | Renovations | SRC-2026-055 | Confirm with contractor; not a booking or homeowner commitment |
+| 2026-09-18 | Calculated end of Karl quote’s 30-day validity | Renovations | SRC-2026-055, SRC-2026-070 | Historical alternative; Marbel subsequently selected |
 | 2026-10-20 | Municipal tax installment due | Tax | SRC-2026-004, SRC-2026-060 | Original schedule; 2026 taxes fully seller-paid per notary adjustment, buyer reimbursement netted at closing. |
 | 2026-12-09 | School-tax installment due | Taxes | SRC-2026-058, SRC-2026-062 | 196.74 CAD outstanding |
 
-Updated plan: move estimated September 27, Internet September 28, appliances September 29. Remove old dishwasher before appliance arrival. (SRC-2026-065)
+Updated plan: September 27 move with confirmed U-Haul 11:00–17:00 (SRC-2026-071), Internet September 28, appliances September 29. Remove old dishwasher before appliance arrival. (SRC-2026-065)
 
 ## Events Reported September 14
 
@@ -111,7 +111,7 @@ Source: [SRC-2026-065](../01-sources/chat/2026/2026-09-14-renovation-painting-an
 | Date | Event | Status |
 |---|---|---|
 | Engagement date unspecified | White painting contracted for 4,650 CAD | Reported commitment; work/payment dates unknown |
-| 2026-09-27 | Physical move | Estimated |
+| 2026-09-27 | Physical move | Planned; U-Haul reservation confirmed 11:00–17:00 (SRC-2026-071) |
 | 2026-09-28 | Internet | Planned |
 | 2026-09-29 | Appliance arrival | Planned; remove old dishwasher first |
 | After move and Internet | Camera and alarm assessment | Planned |
@@ -126,6 +126,23 @@ Source: [SRC-2026-066](../01-sources/chat/2026/2026-09-15-property-seller-calls-
 | 2026-09-10, later that day | Jacob calls; seller explanations and preference for direct resolution | User-reported; statements attributed |
 | 2026-09-11, approximately 12:50 | Stain photo/text sent; Jacob replies | Copied text supplied September 15 |
 | Dates unspecified; reported September 14–15 | All issues photographed; further sounds attributed to mice | User-reported |
-| 2026-09-16 | Selected friendly text and mouse/ceiling photos to Jacob | Planned, time unspecified; not scheduled/sent as far as reported |
+| Actual date unspecified; originally planned September 16 | Selected mice/ceiling text to Jacob | Sent, confirmed September 22; no reply as of September 22 (SRC-2026-069) |
 
 Earlier tentative September 15 morning send plan superseded. Prior broker call announcing completed repairs remains undated.
+
+## September 21–23 Updates and Upcoming Work
+
+| Date (America/Toronto) | Event | Source | Status |
+|---|---|---|---|
+| 2026-09-21 | Marbel quote issued | SRC-2026-067 | Subtotal corrected to 27,700 CAD by homeowner |
+| 2026-09-21 | Maxime's father installed four mouse traps | SRC-2026-069 | Completed, homeowner-reported |
+| 2026-09-22 | One mouse captured | SRC-2026-069 | Homeowner-reported |
+| By 2026-09-22; exact date unknown | Marbel quote accepted; truck booking reported; seller message confirmed sent | SRC-2026-069, SRC-2026-070, SRC-2026-071 | No seller answer as of September 22 |
+| 2026-09-23 | U-Haul confirmation supplied | SRC-2026-071 | Reservation 86175039 confirmed |
+| 2026-09-27 11:00 | U-Haul pickup at Boutique Potiron | SRC-2026-071 | Mobile required; 15-foot truck, six hours requested subject to availability |
+| 2026-09-27 by 17:00 | Return truck to same location | SRC-2026-071 | Scheduled |
+| Week of 2026-09-28 or 2026-10-05 | Marbel work starts | SRC-2026-070 | Expected, exact day pending |
+
+## September 22–23 Sources
+
+[SRC-2026-067](../01-sources/extractions/2026/2026-09-21-renovation-marbel-quote.md); [SRC-2026-069](../01-sources/chat/2026/2026-09-22-property-seller-follow-up-and-mouse-traps.md); [SRC-2026-070](../01-sources/chat/2026/2026-09-22-renovation-marbel-acceptance-and-scope.md); [SRC-2026-071](../01-sources/chat/2026/2026-09-23-moving-uhaul-reservation.md).

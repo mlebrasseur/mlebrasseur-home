@@ -29,6 +29,20 @@ Source: [SRC-2026-066](../01-sources/chat/2026/2026-09-15-property-seller-calls-
 | Decision | Status | Date context |
 |---|---|---|
 | Continue exchanges with Jacob by text to keep a written record | Chosen | Reported September 14 |
-| Use the selected short, friendly text about mice/traps and remaining garage ceiling, with photos | Selected; send planned September 16 | Confirmed September 15 |
+| Use the selected short, friendly text about mice/traps and remaining garage ceiling | Sent; no response as of September 22 (SRC-2026-069) | Actual send date unspecified; confirmation reported September 22 |
 
 Initial concern about effort is retained in the source as context; it is not a final abandonment. Jacob reportedly considers the situation resolved, but no mutual settlement or acceptance of all repairs is reported.
+
+## Marbel Selection — Reported September 22
+
+Source: [SRC-2026-070](../01-sources/chat/2026/2026-09-22-renovation-marbel-acceptance-and-scope.md), supported by [quote, SRC-2026-067](../01-sources/extractions/2026/2026-09-21-renovation-marbel-quote.md).
+
+Maxime accepted Pavé C.D.P. Marbel's September 21 paving/wall/drainage quote. Subtotal corrected to 27,700 CAD before tax; 800 extra covers large rectangular drain and gutter drainage, with inclusion in subtotal unresolved. Concrete connection between drain box and garage floor verbally committed by Martin. Exact acceptance date, final tax total and payments unknown.
+
+Referral context: Daniel, a friend of Maxime's father, works for Martin. Full selection reasoning not separately supplied. Expected start week of September 28 or October 5; exact date pending. Foundation-crack selection remains separate.
+
+## Seller Follow-Up and Truck Booking
+
+[Seller follow-up, SRC-2026-069](../01-sources/chat/2026/2026-09-22-property-seller-follow-up-and-mouse-traps.md): sent; no answer as of September 22, no repair settlement established.
+
+[Truck reservation, SRC-2026-071](../01-sources/chat/2026/2026-09-23-moving-uhaul-reservation.md): U-Haul 15-foot truck, reservation 86175039, September 27 11:00–17:00, Boutique Potiron, Truck Share 24/7. Quoted 70.75 CAD plus tax; mileage discrepancy and payment status unresolved.

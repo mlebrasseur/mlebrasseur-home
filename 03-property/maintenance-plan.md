@@ -20,7 +20,7 @@
 | Request heat pump and central AC documents | Medium |  | HVAC | SRC-2026-003 | Open | Seller says documents exist |
 | Verify French drain access and condition | Medium |  | Drainage | SRC-2026-003, SRC-2026-015 | Open | Inspection could not access lookouts or confirm condition |
 | Confirm roof documentation or expected remaining life | Medium |  | Roof | SRC-2026-003, SRC-2026-042 | Open | Seller says roof covering installed 2015; Intact policy records roof renovation in 2016; no supporting documents recorded |
-| Scope garage driveway / drainage / retaining-wall redo | High | Before 2026-09 work | Driveway / retaining walls / garage drainage | SRC-2026-015, SRC-2026-020, SRC-2026-021, SRC-2026-028, SRC-2026-029, SRC-2026-030, SRC-2026-037, SRC-2026-046, SRC-2026-048 | In progress | K.I. Bon visited and provided a written quote for 28,513.80 CAD including taxes; clarify base, compaction, grading, drain, wall, warranty and schedule details. Karl Morin's comparison quote is pending. |
+| Prepare accepted Marbel driveway / drainage / retaining-wall work | High | Before work, expected week of September 28 or October 5 | Exterior | SRC-2026-067, SRC-2026-070, SRC-2026-072 | Accepted; work pending | Confirm exact start/access; driveway excavation 20 inches written, 20–25 verbally explained. Garage drain reuses pipe; separate gutter route joins neighbour drainage. |
 | Confirm foundation-crack scope and obtain written proposals | High | Before 2026-09 work | Foundation | SRC-2026-015, SRC-2026-021, SRC-2026-030, SRC-2026-037, SRC-2026-047, SRC-2026-048, SRC-2026-049 | In progress | Akton provided written estimate ESTF107164 for three repairs; Fissure et Drain Laval remains verbal. Confirm whether the two under-window cracks are in infill blocks or the foundation, clarify Akton's terms and obtain Jacques's written method, responsibilities and warranty. |
 | Clarify garage-ceiling material analysis and handling history | High | Before further disturbance | Garage / environmental | SRC-2026-012, SRC-2026-015 | Open | Inspector notes possible asbestos; ceiling largely removed by hand, composition unknown (SRC-2026-064) |
 | Replace exterior outlets with GFI outlets | Medium |  | Electrical | SRC-2026-015 | Open | Inspection recommendation |
@@ -48,7 +48,7 @@ Source: [SRC-2026-065](../01-sources/chat/2026/2026-09-14-renovation-painting-an
 | Dispose of outdoor sofas, table and reported propane fire pit | Date unset | Decided; removal arrangements unspecified |
 | Assess three existing exterior cameras and alarm needs | After move and Internet installation | Open |
 | Remove old alarm equipment from primary-bedroom walk-in and set aside | Date unset | Open |
-| Assess front lateral gutter extensions toward street; discuss possible joining with neighbour | Date unset | Open option; route and arrangement unconfirmed |
+| Install separate gutter drainage beside wall/property edge, joining neighbour gutter drainage | With Marbel work | Routing reported; installation pending (SRC-2026-072) |
 
 ## September 15 Evidence and Checks
 
@@ -59,7 +59,17 @@ Source: [SRC-2026-066](../01-sources/chat/2026/2026-09-15-property-seller-calls-
 | Photograph observed issues, including dead mice | Done / homeowner report | Exact dates unknown |
 | Archive existing photos and copied exchanges | Pending; archive paths not supplied | To arrange |
 | Check attic above bedroom/bathroom stains and previously required duct repair | Open | To arrange |
-| Assess current mouse activity and entry points | Open; continuing sounds reported | To arrange |
+| Monitor captures and assess mouse entry points | Open; four traps September 21, one capture September 22 (SRC-2026-069) | Ongoing |
 | Clarify ceiling material and any supporting 2010 work records | Open; seller statements unverified | Before further disturbance |
 
 Retain a distinction between owner photos already taken and seller-required before/after photos still absent from the record.
+
+## September 22 Mouse and Seller Update
+
+Source: [SRC-2026-069](../01-sources/chat/2026/2026-09-22-property-seller-follow-up-and-mouse-traps.md).
+
+Maxime's father installed four traps September 21; one mouse captured September 22. Locations, extent and entry points are unknown. Continue recording captures; one catch does not establish resolution. Seller follow-up was sent, exact date unspecified; no answer as of September 22. Attic/stain/ceiling checks remain open.
+
+Exterior scope: [Marbel acceptance, SRC-2026-070](../01-sources/chat/2026/2026-09-22-renovation-marbel-acceptance-and-scope.md).
+
+September 23 scope clarification: [SRC-2026-072](../01-sources/chat/2026/2026-09-23-renovation-marbel-drainage-clarifications.md). Garage drain reuses existing pipe; gutters drain separately beside wall/property edge and join neighbour gutter drainage.

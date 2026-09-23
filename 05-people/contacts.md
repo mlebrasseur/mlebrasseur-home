@@ -13,3 +13,6 @@
 | Sarah-Maude Lapierre | Collaboratrice de Me Audrey-Ann Lapierre et Me Érika Simard | LRV Notaires S.E.N.C.R.L. | smlapierre@lrvnotaires.com | +1 450-416-3206 ext. 286 | SRC-2026-043 | Sent the closing-fund coupon and confirmed the 2026-08-26 13:30 signing appointment |
 | Carole Sabourin | Agente en assurance de dommages | Desjardins Assurances générales inc. | carole.sabourin@dgag.ca | +1 888-835-9062 ext. 4532575 | SRC-2026-016 | Home insurance quote contact |
 | Jean-Sébastien Mainville | Directeur principal, Services d'octroi hypothécaire | Desjardins |  |  | SRC-2026-014, SRC-2026-035 | Signed preauthorization and acceptance letters |
+| Martin Belisle | Selected paving/drainage contractor contact; Daniel’s boss | Pavé C.D.P. Marbel | info@cdpmarbel.com | Mobile 514-863-6653; work 450-588-3510 (CSV) | SRC-2026-068, SRC-2026-070 | Daniel is a friend of Maxime’s father; cdpmarbel.com; quote office number appears to differ |
+
+Sources: [contact export, SRC-2026-068](../01-sources/extractions/2026/2026-09-22-renovation-marbel-contact.md); [referral context, SRC-2026-070](../01-sources/chat/2026/2026-09-22-renovation-marbel-acceptance-and-scope.md).

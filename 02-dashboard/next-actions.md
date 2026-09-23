@@ -1,10 +1,10 @@
 # Next Actions
 
-Last updated: 2026-09-15
+Last updated: 2026-09-23
 
 ## Urgent
 
-Closing is completed per SRC-2026-052. Remaining closing items below are document/settlement reconciliation, not prerequisites to an upcoming signing. Certificate received under SRC-2026-051; exterior contractor acceptance remains unconfirmed under SRC-2026-050; painting is contracted under SRC-2026-065.
+Closing is completed per SRC-2026-052. Remaining closing items below are document/settlement reconciliation, not prerequisites to an upcoming signing. Certificate received under SRC-2026-051; Marbel acceptance is reported under SRC-2026-070; painting is contracted under SRC-2026-065.
 
 | Action | Owner | Due Date | Related Area | Source | Status |
 |---|---|---|---|---|---|
@@ -24,9 +24,9 @@ Closing is completed per SRC-2026-052. Remaining closing items below are documen
 
 ## Upcoming
 
-Exterior: phone follow-ups completed; await additional estimates before choosing scope, materials or contractor. No individual response or visit date was supplied. Draft follow-up email was not sent. (SRC-2026-054)
+Exterior: Marbel accepted; prepare for expected start in the week of September 28 or October 5. Confirm exact date, access and extra inclusion. Earlier driveway comparison tasks are retired; foundation selection remains open. (SRC-2026-067, SRC-2026-070)
 
-Current sequence: prepare estimated September 27 move → September 28 Internet → September 29 appliance arrival. Remove old dishwasher before delivery. Remaining repair checks proceed separately. (SRC-2026-064, SRC-2026-065)
+Current sequence: September 27 U-Haul pickup 11:00 / return by 17:00 (SRC-2026-071) → September 28 Internet → September 29 appliance arrival. Remove old dishwasher before delivery. Remaining repair checks proceed separately. (SRC-2026-064, SRC-2026-065)
 
 
 | Action | Owner | Due Date | Related Area | Source | Status |
@@ -35,16 +35,16 @@ Current sequence: prepare estimated September 27 move → September 28 Internet 
 | Retain September school-tax payment confirmation and verify posting | Maxime | After bank processing | Taxes | SRC-2026-062 | 186.52 CAD paid September 8, user-reported |
 | Measure appliance spaces | Maxime | After inspection; before purchase | Appliances | SRC-2026-053 | Planned |
 | Order/buy household appliances | Maxime | After measurements | Appliances | SRC-2026-053 | Arrival planned September 29; selections and costs unknown (SRC-2026-065) |
-| Arrange physical move | Maxime | 2026-09-27 estimated | Moving | SRC-2026-065 | Planned |
+| Carry out move with confirmed 15-foot U-Haul reservation 86175039 | Maxime | 2026-09-27, 11:00–17:00 | Moving | SRC-2026-071 | Pickup/return Boutique Potiron; bring mobile device for Truck Share 24/7; six hours requested subject to availability |
 | Set internet moving date | Maxime | 2026-09-28 | Utilities | SRC-2026-065 | Planned; provider unknown |
 | Keep or request documentation confirming the second unit's legal rental status |  |  | Legal / property | SRC-2026-004, SRC-2026-007, SRC-2026-008 | Open |
 | Ask when the bachelor unit was added |  |  | Property history | SRC-2026-007, SRC-2026-008 | Open |
-| Ask K.I. Bon to clarify quantities, base, compaction, grading, catch-basin design, wall construction, warranty, schedule and exclusions | Maxime / Tony Sigga | Before driveway quote acceptance | Exterior / driveway | SRC-2026-046 | Open; revised August 25 asphalt/existing-wall quote totals 12,500 CAD before tax, calculated; tax/total fields blank (SRC-2026-050) |
-| Clarify Karl Morin’s applicable RBQ, insurance, garage-only scope, drainage and warranty | Maxime / Karl Morin | Before driveway selection | Exterior / driveway | SRC-2026-055 | Quote processed; clarification pending |
-| Await additional estimates, compare proposals and reconsider scope/materials/contractor | Maxime | After estimates arrive; no firm reply deadline | Exterior / driveway | SRC-2026-054 | Waiting; phone follow-ups completed |
+| Ask K.I. Bon to clarify quantities, base, compaction, grading, catch-basin design, wall construction, warranty, schedule and exclusions | Maxime / Tony Sigga | Before driveway quote acceptance | Exterior / driveway | SRC-2026-046 | Retired after Marbel selection; earlier quote retained as alternative (SRC-2026-070) |
+| Clarify Karl Morin’s applicable RBQ, insurance, garage-only scope, drainage and warranty | Maxime / Karl Morin | Before driveway selection | Exterior / driveway | SRC-2026-055 | Retired after Marbel selection; earlier quote retained as alternative (SRC-2026-070) |
+| Confirm Marbel work date, site access and remaining cost details | Maxime / Martin Belisle | Before work; expected week of September 28 or October 5 | Exterior / driveway | SRC-2026-067, SRC-2026-070 | Accepted; clarify 800 extra inclusion and tax total/payment terms |
 | Expose enough of the two under-window cracks to determine whether they continue through infill blocks or the poured foundation | Maxime / foundation contractor | Before foundation scope selection | Foundation | SRC-2026-015, SRC-2026-048 | Open; Jacques's explanation is a hypothesis and differs from the inspection classification |
 | Clarify Akton estimate ESTF107164 and obtain Fissure et Drain Laval's property-specific written scope and warranty | Maxime / Cesar Guevara / Jacques Robert | Before foundation selection | Foundation | SRC-2026-047, SRC-2026-048, SRC-2026-049 | Open; confirm Akton's A/B/C locations, rear-window observation, non-refundable 500.00 CAD line and validity; Jacques's price, method and 20-year warranty remain verbal |
-| Coordinate selected driveway and foundation contractors before final driveway finish | User / contractors | Before 2026-09 work | Exterior / foundation | SRC-2026-021 | Open |
+| Coordinate Marbel access with move/deliveries; consider optional shared excavation if foundation work is selected | Maxime / contractors | Before work starts | Exterior / foundation | SRC-2026-070, SRC-2026-071 | Open; foundation selection remains separate, not a dependency for driveway work |
 | Confirm with Terrebonne Urbanisme whether bachelor expansion into garage space affects permits, use, or unit status | User | Before design spend | Bachelor expansion / permits | SRC-2026-008, SRC-2026-021 | Open |
 | Clarify garage-ceiling material analysis and handling history | Maxime | Before further disturbance | Garage / environmental | SRC-2026-012, SRC-2026-015 | Open |
 | Request masonry review for mortar cracks and damaged concrete sills |  |  | Exterior | SRC-2026-015 | Open |
@@ -60,7 +60,7 @@ Current sequence: prepare estimated September 27 move → September 28 Internet 
 |---|---|---|---|---|
 | Acceptance of insurance proof | LRV Notaires | 2026-08-06 | SRC-2026-042, SRC-2026-043 | Policy appears to meet stated requirements; transmission/acceptance not documented |
 | Final registered mortgage amount documentation | Maxime / Brigida Rizzuto / LRV Notaires | 2026-08-07 | SRC-2026-044 | Read final amount from executed deed; general closing completion does not establish it (SRC-2026-052) |
-| Additional driveway estimates following phone follow-ups | Remaining driveway contractors | Reported 2026-09-08 | SRC-2026-054 | Individual replies/appointments unrecorded; Karl quote processed under SRC-2026-055 |
+| Exact Marbel start and final cost details | Martin Belisle | Reported 2026-09-22 | SRC-2026-067, SRC-2026-070 | Contractor selected; expected week of September 28 or October 5, exact date pending |
 | Written foundation scope and warranty | Fissure et Drain Laval | 2026-08-10 | SRC-2026-048, SRC-2026-049 | Akton ESTF107164 is now written; Jacques's proposal remains verbal, and the number of required repairs remains unresolved pending the under-window crack check |
 | Competing mortgage proposal | Michael Sciascia | 2026-07-23 | SRC-2026-036 | Pre-closing comparison retired following completed closing (SRC-2026-052) |
 | Seller repair completion proof | Seller / buyer broker | 2026-07-05 | SRC-2026-012 | Includes garage-ceiling before/after photos |
@@ -125,7 +125,7 @@ Source: [SRC-2026-065](../01-sources/chat/2026/2026-09-14-renovation-painting-an
 | Dispose of outdoor sofas, table and reported propane fire pit | Date unset | Decided; removal arrangements unspecified |
 | Assess three existing exterior cameras and alarm needs | After move and Internet installation | Open |
 | Remove old alarm equipment from primary-bedroom walk-in and set aside | Date unset | Open |
-| Assess front lateral gutter extensions toward street; discuss possible joining with neighbour | Date unset | Open option; route and arrangement unconfirmed |
+| Install separate gutter drainage beside wall/property edge, joining neighbour gutter drainage | With Marbel work | Routing reported; installation pending (SRC-2026-072) |
 
 ## Remaining Handover Follow-Up
 
@@ -141,9 +141,25 @@ Source: [SRC-2026-066](../01-sources/chat/2026/2026-09-15-property-seller-calls-
 |---|---|---|---|
 | Photograph problems including dead mice | Maxime | Dates unspecified | Done / user-reported |
 | Send stain text/photo to Jacob | Maxime | 2026-09-11 around 12:50 | Done; reply received |
-| Send selected friendly text with mouse/ceiling photos; ask when/where traps were placed, catches and how to finish ceiling | Maxime | 2026-09-16; time unspecified | Planned; not confirmed scheduled/sent |
+| Send selected friendly text about mice/traps and ceiling | Maxime | Exact send date unspecified; reported September 22 | Done; no reply as of September 22 (SRC-2026-069) |
 | Retain reply and any proposed arrangement | Maxime | After response | Pending |
 | Archive photos already taken | Maxime | To arrange | Not confirmed archived |
 | Check attic/stains, continuing mouse activity and residual ceiling | Maxime | To arrange | Open |
 
-Continue communication with Jacob by text. Stains already reported; next message focuses on mice and ceiling. Seller-required before/after photos remain distinct from homeowner photographs.
+Continue communication with Jacob by text. Mice/ceiling follow-up sent; retain any reply. No response as of September 22 (SRC-2026-069). Seller-required before/after photos remain distinct from homeowner photographs.
+
+## September 22–23 Follow-Up
+
+| Action | Timing | Status | Source |
+|---|---|---|---|
+| Install four mouse traps | September 21 | Done by Maxime's father | SRC-2026-069 |
+| Record first capture from these traps | September 22 | One mouse captured | SRC-2026-069 |
+| Monitor further captures and assess entry points | Ongoing | Open; extent unknown | SRC-2026-069 |
+| Clarify U-Haul kilometre estimate | Before pickup / final billing | 13 × 1.19 = 15.47, but quote lists 23.80; subtotal retained at 70.75 plus tax | SRC-2026-071 |
+| Retain final truck invoice and payment evidence | After rental | Pending; no payment recorded | SRC-2026-071 |
+
+## September 22–23 Sources
+
+[SRC-2026-067](../01-sources/extractions/2026/2026-09-21-renovation-marbel-quote.md); [SRC-2026-069](../01-sources/chat/2026/2026-09-22-property-seller-follow-up-and-mouse-traps.md); [SRC-2026-070](../01-sources/chat/2026/2026-09-22-renovation-marbel-acceptance-and-scope.md); [SRC-2026-071](../01-sources/chat/2026/2026-09-23-moving-uhaul-reservation.md).
+
+September 23 scope clarification: garage drain reuses existing pipe; gutters drain separately beside the wall/property edge, joining neighbour gutter drainage. Driveway excavation: 20 inches written, 20–25 inches verbally explained depending on conditions. [SRC-2026-072](../01-sources/chat/2026/2026-09-23-renovation-marbel-drainage-clarifications.md).

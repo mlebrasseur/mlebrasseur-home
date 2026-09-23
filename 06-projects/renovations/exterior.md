@@ -1,20 +1,32 @@
 # Exterior Renovation
 
-Last updated: 2026-09-14
+Last updated: 2026-09-23
 
 ## Status
 
 | Field | Value | Source |
 |---|---|---|
-| Status | Phone follow-ups completed with remaining contractors; await estimates before reconsidering scope, materials and contractor. Karl quote 1290 processed; no selection | SRC-2026-055, SRC-2026-054, SRC-2026-050, SRC-2026-049, SRC-2026-048 |
-| Target date | Earlier September target remains unbooked; timing to reconsider after estimates | SRC-2026-021, SRC-2026-054 |
-| Budget | No adopted budget. Revised K.I. Bon 12,500 CAD before tax (calculated); Akton 3,506.74 CAD including tax. Combined total not stated because tax bases differ | SRC-2026-050, SRC-2026-049 |
+| Status | Marbel paving, wall and drainage quote accepted; foundation-crack selection separate | SRC-2026-067, SRC-2026-070 |
+| Target date | Expected week of September 28 or October 5; exact start pending | SRC-2026-070 |
+| Budget | Accepted subtotal 27,700 CAD before tax; 800 extra separately listed, inclusion unconfirmed. Final total/payment status unknown | SRC-2026-067, SRC-2026-070 |
 
-## Current Position — 2026-09-08
+## Current Position — September 22, 2026
+
+Sources: [quote, SRC-2026-067](../../01-sources/extractions/2026/2026-09-21-renovation-marbel-quote.md), [contact, SRC-2026-068](../../01-sources/extractions/2026/2026-09-22-renovation-marbel-contact.md), [acceptance and clarifications, SRC-2026-070](../../01-sources/chat/2026/2026-09-22-renovation-marbel-acceptance-and-scope.md).
+
+Maxime accepted Pavé C.D.P. Marbel's September 21 quote. Subtotal is 27,700 CAD, corrected by Maxime. The separately listed 800 CAD extra covers the large rectangular drain and gutter drainage; whether already included in the subtotal is unconfirmed. Payment terms, payments and final taxes are unknown. Expected start is the week of September 28 or October 5; confirm exact date and access around the move/deliveries.
+
+Written scope: BLU 80 mm driveway pavers, BLU 60 mm walkway pavers, wall blocks with geogrid/geotextile and caps, excavation, drain box, one Raffinato step, and concrete removal/disposal. Quote states 36 months installation/labour warranty. Martin verbally committed to pouring concrete between the drain box and existing garage-door concrete floor. September 23 routing clarification: garage drain reuses the existing pipe; gutters drain separately beside the wall at the property edge, joining the neighbour’s gutter drainage. Written driveway excavation is 20 inches; Martin verbally described 20–25 inches depending on conditions. (SRC-2026-072)
+
+Martin Belisle: 514-863-6653 mobile; 450-588-3510 work per CSV; info@cdpmarbel.com. The quote's office number appears different; see source notes. Listed RBQ 5861-6517-01, not independently checked in this intake. Daniel, a friend of Maxime's father, works for Martin; Maxime reports a three-person business. “Since 1991” is printed on the quote.
+
+Driveway selection is complete. Earlier quotes remain alternatives; foundation-crack selection remains open.
+
+## Historical Position — 2026-09-08
 
 Maxime followed up by phone with the remaining contractors and will wait for estimates before reconsidering the work. Individual call outcomes were not supplied. Drafted emails were not sent; surface, wall material and final scope remain undecided. The September 11 deadline suggested in an unsent draft is not an agreed contractor deadline. (SRC-2026-054)
 
-The scope below remains planning context, not an accepted contract.
+The earlier planning scope below is retained as context; the accepted Marbel scope is recorded above. Historical requests and drafts do not add work to the accepted quote.
 
 ## Scope
 
@@ -39,7 +51,7 @@ The scope below remains planning context, not an accepted contract.
 - If exterior access is required for the front-left crack, there may still be savings from coordinating machinery, mobilization, soil removal, backfill, or site restoration. Treat this as an optional pricing opportunity, not a technical dependency.
 - Keep the foundation specialist responsible for the repair method, waterproofing specification, inspection before backfill, and repair warranty. Any shared excavation scope must state clearly who is responsible for excavation, backfill, settlement, restoration, and damage.
 
-## Contractor shortlist
+## Earlier Contractor Shortlist
 
 Research completed 2026-07-15. Screening minimums were an active RBQ licence initially issued before 2016-07-15, relevant work categories, service in Terrebonne or the Rive-Nord, a public phone number and email address, and a Google rating of at least 4.5 with meaningful review history. Licence status and initial issue dates were checked against the [RBQ active-licence dataset](https://www.donneesquebec.ca/recherche/dataset/licencesactives). Recheck the licence, authorized subclasses, insurance, and current reviews before signing.
 
@@ -50,7 +62,7 @@ Research completed 2026-07-15. Screening minimums were an active RBQ licence ini
 
 ### Driveway, drainage and retaining walls
 
-Contact all five to improve the chance of receiving at least three comparable written quotes. Start with NMS, Beaux Lieux and K.I. Bon. Pavé Boisbriand is especially relevant for assessing reuse of the existing pavers or a new pavé-uni surface.
+Historical driveway outreach plan, superseded by Marbel selection: contact all five to improve the chance of receiving at least three comparable written quotes. Start with NMS, Beaux Lieux and K.I. Bon. Pavé Boisbriand is especially relevant for assessing reuse of the existing pavers or a new pavé-uni surface.
 
 | Order | Contractor | RBQ history | Google evidence | Phone | Email | Fit and call note | Status |
 |---:|---|---|---|---|---|---|---|
@@ -82,9 +94,9 @@ The August 19 quote totals 43,544.48 CAD including taxes: garage driveway/walls 
 
 Terms: 50% at signing, 25% during work, 25% at completion; start undetermined; validity 30 days following August 19 (calculated September 18, confirm with contractor). No workmanship warranty, RBQ number or insurance evidence is supplied. No acceptance or payment reported. (SRC-2026-055)
 
-## Latest K.I. Bon Quote — 2026-08-25
+## Historical K.I. Bon Alternative — 2026-08-25
 
-K.I. Bon now quotes asphalt marked 25X12, approximately 15-inch excavation, geotextile, 0–3/4 stone as needed and a 16X16 catch basin for 6,500 CAD, plus removal, base recompaction and reinstallation of existing wall blocks for 6,000 CAD. Units for the marked dimensions are not stated. The calculated sum is 12,500 CAD before tax; subtotal, tax and total boxes are blank. Acceptance is unconfirmed. (SRC-2026-050)
+K.I. Bon now quotes asphalt marked 25X12, approximately 15-inch excavation, geotextile, 0–3/4 stone as needed and a 16X16 catch basin for 6,500 CAD, plus removal, base recompaction and reinstallation of existing wall blocks for 6,000 CAD. Units for the marked dimensions are not stated. The calculated sum is 12,500 CAD before tax; subtotal, tax and total boxes are blank. Not selected; Marbel subsequently accepted. (SRC-2026-050, SRC-2026-070)
 
 This differs from the original new-paver/new-wall scope below. Confirm asphalt mix/thickness, base depth, compaction, slopes, basin outlet, wall drainage and block suitability, taxes, warranty and schedule. The certificate records boundary and setback findings; it is restricted to sale/mortgage use without author authorization for other purposes. (SRC-2026-050, SRC-2026-051)
 
@@ -217,6 +229,12 @@ Maxime Lebrasseur
 | Exterior repair of front crack, excavation supplied separately | 2026-08-10 | Fissure et Drain Laval | 450.00 | No | SRC-2026-048 | Verbal alternative / written quote pending | Approximately 517.39 CAD including taxes; responsibility and warranty handoff must be written |
 | Garage/walls, front walkway, main parking and disposal | 2026-08-19 | Les pavés Morin inc. / Karl Morin | 43544.48 | Yes | SRC-2026-055 | Written / not accepted | Garage/walls component 19,750 CAD before tax is not standalone; demolition allocation unresolved |
 
+## Accepted Quote
+
+| Date | Contractor | Subtotal CAD | Extra CAD | Status | Source |
+|---|---|---:|---:|---|---|
+| 2026-09-21 | Pavé C.D.P. Marbel | 27700.00 | 800.00 | Accepted, homeowner-reported; extra inclusion and final tax total unresolved, payments unknown | SRC-2026-067, SRC-2026-070 |
+
 ## Tasks
 
 | Task | Owner | Due Date | Source | Status | Notes |
@@ -226,16 +244,22 @@ Maxime Lebrasseur
 | Contact all 5 shortlisted driveway contractors individually | User | 2026-07-16 08:00 | SRC-2026-015, SRC-2026-020, SRC-2026-021, SRC-2026-026, SRC-2026-028, SRC-2026-029, SRC-2026-037; final selected body above | Done | All five sent 2026-07-16; delivery confirmed 2026-07-23; exact individual send and delivery times not recorded; target at least 3 written quotes and onsite recommendations on reusing versus replacing the existing pavé uni |
 | Contact all 5 shortlisted foundation contractors individually | User | 2026-07-16 08:00 | SRC-2026-015, SRC-2026-021, SRC-2026-026, SRC-2026-030, SRC-2026-037; final selected body above | Done | All five sent 2026-07-16; delivery confirmed 2026-07-23; exact individual send and delivery times not recorded; target at least 3 comparable written quotes and ask for diagnosis, repair options and September availability |
 | Record responses and quotes in this file | User | As received | SRC-2026-046, SRC-2026-047, SRC-2026-048, SRC-2026-049; future quote or contractor correspondence | In progress | Three visits, written K.I. Bon and Akton estimates, and one verbal Fissure et Drain Laval proposal recorded; Karl Morin quote processed (SRC-2026-055); written Fissure et Drain Laval quote pending |
-| Clarify the K.I. Bon written scope | User / Tony Sigga | Before quote acceptance | SRC-2026-046 | Open | Confirm quantities, base, compaction, slopes, catch-basin design, wall construction, warranty, schedule, exclusions and optional front-left excavation |
-| Clarify Karl Morin's garage-only scope and contractor credentials | User / Karl Morin | Before driveway selection | SRC-2026-055 | Open clarification | Legal entity identified in quote; confirm applicable RBQ, insurance, warranty, drainage and demolition allocation |
+| Clarify the K.I. Bon written scope | User / Tony Sigga | Before quote acceptance | SRC-2026-046 | Retired after Marbel selection | Earlier quote retained as alternative; SRC-2026-070 |
+| Clarify Karl Morin's garage-only scope and contractor credentials | User / Karl Morin | Before driveway selection | SRC-2026-055 | Retired after Marbel selection | Earlier quote retained as alternative; SRC-2026-070 |
 | Expose enough of the two under-window cracks to confirm wall construction and crack paths | User / foundation contractor | Before selecting repair scope | SRC-2026-015, SRC-2026-048 | Open | Jacques's block-infill explanation is plausible but unverified; avoid damaging waterproofing or utilities and document what is exposed |
 | Clarify Akton ESTF107164 and obtain Fissure et Drain Laval's written scope and warranty | User / Cesar Guevara / Jacques Robert | Before foundation selection | SRC-2026-047, SRC-2026-048, SRC-2026-049 | Open | Confirm Akton's A/B/C locations, rear-window observation, non-refundable line and validity; obtain Jacques's written method, excavation split, exclusions, restoration and warranty responsibility |
-| Compare quotes and select one contractor for each project | User | Before contractor coordination and 2026-09 work | SRC-2026-021, SRC-2026-046, SRC-2026-048, SRC-2026-049 | Open | Keep the two project decisions separate; crack proposals are not comparable until the two smaller conditions are confirmed and Fissure et Drain Laval supplies a written scope |
-| Recheck RBQ licence, subclasses, insurance and reviews | User | Before signing | SRC-2026-046, SRC-2026-048; RBQ and contractor documents | In progress | K.I. Bon and Fissure et Drain Laval identifiers are recorded; obtain current proof and insurance from the selected contractors; Karl Morin contracting identity remains to confirm |
-| Coordinate site access or optional shared excavation | User / selected contractors | Before 2026-09 work | Written accepted scopes | Open | Coordination may reduce mobilization costs but is not required for project sequencing |
+| Select foundation contractor and confirm repair scope | User | Before foundation work | SRC-2026-048, SRC-2026-049, SRC-2026-070 | Foundation open; driveway selected | Marbel accepted for paving/walls/drainage; no foundation acceptance reported |
+| Retain selected contractors’ licence/insurance evidence | User | Before work | SRC-2026-068, SRC-2026-070 | Documentation pending | Marbel contact lists RBQ 5861-6517-01; current status/subclasses/insurance not independently verified; foundation selection separate |
+| Coordinate Marbel site access around move/deliveries | User / Martin | Before expected week of September 28 or October 5 start | SRC-2026-070, SRC-2026-071 | Open | Exact start pending; optional shared excavation only if separately agreed for foundation work |
 
 ## September 14 Gutter and Exterior Follow-Up
 
 Source: [SRC-2026-065](../../01-sources/chat/2026/2026-09-14-renovation-painting-and-moving-schedule.md). Reported September 14, 2026.
 
-Explore extending front lateral gutter outlets toward the street and discuss possible joining with neighbour. Route, discharge feasibility, applicable permissions, agreement, costs and schedule remain open. Coordinate the assessment with exterior drainage planning. Outdoor sofas, table and reported propane fire pit are to be discarded; removal arrangements unspecified.
+September 22 update: gutter drainage is included in Marbel’s separately listed 800 CAD extra (SRC-2026-070); the quote describes drainage toward the street (SRC-2026-067). September 23: planned gutter route is separate from the garage drain, beside the wall at the property edge, joining the neighbour’s gutter drainage; installation not yet reported complete (SRC-2026-072). Outdoor sofas, table and reported propane fire pit are to be discarded; removal arrangements unspecified.
+
+## Before Marbel Starts
+
+Confirm exact start/access, whether the 800 CAD extra is included in the subtotal, and final taxes/payment terms. Record any updated written scope. These follow-ups concern an accepted quote. (SRC-2026-067, SRC-2026-070)
+
+September 23 source: [SRC-2026-072](../../01-sources/chat/2026/2026-09-23-renovation-marbel-drainage-clarifications.md). Existing pipe reuse and separate gutter routing are homeowner-reported plans; pipe condition, final discharge point and technical specifications are not established by this update.
