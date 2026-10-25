@@ -1,6 +1,6 @@
 # Open Questions
 
-Last updated: 2026-10-25 (mouse activity, seller contact and attic duct repair; other statuses retain their earlier reporting dates)
+Last updated: 2026-10-25 (mouse activity, seller contact, attic duct repair, painting and stain checks; other statuses retain their earlier reporting dates)
 
 Closing is completed (SRC-2026-052). Receipt and settlement questions below remain documentation follow-ups; the new certificate is held (SRC-2026-051).
 
@@ -44,7 +44,7 @@ Closing is completed (SRC-2026-052). Receipt and settlement questions below rema
 
 Source: [SRC-2026-065](../01-sources/chat/2026/2026-09-14-renovation-painting-and-moving-schedule.md). Reported September 14, 2026.
 
-Painting: contractor, work dates, tax basis and payments unknown. Internet: provider/appointment unknown. Appliances: models, prices and installation unknown. Gutter drainage is included in Marbel’s 800 extra; September 23 routing clarification places it separately beside the wall/property edge, joining neighbour gutter drainage (SRC-2026-070, SRC-2026-072). Camera operation/access and alarm needs to assess after move/Internet.
+Painting: completed by move day (recorded September 27) and 4,650 CAD paid in full during the week (SRC-2026-078); contractor, exact work/payment dates, payment method and tax breakdown unspecified. Internet: provider/appointment unknown. Appliances: models, prices and installation unknown. Gutter drainage is included in Marbel’s 800 extra; September 23 routing clarification places it separately beside the wall/property edge, joining neighbour gutter drainage (SRC-2026-070, SRC-2026-072). Camera operation/access and alarm needs to assess after move/Internet.
 
 ## September 15 Seller Clarifications
 
@@ -52,7 +52,7 @@ Source: [SRC-2026-066](../01-sources/chat/2026/2026-09-15-property-seller-calls-
 
 | Question | Status |
 |---|---|
-| What caused the bedroom/bathroom stains, and is the condition recurring? | Unknown; seller says old, owner observed dry zones |
+| What caused the bedroom/bathroom stains, and is the condition recurring? | Original cause unknown; seller says stains predated his purchase. No visible stains after painting; attic looked dry with no water seen. Routine monitoring (SRC-2026-078) |
 | Did the inspector see/discuss these stains as Jacob states? | Not documented in report; seller statement only |
 | When/where did Jacob place mouse traps, and were any mice caught? | Unanswered; seller contact follow-up retired October 25 (SRC-2026-069, SRC-2026-075) |
 | Has mouse activity recurred, and are entry points known? | No further mice or wall sounds reported since September 22, as of October 25; father says no more mice. Routine monitoring; entry points undocumented (SRC-2026-074) |
@@ -81,18 +81,24 @@ September 23 clarification: [SRC-2026-072](../01-sources/chat/2026/2026-09-23-re
 
 ## October 25 Mouse Follow-Up
 
-No further mice or sounds in the walls reported since the September 22 capture. Maxime's father says there are no more mice. Mouse activity is removed from immediate priorities; retain routine monitoring. Stain and garage-ceiling checks remain separate; attic duct repair completed October 11 (SRC-2026-077).
+No further mice or sounds in the walls reported since the September 22 capture. Maxime's father says there are no more mice. Mouse activity is removed from immediate priorities; retain routine monitoring. Stain checks moved to routine monitoring after the dry attic observation (SRC-2026-078); garage-ceiling checks remain open; attic duct repair completed October 11 (SRC-2026-077).
 
 Sources: [SRC-2026-074](../01-sources/chat/2026/2026-10-25-property-mouse-activity-follow-up.md); [capture photo, SRC-2026-073](../01-sources/extractions/2026/2026-09-22-property-mouse-capture.md).
 
 ## October 25 Seller Contact Update
 
-Maxime reports multiple unanswered texts to Jacob and has retired seller contact follow-up from active priorities. Blocking or deliberate nonresponse is suspected, not confirmed. Separate stain and garage-ceiling checks remain open; attic duct repair completed October 11 (SRC-2026-077).
+Maxime reports multiple unanswered texts to Jacob and has retired seller contact follow-up from active priorities. Blocking or deliberate nonresponse is suspected, not confirmed. Stain checks moved to routine monitoring after the dry attic observation (SRC-2026-078); garage-ceiling checks remain open; attic duct repair completed October 11 (SRC-2026-077).
 
 Source: [SRC-2026-075](../01-sources/chat/2026/2026-10-25-property-seller-follow-up-retired.md).
 
 ## October 11 Attic Ventilation Repair
 
-Reported October 25: the seller had not repaired the attic ventilation. Maxime completed the repair himself on October 11, 2026; the result photo is archived. Repair completed / homeowner-reported. Separate bedroom/bathroom stain and garage-ceiling checks remain open.
+Reported October 25: the seller had not repaired the attic ventilation. Maxime completed the repair himself on October 11, 2026; the result photo is archived. Repair completed / homeowner-reported. Stain checks moved to routine monitoring after the dry attic observation (SRC-2026-078); garage-ceiling checks remain open.
 
 Sources: [SRC-2026-077](../01-sources/chat/2026/2026-10-25-property-attic-duct-repair-completed.md); [repair photo note, SRC-2026-076](../01-sources/extractions/2026/2026-10-11-maintenance-attic-duct-repair.md).
+
+## October 25 Painting and Stain Follow-Up
+
+Painting was completed by move day (recorded September 27); bedroom/bathroom stains are no longer visible. Maxime looked in the attic, saw no water and reports it looked dry. Exact painting completion day and attic observation date are unspecified. Stain checks are removed from current focus; retain routine monitoring for recurrence. Original cause remains unknown; Jacob reportedly said the stains predated his purchase. Garage-ceiling checks remain open. Painting was paid in full during the week: 4,650 CAD paid, 0 CAD remaining, homeowner-reported. Exact payment date, method and tax breakdown are unspecified.
+
+Source: [SRC-2026-078](../01-sources/chat/2026/2026-10-25-property-stains-and-attic-check.md).

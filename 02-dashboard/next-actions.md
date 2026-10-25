@@ -1,10 +1,10 @@
 # Next Actions
 
-Last updated: 2026-10-25 (mouse activity, seller contact and attic duct repair; other statuses retain their earlier reporting dates)
+Last updated: 2026-10-25 (mouse activity, seller contact, attic duct repair, painting and stain checks; other statuses retain their earlier reporting dates)
 
 ## Urgent
 
-Closing is completed per SRC-2026-052. Remaining closing items below are document/settlement reconciliation, not prerequisites to an upcoming signing. Certificate received under SRC-2026-051; Marbel acceptance is reported under SRC-2026-070; painting is contracted under SRC-2026-065.
+Closing is completed per SRC-2026-052. Remaining closing items below are document/settlement reconciliation, not prerequisites to an upcoming signing. Certificate received under SRC-2026-051; Marbel acceptance is reported under SRC-2026-070; painting was completed by move day and paid in full, 4,650 CAD (SRC-2026-078).
 
 | Action | Owner | Due Date | Related Area | Source | Status |
 |---|---|---|---|---|---|
@@ -144,7 +144,7 @@ Source: [SRC-2026-066](../01-sources/chat/2026/2026-09-15-property-seller-calls-
 | Send selected friendly text about mice/traps and ceiling | Maxime | Exact send date unspecified; reported September 22 | Done; no reply as of September 22 (SRC-2026-069) |
 | Retain reply and any proposed arrangement | Maxime | Retired October 25 | No longer an active task; multiple texts unanswered (SRC-2026-075) |
 | Archive photos already taken | Maxime | To arrange | September 22 mouse-capture photo archived (SRC-2026-073); remaining photos not confirmed archived |
-| Check attic above bedroom/bathroom stains and residual garage ceiling | Maxime | To arrange | Open |
+| Check residual garage ceiling | Maxime | To arrange | Open; attic visual check completed, dry with no water seen (SRC-2026-078) |
 
 Continued texting and waiting for a seller reply are retired as active tasks at Maxime’s request on October 25 (SRC-2026-075). Seller-required before/after photos remain distinct from homeowner photographs; their absence does not create an active seller-contact task.
 
@@ -166,18 +166,24 @@ September 23 scope clarification: garage drain reuses existing pipe; gutters dra
 
 ## October 25 Mouse Follow-Up
 
-No further mice or sounds in the walls reported since the September 22 capture. Maxime's father says there are no more mice. Mouse activity is removed from immediate priorities; retain routine monitoring. Stain and garage-ceiling checks remain separate; attic duct repair completed October 11 (SRC-2026-077).
+No further mice or sounds in the walls reported since the September 22 capture. Maxime's father says there are no more mice. Mouse activity is removed from immediate priorities; retain routine monitoring. Stain checks moved to routine monitoring after the dry attic observation (SRC-2026-078); garage-ceiling checks remain open; attic duct repair completed October 11 (SRC-2026-077).
 
 Sources: [SRC-2026-074](../01-sources/chat/2026/2026-10-25-property-mouse-activity-follow-up.md); [capture photo, SRC-2026-073](../01-sources/extractions/2026/2026-09-22-property-mouse-capture.md).
 
 ## October 25 Seller Contact Update
 
-Maxime reports multiple unanswered texts to Jacob and has retired seller contact follow-up from active priorities. Blocking or deliberate nonresponse is suspected, not confirmed. Separate stain and garage-ceiling checks remain open; attic duct repair completed October 11 (SRC-2026-077).
+Maxime reports multiple unanswered texts to Jacob and has retired seller contact follow-up from active priorities. Blocking or deliberate nonresponse is suspected, not confirmed. Stain checks moved to routine monitoring after the dry attic observation (SRC-2026-078); garage-ceiling checks remain open; attic duct repair completed October 11 (SRC-2026-077).
 
 Source: [SRC-2026-075](../01-sources/chat/2026/2026-10-25-property-seller-follow-up-retired.md).
 
 ## October 11 Attic Ventilation Repair
 
-Reported October 25: the seller had not repaired the attic ventilation. Maxime completed the repair himself on October 11, 2026; the result photo is archived. Repair completed / homeowner-reported. Separate bedroom/bathroom stain and garage-ceiling checks remain open.
+Reported October 25: the seller had not repaired the attic ventilation. Maxime completed the repair himself on October 11, 2026; the result photo is archived. Repair completed / homeowner-reported. Stain checks moved to routine monitoring after the dry attic observation (SRC-2026-078); garage-ceiling checks remain open.
 
 Sources: [SRC-2026-077](../01-sources/chat/2026/2026-10-25-property-attic-duct-repair-completed.md); [repair photo note, SRC-2026-076](../01-sources/extractions/2026/2026-10-11-maintenance-attic-duct-repair.md).
+
+## October 25 Painting and Stain Follow-Up
+
+Painting was completed by move day (recorded September 27); bedroom/bathroom stains are no longer visible. Maxime looked in the attic, saw no water and reports it looked dry. Exact painting completion day and attic observation date are unspecified. Stain checks are removed from current focus; retain routine monitoring for recurrence. Original cause remains unknown; Jacob reportedly said the stains predated his purchase. Garage-ceiling checks remain open. Painting was paid in full during the week: 4,650 CAD paid, 0 CAD remaining, homeowner-reported. Exact payment date, method and tax breakdown are unspecified.
+
+Source: [SRC-2026-078](../01-sources/chat/2026/2026-10-25-property-stains-and-attic-check.md).

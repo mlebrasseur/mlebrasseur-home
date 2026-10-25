@@ -4,8 +4,8 @@
 
 | Field | Value | Source |
 |---|---|---|
-| Status | Painting contracted; remaining inspection and seller-repair follow-ups (SRC-2026-064, SRC-2026-065) | SRC-2026-012, SRC-2026-015, SRC-2026-021 |
-| Target date | Access received September 9; painting work dates unset; September exterior/foundation target remains unbooked (SRC-2026-064, SRC-2026-065) | SRC-2026-012, SRC-2026-021 |
+| Status | Painting completed (SRC-2026-078); remaining inspection and seller-repair follow-ups (SRC-2026-064, SRC-2026-065) | SRC-2026-012, SRC-2026-015, SRC-2026-021 |
+| Target date | Access received September 9; painting completed by move day (recorded September 27), reported October 25; exact completion day unspecified (SRC-2026-078); September exterior/foundation target remains unbooked (SRC-2026-064, SRC-2026-065) | SRC-2026-012, SRC-2026-021 |
 | Budget |  |  |
 
 ## Scope
@@ -40,10 +40,16 @@
 
 Source: [SRC-2026-065](../../01-sources/chat/2026/2026-09-14-renovation-painting-and-moving-schedule.md). Reported September 14, 2026.
 
-Painters engaged for main floor, common areas and side entrance in white, 4,650 CAD committed. Work dates and payments unknown. Estimated move September 27; Internet September 28; appliances September 29. Window measurements/blinds, disposal, security assessment and gutter drainage options remain to arrange.
+Painters engaged for main floor, common areas and side entrance in white, 4,650 CAD committed. October 25 update: completed by move day (recorded September 27), 4,650 CAD paid in full during the week; exact payment date unspecified (SRC-2026-078). Estimated move September 27; Internet September 28; appliances September 29. Window measurements/blinds, disposal, security assessment and gutter drainage options remain to arrange.
 
 ## October 11 Attic Ventilation Repair
 
-Reported October 25: the seller had not repaired the attic ventilation. Maxime completed the repair himself on October 11, 2026; the result photo is archived. Repair completed / homeowner-reported. Separate bedroom/bathroom stain and garage-ceiling checks remain open.
+Reported October 25: the seller had not repaired the attic ventilation. Maxime completed the repair himself on October 11, 2026; the result photo is archived. Repair completed / homeowner-reported. Stain checks moved to routine monitoring after the dry attic observation (SRC-2026-078); garage-ceiling checks remain open.
 
 Sources: [SRC-2026-077](../../01-sources/chat/2026/2026-10-25-property-attic-duct-repair-completed.md); [repair photo note, SRC-2026-076](../../01-sources/extractions/2026/2026-10-11-maintenance-attic-duct-repair.md).
+
+## October 25 Painting and Stain Follow-Up
+
+Painting was completed by move day (recorded September 27); bedroom/bathroom stains are no longer visible. Maxime looked in the attic, saw no water and reports it looked dry. Exact painting completion day and attic observation date are unspecified. Stain checks are removed from current focus; retain routine monitoring for recurrence. Original cause remains unknown; Jacob reportedly said the stains predated his purchase. Garage-ceiling checks remain open. Painting was paid in full during the week: 4,650 CAD paid, 0 CAD remaining, homeowner-reported. Exact payment date, method and tax breakdown are unspecified.
+
+Source: [SRC-2026-078](../../01-sources/chat/2026/2026-10-25-property-stains-and-attic-check.md).

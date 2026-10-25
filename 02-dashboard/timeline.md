@@ -110,7 +110,7 @@ Source: [SRC-2026-065](../01-sources/chat/2026/2026-09-14-renovation-painting-an
 
 | Date | Event | Status |
 |---|---|---|
-| Engagement date unspecified | White painting contracted for 4,650 CAD | Reported commitment; work/payment dates unknown |
+| Engagement date unspecified | White painting contracted for 4,650 CAD | Reported commitment; later confirmed completed by move day (September 27) and paid in full during the week; exact payment date unspecified (SRC-2026-078) |
 | 2026-09-27 | Physical move | Planned; U-Haul reservation confirmed 11:00–17:00 (SRC-2026-071) |
 | 2026-09-28 | Internet | Planned |
 | 2026-09-29 | Appliance arrival | Planned; remove old dishwasher first |
@@ -149,6 +149,12 @@ Earlier tentative September 15 morning send plan superseded. Prior broker call a
 
 ## October 11 Attic Ventilation Repair
 
-Reported October 25: the seller had not repaired the attic ventilation. Maxime completed the repair himself on October 11, 2026; the result photo is archived. Repair completed / homeowner-reported. Separate bedroom/bathroom stain and garage-ceiling checks remain open.
+Reported October 25: the seller had not repaired the attic ventilation. Maxime completed the repair himself on October 11, 2026; the result photo is archived. Repair completed / homeowner-reported. Stain checks moved to routine monitoring after the dry attic observation (SRC-2026-078); garage-ceiling checks remain open.
 
 Sources: [SRC-2026-077](../01-sources/chat/2026/2026-10-25-property-attic-duct-repair-completed.md); [repair photo note, SRC-2026-076](../01-sources/extractions/2026/2026-10-11-maintenance-attic-duct-repair.md).
+
+## October 25 Painting and Stain Follow-Up
+
+Painting was completed by move day (recorded September 27); bedroom/bathroom stains are no longer visible. Maxime looked in the attic, saw no water and reports it looked dry. Exact painting completion day and attic observation date are unspecified. Stain checks are removed from current focus; retain routine monitoring for recurrence. Original cause remains unknown; Jacob reportedly said the stains predated his purchase. Garage-ceiling checks remain open. Painting was paid in full during the week: 4,650 CAD paid, 0 CAD remaining, homeowner-reported. Exact payment date, method and tax breakdown are unspecified.
+
+Source: [SRC-2026-078](../01-sources/chat/2026/2026-10-25-property-stains-and-attic-check.md).

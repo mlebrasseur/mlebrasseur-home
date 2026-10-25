@@ -8,7 +8,7 @@
 | Bathroom |  |  |  |  |  |  |  |
 | Basement |  |  |  |  |  |  |  |
 | Exterior | | 27700.00 | 27700.00 | | | SRC-2026-067, SRC-2026-070 | Accepted subtotal before tax; 800 extra separately listed with inclusion unresolved. Do not treat subtotal as final project total. Payments/balance unknown; prior quotes are alternatives. |
-| General |  |  | 4650.00 |  |  | SRC-2026-065 | White painting: main floor, common areas and side entrance; taxes/payments unknown. |
+| General |  |  | 4650.00 | 4650.00 | 0.00 | SRC-2026-065, SRC-2026-078 | White painting: main floor, common areas and side entrance; completed by move day, paid in full during the week, homeowner-reported. Exact payment date, method and tax breakdown unspecified. |
 
 ## Quotes
 
@@ -37,4 +37,6 @@ Martin's concrete connection between drain box and garage floor is a reported ve
 
 Source: [SRC-2026-065](../01-sources/chat/2026/2026-09-14-renovation-painting-and-moving-schedule.md). Reported September 14, 2026.
 
-Painters engaged for white painting throughout main floor, common areas and side entrance: 4,650 CAD committed. Contractor, dates, taxes and payment details unknown.
+Painters engaged for white painting throughout main floor, common areas and side entrance: 4,650 CAD committed. October 25 update: completed by move day (recorded September 27), paid in full during the week; 4,650 CAD paid, 0 CAD remaining (SRC-2026-078). Contractor, exact payment date, method and tax breakdown unspecified.
+
+Painting completion/payment source: [SRC-2026-078](../01-sources/chat/2026/2026-10-25-property-stains-and-attic-check.md).
