@@ -47,7 +47,7 @@ Last updated: 2026-09-15
 | Confirm tax adjustments for municipal and school taxes | Maxime / LRV | August 31 adjustment | SRC-2026-058, SRC-2026-059, SRC-2026-060 | Done / statement held | Municipal year seller-paid; buyer charge 1,604.87, school credit 55.54, occupancy credit 893.71; net 655.62. |
 | Confirm notary treatment of received certificate and any compensation | Maxime / Audrey-Ann Lapierre | Post-closing reconciliation | SRC-2026-011, SRC-2026-027, SRC-2026-043 | Open | Seller also pays title insurance if Audrey-Ann judges necessary |
 | Confirm handling of seller mortgage and Bell Canada servitude |  | Post-closing reconciliation | SRC-2026-003, SRC-2026-043 | Open | Mortgage to Caisse Desjardins de Terrebonne and Bell servitude 214 731 disclosed |
-| Inspect house and verify seller repair completion and garage-ceiling photos | Maxime | After keys/access on 2026-09-09 at 13:00 | SRC-2026-012, SRC-2026-015, SRC-2026-064 | Partially verified | Switch/light repaired; attic duct repaired by Maxime October 11 (SRC-2026-077); ceiling residual, debris and photos to verify. |
+| Inspect house and verify remaining repairs and garage-ceiling condition | Maxime | Deferred; no date | SRC-2026-012, SRC-2026-015, SRC-2026-064 | Partially verified; remaining garage-ceiling checks deferred (SRC-2026-080) | Switch/light repaired; attic duct repaired by Maxime October 11 (SRC-2026-077); ceiling residual and debris checks deferred by homeowner (SRC-2026-080); homeowner photos archived (SRC-2026-079); seller before/after photos unavailable, follow-up retired (SRC-2026-075). |
 | Bind home insurance and obtain proof meeting LRV requirements | Maxime | Before 2026-08-26 | SRC-2026-042, SRC-2026-043 | Done | Intact policy effective 2026-08-31 with 581,000 CAD building coverage and Desjardins named as first mortgage creditor |
 | Confirm LRV received and accepted the insurance proof | Maxime / Sarah-Maude Lapierre | Post-closing reconciliation | SRC-2026-042, SRC-2026-043 | Open | Repository possession is not proof of transmission to LRV |
 | Transfer requested closing funds only through Assyst Paiement | Maxime | Submission reported August 10 | SRC-2026-034, SRC-2026-043, SRC-2026-045, SRC-2026-059 | Submitted / amount and trust receipt corroborated | Method remains context-inferred; notary records 130,038.27 received. |
@@ -86,7 +86,7 @@ Outcome:
 - CSEM employment proof and a first pay document were reported as submitted by 2026-07-15; the actual send date is not recorded.
 - Signed MO-05850 was finalized on 2026-07-16, and Desjardins issued the final Maxime-only acceptance on 2026-07-22.
 - The Desjardins financing Teams meeting was scheduled for 2026-07-30 at 14:00 America/Toronto; its outcome remains unrecorded. Ancillary forms were electronically signed on 2026-08-05 and the formal offer was received 2026-08-07; the loan contract signed August 26 is now archived, while the separate executed mortgage deed remains to retain. (SRC-2026-057)
-- Closing completed per September 8 confirmation; current follow-up is final-document reconciliation, certificate findings, seller repairs and handover. (SRC-2026-051, SRC-2026-052)
+- Closing completed per September 8 confirmation; current follow-up is final-document reconciliation and certificate findings; garage-ceiling follow-up is deferred (SRC-2026-080). (SRC-2026-051, SRC-2026-052)
 - The municipal role shows 2 dwellings and the user confirms this is a 2 unit building with a legal rentable second unit.
 - If deed occurs before occupancy, PA-07184 says seller compensates buyer for occupancy from deed signature until occupancy and remains responsible for heating, electricity, and general maintenance during that period.
 
@@ -129,12 +129,24 @@ Source: [SRC-2026-066](../01-sources/chat/2026/2026-09-15-property-seller-calls-
 
 ## October 11 Attic Ventilation Repair
 
-Reported October 25: the seller had not repaired the attic ventilation. Maxime completed the repair himself on October 11, 2026; the result photo is archived. Repair completed / homeowner-reported. Stain checks moved to routine monitoring after the dry attic observation (SRC-2026-078); garage-ceiling checks remain open.
+Reported October 25: the seller had not repaired the attic ventilation. Maxime completed the repair himself on October 11, 2026; the result photo is archived. Repair completed / homeowner-reported. Stain checks moved to routine monitoring after the dry attic observation (SRC-2026-078); garage-ceiling checks deferred by homeowner (SRC-2026-080).
 
 Sources: [SRC-2026-077](../01-sources/chat/2026/2026-10-25-property-attic-duct-repair-completed.md); [repair photo note, SRC-2026-076](../01-sources/extractions/2026/2026-10-11-maintenance-attic-duct-repair.md).
 
 ## October 25 Painting and Stain Follow-Up
 
-Painting was completed by move day (recorded September 27); bedroom/bathroom stains are no longer visible. Maxime looked in the attic, saw no water and reports it looked dry. Exact painting completion day and attic observation date are unspecified. Stain checks are removed from current focus; retain routine monitoring for recurrence. Original cause remains unknown; Jacob reportedly said the stains predated his purchase. Garage-ceiling checks remain open. Painting was paid in full during the week: 4,650 CAD paid, 0 CAD remaining, homeowner-reported. Exact payment date, method and tax breakdown are unspecified.
+Painting was completed by move day (recorded September 27); bedroom/bathroom stains are no longer visible. Maxime looked in the attic, saw no water and reports it looked dry. Exact painting completion day and attic observation date are unspecified. Stain checks are removed from current focus; retain routine monitoring for recurrence. Original cause remains unknown; Jacob reportedly said the stains predated his purchase. Garage-ceiling checks deferred by homeowner (SRC-2026-080). Painting was paid in full during the week: 4,650 CAD paid, 0 CAD remaining, homeowner-reported. Exact payment date, method and tax breakdown are unspecified.
 
 Source: [SRC-2026-078](../01-sources/chat/2026/2026-10-25-property-stains-and-attic-check.md).
+
+## October 25 Garage-Ceiling Photos
+
+Four homeowner photographs are archived and show remaining ceiling material around fixtures, supports and wall edges. Seller before/after photographs are unavailable, with no further follow-up expected. Remaining ceiling/debris and material-composition checks are deferred by homeowner; facts remain unresolved (SRC-2026-080). Earlier references to missing photos describe the record at that time.
+
+Sources: [Homeowner photos, SRC-2026-079](../01-sources/extractions/2026/2026-10-25-maintenance-garage-ceiling-photos.md); [seller-photo follow-up retired, SRC-2026-075](../01-sources/chat/2026/2026-10-25-property-seller-follow-up-retired.md).
+
+## October 25 — Garage Ceiling Deferred
+
+Leave the garage ceiling as-is for now; it is not a current priority. Related residual-material, debris and material-composition checks are deferred by homeowner, with no work or review date set. Existing photos and unresolved facts remain on record.
+
+Source: [SRC-2026-080](../01-sources/chat/2026/2026-10-25-property-garage-ceiling-deferred.md).

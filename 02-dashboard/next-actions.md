@@ -12,7 +12,6 @@ Closing is completed per SRC-2026-052. Remaining closing items below are documen
 | Record the final registered mortgage amount from the signed deed | Maxime / Brigida Rizzuto / LRV Notaires | Post-closing reconciliation | Financing / legal closing | SRC-2026-044 | Open; final amount unconfirmed; prior proposal was 768,000 CAD (SRC-2026-052) |
 | Retain executed sale and mortgage deeds with execution/registration dates | Maxime / LRV | Post-closing records | Legal closing | SRC-2026-057, SRC-2026-059, SRC-2026-060 | Loan contract signed August 26; adjustment date August 31; occupancy credit 893.71 recorded. Deed dates remain to verify. |
 | Retain notary treatment of received certificate, title insurance and any compensation | Maxime / Audrey-Ann Lapierre | Post-closing reconciliation | Legal / closing | SRC-2026-011, SRC-2026-027 | Open |
-| Inspect house and verify seller repairs and garage-ceiling before/after photos | Maxime | After access September 9 at 13:00 | Inspection / repairs | SRC-2026-012, SRC-2026-015, SRC-2026-064 | Partially verified; attic duct repaired by Maxime October 11 (SRC-2026-077); ceiling residual/seller before-after photos/debris status remains open |
 | Attend the mortgage and purchase-deed signing with two valid photo IDs and payment method for adjustments | Maxime | 2026-08-26 at 13:30 | Financing / legal closing | SRC-2026-052, SRC-2026-056, SRC-2026-057 | Done; signed August 26 loan contract and 655.62 debit receipt archived; separate deed dates still to document. |
 | Confirm actual mortgage disbursement date | Maxime / Desjardins | Post-closing records | Financing | SRC-2026-059, SRC-2026-063 | Open for funding date only; LRV received 512,000 and user reports first payment September 1. |
 | Review Intact policy declarations and optional coverages | Maxime / Agence La Turquoise | Promptly; before a claim | Insurance | SRC-2026-042 | Open; verify renovation years, professional activity, water protection, and spa/pool coverage charge |
@@ -26,7 +25,7 @@ Closing is completed per SRC-2026-052. Remaining closing items below are documen
 
 Exterior: Marbel accepted; prepare for expected start in the week of September 28 or October 5. Confirm exact date, access and extra inclusion. Earlier driveway comparison tasks are retired; foundation selection remains open. (SRC-2026-067, SRC-2026-070)
 
-Current sequence: September 27 U-Haul pickup 11:00 / return by 17:00 (SRC-2026-071) → September 28 Internet → September 29 appliance arrival. Remove old dishwasher before delivery. Remaining repair checks proceed separately. (SRC-2026-064, SRC-2026-065)
+Current sequence: September 27 U-Haul pickup 11:00 / return by 17:00 (SRC-2026-071) → September 28 Internet → September 29 appliance arrival. Remove old dishwasher before delivery. Garage-ceiling checks are deferred by homeowner (SRC-2026-080). (SRC-2026-064, SRC-2026-065)
 
 
 | Action | Owner | Due Date | Related Area | Source | Status |
@@ -46,7 +45,6 @@ Current sequence: September 27 U-Haul pickup 11:00 / return by 17:00 (SRC-2026-0
 | Clarify Akton estimate ESTF107164 and obtain Fissure et Drain Laval's property-specific written scope and warranty | Maxime / Cesar Guevara / Jacques Robert | Before foundation selection | Foundation | SRC-2026-047, SRC-2026-048, SRC-2026-049 | Open; confirm Akton's A/B/C locations, rear-window observation, non-refundable 500.00 CAD line and validity; Jacques's price, method and 20-year warranty remain verbal |
 | Coordinate Marbel access with move/deliveries; consider optional shared excavation if foundation work is selected | Maxime / contractors | Before work starts | Exterior / foundation | SRC-2026-070, SRC-2026-071 | Open; foundation selection remains separate, not a dependency for driveway work |
 | Confirm with Terrebonne Urbanisme whether bachelor expansion into garage space affects permits, use, or unit status | User | Before design spend | Bachelor expansion / permits | SRC-2026-008, SRC-2026-021 | Open |
-| Clarify garage-ceiling material analysis and handling history | Maxime | Before further disturbance | Garage / environmental | SRC-2026-012, SRC-2026-015 | Open |
 | Request masonry review for mortar cracks and damaged concrete sills |  |  | Exterior | SRC-2026-015 | Open |
 | Confirm water heater installation year conflict, 2021 vs 2023 |  |  | Plumbing / insurance | SRC-2026-003, SRC-2026-015, SRC-2026-042 | Open; Intact policy also uses 2021 |
 | Confirm roof installation/renovation year, 2015 vs 2016 |  |  | Roof / insurance | SRC-2026-003, SRC-2026-042 | Open |
@@ -63,7 +61,7 @@ Current sequence: September 27 U-Haul pickup 11:00 / return by 17:00 (SRC-2026-0
 | Exact Marbel start and final cost details | Martin Belisle | Reported 2026-09-22 | SRC-2026-067, SRC-2026-070 | Contractor selected; expected week of September 28 or October 5, exact date pending |
 | Written foundation scope and warranty | Fissure et Drain Laval | 2026-08-10 | SRC-2026-048, SRC-2026-049 | Akton ESTF107164 is now written; Jacques's proposal remains verbal, and the number of required repairs remains unresolved pending the under-window crack check |
 | Competing mortgage proposal | Michael Sciascia | 2026-07-23 | SRC-2026-036 | Pre-closing comparison retired following completed closing (SRC-2026-052) |
-| Seller repair completion proof | Seller / buyer broker | 2026-07-05 | SRC-2026-012 | Includes garage-ceiling before/after photos |
+| Seller garage-ceiling before/after photos | Seller / buyer broker | 2026-07-05 | SRC-2026-012, SRC-2026-075 | Unavailable; follow-up retired October 25; homeowner photos archived separately (SRC-2026-079) |
 
 ## Done
 
@@ -131,7 +129,7 @@ Source: [SRC-2026-065](../01-sources/chat/2026/2026-09-14-renovation-painting-an
 
 Source: [SRC-2026-064](../01-sources/chat/2026/2026-09-14-property-handover-repairs-and-access.md). Reported September 14, 2026.
 
-Attic duct repaired by Maxime October 11 (SRC-2026-077). Verify garage ceiling residual/seller before-after photos/debris and material status; mouse follow-up is now routine monitoring, with no further activity reported through October 25 (SRC-2026-074). Holdback release is completed as reported; exact date unknown.
+Attic duct repaired by Maxime October 11 (SRC-2026-077). Garage ceiling residual/debris and material checks deferred by homeowner (SRC-2026-080); homeowner photos archived (SRC-2026-079); seller before/after photos unavailable, with no further follow-up (SRC-2026-075); mouse follow-up is now routine monitoring, with no further activity reported through October 25 (SRC-2026-074). Holdback release is completed as reported; exact date unknown.
 
 ## September 15 Written Follow-Up
 
@@ -143,10 +141,10 @@ Source: [SRC-2026-066](../01-sources/chat/2026/2026-09-15-property-seller-calls-
 | Send stain text/photo to Jacob | Maxime | 2026-09-11 around 12:50 | Done; reply received |
 | Send selected friendly text about mice/traps and ceiling | Maxime | Exact send date unspecified; reported September 22 | Done; no reply as of September 22 (SRC-2026-069) |
 | Retain reply and any proposed arrangement | Maxime | Retired October 25 | No longer an active task; multiple texts unanswered (SRC-2026-075) |
-| Archive photos already taken | Maxime | To arrange | September 22 mouse-capture photo archived (SRC-2026-073); remaining photos not confirmed archived |
-| Check residual garage ceiling | Maxime | To arrange | Open; attic visual check completed, dry with no water seen (SRC-2026-078) |
+| Archive photos already taken | Maxime | To arrange for other photos | September 22 mouse-capture photo (SRC-2026-073) and four garage-ceiling photos (SRC-2026-079) archived; other previously reported photos not confirmed archived |
+| Check residual garage ceiling | Maxime | No date; deferred | Deferred by homeowner (SRC-2026-080); attic visual check completed, dry with no water seen (SRC-2026-078) |
 
-Continued texting and waiting for a seller reply are retired as active tasks at Maxime’s request on October 25 (SRC-2026-075). Seller-required before/after photos remain distinct from homeowner photographs; their absence does not create an active seller-contact task.
+Continued texting and waiting for a seller reply are retired as active tasks at Maxime’s request on October 25 (SRC-2026-075). Seller before/after photos are unavailable, with no further follow-up expected. Four homeowner photographs are archived separately (SRC-2026-079).
 
 ## September 22–23 Follow-Up
 
@@ -166,24 +164,37 @@ September 23 scope clarification: garage drain reuses existing pipe; gutters dra
 
 ## October 25 Mouse Follow-Up
 
-No further mice or sounds in the walls reported since the September 22 capture. Maxime's father says there are no more mice. Mouse activity is removed from immediate priorities; retain routine monitoring. Stain checks moved to routine monitoring after the dry attic observation (SRC-2026-078); garage-ceiling checks remain open; attic duct repair completed October 11 (SRC-2026-077).
+No further mice or sounds in the walls reported since the September 22 capture. Maxime's father says there are no more mice. Mouse activity is removed from immediate priorities; retain routine monitoring. Stain checks moved to routine monitoring after the dry attic observation (SRC-2026-078); garage-ceiling checks deferred by homeowner (SRC-2026-080); attic duct repair completed October 11 (SRC-2026-077).
 
 Sources: [SRC-2026-074](../01-sources/chat/2026/2026-10-25-property-mouse-activity-follow-up.md); [capture photo, SRC-2026-073](../01-sources/extractions/2026/2026-09-22-property-mouse-capture.md).
 
 ## October 25 Seller Contact Update
 
-Maxime reports multiple unanswered texts to Jacob and has retired seller contact follow-up from active priorities. Blocking or deliberate nonresponse is suspected, not confirmed. Stain checks moved to routine monitoring after the dry attic observation (SRC-2026-078); garage-ceiling checks remain open; attic duct repair completed October 11 (SRC-2026-077).
+Maxime reports multiple unanswered texts to Jacob and has retired seller contact follow-up from active priorities. Blocking or deliberate nonresponse is suspected, not confirmed. Stain checks moved to routine monitoring after the dry attic observation (SRC-2026-078); garage-ceiling checks deferred by homeowner (SRC-2026-080); attic duct repair completed October 11 (SRC-2026-077).
 
 Source: [SRC-2026-075](../01-sources/chat/2026/2026-10-25-property-seller-follow-up-retired.md).
 
 ## October 11 Attic Ventilation Repair
 
-Reported October 25: the seller had not repaired the attic ventilation. Maxime completed the repair himself on October 11, 2026; the result photo is archived. Repair completed / homeowner-reported. Stain checks moved to routine monitoring after the dry attic observation (SRC-2026-078); garage-ceiling checks remain open.
+Reported October 25: the seller had not repaired the attic ventilation. Maxime completed the repair himself on October 11, 2026; the result photo is archived. Repair completed / homeowner-reported. Stain checks moved to routine monitoring after the dry attic observation (SRC-2026-078); garage-ceiling checks deferred by homeowner (SRC-2026-080).
 
 Sources: [SRC-2026-077](../01-sources/chat/2026/2026-10-25-property-attic-duct-repair-completed.md); [repair photo note, SRC-2026-076](../01-sources/extractions/2026/2026-10-11-maintenance-attic-duct-repair.md).
 
 ## October 25 Painting and Stain Follow-Up
 
-Painting was completed by move day (recorded September 27); bedroom/bathroom stains are no longer visible. Maxime looked in the attic, saw no water and reports it looked dry. Exact painting completion day and attic observation date are unspecified. Stain checks are removed from current focus; retain routine monitoring for recurrence. Original cause remains unknown; Jacob reportedly said the stains predated his purchase. Garage-ceiling checks remain open. Painting was paid in full during the week: 4,650 CAD paid, 0 CAD remaining, homeowner-reported. Exact payment date, method and tax breakdown are unspecified.
+Painting was completed by move day (recorded September 27); bedroom/bathroom stains are no longer visible. Maxime looked in the attic, saw no water and reports it looked dry. Exact painting completion day and attic observation date are unspecified. Stain checks are removed from current focus; retain routine monitoring for recurrence. Original cause remains unknown; Jacob reportedly said the stains predated his purchase. Garage-ceiling checks deferred by homeowner (SRC-2026-080). Painting was paid in full during the week: 4,650 CAD paid, 0 CAD remaining, homeowner-reported. Exact payment date, method and tax breakdown are unspecified.
 
 Source: [SRC-2026-078](../01-sources/chat/2026/2026-10-25-property-stains-and-attic-check.md).
+
+## October 25 — Garage Ceiling Deferred
+
+Leave the garage ceiling as-is for now; it is not a current priority. Related residual-material, debris and material-composition checks are deferred by homeowner, with no work or review date set. Existing photos and unresolved facts remain on record.
+
+Source: [SRC-2026-080](../01-sources/chat/2026/2026-10-25-property-garage-ceiling-deferred.md).
+
+## Deferred Garage-Ceiling Actions
+
+| Action | Owner | Due Date | Related Area | Source | Status |
+|---|---|---|---|---|---|
+| Inspect house and verify remaining repairs and garage-ceiling condition | Maxime | Deferred; no date | Inspection / repairs | SRC-2026-012, SRC-2026-015, SRC-2026-064 | Deferred by homeowner (SRC-2026-080); partially verified; attic duct repaired by Maxime October 11 (SRC-2026-077); ceiling residual/debris checks deferred by homeowner (SRC-2026-080); homeowner photos archived (SRC-2026-079); seller before/after photos unavailable, follow-up retired (SRC-2026-075) |
+| Clarify garage-ceiling material analysis and handling history | Maxime | Before further disturbance | Garage / environmental | SRC-2026-012, SRC-2026-015 | Deferred by homeowner (SRC-2026-080) |

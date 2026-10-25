@@ -20,3 +20,9 @@
 
 - [September seller exchanges, SRC-2026-066](2026-09-15-property-seller-calls-and-follow-up.md).
 - [September 22 follow-up, SRC-2026-069](2026-09-22-property-seller-follow-up-and-mouse-traps.md).
+
+## Garage-Ceiling Photo Clarification — October 25
+
+Maxime states that the seller's before/after garage-ceiling photographs will never be obtained. Record them as unavailable, with no further follow-up expected; retire obtaining them as an active task. This does not confirm repair completion or material composition.
+
+Four homeowner-supplied garage-ceiling photographs are now archived in [SRC-2026-079](../../extractions/2026/2026-10-25-maintenance-garage-ceiling-photos.md). Keep these separate from the unavailable seller before/after set.

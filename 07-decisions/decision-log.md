@@ -46,3 +46,15 @@ Referral context: Daniel, a friend of Maxime's father, works for Martin. Full se
 [Seller follow-up, SRC-2026-069](../01-sources/chat/2026/2026-09-22-property-seller-follow-up-and-mouse-traps.md): sent; no answer as of September 22, no repair settlement established.
 
 [Truck reservation, SRC-2026-071](../01-sources/chat/2026/2026-09-23-moving-uhaul-reservation.md): U-Haul 15-foot truck, reservation 86175039, September 27 11:00–17:00, Boutique Potiron, Truck Share 24/7. Quoted 70.75 CAD plus tax; mileage discrepancy and payment status unresolved.
+
+## October 25 — Seller Garage-Ceiling Photos
+
+Record the seller's before/after photographs as unavailable and retire obtaining them as an active task. Four homeowner photographs are archived separately; remaining ceiling/debris checks are now deferred by homeowner (SRC-2026-080).
+
+Sources: [SRC-2026-075](../01-sources/chat/2026/2026-10-25-property-seller-follow-up-retired.md); [SRC-2026-079](../01-sources/extractions/2026/2026-10-25-maintenance-garage-ceiling-photos.md).
+
+## October 25 — Garage Ceiling Deferred
+
+Leave the garage ceiling as-is for now; it is not a current priority. Related residual-material, debris and material-composition checks are deferred by homeowner, with no work or review date set. Existing photos and unresolved facts remain on record.
+
+Source: [SRC-2026-080](../01-sources/chat/2026/2026-10-25-property-garage-ceiling-deferred.md).
