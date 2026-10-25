@@ -1,6 +1,6 @@
 # Open Questions
 
-Last updated: 2026-09-23
+Last updated: 2026-10-25 (mouse activity and seller contact follow-up; other statuses retain their earlier reporting dates)
 
 Closing is completed (SRC-2026-052). Receipt and settlement questions below remain documentation follow-ups; the new certificate is held (SRC-2026-051).
 
@@ -54,11 +54,11 @@ Source: [SRC-2026-066](../01-sources/chat/2026/2026-09-15-property-seller-calls-
 |---|---|
 | What caused the bedroom/bathroom stains, and is the condition recurring? | Unknown; seller says old, owner observed dry zones |
 | Did the inspector see/discuss these stains as Jacob states? | Not documented in report; seller statement only |
-| When/where did Jacob place mouse traps, and were any mice caught? | Asked in sent follow-up; no reply as of September 22 (SRC-2026-069) |
-| How extensive is current mouse activity and where are the entry points? | Four traps placed September 21; one capture September 22; extent/locations unknown (SRC-2026-069) |
+| When/where did Jacob place mouse traps, and were any mice caught? | Unanswered; seller contact follow-up retired October 25 (SRC-2026-069, SRC-2026-075) |
+| Has mouse activity recurred, and are entry points known? | No further mice or wall sounds reported since September 22, as of October 25; father says no more mice. Routine monitoring; entry points undocumented (SRC-2026-074) |
 | What exact electrical work occurred in 2010, and what establishes ceiling age/material? | Seller assertion; supporting records unspecified |
-| How will remaining ceiling sections be handled? | Follow-up sent; no reply as of September 22 or agreement reported (SRC-2026-069) |
-| Was the planned September 16 text sent and what was the response? | Sent, confirmed September 22; actual send date unspecified; no reply as of that report (SRC-2026-069) |
+| How will remaining ceiling sections be handled? | No agreement reported; seller contact follow-up retired October 25. Separate ceiling checks remain open (SRC-2026-069, SRC-2026-075) |
+| Was the planned September 16 text sent and what was the response? | Sent, confirmed September 22; actual send date unspecified. Multiple unanswered texts reported October 25; reply follow-up retired (SRC-2026-069, SRC-2026-075) |
 
 Stain photo transmission and reply are resolved: September 11 around 12:50. Owner photography is done as reported; archival and seller before/after photos remain separate follow-ups.
 
@@ -78,3 +78,15 @@ Stain photo transmission and reply are resolved: September 11 around 12:50. Owne
 [SRC-2026-067](../01-sources/extractions/2026/2026-09-21-renovation-marbel-quote.md); [SRC-2026-068](../01-sources/extractions/2026/2026-09-22-renovation-marbel-contact.md); [SRC-2026-069](../01-sources/chat/2026/2026-09-22-property-seller-follow-up-and-mouse-traps.md); [SRC-2026-070](../01-sources/chat/2026/2026-09-22-renovation-marbel-acceptance-and-scope.md); [SRC-2026-071](../01-sources/chat/2026/2026-09-23-moving-uhaul-reservation.md).
 
 September 23 clarification: [SRC-2026-072](../01-sources/chat/2026/2026-09-23-renovation-marbel-drainage-clarifications.md). Driveway excavation is 20 inches in writing and 20–25 inches verbally described depending on conditions. Garage pipe reuse and separate gutter routing are reported plans, not evidence of completed work.
+
+## October 25 Mouse Follow-Up
+
+No further mice or sounds in the walls reported since the September 22 capture. Maxime's father says there are no more mice. Mouse activity is removed from immediate priorities; retain routine monitoring. Attic, stain and ceiling checks remain separate.
+
+Sources: [SRC-2026-074](../01-sources/chat/2026/2026-10-25-property-mouse-activity-follow-up.md); [capture photo, SRC-2026-073](../01-sources/extractions/2026/2026-09-22-property-mouse-capture.md).
+
+## October 25 Seller Contact Update
+
+Maxime reports multiple unanswered texts to Jacob and has retired seller contact follow-up from active priorities. Blocking or deliberate nonresponse is suspected, not confirmed. Separate attic, stain and ceiling checks remain open.
+
+Source: [SRC-2026-075](../01-sources/chat/2026/2026-10-25-property-seller-follow-up-retired.md).

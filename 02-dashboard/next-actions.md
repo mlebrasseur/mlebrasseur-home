@@ -1,6 +1,6 @@
 # Next Actions
 
-Last updated: 2026-09-23
+Last updated: 2026-10-25 (mouse activity and seller contact follow-up; other statuses retain their earlier reporting dates)
 
 ## Urgent
 
@@ -131,7 +131,7 @@ Source: [SRC-2026-065](../01-sources/chat/2026/2026-09-14-renovation-painting-an
 
 Source: [SRC-2026-064](../01-sources/chat/2026/2026-09-14-property-handover-repairs-and-access.md). Reported September 14, 2026.
 
-Verify attic duct repair, garage ceiling residual/seller before-after photos/debris and material status; assess current mouse activity. Holdback release is completed as reported; exact date unknown.
+Verify attic duct repair, garage ceiling residual/seller before-after photos/debris and material status; mouse follow-up is now routine monitoring, with no further activity reported through October 25 (SRC-2026-074). Holdback release is completed as reported; exact date unknown.
 
 ## September 15 Written Follow-Up
 
@@ -142,19 +142,19 @@ Source: [SRC-2026-066](../01-sources/chat/2026/2026-09-15-property-seller-calls-
 | Photograph problems including dead mice | Maxime | Dates unspecified | Done / user-reported |
 | Send stain text/photo to Jacob | Maxime | 2026-09-11 around 12:50 | Done; reply received |
 | Send selected friendly text about mice/traps and ceiling | Maxime | Exact send date unspecified; reported September 22 | Done; no reply as of September 22 (SRC-2026-069) |
-| Retain reply and any proposed arrangement | Maxime | After response | Pending |
-| Archive photos already taken | Maxime | To arrange | Not confirmed archived |
-| Check attic/stains, continuing mouse activity and residual ceiling | Maxime | To arrange | Open |
+| Retain reply and any proposed arrangement | Maxime | Retired October 25 | No longer an active task; multiple texts unanswered (SRC-2026-075) |
+| Archive photos already taken | Maxime | To arrange | September 22 mouse-capture photo archived (SRC-2026-073); remaining photos not confirmed archived |
+| Check attic/stains and residual ceiling | Maxime | To arrange | Open |
 
-Continue communication with Jacob by text. Mice/ceiling follow-up sent; retain any reply. No response as of September 22 (SRC-2026-069). Seller-required before/after photos remain distinct from homeowner photographs.
+Continued texting and waiting for a seller reply are retired as active tasks at Maxime’s request on October 25 (SRC-2026-075). Seller-required before/after photos remain distinct from homeowner photographs; their absence does not create an active seller-contact task.
 
 ## September 22–23 Follow-Up
 
 | Action | Timing | Status | Source |
 |---|---|---|---|
 | Install four mouse traps | September 21 | Done by Maxime's father | SRC-2026-069 |
-| Record first capture from these traps | September 22 | One mouse captured | SRC-2026-069 |
-| Monitor further captures and assess entry points | Ongoing | Open; extent unknown | SRC-2026-069 |
+| Record first capture from these traps | September 22, 9:50 AM | One mouse captured by Maxime’s father; photo archived October 25 | SRC-2026-069, SRC-2026-073, SRC-2026-074 |
+| Monitor for renewed mouse activity | Routine | No further mice or wall sounds reported since September 22, as of October 25; removed from immediate priorities | SRC-2026-074 |
 | Clarify U-Haul kilometre estimate | Before pickup / final billing | 13 × 1.19 = 15.47, but quote lists 23.80; subtotal retained at 70.75 plus tax | SRC-2026-071 |
 | Retain final truck invoice and payment evidence | After rental | Pending; no payment recorded | SRC-2026-071 |
 
@@ -163,3 +163,15 @@ Continue communication with Jacob by text. Mice/ceiling follow-up sent; retain a
 [SRC-2026-067](../01-sources/extractions/2026/2026-09-21-renovation-marbel-quote.md); [SRC-2026-069](../01-sources/chat/2026/2026-09-22-property-seller-follow-up-and-mouse-traps.md); [SRC-2026-070](../01-sources/chat/2026/2026-09-22-renovation-marbel-acceptance-and-scope.md); [SRC-2026-071](../01-sources/chat/2026/2026-09-23-moving-uhaul-reservation.md).
 
 September 23 scope clarification: garage drain reuses existing pipe; gutters drain separately beside the wall/property edge, joining neighbour gutter drainage. Driveway excavation: 20 inches written, 20–25 inches verbally explained depending on conditions. [SRC-2026-072](../01-sources/chat/2026/2026-09-23-renovation-marbel-drainage-clarifications.md).
+
+## October 25 Mouse Follow-Up
+
+No further mice or sounds in the walls reported since the September 22 capture. Maxime's father says there are no more mice. Mouse activity is removed from immediate priorities; retain routine monitoring. Attic, stain and ceiling checks remain separate.
+
+Sources: [SRC-2026-074](../01-sources/chat/2026/2026-10-25-property-mouse-activity-follow-up.md); [capture photo, SRC-2026-073](../01-sources/extractions/2026/2026-09-22-property-mouse-capture.md).
+
+## October 25 Seller Contact Update
+
+Maxime reports multiple unanswered texts to Jacob and has retired seller contact follow-up from active priorities. Blocking or deliberate nonresponse is suspected, not confirmed. Separate attic, stain and ceiling checks remain open.
+
+Source: [SRC-2026-075](../01-sources/chat/2026/2026-10-25-property-seller-follow-up-retired.md).

@@ -34,7 +34,7 @@
 
 Source: [SRC-2026-064](../01-sources/chat/2026/2026-09-14-property-handover-repairs-and-access.md). Reported September 14, 2026.
 
-Verify attic duct, residual garage ceiling, photos/debris status and material composition; assess current mouse activity. Holdback is released as reported; repair verification remains partial.
+Verify attic duct, residual garage ceiling, photos/debris status and material composition; mouse activity is now under routine monitoring, with no further activity reported through October 25 (SRC-2026-074). Holdback is released as reported; repair verification remains partial.
 
 ## Gutters and Installation
 
@@ -57,9 +57,9 @@ Source: [SRC-2026-066](../01-sources/chat/2026/2026-09-15-property-seller-calls-
 | Task | Status | Timing |
 |---|---|---|
 | Photograph observed issues, including dead mice | Done / homeowner report | Exact dates unknown |
-| Archive existing photos and copied exchanges | Pending; archive paths not supplied | To arrange |
+| Archive existing photos and copied exchanges | September 22 mouse-capture photo archived (SRC-2026-073); other evidence pending | To arrange |
 | Check attic above bedroom/bathroom stains and previously required duct repair | Open | To arrange |
-| Monitor captures and assess mouse entry points | Open; four traps September 21, one capture September 22 (SRC-2026-069) | Ongoing |
+| Monitor for renewed mouse activity | No further mice or wall sounds since September 22, reported October 25 (SRC-2026-074) | Routine |
 | Clarify ceiling material and any supporting 2010 work records | Open; seller statements unverified | Before further disturbance |
 
 Retain a distinction between owner photos already taken and seller-required before/after photos still absent from the record.
@@ -68,8 +68,14 @@ Retain a distinction between owner photos already taken and seller-required befo
 
 Source: [SRC-2026-069](../01-sources/chat/2026/2026-09-22-property-seller-follow-up-and-mouse-traps.md).
 
-Maxime's father installed four traps September 21; one mouse captured September 22. Locations, extent and entry points are unknown. Continue recording captures; one catch does not establish resolution. Seller follow-up was sent, exact date unspecified; no answer as of September 22. Attic/stain/ceiling checks remain open.
+Maxime's father installed four traps September 21; one mouse captured September 22. Locations, extent and entry points are unknown. As of October 25, no further mice or wall sounds reported since that capture; retain routine monitoring (SRC-2026-074). Seller follow-up was sent, exact date unspecified; no answer as of September 22. Attic/stain/ceiling checks remain open.
 
 Exterior scope: [Marbel acceptance, SRC-2026-070](../01-sources/chat/2026/2026-09-22-renovation-marbel-acceptance-and-scope.md).
 
 September 23 scope clarification: [SRC-2026-072](../01-sources/chat/2026/2026-09-23-renovation-marbel-drainage-clarifications.md). Garage drain reuses existing pipe; gutters drain separately beside wall/property edge and join neighbour gutter drainage.
+
+## October 25 Mouse Follow-Up
+
+No further mice or sounds in the walls reported since the September 22 capture. Maxime's father says there are no more mice. Mouse activity is removed from immediate priorities; retain routine monitoring. Attic, stain and ceiling checks remain separate.
+
+Sources: [SRC-2026-074](../01-sources/chat/2026/2026-10-25-property-mouse-activity-follow-up.md); [capture photo, SRC-2026-073](../01-sources/extractions/2026/2026-09-22-property-mouse-capture.md).

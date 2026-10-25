@@ -1,6 +1,6 @@
 # Risks
 
-Last updated: 2026-09-23
+Last updated: 2026-10-25 (mouse activity only; other statuses retain their earlier reporting dates)
 
 | Risk | Area | Severity | Likelihood | Source | Mitigation | Status |
 |---|---|---|---|---|---|---|
@@ -26,20 +26,26 @@ Last updated: 2026-09-23
 
 Source: [SRC-2026-064](../01-sources/chat/2026/2026-09-14-property-handover-repairs-and-access.md). Reported September 14, 2026.
 
-Two dead mice found and suspected mouse heard in basement/garage wall on September 9. September 22 update: four traps placed September 21, one mouse captured September 22; current activity confirmed by homeowner report, extent and entry points unknown (SRC-2026-069).
+Two dead mice found and suspected mouse heard in basement/garage wall on September 9. September 22 update: four traps placed September 21, one mouse captured September 22; activity confirmed at that time by homeowner report (SRC-2026-069). As of October 25, no further mice or wall sounds reported since that capture (SRC-2026-074).
 
 ## September 15 Stains and Mouse Follow-Up
 
 Source: [SRC-2026-066](../01-sources/chat/2026/2026-09-15-property-seller-calls-and-follow-up.md). Reported September 14–15; updated September 15, 2026.
 
-Water-like stains in left-side bedroom and main-floor bathroom are of unknown cause/age; dry during reported rain. Inspection page 12's negative visual attic finding is dated June 6, not a current diagnosis. Continuing sounds attributed to mice remain to assess. Jacob's alleged 2010 electrical/ceiling history and assertion of no asbestos do not confirm material composition. Photos taken; technical checks remain open.
+Water-like stains in left-side bedroom and main-floor bathroom are of unknown cause/age; dry during reported rain. Inspection page 12's negative visual attic finding is dated June 6, not a current diagnosis. Sounds attributed to mice were reported then; no wall sounds reported since September 22 as of October 25 (SRC-2026-074). Jacob's alleged 2010 electrical/ceiling history and assertion of no asbestos do not confirm material composition. Photos taken; technical checks remain open.
 
 ## September 22 Mouse Capture
 
-Maxime’s father installed four traps September 21 and one mouse was captured September 22. Continue monitoring and assessing entry points; one capture does not establish resolution or extent. Seller follow-up sent with no answer as of September 22. (SRC-2026-069)
+Maxime’s father installed four traps September 21 and one mouse was captured September 22. October 25 follow-up reports no further mice or wall sounds since this capture; routine monitoring replaces immediate follow-up (SRC-2026-074). Seller follow-up sent with no answer as of September 22. (SRC-2026-069)
 
 ## September 22–23 Sources
 
 [SRC-2026-067](../01-sources/extractions/2026/2026-09-21-renovation-marbel-quote.md); [SRC-2026-069](../01-sources/chat/2026/2026-09-22-property-seller-follow-up-and-mouse-traps.md); [SRC-2026-070](../01-sources/chat/2026/2026-09-22-renovation-marbel-acceptance-and-scope.md).
 
 September 23 routing source: [SRC-2026-072](../01-sources/chat/2026/2026-09-23-renovation-marbel-drainage-clarifications.md).
+
+## October 25 Mouse Follow-Up
+
+No further mice or sounds in the walls reported since the September 22 capture. Maxime's father says there are no more mice. Mouse activity is removed from immediate priorities; retain routine monitoring. Attic, stain and ceiling checks remain separate.
+
+Sources: [SRC-2026-074](../01-sources/chat/2026/2026-10-25-property-mouse-activity-follow-up.md); [capture photo, SRC-2026-073](../01-sources/extractions/2026/2026-09-22-property-mouse-capture.md).

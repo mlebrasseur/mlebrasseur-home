@@ -1,6 +1,6 @@
 # Current Status
 
-Last updated: 2026-09-23
+Last updated: 2026-10-25 (mouse activity and seller contact follow-up; other statuses retain their earlier reporting dates)
 
 ## Snapshot
 
@@ -13,12 +13,12 @@ Last updated: 2026-09-23
 | Insurance | Intact policy KK6-79EW bound effective 2026-08-31 | SRC-2026-042, SRC-2026-043 | 581,000 CAD building coverage; 1,691 CAD premium before taxes/fees; LRV receipt and policy-declaration review remain open |
 | Moving | September 27 move planned; U-Haul reservation 86175039 confirmed, 11:00–17:00 | SRC-2026-065, SRC-2026-071 | 15-foot truck, Boutique Potiron; mobile required; Internet September 28 and appliances September 29 planned |
 | Utilities | Hydro signup effective September 9; Internet planned September 28 | SRC-2026-053, SRC-2026-065 | Internet provider/details unknown |
-| Inspection / repairs | Seller follow-up sent; no reply as of September 22. Four traps placed September 21; one mouse captured September 22 | SRC-2026-064, SRC-2026-069 | Current mouse activity reported; extent/entry points unknown. Attic and remaining garage ceiling checks open; holdback released |
+| Inspection / repairs | Seller contact follow-up retired October 25 after multiple unanswered texts (SRC-2026-075). Four traps placed September 21; one mouse captured September 22 | SRC-2026-064, SRC-2026-069 | No further mice or wall sounds reported since September 22, as of October 25 (SRC-2026-074); routine monitoring. Attic and remaining garage ceiling checks open; holdback released |
 | Renovations | Marbel quote accepted; 27,700 CAD subtotal, 800 extra separately listed; painting committed at 4,650 CAD | SRC-2026-065, SRC-2026-067, SRC-2026-070 | Marbel start expected week of September 28 or October 5; exact date, extra inclusion, final taxes and payments unknown |
 
 ## Current Focus
 
-- Monitor traps and assess mouse entry points after one capture September 22. Seller follow-up sent; no reply as of September 22. Complete remaining attic/ceiling checks. (SRC-2026-064, SRC-2026-069)
+- Verify the attic ventilation duct repair and remaining garage-ceiling work. (SRC-2026-064)
 - Prepare September 27 move: collect 15-foot U-Haul at Boutique Potiron at 11:00 with a mobile device; return by 17:00. Clarify quoted mileage. Internet September 28 and appliances September 29 remain planned; remove old dishwasher first. Measure windows/order blinds and arrange exterior disposal. (SRC-2026-065, SRC-2026-071)
 - Retain executed deeds, registered mortgage amount and exact funding date. Trust receipt, fees and tax/occupancy adjustments now reconcile; first mortgage payment September 1 is user-reported paid. (SRC-2026-056, SRC-2026-057, SRC-2026-059, SRC-2026-060, SRC-2026-063)
 - Certificate received: record notary treatment of boundary/setback findings and any title insurance or compensation. (SRC-2026-051)
@@ -82,7 +82,7 @@ Access reset September 9–10. Holdback released. Remaining repair checks and mo
 
 Source: [SRC-2026-066](../01-sources/chat/2026/2026-09-15-property-seller-calls-and-follow-up.md). Reported September 14–15; updated September 15, 2026.
 
-Photos of all issues already taken; stain photo/text sent September 11 around 12:50 with seller reply received. Cernes in left-side bedroom and main-floor bathroom observed dry during rain; cause unknown. Continuing mouse sounds reported. September 22 update: selected mice/ceiling text sent; exact send date unspecified, no answer as of September 22 and no agreement reported (SRC-2026-069). Communication by text chosen. Holdback remains released; remaining technical checks stay open.
+Photos of all issues already taken; stain photo/text sent September 11 around 12:50 with seller reply received. Cernes in left-side bedroom and main-floor bathroom observed dry during rain; cause unknown. Mouse sounds were reported in September; none reported since the September 22 capture as of October 25 (SRC-2026-074). September 22 update: selected mice/ceiling text sent; exact send date unspecified, no answer as of September 22 and no agreement reported (SRC-2026-069). Communication by text chosen. Holdback remains released; remaining technical checks stay open.
 
 ## September 22–23 Update
 
@@ -93,3 +93,15 @@ Four traps installed by Maxime’s father September 21; one mouse captured Septe
 [SRC-2026-067](../01-sources/extractions/2026/2026-09-21-renovation-marbel-quote.md); [SRC-2026-068](../01-sources/extractions/2026/2026-09-22-renovation-marbel-contact.md); [SRC-2026-069](../01-sources/chat/2026/2026-09-22-property-seller-follow-up-and-mouse-traps.md); [SRC-2026-070](../01-sources/chat/2026/2026-09-22-renovation-marbel-acceptance-and-scope.md); [SRC-2026-071](../01-sources/chat/2026/2026-09-23-moving-uhaul-reservation.md).
 
 September 23: driveway excavation remains 20 inches in the quote; Martin verbally described 20–25 inches depending on conditions. Garage drain reuses the existing pipe; separate gutter routing beside the wall/property edge joins neighbour gutter drainage. Planned work, homeowner-reported. [SRC-2026-072](../01-sources/chat/2026/2026-09-23-renovation-marbel-drainage-clarifications.md).
+
+## October 25 Mouse Follow-Up
+
+No further mice or sounds in the walls reported since the September 22 capture. Maxime's father says there are no more mice. Mouse activity is removed from immediate priorities; retain routine monitoring. Attic, stain and ceiling checks remain separate.
+
+Sources: [SRC-2026-074](../01-sources/chat/2026/2026-10-25-property-mouse-activity-follow-up.md); [capture photo, SRC-2026-073](../01-sources/extractions/2026/2026-09-22-property-mouse-capture.md).
+
+## October 25 Seller Contact Update
+
+Maxime reports multiple unanswered texts to Jacob and has retired seller contact follow-up from active priorities. Blocking or deliberate nonresponse is suspected, not confirmed. Separate attic, stain and ceiling checks remain open.
+
+Source: [SRC-2026-075](../01-sources/chat/2026/2026-10-25-property-seller-follow-up-retired.md).

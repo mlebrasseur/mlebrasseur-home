@@ -25,3 +25,9 @@ Retain any reply and monitor further captures. Existing attic, stain, residual c
 
 - [Earlier seller exchanges and planned message, SRC-2026-066](2026-09-15-property-seller-calls-and-follow-up.md).
 - [Handover observations, SRC-2026-064](2026-09-14-property-handover-repairs-and-access.md).
+
+## October 25, 2026 — Subsequent Clarification
+
+Maxime identifies his father as the person who captured the mouse on September 22 at 9:50 AM and supplied the photo his father sent him. This is the same capture reported above. [Photo, SRC-2026-073](../../extractions/2026/2026-09-22-property-mouse-capture.md).
+
+As of October 25, Maxime reports no further mice or sounds in the walls since that capture; his father says there are no more mice. Current status: no further activity reported; routine monitoring. [Follow-up, SRC-2026-074](2026-10-25-property-mouse-activity-follow-up.md).
