@@ -27,7 +27,7 @@
 
 | Task | Owner | Due Date | Source | Status | Notes |
 |---|---|---|---|---|---|
-| Confirm seller repairs are complete | Seller / broker | Post-handover | SRC-2026-012, SRC-2026-015 | Partially verified | Holdback released; attic duct unchecked and ceiling residual remains (SRC-2026-064) |
+| Confirm seller repairs are complete | Seller / broker | Post-handover | SRC-2026-012, SRC-2026-015 | Partially verified | Holdback released; attic duct repaired by Maxime October 11 (SRC-2026-077); ceiling residual remains (SRC-2026-064) |
 | Obtain garage-ceiling before/after photos | Seller / broker | Before occupancy | SRC-2026-012 | Open | Required by MO-57236 |
 | Contact at least 3 contractors for garage driveway/drainage/retaining-wall project | User | 2026-07-31 | SRC-2026-015, SRC-2026-020, SRC-2026-021, SRC-2026-037, SRC-2026-046, SRC-2026-048 | Done | All five shortlisted contractors were emailed. K.I. Bon later visited and provided a written estimate; Karl Morin's comparison quote is pending. |
 | Contact at least 3 foundation crack specialists | User | 2026-07-31 | SRC-2026-015, SRC-2026-021, SRC-2026-037, SRC-2026-047, SRC-2026-048, SRC-2026-049 | Done | All five shortlisted specialists were emailed. Akton and Fissure et Drain Laval later visited; Akton provided written estimate ESTF107164, while Jacques's proposal remains verbal. |
@@ -41,3 +41,9 @@
 Source: [SRC-2026-065](../../01-sources/chat/2026/2026-09-14-renovation-painting-and-moving-schedule.md). Reported September 14, 2026.
 
 Painters engaged for main floor, common areas and side entrance in white, 4,650 CAD committed. Work dates and payments unknown. Estimated move September 27; Internet September 28; appliances September 29. Window measurements/blinds, disposal, security assessment and gutter drainage options remain to arrange.
+
+## October 11 Attic Ventilation Repair
+
+Reported October 25: the seller had not repaired the attic ventilation. Maxime completed the repair himself on October 11, 2026; the result photo is archived. Repair completed / homeowner-reported. Separate bedroom/bathroom stain and garage-ceiling checks remain open.
+
+Sources: [SRC-2026-077](../../01-sources/chat/2026/2026-10-25-property-attic-duct-repair-completed.md); [repair photo note, SRC-2026-076](../../01-sources/extractions/2026/2026-10-11-maintenance-attic-duct-repair.md).

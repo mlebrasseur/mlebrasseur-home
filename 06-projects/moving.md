@@ -1,6 +1,6 @@
 # Moving
 
-Last updated: 2026-09-23
+Last updated: 2026-10-25 (attic duct repair; other statuses retain their earlier reporting dates)
 
 ## Status
 
@@ -15,7 +15,7 @@ Last updated: 2026-09-23
 | Task | Owner | Due Date | Source | Status | Notes |
 |---|---|---|---|---|---|
 | Collect keys and obtain access from Jacob | Maxime | 2026-09-09 at 13:00 | SRC-2026-064 | Done / access received | Seller supplied side-door code. |
-| Inspect house and verify seller repairs | Maxime | Follow-up date unset | SRC-2026-064 | Partially verified | Fan switch and basement light repaired; ceiling less than 5% remaining; attic duct unchecked. |
+| Inspect house and verify seller repairs | Maxime | Follow-up date unset | SRC-2026-064 | Partially verified | Fan switch and basement light repaired; ceiling less than 5% remaining; attic duct repaired by Maxime October 11 (SRC-2026-077). |
 | Measure appliance spaces | Maxime | After house inspection; before ordering | SRC-2026-053 | Planned | Record dimensions in appliances.md |
 | Order/buy household appliances | Maxime | After measurements | SRC-2026-053 | Delivery planned | Arrival September 29; models, costs and order details unknown (SRC-2026-065) |
 | Move into the house | Maxime | 2026-09-27 | SRC-2026-071 | Planned; truck reservation confirmed | 11:00–17:00; six hours requested subject to availability; mobile device required |
@@ -63,3 +63,9 @@ Quoted costs: truck 29.95 CAD, Collision Damage Waiver 16.00, estimated kilometr
 Coordinate Marbel work access with the move, September 28 Internet and September 29 appliance delivery. Marbel start is expected during the week of September 28 or October 5, exact day pending ([SRC-2026-070](../01-sources/chat/2026/2026-09-22-renovation-marbel-acceptance-and-scope.md)).
 
 Gutter routing clarified September 23: [SRC-2026-072](../01-sources/chat/2026/2026-09-23-renovation-marbel-drainage-clarifications.md). Separate from the garage drain, beside the wall at the property edge, joining neighbour gutter drainage.
+
+## October 11 Attic Ventilation Repair
+
+Reported October 25: the seller had not repaired the attic ventilation. Maxime completed the repair himself on October 11, 2026; the result photo is archived. Repair completed / homeowner-reported. Separate bedroom/bathroom stain and garage-ceiling checks remain open.
+
+Sources: [SRC-2026-077](../01-sources/chat/2026/2026-10-25-property-attic-duct-repair-completed.md); [repair photo note, SRC-2026-076](../01-sources/extractions/2026/2026-10-11-maintenance-attic-duct-repair.md).

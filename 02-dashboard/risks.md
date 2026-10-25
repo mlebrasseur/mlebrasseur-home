@@ -1,6 +1,6 @@
 # Risks
 
-Last updated: 2026-10-25 (mouse activity only; other statuses retain their earlier reporting dates)
+Last updated: 2026-10-25 (mouse activity and attic duct repair; other statuses retain their earlier reporting dates)
 
 | Risk | Area | Severity | Likelihood | Source | Mitigation | Status |
 |---|---|---|---|---|---|---|
@@ -12,7 +12,7 @@ Last updated: 2026-10-25 (mouse activity only; other statuses retain their earli
 | Fraudulent or misdirected closing-fund instructions could cause an irreversible loss. | Legal / closing security | High | Low | SRC-2026-034, SRC-2026-056, SRC-2026-059 | Original transfer receipt and additional debit now reconciled; independently verify any future changed instructions using known contact details. | Original receipt resolved; future-payment precaution |
 | The submitted closing transfer may not have reached LRV. | Legal / finance | High | Low | SRC-2026-045, SRC-2026-059 | Buyer trust statement records 130,038.27 received; retain banking date/method evidence. | Resolved by notary statement |
 | Remaining school-tax installment could be missed. | Finance / taxes | Medium | Unknown | SRC-2026-058, SRC-2026-060, SRC-2026-062 | September 186.52 paid September 8 as reported; verify posting and pay 196.74 by December 9. Municipal year fully seller-paid per notary adjustment. | December installment open |
-| Seller repairs remain partially verified after handover. | Inspection / repairs | High | Confirmed partial verification | SRC-2026-012, SRC-2026-064 | Verify attic duct, remaining ceiling and photos/debris status. | Open; 1,500 CAD holdback released |
+| Seller repairs remain partially verified after handover. | Inspection / repairs | High | Confirmed partial verification | SRC-2026-012, SRC-2026-064 | Attic duct repaired by Maxime October 11 (SRC-2026-077); verify remaining ceiling and photos/debris status. | Open; 1,500 CAD holdback released |
 | Garage ceiling material composition remains unknown after removal. | Garage / environmental | High | Unknown | SRC-2026-015, SRC-2026-064 | Clarify material analysis and handling history, including residual material. | Open; ceiling removed by hand with less than 5% remaining as reported |
 | Garage water-management outcome remains unverified while drainage work is pending. | Garage / drainage | High | Unknown | SRC-2026-015, SRC-2026-067, SRC-2026-070, SRC-2026-072 | Planned large drain reuses existing pipe; gutters drain separately beside wall/property edge to join neighbour gutter drainage. Concrete connection verbally committed. | Work pending; reported routing does not establish pipe condition or completed performance |
 | A three-crack repair scope could be accepted before confirming whether the two under-window conditions are in infill blocks or the poured foundation. | Foundation | Medium | Medium | SRC-2026-015, SRC-2026-047, SRC-2026-048, SRC-2026-049 | Expose and document the crack paths; clarify Akton's A/B/C locations, warranty exclusions and rear-window observation; obtain Fissure et Drain Laval's written scope before selection. | Open |
@@ -46,6 +46,12 @@ September 23 routing source: [SRC-2026-072](../01-sources/chat/2026/2026-09-23-r
 
 ## October 25 Mouse Follow-Up
 
-No further mice or sounds in the walls reported since the September 22 capture. Maxime's father says there are no more mice. Mouse activity is removed from immediate priorities; retain routine monitoring. Attic, stain and ceiling checks remain separate.
+No further mice or sounds in the walls reported since the September 22 capture. Maxime's father says there are no more mice. Mouse activity is removed from immediate priorities; retain routine monitoring. Stain and garage-ceiling checks remain separate; attic duct repair completed October 11 (SRC-2026-077).
 
 Sources: [SRC-2026-074](../01-sources/chat/2026/2026-10-25-property-mouse-activity-follow-up.md); [capture photo, SRC-2026-073](../01-sources/extractions/2026/2026-09-22-property-mouse-capture.md).
+
+## October 11 Attic Ventilation Repair
+
+Reported October 25: the seller had not repaired the attic ventilation. Maxime completed the repair himself on October 11, 2026; the result photo is archived. Repair completed / homeowner-reported. Separate bedroom/bathroom stain and garage-ceiling checks remain open.
+
+Sources: [SRC-2026-077](../01-sources/chat/2026/2026-10-25-property-attic-duct-repair-completed.md); [repair photo note, SRC-2026-076](../01-sources/extractions/2026/2026-10-11-maintenance-attic-duct-repair.md).

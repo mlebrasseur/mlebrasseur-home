@@ -47,7 +47,7 @@ Last updated: 2026-09-15
 | Confirm tax adjustments for municipal and school taxes | Maxime / LRV | August 31 adjustment | SRC-2026-058, SRC-2026-059, SRC-2026-060 | Done / statement held | Municipal year seller-paid; buyer charge 1,604.87, school credit 55.54, occupancy credit 893.71; net 655.62. |
 | Confirm notary treatment of received certificate and any compensation | Maxime / Audrey-Ann Lapierre | Post-closing reconciliation | SRC-2026-011, SRC-2026-027, SRC-2026-043 | Open | Seller also pays title insurance if Audrey-Ann judges necessary |
 | Confirm handling of seller mortgage and Bell Canada servitude |  | Post-closing reconciliation | SRC-2026-003, SRC-2026-043 | Open | Mortgage to Caisse Desjardins de Terrebonne and Bell servitude 214 731 disclosed |
-| Inspect house and verify seller repair completion and garage-ceiling photos | Maxime | After keys/access on 2026-09-09 at 13:00 | SRC-2026-012, SRC-2026-015, SRC-2026-064 | Partially verified | Switch/light repaired; attic unchecked; ceiling residual, debris and photos to verify. |
+| Inspect house and verify seller repair completion and garage-ceiling photos | Maxime | After keys/access on 2026-09-09 at 13:00 | SRC-2026-012, SRC-2026-015, SRC-2026-064 | Partially verified | Switch/light repaired; attic duct repaired by Maxime October 11 (SRC-2026-077); ceiling residual, debris and photos to verify. |
 | Bind home insurance and obtain proof meeting LRV requirements | Maxime | Before 2026-08-26 | SRC-2026-042, SRC-2026-043 | Done | Intact policy effective 2026-08-31 with 581,000 CAD building coverage and Desjardins named as first mortgage creditor |
 | Confirm LRV received and accepted the insurance proof | Maxime / Sarah-Maude Lapierre | Post-closing reconciliation | SRC-2026-042, SRC-2026-043 | Open | Repository possession is not proof of transmission to LRV |
 | Transfer requested closing funds only through Assyst Paiement | Maxime | Submission reported August 10 | SRC-2026-034, SRC-2026-043, SRC-2026-045, SRC-2026-059 | Submitted / amount and trust receipt corroborated | Method remains context-inferred; notary records 130,038.27 received. |
@@ -126,3 +126,9 @@ Source: [SRC-2026-066](../01-sources/chat/2026/2026-09-15-property-seller-calls-
 - September 11 around 12:50: stain text/photo sent and reply received. Jacob denies water during his ownership and says the inspector saw the stains; the report does not document that exchange.
 - Owner photos taken, including dead mice. Seller before/after photos remain separate. Continuing mouse sounds reported.
 - Short friendly text about mice/traps and finishing the ceiling selected for September 16. Communication by text chosen; sending/scheduling and any agreement unconfirmed. Holdback remains released.
+
+## October 11 Attic Ventilation Repair
+
+Reported October 25: the seller had not repaired the attic ventilation. Maxime completed the repair himself on October 11, 2026; the result photo is archived. Repair completed / homeowner-reported. Separate bedroom/bathroom stain and garage-ceiling checks remain open.
+
+Sources: [SRC-2026-077](../01-sources/chat/2026/2026-10-25-property-attic-duct-repair-completed.md); [repair photo note, SRC-2026-076](../01-sources/extractions/2026/2026-10-11-maintenance-attic-duct-repair.md).

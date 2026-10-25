@@ -1,6 +1,6 @@
 # Open Questions
 
-Last updated: 2026-10-25 (mouse activity and seller contact follow-up; other statuses retain their earlier reporting dates)
+Last updated: 2026-10-25 (mouse activity, seller contact and attic duct repair; other statuses retain their earlier reporting dates)
 
 Closing is completed (SRC-2026-052). Receipt and settlement questions below remain documentation follow-ups; the new certificate is held (SRC-2026-051).
 
@@ -15,7 +15,7 @@ Closing is completed (SRC-2026-052). Receipt and settlement questions below rema
 | What is the actual mortgage disbursement date? | Financing | Medium | SRC-2026-041, SRC-2026-059, SRC-2026-063 | Maxime / Desjardins | Open for funding date | 512,000 received per LRV; first 2,590.74 payment September 1 now user-reported paid. August 28 remains a planned funding date only. |
 | Can Michael Sciascia provide a complete written mortgage proposal that improves on Desjardins without putting the closing schedule at risk? | Financing | High | SRC-2026-035, SRC-2026-036 | Maxime / Michael Sciascia | Retired after closing | Compare lender, rate, rate hold, term, payment, penalties, privileges, fees, approval conditions, and notary timing |
 | Are the Intact policy declarations and optional coverages accurate? | Insurance | High | SRC-2026-003, SRC-2026-015, SRC-2026-042 | Maxime / Agence La Turquoise | Open | Review two-unit use, professional activity, renovation years, water protection, and the spa/pool coverage charge despite the policy saying no pool |
-| Have remaining repairs and garage-ceiling photos/debris been verified? | Inspection / repairs | High | SRC-2026-012, SRC-2026-064 | Maxime | Partially resolved | Fan switch/light repaired; ceiling less than 5% remaining, attic unchecked; no photos in record. Holdback released. |
+| Have remaining repairs and garage-ceiling photos/debris been verified? | Inspection / repairs | High | SRC-2026-012, SRC-2026-064 | Maxime | Partially resolved | Fan switch/light repaired; ceiling less than 5% remaining; attic duct repaired by Maxime October 11 (SRC-2026-077), repair photo archived (SRC-2026-076); garage-ceiling photos absent. Holdback released. |
 | Does the garage ceiling material contain asbestos? | Garage / environmental | High | SRC-2026-015 |  | Open | Inspector recommended sample analysis |
 | What is the actual water heater installation year, 2021 or 2023? | Plumbing / insurance | Medium | SRC-2026-003, SRC-2026-015, SRC-2026-042 |  | Open | Seller declaration says 2023; inspection report and Intact policy say 2021 |
 | Was the roof covering installed in 2015 or renovated in 2016? | Roof / insurance | Medium | SRC-2026-003, SRC-2026-042 |  | Open | Seller declaration says 2015; Intact policy records 2016 |
@@ -81,12 +81,18 @@ September 23 clarification: [SRC-2026-072](../01-sources/chat/2026/2026-09-23-re
 
 ## October 25 Mouse Follow-Up
 
-No further mice or sounds in the walls reported since the September 22 capture. Maxime's father says there are no more mice. Mouse activity is removed from immediate priorities; retain routine monitoring. Attic, stain and ceiling checks remain separate.
+No further mice or sounds in the walls reported since the September 22 capture. Maxime's father says there are no more mice. Mouse activity is removed from immediate priorities; retain routine monitoring. Stain and garage-ceiling checks remain separate; attic duct repair completed October 11 (SRC-2026-077).
 
 Sources: [SRC-2026-074](../01-sources/chat/2026/2026-10-25-property-mouse-activity-follow-up.md); [capture photo, SRC-2026-073](../01-sources/extractions/2026/2026-09-22-property-mouse-capture.md).
 
 ## October 25 Seller Contact Update
 
-Maxime reports multiple unanswered texts to Jacob and has retired seller contact follow-up from active priorities. Blocking or deliberate nonresponse is suspected, not confirmed. Separate attic, stain and ceiling checks remain open.
+Maxime reports multiple unanswered texts to Jacob and has retired seller contact follow-up from active priorities. Blocking or deliberate nonresponse is suspected, not confirmed. Separate stain and garage-ceiling checks remain open; attic duct repair completed October 11 (SRC-2026-077).
 
 Source: [SRC-2026-075](../01-sources/chat/2026/2026-10-25-property-seller-follow-up-retired.md).
+
+## October 11 Attic Ventilation Repair
+
+Reported October 25: the seller had not repaired the attic ventilation. Maxime completed the repair himself on October 11, 2026; the result photo is archived. Repair completed / homeowner-reported. Separate bedroom/bathroom stain and garage-ceiling checks remain open.
+
+Sources: [SRC-2026-077](../01-sources/chat/2026/2026-10-25-property-attic-duct-repair-completed.md); [repair photo note, SRC-2026-076](../01-sources/extractions/2026/2026-10-11-maintenance-attic-duct-repair.md).

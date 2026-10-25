@@ -15,7 +15,7 @@
 
 | Task | Priority | Due Date | Related Area | Source | Status | Notes |
 |---|---|---|---|---|---|---|
-| Complete remaining seller-repair checks | High | Post-handover | Repairs / legal | SRC-2026-012, SRC-2026-015 | Partially verified | Basement light, attic duct, bathroom fan switch, garage ceiling removal; holdback released (SRC-2026-064) |
+| Complete remaining seller-repair checks | High | Post-handover | Repairs / legal | SRC-2026-012, SRC-2026-015 | Partially verified | Basement light and fan switch verified (SRC-2026-064); attic duct repaired by Maxime October 11 (SRC-2026-077); garage-ceiling checks remain open; holdback released |
 | Request prior oil or fuel tank documentation | High |  | Exterior / environmental | SRC-2026-003 | Open | Seller disclosed prior tank and no known contamination |
 | Request heat pump and central AC documents | Medium |  | HVAC | SRC-2026-003 | Open | Seller says documents exist |
 | Verify French drain access and condition | Medium |  | Drainage | SRC-2026-003, SRC-2026-015 | Open | Inspection could not access lookouts or confirm condition |
@@ -34,7 +34,7 @@
 
 Source: [SRC-2026-064](../01-sources/chat/2026/2026-09-14-property-handover-repairs-and-access.md). Reported September 14, 2026.
 
-Verify attic duct, residual garage ceiling, photos/debris status and material composition; mouse activity is now under routine monitoring, with no further activity reported through October 25 (SRC-2026-074). Holdback is released as reported; repair verification remains partial.
+Attic duct repaired by Maxime October 11 (SRC-2026-077). Verify residual garage ceiling, photos/debris status and material composition; mouse activity is now under routine monitoring, with no further activity reported through October 25 (SRC-2026-074). Holdback is released as reported; repair verification remains partial.
 
 ## Gutters and Installation
 
@@ -58,7 +58,7 @@ Source: [SRC-2026-066](../01-sources/chat/2026/2026-09-15-property-seller-calls-
 |---|---|---|
 | Photograph observed issues, including dead mice | Done / homeowner report | Exact dates unknown |
 | Archive existing photos and copied exchanges | September 22 mouse-capture photo archived (SRC-2026-073); other evidence pending | To arrange |
-| Check attic above bedroom/bathroom stains and previously required duct repair | Open | To arrange |
+| Check attic above bedroom/bathroom stains | Open | To arrange |
 | Monitor for renewed mouse activity | No further mice or wall sounds since September 22, reported October 25 (SRC-2026-074) | Routine |
 | Clarify ceiling material and any supporting 2010 work records | Open; seller statements unverified | Before further disturbance |
 
@@ -68,7 +68,7 @@ Retain a distinction between owner photos already taken and seller-required befo
 
 Source: [SRC-2026-069](../01-sources/chat/2026/2026-09-22-property-seller-follow-up-and-mouse-traps.md).
 
-Maxime's father installed four traps September 21; one mouse captured September 22. Locations, extent and entry points are unknown. As of October 25, no further mice or wall sounds reported since that capture; retain routine monitoring (SRC-2026-074). Seller follow-up was sent, exact date unspecified; no answer as of September 22. Attic/stain/ceiling checks remain open.
+Maxime's father installed four traps September 21; one mouse captured September 22. Locations, extent and entry points are unknown. As of October 25, no further mice or wall sounds reported since that capture; retain routine monitoring (SRC-2026-074). Seller follow-up was sent, exact date unspecified; no answer as of September 22. Stain and garage-ceiling checks remain open; attic duct repair completed October 11 (SRC-2026-077).
 
 Exterior scope: [Marbel acceptance, SRC-2026-070](../01-sources/chat/2026/2026-09-22-renovation-marbel-acceptance-and-scope.md).
 
@@ -76,6 +76,12 @@ September 23 scope clarification: [SRC-2026-072](../01-sources/chat/2026/2026-09
 
 ## October 25 Mouse Follow-Up
 
-No further mice or sounds in the walls reported since the September 22 capture. Maxime's father says there are no more mice. Mouse activity is removed from immediate priorities; retain routine monitoring. Attic, stain and ceiling checks remain separate.
+No further mice or sounds in the walls reported since the September 22 capture. Maxime's father says there are no more mice. Mouse activity is removed from immediate priorities; retain routine monitoring. Stain and garage-ceiling checks remain separate; attic duct repair completed October 11 (SRC-2026-077).
 
 Sources: [SRC-2026-074](../01-sources/chat/2026/2026-10-25-property-mouse-activity-follow-up.md); [capture photo, SRC-2026-073](../01-sources/extractions/2026/2026-09-22-property-mouse-capture.md).
+
+## October 11 Attic Ventilation Repair
+
+Reported October 25: the seller had not repaired the attic ventilation. Maxime completed the repair himself on October 11, 2026; the result photo is archived. Repair completed / homeowner-reported. Separate bedroom/bathroom stain and garage-ceiling checks remain open.
+
+Sources: [SRC-2026-077](../01-sources/chat/2026/2026-10-25-property-attic-duct-repair-completed.md); [repair photo note, SRC-2026-076](../01-sources/extractions/2026/2026-10-11-maintenance-attic-duct-repair.md).

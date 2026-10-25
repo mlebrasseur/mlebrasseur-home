@@ -1,6 +1,6 @@
 # Timeline
 
-Last updated: 2026-09-23
+Last updated: 2026-10-25 (attic duct repair; other statuses retain their earlier reporting dates)
 
 ## Chronological Timeline
 
@@ -146,3 +146,9 @@ Earlier tentative September 15 morning send plan superseded. Prior broker call a
 ## September 22–23 Sources
 
 [SRC-2026-067](../01-sources/extractions/2026/2026-09-21-renovation-marbel-quote.md); [SRC-2026-069](../01-sources/chat/2026/2026-09-22-property-seller-follow-up-and-mouse-traps.md); [SRC-2026-070](../01-sources/chat/2026/2026-09-22-renovation-marbel-acceptance-and-scope.md); [SRC-2026-071](../01-sources/chat/2026/2026-09-23-moving-uhaul-reservation.md).
+
+## October 11 Attic Ventilation Repair
+
+Reported October 25: the seller had not repaired the attic ventilation. Maxime completed the repair himself on October 11, 2026; the result photo is archived. Repair completed / homeowner-reported. Separate bedroom/bathroom stain and garage-ceiling checks remain open.
+
+Sources: [SRC-2026-077](../01-sources/chat/2026/2026-10-25-property-attic-duct-repair-completed.md); [repair photo note, SRC-2026-076](../01-sources/extractions/2026/2026-10-11-maintenance-attic-duct-repair.md).
