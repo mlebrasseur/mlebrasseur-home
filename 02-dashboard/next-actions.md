@@ -1,6 +1,6 @@
 # Next Actions
 
-Last updated: 2026-10-25 (mouse activity, seller contact, attic duct repair, painting and stain checks; other statuses retain their earlier reporting dates)
+Last updated: 2026-10-26 (Marbel completion and payment; other statuses retain their reporting dates)
 
 ## Urgent
 
@@ -23,7 +23,7 @@ Closing is completed per SRC-2026-052. Remaining closing items below are documen
 
 ## Upcoming
 
-Exterior: Marbel accepted; prepare for expected start in the week of September 28 or October 5. Confirm exact date, access and extra inclusion. Earlier driveway comparison tasks are retired; foundation selection remains open. (SRC-2026-067, SRC-2026-070)
+Exterior: Marbel completed October 9 and paid October 15; scheduling, extra inclusion and payment follow-ups are closed. Foundation selection remains open and separate. (SRC-2026-081, SRC-2026-082)
 
 Current sequence: September 27 U-Haul pickup 11:00 / return by 17:00 (SRC-2026-071) → September 28 Internet → September 29 appliance arrival. Remove old dishwasher before delivery. Garage-ceiling checks are deferred by homeowner (SRC-2026-080). (SRC-2026-064, SRC-2026-065)
 
@@ -40,10 +40,10 @@ Current sequence: September 27 U-Haul pickup 11:00 / return by 17:00 (SRC-2026-0
 | Ask when the bachelor unit was added |  |  | Property history | SRC-2026-007, SRC-2026-008 | Open |
 | Ask K.I. Bon to clarify quantities, base, compaction, grading, catch-basin design, wall construction, warranty, schedule and exclusions | Maxime / Tony Sigga | Before driveway quote acceptance | Exterior / driveway | SRC-2026-046 | Retired after Marbel selection; earlier quote retained as alternative (SRC-2026-070) |
 | Clarify Karl Morin’s applicable RBQ, insurance, garage-only scope, drainage and warranty | Maxime / Karl Morin | Before driveway selection | Exterior / driveway | SRC-2026-055 | Retired after Marbel selection; earlier quote retained as alternative (SRC-2026-070) |
-| Confirm Marbel work date, site access and remaining cost details | Maxime / Martin Belisle | Before work; expected week of September 28 or October 5 | Exterior / driveway | SRC-2026-067, SRC-2026-070 | Accepted; clarify 800 extra inclusion and tax total/payment terms |
+| Confirm Marbel work date, site access and remaining cost details | Maxime / Martin Belisle | Closed October 26 | Exterior / driveway | SRC-2026-081, SRC-2026-082 | Done: completed October 9; final invoice 33,199.03 CAD paid October 15 by bank transfer; zero balance |
 | Expose enough of the two under-window cracks to determine whether they continue through infill blocks or the poured foundation | Maxime / foundation contractor | Before foundation scope selection | Foundation | SRC-2026-015, SRC-2026-048 | Open; Jacques's explanation is a hypothesis and differs from the inspection classification |
 | Clarify Akton estimate ESTF107164 and obtain Fissure et Drain Laval's property-specific written scope and warranty | Maxime / Cesar Guevara / Jacques Robert | Before foundation selection | Foundation | SRC-2026-047, SRC-2026-048, SRC-2026-049 | Open; confirm Akton's A/B/C locations, rear-window observation, non-refundable 500.00 CAD line and validity; Jacques's price, method and 20-year warranty remain verbal |
-| Coordinate Marbel access with move/deliveries; consider optional shared excavation if foundation work is selected | Maxime / contractors | Before work starts | Exterior / foundation | SRC-2026-070, SRC-2026-071 | Open; foundation selection remains separate, not a dependency for driveway work |
+| Coordinate Marbel access with move/deliveries; consider optional shared excavation if foundation work is selected | Maxime / contractors | Closed October 26 | Exterior / foundation | SRC-2026-082 | Retired after Marbel completion; foundation selection remains separate |
 | Confirm with Terrebonne Urbanisme whether bachelor expansion into garage space affects permits, use, or unit status | User | Before design spend | Bachelor expansion / permits | SRC-2026-008, SRC-2026-021 | Open |
 | Request masonry review for mortar cracks and damaged concrete sills |  |  | Exterior | SRC-2026-015 | Open |
 | Confirm water heater installation year conflict, 2021 vs 2023 |  |  | Plumbing / insurance | SRC-2026-003, SRC-2026-015, SRC-2026-042 | Open; Intact policy also uses 2021 |
@@ -58,7 +58,6 @@ Current sequence: September 27 U-Haul pickup 11:00 / return by 17:00 (SRC-2026-0
 |---|---|---|---|---|
 | Acceptance of insurance proof | LRV Notaires | 2026-08-06 | SRC-2026-042, SRC-2026-043 | Policy appears to meet stated requirements; transmission/acceptance not documented |
 | Final registered mortgage amount documentation | Maxime / Brigida Rizzuto / LRV Notaires | 2026-08-07 | SRC-2026-044 | Read final amount from executed deed; general closing completion does not establish it (SRC-2026-052) |
-| Exact Marbel start and final cost details | Martin Belisle | Reported 2026-09-22 | SRC-2026-067, SRC-2026-070 | Contractor selected; expected week of September 28 or October 5, exact date pending |
 | Written foundation scope and warranty | Fissure et Drain Laval | 2026-08-10 | SRC-2026-048, SRC-2026-049 | Akton ESTF107164 is now written; Jacques's proposal remains verbal, and the number of required repairs remains unresolved pending the under-window crack check |
 | Competing mortgage proposal | Michael Sciascia | 2026-07-23 | SRC-2026-036 | Pre-closing comparison retired following completed closing (SRC-2026-052) |
 | Seller garage-ceiling before/after photos | Seller / buyer broker | 2026-07-05 | SRC-2026-012, SRC-2026-075 | Unavailable; follow-up retired October 25; homeowner photos archived separately (SRC-2026-079) |
@@ -123,7 +122,7 @@ Source: [SRC-2026-065](../01-sources/chat/2026/2026-09-14-renovation-painting-an
 | Dispose of outdoor sofas, table and reported propane fire pit | Date unset | Decided; removal arrangements unspecified |
 | Assess three existing exterior cameras and alarm needs | After move and Internet installation | Open |
 | Remove old alarm equipment from primary-bedroom walk-in and set aside | Date unset | Open |
-| Install separate gutter drainage beside wall/property edge, joining neighbour gutter drainage | With Marbel work | Routing reported; installation pending (SRC-2026-072) |
+| Install separate gutter drainage beside wall/property edge, joining neighbour gutter drainage | With Marbel work | Marbel completion confirmed October 9 (SRC-2026-082); detailed as-built routing not independently documented |
 
 ## Remaining Handover Follow-Up
 
@@ -198,3 +197,9 @@ Source: [SRC-2026-080](../01-sources/chat/2026/2026-10-25-property-garage-ceilin
 |---|---|---|---|---|---|
 | Inspect house and verify remaining repairs and garage-ceiling condition | Maxime | Deferred; no date | Inspection / repairs | SRC-2026-012, SRC-2026-015, SRC-2026-064 | Deferred by homeowner (SRC-2026-080); partially verified; attic duct repaired by Maxime October 11 (SRC-2026-077); ceiling residual/debris checks deferred by homeowner (SRC-2026-080); homeowner photos archived (SRC-2026-079); seller before/after photos unavailable, follow-up retired (SRC-2026-075) |
 | Clarify garage-ceiling material analysis and handling history | Maxime | Before further disturbance | Garage / environmental | SRC-2026-012, SRC-2026-015 | Deferred by homeowner (SRC-2026-080) |
+
+## October 26 — Marbel Completion and Payment
+
+Marbel work completed October 9, 2026; invoice 0035 totals 33,199.03 CAD including taxes. Paid October 15 by bank transfer; 0 CAD remaining, homeowner-reported. Foundation-crack selection remains separate. (SRC-2026-081, SRC-2026-082)
+
+Sources: [invoice, SRC-2026-081](../01-sources/extractions/2026/2026-10-09-renovation-marbel-signed-contract-and-invoice.md); [completion/payment, SRC-2026-082](../01-sources/chat/2026/2026-10-26-renovation-marbel-completion-and-payment.md).

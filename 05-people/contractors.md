@@ -14,9 +14,9 @@ Sources: [quote, SRC-2026-067](../01-sources/extractions/2026/2026-09-21-renovat
 
 | Name | Company | Email | Phone | Status |
 |---|---|---|---|---|
-| Martin Belisle | Pavé C.D.P. Marbel | info@cdpmarbel.com | 514-863-6653 mobile; 450-588-3510 work per CSV | Quote accepted; expected start week of September 28 or October 5 |
+| Martin Belisle | Pavé C.D.P. Marbel | info@cdpmarbel.com | 514-863-6653 mobile; 450-588-3510 work per CSV | Completed October 9; paid October 15 (SRC-2026-081, SRC-2026-082) |
 
-27,700 CAD subtotal before tax; 800 drain/gutter extra inclusion unresolved; payments unknown. Quote states 36-month installation/labour warranty. Listed RBQ 5861-6517-01; no current licence or insurance verification performed in this intake. Quote office number appears 450-588-3610, differing from CSV; common mobile is recorded above.
+Final invoice 33,199.03 CAD including extras and taxes; paid in full by bank transfer, homeowner-reported (SRC-2026-081, SRC-2026-082). Quote states 36-month installation/labour warranty. Listed RBQ 5861-6517-01; no current licence or insurance verification performed in this intake. The clearer signed-contract/invoice scan confirms office 450-588-3510, matching the CSV (SRC-2026-081).
 
 Daniel, a friend of Maxime's father, works for Martin. Three-person business, homeowner-reported; “since 1991” is the quote's claim. Contact address as exported: 308 Croissant de la Rive, L'Épiphanie, QC J5X 4W2 (labelled Home); website cdpmarbel.com.
 
@@ -25,3 +25,9 @@ Daniel, a friend of Maxime's father, works for Martin. Three-person business, ho
 Source: [SRC-2026-065](../01-sources/chat/2026/2026-09-14-renovation-painting-and-moving-schedule.md). Reported September 14, 2026.
 
 Painters engaged, homeowner-reported: main floor, common areas and side entrance in white, 4,650 CAD. Name, company, contact details, work dates, tax inclusion and payment status not supplied.
+
+## October 26 — Marbel Completion and Payment
+
+Marbel work completed October 9, 2026; invoice 0035 totals 33,199.03 CAD including taxes. Paid October 15 by bank transfer; 0 CAD remaining, homeowner-reported. Foundation-crack selection remains separate. (SRC-2026-081, SRC-2026-082)
+
+Sources: [invoice, SRC-2026-081](../01-sources/extractions/2026/2026-10-09-renovation-marbel-signed-contract-and-invoice.md); [completion/payment, SRC-2026-082](../01-sources/chat/2026/2026-10-26-renovation-marbel-completion-and-payment.md).

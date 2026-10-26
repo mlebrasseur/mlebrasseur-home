@@ -1,6 +1,6 @@
 # Open Questions
 
-Last updated: 2026-10-25 (mouse activity, seller contact, attic duct repair, painting and stain checks; other statuses retain their earlier reporting dates)
+Last updated: 2026-10-26 (Marbel completion and payment; other statuses retain their reporting dates)
 
 Closing is completed (SRC-2026-052). Receipt and settlement questions below remain documentation follow-ups; the new certificate is held (SRC-2026-051).
 
@@ -22,7 +22,7 @@ Closing is completed (SRC-2026-052). Receipt and settlement questions below rema
 | What documentation exists for the prior oil or fuel tank? | Inspection / environmental | High | SRC-2026-003 |  | Open | Seller declared prior tank but no spill or soil contamination |
 | Are the two smaller under-window cracks in later concrete-block infill or in the poured foundation, and where do they continue below grade? | Foundation | High | SRC-2026-015, SRC-2026-048 | Maxime / foundation contractor | Open | Jacques recommended digging to expose the crack paths; his explanation is an unverified contractor hypothesis and differs from the inspection report's classification |
 | Which foundation-repair scope should be selected after the under-window conditions are confirmed? | Foundation | High | SRC-2026-015, SRC-2026-047, SRC-2026-048, SRC-2026-049 | Maxime / Cesar Guevara / Jacques Robert | Open | Akton's written ESTF107164 totals 3,506.74 CAD for three exterior repairs with a 10-year transferable infiltration warranty and material exclusions. Fissure et Drain Laval verbally priced the front crack at 650.00 CAD, or 450.00 CAD with separate excavation, with a reported 20-year warranty. Clarify Akton's A/B/C locations and rear-window observation, then obtain Jacques's written method, exclusions, restoration and warranty responsibility. |
-| What routing is planned for the garage drain and gutters? | Garage / driveway / drainage | High | SRC-2026-070, SRC-2026-072 | Maxime / Martin | Routing clarified by homeowner; work pending | Garage drain reuses existing pipe; separate gutters run beside wall/property edge, joining neighbour gutter drainage. Concrete connection verbally committed. Pipe condition, final discharge point and detailed specifications not recorded. |
+| What routing is planned for the garage drain and gutters? | Garage / driveway / drainage | High | SRC-2026-070, SRC-2026-072 | Maxime / Martin | Routing clarified by homeowner; Marbel completed October 9 (SRC-2026-082) | Garage drain reuses existing pipe; separate gutters run beside wall/property edge, joining neighbour gutter drainage. Concrete connection verbally committed. Pipe condition, final discharge point and detailed specifications not recorded. |
 | Which driveway proposal was selected? | Garage / driveway | High | SRC-2026-067, SRC-2026-070 | Maxime | Resolved | Marbel paving/wall/drainage quote accepted; BLU pavers specified. Earlier quotes retained as alternatives. |
 | What applicable RBQ licence, insurance and written warranty cover Karl Morin’s quote? | Garage / driveway | Medium | SRC-2026-055, SRC-2026-070 | Maxime | Retired after Marbel selection | Historical alternative; no Karl acceptance or payment reported. |
 | Which tax amounts were paid or adjusted at closing? | Finance / taxes | Medium | SRC-2026-005, SRC-2026-058, SRC-2026-060, SRC-2026-062 | Maxime | Current-year adjustment resolved | Municipal 4,762.44 seller-paid per notary; 2026–2027 school 10.22 seller-paid, 55.54 seller credit; September 186.52 paid by buyer September 8, user-reported. Previous 2025–2026 school invoice payment still undocumented. |
@@ -66,10 +66,10 @@ Stain photo transmission and reply are resolved: September 11 around 12:50. Four
 
 | Question | Status | Source |
 |---|---|---|
-| Is Marbel's 800 CAD extra included in the 27,700 subtotal? | Unconfirmed; preserve separately without assuming a combined amount | SRC-2026-067, SRC-2026-070 |
-| What are Marbel's final taxes, payment terms, deposit and payments? | Unknown; acceptance does not establish payment | SRC-2026-070 |
-| What is Marbel's exact start date? | Expected week of September 28 or October 5; exact date pending | SRC-2026-070 |
-| Which Marbel office number is current? | CSV: 450-588-3510; quote appears 450-588-3610. Common mobile: 514-863-6653 | SRC-2026-067, SRC-2026-068 |
+| Is Marbel's 800 CAD extra included in the 27,700 subtotal? | Resolved: additional; invoice also adds 225 edging and 150 lawn/installation | SRC-2026-081 |
+| What are Marbel's final taxes, payment terms, deposit and payments? | Final total 33,199.03 CAD: GST 1,443.75 and QST 2,880.28. Paid October 15 by bank transfer, homeowner-reported; 0 CAD remaining. Original terms/deposit breakdown unrecorded; follow-up closed | SRC-2026-081, SRC-2026-082 |
+| What is Marbel's exact start date? | Start unrecorded; scheduling follow-up retired. Completed October 9, homeowner-reported | SRC-2026-082 |
+| Which Marbel office number is current? | Resolved: signed contract/invoice clearly prints 450-588-3510, matching CSV; mobile 514-863-6653 | SRC-2026-068, SRC-2026-081 |
 | What does U-Haul's kilometre row represent? | Quantity 13 at 1.19/km conflicts with 23.80 quoted; 23.80 corresponds to 20 km | SRC-2026-071 |
 | What was the final truck charge and was it paid? | Reservation subtotal 70.75 plus tax; invoice/payment pending | SRC-2026-071 |
 
@@ -77,7 +77,7 @@ Stain photo transmission and reply are resolved: September 11 around 12:50. Four
 
 [SRC-2026-067](../01-sources/extractions/2026/2026-09-21-renovation-marbel-quote.md); [SRC-2026-068](../01-sources/extractions/2026/2026-09-22-renovation-marbel-contact.md); [SRC-2026-069](../01-sources/chat/2026/2026-09-22-property-seller-follow-up-and-mouse-traps.md); [SRC-2026-070](../01-sources/chat/2026/2026-09-22-renovation-marbel-acceptance-and-scope.md); [SRC-2026-071](../01-sources/chat/2026/2026-09-23-moving-uhaul-reservation.md).
 
-September 23 clarification: [SRC-2026-072](../01-sources/chat/2026/2026-09-23-renovation-marbel-drainage-clarifications.md). Driveway excavation is 20 inches in writing and 20–25 inches verbally described depending on conditions. Garage pipe reuse and separate gutter routing are reported plans, not evidence of completed work.
+September 23 clarification: [SRC-2026-072](../01-sources/chat/2026/2026-09-23-renovation-marbel-drainage-clarifications.md). Driveway excavation is 20 inches in writing and 20–25 inches verbally described depending on conditions. Garage pipe reuse and separate gutter routing were reported plans. Marbel completion is now homeowner-confirmed October 9 (SRC-2026-082); detailed as-built specifications remain unrecorded.
 
 ## October 25 Mouse Follow-Up
 
@@ -108,3 +108,9 @@ Source: [SRC-2026-078](../01-sources/chat/2026/2026-10-25-property-stains-and-at
 Leave the garage ceiling as-is for now; it is not a current priority. Related residual-material, debris and material-composition checks are deferred by homeowner, with no work or review date set. Existing photos and unresolved facts remain on record.
 
 Source: [SRC-2026-080](../01-sources/chat/2026/2026-10-25-property-garage-ceiling-deferred.md).
+
+## October 26 — Marbel Completion and Payment
+
+Marbel work completed October 9, 2026; invoice 0035 totals 33,199.03 CAD including taxes. Paid October 15 by bank transfer; 0 CAD remaining, homeowner-reported. Foundation-crack selection remains separate. (SRC-2026-081, SRC-2026-082)
+
+Sources: [invoice, SRC-2026-081](../01-sources/extractions/2026/2026-10-09-renovation-marbel-signed-contract-and-invoice.md); [completion/payment, SRC-2026-082](../01-sources/chat/2026/2026-10-26-renovation-marbel-completion-and-payment.md).

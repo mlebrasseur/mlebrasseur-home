@@ -1,6 +1,6 @@
 # Budget
 
-Last updated: 2026-10-25 (painting payment; other statuses retain their earlier reporting dates)
+Last updated: 2026-10-26 (Marbel completion and payment; other statuses retain their reporting dates)
 
 ## Uses / Costs
 
@@ -14,7 +14,7 @@ Last updated: 2026-10-25 (painting payment; other statuses retain their earlier 
 | Home insurance |  | 1691.00 |  | 1691.00 | SRC-2026-042 | Annual premium excludes taxes and applicable fees; payment status and billing schedule are not recorded |
 | Moving | 70.75 | | | | SRC-2026-071 | Confirmed U-Haul reservation; quoted estimate before tax, mileage discrepancy unresolved. Final cost/payment unknown. |
 | Renovations — painting | | 4650.00 | 4650.00 | 0.00 | SRC-2026-065, SRC-2026-078 | Paid in full during the week, homeowner-reported; exact payment date, method and tax breakdown unspecified. |
-| Renovations — Marbel | | 27700.00 | | | SRC-2026-067, SRC-2026-070 | Accepted subtotal before tax; 800 extra inclusion unresolved. Final total, payments and balance unknown. |
+| Renovations — Marbel | | 33199.03 | 33199.03 | 0.00 | SRC-2026-081, SRC-2026-082 | Completed October 9; paid October 15 by bank transfer, homeowner-reported; includes extras and taxes. |
 | Utilities setup |  |  |  |  | SRC-2026-001, SRC-2026-003, SRC-2026-004 | Electricity, municipal water/sewer, and no gas facts extracted |
 | Maintenance / inspection |  | 600.00 | 600.00 | 0.00 | SRC-2026-015, SRC-2026-061 | One June 6 Interac payment; agreement corroborates existing ledger entry. |
 
@@ -41,8 +41,14 @@ Source: [SRC-2026-065](../01-sources/chat/2026/2026-09-14-renovation-painting-an
 
 ## September 22–23 Commitments and Moving Estimate
 
-[Marbel acceptance, SRC-2026-070](../01-sources/chat/2026/2026-09-22-renovation-marbel-acceptance-and-scope.md): accepted subtotal 27,700 CAD before tax; separately listed 800 CAD large-drain/gutter extra may or may not be included. Final taxes, payment terms and payments unknown. Painting remains a separate 4,650 CAD commitment with unknown tax basis.
+[Marbel acceptance, SRC-2026-070](../01-sources/chat/2026/2026-09-22-renovation-marbel-acceptance-and-scope.md): historical accepted subtotal 27,700 CAD before tax. Invoice now establishes the 800 extra is additional; final total 33,199.03 CAD paid October 15 (SRC-2026-081, SRC-2026-082). Painting remains a separate 4,650 CAD commitment with unknown tax basis.
 
 [U-Haul confirmation, SRC-2026-071](../01-sources/chat/2026/2026-09-23-moving-uhaul-reservation.md): 29.95 truck + 16.00 waiver + 23.80 quoted kilometres + 1.00 fee = 70.75 CAD plus tax. Quantity 13 km at 1.19/km instead calculates to 15.47; preserve quoted total pending clarification. Reservation is not payment evidence.
 
 Painting completion/payment source: [SRC-2026-078](../01-sources/chat/2026/2026-10-25-property-stains-and-attic-check.md).
+
+## October 26 — Marbel Completion and Payment
+
+Marbel work completed October 9, 2026; invoice 0035 totals 33,199.03 CAD including taxes. Paid October 15 by bank transfer; 0 CAD remaining, homeowner-reported. Foundation-crack selection remains separate. (SRC-2026-081, SRC-2026-082)
+
+Sources: [invoice, SRC-2026-081](../01-sources/extractions/2026/2026-10-09-renovation-marbel-signed-contract-and-invoice.md); [completion/payment, SRC-2026-082](../01-sources/chat/2026/2026-10-26-renovation-marbel-completion-and-payment.md).

@@ -37,9 +37,9 @@ Initial concern about effort is retained in the source as context; it is not a f
 
 Source: [SRC-2026-070](../01-sources/chat/2026/2026-09-22-renovation-marbel-acceptance-and-scope.md), supported by [quote, SRC-2026-067](../01-sources/extractions/2026/2026-09-21-renovation-marbel-quote.md).
 
-Maxime accepted Pavé C.D.P. Marbel's September 21 paving/wall/drainage quote. Subtotal corrected to 27,700 CAD before tax; 800 extra covers large rectangular drain and gutter drainage, with inclusion in subtotal unresolved. Concrete connection between drain box and garage floor verbally committed by Martin. Exact acceptance date, final tax total and payments unknown.
+Maxime accepted Pavé C.D.P. Marbel's September 21 paving/wall/drainage quote. Subtotal corrected to 27,700 CAD before tax; 800 extra covers large rectangular drain and gutter drainage, with inclusion unresolved at that time; invoice now confirms it is additional (SRC-2026-081). Concrete connection between drain box and garage floor verbally committed by Martin. Signed September 21 contract now held; final invoice 33,199.03 CAD paid October 15 (SRC-2026-081, SRC-2026-082).
 
-Referral context: Daniel, a friend of Maxime's father, works for Martin. Full selection reasoning not separately supplied. Expected start week of September 28 or October 5; exact date pending. Foundation-crack selection remains separate.
+Referral context: Daniel, a friend of Maxime's father, works for Martin. Full selection reasoning not separately supplied. Historical expected start was the week of September 28 or October 5; completion now confirmed October 9 (SRC-2026-082). Foundation-crack selection remains separate.
 
 ## Seller Follow-Up and Truck Booking
 
@@ -58,3 +58,9 @@ Sources: [SRC-2026-075](../01-sources/chat/2026/2026-10-25-property-seller-follo
 Leave the garage ceiling as-is for now; it is not a current priority. Related residual-material, debris and material-composition checks are deferred by homeowner, with no work or review date set. Existing photos and unresolved facts remain on record.
 
 Source: [SRC-2026-080](../01-sources/chat/2026/2026-10-25-property-garage-ceiling-deferred.md).
+
+## October 26 — Marbel Completion and Payment
+
+Marbel work completed October 9, 2026; invoice 0035 totals 33,199.03 CAD including taxes. Paid October 15 by bank transfer; 0 CAD remaining, homeowner-reported. Foundation-crack selection remains separate. (SRC-2026-081, SRC-2026-082)
+
+Sources: [invoice, SRC-2026-081](../01-sources/extractions/2026/2026-10-09-renovation-marbel-signed-contract-and-invoice.md); [completion/payment, SRC-2026-082](../01-sources/chat/2026/2026-10-26-renovation-marbel-completion-and-payment.md).

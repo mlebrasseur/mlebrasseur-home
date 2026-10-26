@@ -1,16 +1,24 @@
 # Exterior Renovation
 
-Last updated: 2026-09-23
+Last updated: 2026-10-26
 
 ## Status
 
 | Field | Value | Source |
 |---|---|---|
-| Status | Marbel paving, wall and drainage quote accepted; foundation-crack selection separate | SRC-2026-067, SRC-2026-070 |
-| Target date | Expected week of September 28 or October 5; exact start pending | SRC-2026-070 |
-| Budget | Accepted subtotal 27,700 CAD before tax; 800 extra separately listed, inclusion unconfirmed. Final total/payment status unknown | SRC-2026-067, SRC-2026-070 |
+| Status | Marbel work completed October 9; paid October 15 by bank transfer; foundation-crack selection separate | SRC-2026-081, SRC-2026-082 |
+| Completion date | 2026-10-09, homeowner-reported | SRC-2026-082 |
+| Cost / payment | 33,199.03 CAD including taxes; paid in full; 0 CAD remaining, homeowner-reported | SRC-2026-081, SRC-2026-082 |
 
-## Current Position — September 22, 2026
+## Current Position — October 26, 2026
+
+Marbel work completed October 9, 2026; invoice 0035 totals 33,199.03 CAD including taxes. Paid October 15 by bank transfer; 0 CAD remaining, homeowner-reported. Foundation-crack selection remains separate. (SRC-2026-081, SRC-2026-082)
+
+Sources: [invoice, SRC-2026-081](../../01-sources/extractions/2026/2026-10-09-renovation-marbel-signed-contract-and-invoice.md); [completion/payment, SRC-2026-082](../../01-sources/chat/2026/2026-10-26-renovation-marbel-completion-and-payment.md).
+
+Invoice subtotal: 28,875 CAD = 27,700 base + 800 drain extra + 225 edging + 150 lawn/installation. GST 1,443.75 and QST 2,880.28 bring the total to 33,199.03 CAD. The signed invoice has a September 21 signature date despite its October 9 issue date; homeowner confirms October 9 completion. Installed paver thickness is not independently established: the new scan appears to say 60 mm, while the earlier extraction read 80 mm.
+
+## Historical Position — September 22, 2026
 
 Sources: [quote, SRC-2026-067](../../01-sources/extractions/2026/2026-09-21-renovation-marbel-quote.md), [contact, SRC-2026-068](../../01-sources/extractions/2026/2026-09-22-renovation-marbel-contact.md), [acceptance and clarifications, SRC-2026-070](../../01-sources/chat/2026/2026-09-22-renovation-marbel-acceptance-and-scope.md).
 

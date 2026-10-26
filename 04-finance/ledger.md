@@ -1,6 +1,6 @@
 # Ledger
 
-Last updated: 2026-10-25
+Last updated: 2026-10-26 (Marbel completion and payment; other statuses retain their reporting dates)
 
 This is the source of truth for personal money movement. User-reported payments are identified below; receipt of a payment by its recipient is distinguished from submission.
 
@@ -12,6 +12,7 @@ This is the source of truth for personal money movement. User-reported payments 
 | 2026-09-01 | -2590.74 | CAD | Caisse Desjardins du Centre et de l'Est de Laval | Mortgage | Not separately confirmed | Mortgage | SRC-2026-057, SRC-2026-063 | First payment made September 1, user-reported September 8. Principal/interest split and banking evidence not supplied. |
 | 2026-09-08 | -186.52 | CAD | Centre de services scolaire des Affluents | School tax | Online bill payment (context-inferred) | Taxes | SRC-2026-058, SRC-2026-062 | User reported payment made now; September 10 installment. Reference 00437000000596090119; confirmation number and recipient posting unconfirmed. |
 | Exact date unspecified; “during the week” | -4650.00 | CAD | Painting contractor (name unspecified) | Renovation — painting | Unspecified | General renovations | SRC-2026-065, SRC-2026-078 | Paid in full, homeowner-reported October 25; 0 CAD remaining. Work completed by move day (recorded September 27). Week boundaries and tax breakdown unspecified; aggregate payment record, individual transactions not supplied. |
+| 2026-10-15 | -33199.03 | CAD | Pavé C.D.P. Marbel | Renovation — exterior | Bank transfer | Exterior paving, walls and drainage | SRC-2026-081, SRC-2026-082 | Full invoice 0035 payment, homeowner-reported; month/year and full amount interpreted from approved context. Zero remaining; no bank receipt or transfer reference supplied. |
 
 ## Closing Allocation (Not Additional Personal Transactions)
 
@@ -20,3 +21,9 @@ SRC-2026-059 records 130,038.27 CAD buyer funds plus 512,000.00 CAD mortgage pro
 Total personal closing cash is 130,693.89 CAD (130,038.27 + 655.62): down payment 128,000.00 + paid notary invoice 2,038.27 + net closing adjustment 655.62. Occupancy and school-tax credits are netted in that adjustment, not separate cash receipts. (SRC-2026-056, SRC-2026-059, SRC-2026-060)
 
 Painting completion/payment source: [SRC-2026-078](../01-sources/chat/2026/2026-10-25-property-stains-and-attic-check.md).
+
+## October 26 — Marbel Completion and Payment
+
+Marbel work completed October 9, 2026; invoice 0035 totals 33,199.03 CAD including taxes. Paid October 15 by bank transfer; 0 CAD remaining, homeowner-reported. Foundation-crack selection remains separate. (SRC-2026-081, SRC-2026-082)
+
+Sources: [invoice, SRC-2026-081](../01-sources/extractions/2026/2026-10-09-renovation-marbel-signed-contract-and-invoice.md); [completion/payment, SRC-2026-082](../01-sources/chat/2026/2026-10-26-renovation-marbel-completion-and-payment.md).

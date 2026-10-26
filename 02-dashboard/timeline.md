@@ -1,6 +1,6 @@
 # Timeline
 
-Last updated: 2026-10-25 (attic duct repair; other statuses retain their earlier reporting dates)
+Last updated: 2026-10-26 (Marbel completion and payment; other statuses retain their reporting dates)
 
 ## Chronological Timeline
 
@@ -83,7 +83,7 @@ Original schedule retained below with later evidence noted. August 26 loan contr
 |---|---|---|---|---|
 | 2026-09-09 | Hydro-Québec subscription effective | Utilities | SRC-2026-053 | Signup complete per user; no bill/payment reported |
 | 2026-09-09 13:00 | Side-door access from Jacob | Legal / moving | SRC-2026-012, SRC-2026-053 | Access received; repairs partially verified (SRC-2026-064) |
-| Week of 2026-09-28 or 2026-10-05 | Marbel start expected | Renovations | SRC-2026-070 | Interpreted from September 22 report; exact start pending, foundation selection separate |
+| Week of 2026-09-28 or 2026-10-05 | Marbel start expected | Renovations | SRC-2026-070 | Historical start estimate; actual start unrecorded. Completed October 9 (SRC-2026-082); foundation selection separate |
 | 2026-09-10 | School-tax installment deadline | Taxes | SRC-2026-058, SRC-2026-062 | 186.52 paid September 8 as reported; verify posting |
 | 2026-09-15 | Municipal tax installment due | Tax | SRC-2026-004, SRC-2026-060 | Original schedule; 2026 taxes fully seller-paid per notary adjustment, buyer reimbursement netted at closing. |
 | 2026-09-18 | Calculated end of Karl quote’s 30-day validity | Renovations | SRC-2026-055, SRC-2026-070 | Historical alternative; Marbel subsequently selected |
@@ -141,7 +141,7 @@ Earlier tentative September 15 morning send plan superseded. Prior broker call a
 | 2026-09-23 | U-Haul confirmation supplied | SRC-2026-071 | Reservation 86175039 confirmed |
 | 2026-09-27 11:00 | U-Haul pickup at Boutique Potiron | SRC-2026-071 | Mobile required; 15-foot truck, six hours requested subject to availability |
 | 2026-09-27 by 17:00 | Return truck to same location | SRC-2026-071 | Scheduled |
-| Week of 2026-09-28 or 2026-10-05 | Marbel work starts | SRC-2026-070 | Expected, exact day pending |
+| Week of 2026-09-28 or 2026-10-05 | Marbel work starts | SRC-2026-070 | Historical estimate; completed October 9, actual start unrecorded (SRC-2026-082) |
 
 ## September 22–23 Sources
 
@@ -158,3 +158,14 @@ Sources: [SRC-2026-077](../01-sources/chat/2026/2026-10-25-property-attic-duct-r
 Painting was completed by move day (recorded September 27); bedroom/bathroom stains are no longer visible. Maxime looked in the attic, saw no water and reports it looked dry. Exact painting completion day and attic observation date are unspecified. Stain checks are removed from current focus; retain routine monitoring for recurrence. Original cause remains unknown; Jacob reportedly said the stains predated his purchase. Garage-ceiling checks remain open. Painting was paid in full during the week: 4,650 CAD paid, 0 CAD remaining, homeowner-reported. Exact payment date, method and tax breakdown are unspecified.
 
 Source: [SRC-2026-078](../01-sources/chat/2026/2026-10-25-property-stains-and-attic-check.md).
+
+## October 26 — Marbel Completion and Payment
+
+Marbel work completed October 9, 2026; invoice 0035 totals 33,199.03 CAD including taxes. Paid October 15 by bank transfer; 0 CAD remaining, homeowner-reported. Foundation-crack selection remains separate. (SRC-2026-081, SRC-2026-082)
+
+Sources: [invoice, SRC-2026-081](../01-sources/extractions/2026/2026-10-09-renovation-marbel-signed-contract-and-invoice.md); [completion/payment, SRC-2026-082](../01-sources/chat/2026/2026-10-26-renovation-marbel-completion-and-payment.md).
+
+| Date | Event | Source | Notes |
+|---|---|---|---|
+| 2026-10-09 | Marbel invoice 0035 issued; work completed | SRC-2026-081, SRC-2026-082 | Completion homeowner-reported; invoice total 33,199.03 CAD |
+| 2026-10-15 | Marbel paid by bank transfer | SRC-2026-082 | 33,199.03 CAD; zero balance, homeowner-reported |
