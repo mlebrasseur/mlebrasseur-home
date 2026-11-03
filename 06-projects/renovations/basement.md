@@ -1,6 +1,6 @@
 # Basement Renovation
 
-Last updated: 2026-11-02
+Last updated: 2026-11-02 (renovation progress and closet concept)
 
 ## Status
 
@@ -11,7 +11,7 @@ Last updated: 2026-11-02
 | Target date | Completion date not supplied; suspended ceiling and insulation remain | SRC-2026-083 |
 | Budget | Not supplied | SRC-2026-083 |
 
-Current source: [November 2 progress and layout, SRC-2026-083](../../01-sources/chat/2026/2026-11-02-renovation-bachelor-started.md).
+Current sources: [November 2 progress and layout, SRC-2026-083](../../01-sources/chat/2026/2026-11-02-renovation-bachelor-started.md); [closet measurements and concept, SRC-2026-084](../../01-sources/chat/2026/2026-11-02-renovation-bachelor-closet-concept.md).
 
 ## Scope
 
@@ -33,6 +33,26 @@ Current source: [November 2 progress and layout, SRC-2026-083](../../01-sources/
 | Suspended ceiling and insulation | Remaining; installation date and materials unspecified | SRC-2026-083 |
 
 Earlier permit/design and garage-condition questions below remain unresolved in the records. This progress report does not establish their completion or change the separate foundation-repair status or garage-ceiling deferral.
+
+## Closet Concept — Under Consideration
+
+Source: [Homeowner measurements and design discussion, SRC-2026-084](../../01-sources/chat/2026/2026-11-02-renovation-bachelor-closet-concept.md). Reported November 2, 2026.
+
+| Item | Current record |
+|---|---|
+| Existing closet | Empty and painted |
+| Interior dimensions | 127½ inches wide × 79¼ inches final clear height × 27–28¾ inches deep |
+| Front opening | Four sliding panels, described as two sets; no central post/wall; side returns approximately 5–6½ inches each |
+| Preferred layout | Centre drawers with shelves above; identical single hanging rails and upper shelves on both sides, with open space below |
+| Preliminary zone widths | Approximately 47 / 30 / 47 inches; total 124 inches, leaving 3½ inches overall for spacing/supports; not a cut list |
+| Candidate furniture | IKEA VIHALS four-drawer chest; no selection or purchase recorded. PAX's stated minimum installation height exceeds the reported closet height |
+| Status | Homeowner will think about the concept; budget and installation date unspecified |
+
+Drawer placement depends on the actual clear opening with the sliding panels moved aside and the full drawer travel past doors/tracks. See the source for the dated product dimensions/prices and remaining fit checks. Closet measurements do not establish the full room dimensions or completion of the room's remaining ceiling work.
+
+![AI-generated closet concept: central drawers and shelves with matching single hanging sections and open space below](../../01-sources/documents/renovation/2026-11-02-bachelor-closet-concept.png)
+
+Illustrative concept; sliding panels omitted to show the interior, finishes illustrative. [Rendering provenance and prompt, SRC-2026-085](../../01-sources/extractions/2026/2026-11-02-bachelor-closet-concept-render.md).
 
 ## Quotes
 

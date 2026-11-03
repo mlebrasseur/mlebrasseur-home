@@ -1,6 +1,6 @@
 # Rooms And Systems
 
-Last updated: 2026-11-02 (bachelor room, garage layout and mechanical access; other observations retain their reporting dates)
+Last updated: 2026-11-02 (bachelor room, closet measurements/concept, garage layout and mechanical access; other observations retain their reporting dates)
 
 ## Rooms
 
@@ -10,6 +10,7 @@ Last updated: 2026-11-02 (bachelor room, garage layout and mechanical access; ot
 | Bathrooms | 2 bathrooms listed; main-floor bathroom has washer/dryer installation | Basement bathroom faucet leak; upstairs bath faucet leak; fan switch repair verified September 9; attic duct repaired by Maxime October 11 (SRC-2026-077) | Verify faucet fixes | SRC-2026-001, SRC-2026-012, SRC-2026-015 |
 | Basement | Existing finished bachelor with independent entrance, listed ceiling height 6 ft and more; expansion into former garage space underway | Basement light repair verified September 9 (SRC-2026-064); false floor limits slab inspection | Finish new bachelor room; see separate row and basement project | SRC-2026-001, SRC-2026-012, SRC-2026-015, SRC-2026-021, SRC-2026-083 |
 | New bachelor room | Nearly complete as of November 2: walls, flooring and painting done; doors installed. To the left of remaining garage bay, as described by homeowner | Provides the only access to the mechanical room; dimensions unrecorded | Install suspended ceiling with insulation, intended to retain ventilation-duct access | SRC-2026-083 |
+| New bachelor room closet | Empty and painted; interior 127½ in wide × 79¼ in final clear height × 27–28¾ in deep. Four sliding panels; no central post/wall; side returns approximately 5–6½ in each | Clear access with panels open and drawer travel unverified; measurements apply to the closet only | Concept under consideration: central drawers/shelves with identical single hanging sections and open space below; no furniture purchase or installation decision recorded | SRC-2026-084, SRC-2026-085 |
 | Mechanical room | Small room to the left of the new bachelor room; contains furnace, vacuum system and hot-water tank | Accessible only through the new bachelor room | No separate work reported | SRC-2026-083 |
 | Garage | Attached garage with drain basin/sump and pumps; former L shape around basement now reduced to a straight bay running all the way to the back, homeowner-reported November 2 | Water infiltration indicators near garage door; exterior drain basin may be improperly installed; garage ceiling may contain asbestos; garage-to-basement door should self-close | Ceiling removed by hand with less than 5% remaining; residual/debris checks deferred; leave ceiling as-is for now (SRC-2026-064, SRC-2026-080); homeowner photos archived (SRC-2026-079); seller before/after photos unavailable, follow-up retired (SRC-2026-075); combined driveway/drainage/retaining-wall project planned with a large rectangular garage-entry drain as the working intent, subject to technical sizing; bachelor expansion nearly complete, with its ceiling and insulation remaining (SRC-2026-083) | SRC-2026-012, SRC-2026-015, SRC-2026-020, SRC-2026-021, SRC-2026-030, SRC-2026-083 |
 | Exterior | Brick exterior, landscaped private yard, terrace/pergola/gazebo, pavé-uni driveway | Prior oil or fuel tank disclosed; foundation cracks; mortar cracks and damaged sills; right-side retaining-wall settlement; damaged exterior tap | K.I. Bon written driveway quote received and Karl Morin comparison pending; Akton written three-crack estimate received; Fissure et Drain Laval written scope and confirmation of the two under-window conditions remain open | SRC-2026-001, SRC-2026-003, SRC-2026-015, SRC-2026-020, SRC-2026-021, SRC-2026-028, SRC-2026-029, SRC-2026-030, SRC-2026-037, SRC-2026-046, SRC-2026-047, SRC-2026-048, SRC-2026-049 |
@@ -24,6 +25,14 @@ Last updated: 2026-11-02 (bachelor room, garage layout and mechanical access; ot
 | Plumbing | Municipal water and sewer; sump/pit in garage; French drain present | Backwater valve identified; French drain access/lookouts not accessible; garage drain basin/infiltration issue; faucet leaks | Ville de Terrebonne | Plumber follow-up recommended | SRC-2026-003, SRC-2026-004, SRC-2026-015 |
 | Water heater | Conflicting: seller declaration says installed 2023; inspection and Intact policy say 2021; Giant electric 40 gal, owned | Located in mechanical room accessible only through new bachelor room (SRC-2026-083); functional at inspection, no drain pan noted |  | Confirm actual year for insurance/maintenance; insurance currently uses 2021 | SRC-2026-003, SRC-2026-015, SRC-2026-042, SRC-2026-083 |
 | Vacuum system | Unrecorded | Located in mechanical room accessible only through new bachelor room; operating condition unreported |  | Specifications unrecorded | SRC-2026-083 |
+
+## November 2 — Closet Measurements and Concept
+
+The existing closet is empty and painted. Homeowner-reported dimensions are 127½ inches wide, 79¼ inches final clear height and 27–28¾ inches deep. The front has four sliding panels without a central post or wall, and approximately 5–6½-inch returns on each side. These measurements apply to the closet; the full room dimensions remain unrecorded.
+
+The homeowner prefers central drawers and shelves with matching single hanging rails, upper shelves and open space below on both sides, and is considering the concept. The generated image uses illustrative finishes and omits the sliding panels. Exact furniture, budget and installation timing remain undecided; drawer clearance still requires checking.
+
+Sources: [Measurements and discussion, SRC-2026-084](../01-sources/chat/2026/2026-11-02-renovation-bachelor-closet-concept.md); [rendering note, SRC-2026-085](../01-sources/extractions/2026/2026-11-02-bachelor-closet-concept-render.md); [concept image](../01-sources/documents/renovation/2026-11-02-bachelor-closet-concept.png). See [basement project](../06-projects/renovations/basement.md) for the preferred layout.
 
 ## November 2 — Bachelor Expansion and Mechanical Access
 
