@@ -1,6 +1,6 @@
 # Open Questions
 
-Last updated: 2026-10-26 (Marbel completion and payment; other statuses retain their reporting dates)
+Last updated: 2026-11-03 (bachelor bathroom planning; other statuses retain their reporting dates)
 
 Closing is completed (SRC-2026-052). Receipt and settlement questions below remain documentation follow-ups; the new certificate is held (SRC-2026-051).
 
@@ -114,3 +114,12 @@ Source: [SRC-2026-080](../01-sources/chat/2026/2026-10-25-property-garage-ceilin
 Marbel work completed October 9, 2026; invoice 0035 totals 33,199.03 CAD including taxes. Paid October 15 by bank transfer; 0 CAD remaining, homeowner-reported. Foundation-crack selection remains separate. (SRC-2026-081, SRC-2026-082)
 
 Sources: [invoice, SRC-2026-081](../01-sources/extractions/2026/2026-10-09-renovation-marbel-signed-contract-and-invoice.md); [completion/payment, SRC-2026-082](../01-sources/chat/2026/2026-10-26-renovation-marbel-completion-and-payment.md).
+
+## November 3 — Bachelor Bathroom Planning
+
+| Question | Status | Notes |
+|---|---|---|
+| What are the finished room/window/door measurements and actual clearances for the planned fixtures? | Open | Confirm door swing, shower/furniture access, toilet outlet and model, and the estimated gap of one foot or less behind the rotated tank before sizing storage |
+| What installation details, remaining products, budget and schedule will be used? | Open | Confirm shower height and left-side opening, niche framing/waterproofing, vanity/top fit, finish-specific faucet code, floor preparation/system, and remaining fixture selections; no quote or construction dates supplied |
+
+Source: [Current plan and remaining details, SRC-2026-088](../01-sources/chat/2026/2026-11-03-renovation-bachelor-bathroom-plan.md). See [bathroom project](../06-projects/renovations/bathroom.md).

@@ -7,7 +7,7 @@ Use one file per renovation area. Keep quotes, scope, decisions, dependencies, a
 | Area | File | Status |
 |---|---|---|
 | Kitchen | `kitchen.md` | Not started |
-| Bathroom | `bathroom.md` | Not started |
+| Bathroom | [bathroom.md](bathroom.md) | Bachelor bathroom planning recorded November 3; layout, product references and sole concept v1 retained. Measurements/fit, quote and schedule remain to confirm ([SRC-2026-088](../../01-sources/chat/2026/2026-11-03-renovation-bachelor-bathroom-plan.md)) |
 | Basement | [basement.md](basement.md) | In progress / new room nearly complete, reported November 2; walls, floor, paint and doors done; suspended ceiling with insulation remains (SRC-2026-083) |
 | Exterior | [exterior.md](exterior.md) | Marbel quote accepted; expected week of September 28 or October 5. Foundation selection remains open (SRC-2026-067, SRC-2026-070) |
 | General | [general.md](general.md) | Bachelor ceiling and insulation are active remaining work (SRC-2026-083). Earlier painting completed (SRC-2026-078), 4,650 CAD paid in full; 0 CAD remaining; seller repairs partially verified, holdback released (SRC-2026-064, SRC-2026-065) |

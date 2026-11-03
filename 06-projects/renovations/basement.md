@@ -1,6 +1,6 @@
 # Basement Renovation
 
-Last updated: 2026-11-02 (renovation progress and revised preferred closet concept)
+Last updated: 2026-11-03 (related bathroom planning; room progress remains as reported November 2)
 
 ## Status
 
@@ -21,6 +21,7 @@ Current sources: [November 2 progress and layout, SRC-2026-083](../../01-sources
 - The former L-shaped garage wrapped around the basement; the remaining bay now runs straight all the way to the back. The new room is to its left, with a small mechanical room further left, as described by the homeowner. Dimensions and parking capacity are unrecorded. (SRC-2026-083)
 - The mechanical room contains the furnace, vacuum system and hot-water tank. Its only access is through the new bachelor room. (SRC-2026-083)
 - Install a suspended ceiling with insulation in the new room, intended to retain access to ventilation ducts. This is the main remaining work identified by the homeowner. (SRC-2026-083)
+- Remake the bachelor bathroom following the new room project; see the separate [bathroom plan](bathroom.md). Design planning recorded November 3; construction dates and budget not supplied. [SRC-2026-088](../../01-sources/chat/2026/2026-11-03-renovation-bachelor-bathroom-plan.md).
 
 ## Progress — Reported November 2, 2026
 

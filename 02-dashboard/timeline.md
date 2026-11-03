@@ -1,6 +1,6 @@
 # Timeline
 
-Last updated: 2026-11-02 (bachelor renovation progress; other statuses retain their reporting dates)
+Last updated: 2026-11-03 (bachelor bathroom planning; other statuses retain their reporting dates)
 
 ## Chronological Timeline
 
@@ -179,3 +179,12 @@ Sources: [invoice, SRC-2026-081](../01-sources/extractions/2026/2026-10-09-renov
 | 2026-11-02 (reporting date) | Garage and mechanical-room layout clarified | SRC-2026-083 | Former L-shaped garage now a straight bay to the back; new room to its left, mechanical room further left as described. Furnace, vacuum system and hot-water tank accessible only through new bachelor room |
 
 Source: [SRC-2026-083](../01-sources/chat/2026/2026-11-02-renovation-bachelor-started.md).
+
+## November 3 — Bachelor Bathroom Plan Recorded
+
+| Date | Event | Source | Notes |
+|---|---|---|---|
+| 2026-11-03 (recording date) | Bathroom layout, approximate measurements, materials and product references recorded | SRC-2026-088 | Planning following the new bachelor room; construction dates, quote and budget not supplied |
+| 2026-11-03 (archive date) | Bathroom concept v1 retained as the sole concept | SRC-2026-089 | Four corrections recorded: proportions, square shower fixture, wider horizontal niche, and left-side shower opening when facing from vanity |
+
+Sources: [Bathroom plan, SRC-2026-088](../01-sources/chat/2026/2026-11-03-renovation-bachelor-bathroom-plan.md); [concept v1, SRC-2026-089](../01-sources/extractions/2026/2026-11-03-bachelor-bathroom-concept-v1-render.md).

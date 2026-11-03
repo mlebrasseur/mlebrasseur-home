@@ -1,6 +1,6 @@
 # Next Actions
 
-Last updated: 2026-11-02 (bachelor renovation progress; other statuses retain their reporting dates)
+Last updated: 2026-11-03 (bachelor bathroom planning; other statuses retain their reporting dates)
 
 ## Urgent
 
@@ -33,6 +33,7 @@ Current sequence: September 27 U-Haul pickup 11:00 / return by 17:00 (SRC-2026-0
 | Action | Owner | Due Date | Related Area | Source | Status |
 |---|---|---|---|---|---|
 | Install suspended ceiling with insulation in the new bachelor room | Maxime | Not supplied | Bachelor renovation | SRC-2026-083 | Remaining; intended to retain ventilation-duct access; new room otherwise nearly complete as reported November 2 |
+| Confirm bathroom room/window/door measurements and fixture fit, including the rotated toilet and shallow storage | Maxime / contractor | Before layout finalization | [Bachelor bathroom](../06-projects/renovations/bathroom.md) | [SRC-2026-088](../01-sources/chat/2026/2026-11-03-renovation-bachelor-bathroom-plan.md) | Planning; approximate dimensions recorded. Installation details, remaining products, floor system, quote and schedule to confirm |
 | Pay December school-tax installment of 196.74 CAD | Maxime | 2026-12-09 | Taxes | SRC-2026-058, SRC-2026-062 | Outstanding; September installment paid as reported |
 | Retain September school-tax payment confirmation and verify posting | Maxime | After bank processing | Taxes | SRC-2026-062 | 186.52 CAD paid September 8, user-reported |
 | Measure appliance spaces | Maxime | After inspection; before purchase | Appliances | SRC-2026-053 | Planned |

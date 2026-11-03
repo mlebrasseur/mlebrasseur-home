@@ -72,3 +72,11 @@ Prefer the revised preview with one continuous top shelf fitted around the appro
 The homeowner says their contractor will make the shelves. This records a layout preference; material, heights, exact cuts, single-piece versus joined construction, rod hardware, supports and drawer access remain to confirm. No specific chest purchase, price or installation date was reported.
 
 Sources: [Homeowner preference and construction context, SRC-2026-086](../01-sources/chat/2026/2026-11-02-renovation-bachelor-closet-revised-layout.md); [preferred rendering, SRC-2026-087](../01-sources/extractions/2026/2026-11-02-bachelor-closet-concept-v2-render.md).
+
+## November 3 — Bachelor Bathroom Design
+
+Record the planned bathroom remake following the new bachelor room project: front-right 48 × 36-inch shower, left-wall vanity and front-left linen cabinet, toilet rotated toward the left wall, and shallow storage behind the tank. Current finish preferences are glossy white furniture with black handles, black fixtures, full-height white marble-look shower walls, off-white room walls and white epoxy flooring with fine dark details.
+
+Keep **Bathroom concept v1** as the sole concept, with four correction notes: proportions are inaccurate; shower fixture needs to be square; niche needs to be wider and horizontal; shower door opening needs to be on the left when facing it from the vanity. This records design preferences; measured fit, installation details, remaining product choices, budget and construction dates remain to confirm.
+
+Sources: [Current plan, SRC-2026-088](../01-sources/chat/2026/2026-11-03-renovation-bachelor-bathroom-plan.md); [concept v1 and corrections, SRC-2026-089](../01-sources/extractions/2026/2026-11-03-bachelor-bathroom-concept-v1-render.md).
