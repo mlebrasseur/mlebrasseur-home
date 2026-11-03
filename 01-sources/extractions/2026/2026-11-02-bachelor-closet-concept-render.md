@@ -9,7 +9,7 @@
 - Original generated filename: `exec-4c607837-1dbf-4076-8c9c-1d9f64e4d4e0.png`
 - Archived source: [Closet concept image](../../documents/renovation/2026-11-02-bachelor-closet-concept.png)
 - Related source: [Homeowner measurements and preferred concept, SRC-2026-084](../../chat/2026/2026-11-02-renovation-bachelor-closet-concept.md)
-- Status: Concept under consideration; homeowner asked to retain it while thinking about the design.
+- Status: Earlier concept retained as design history. The homeowner later preferred the [revised preview, SRC-2026-087](2026-11-02-bachelor-closet-concept-v2-render.md), with one continuous top shelf, two centre shelves below it and rear corner projections. This original image and prompt are preserved.
 
 ## What the Rendering Shows
 

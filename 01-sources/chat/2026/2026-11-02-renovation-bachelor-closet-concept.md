@@ -8,7 +8,7 @@
 - Date provided / processed: 2026-11-02
 - Related project: Basement bachelor room — existing closet
 - Confidence: Homeowner-reported measurements, condition, door arrangement and layout preference. Product details are a November 2 research snapshot; installation fit remains to verify.
-- Status: Concept under consideration; no purchase or installation decision recorded.
+- Status: Initial concept retained as design history. The [later November 2 discussion, SRC-2026-086](2026-11-02-renovation-bachelor-closet-revised-layout.md) records the revised preferred layout, rear corner projections and contractor-made shelves; no furniture purchase reported.
 
 ## Raw Context
 
@@ -35,7 +35,7 @@
 
 The opening is approximately 114½–117½ inches wide if each return is within the reported range. This is calculated from the interior width, not a direct opening measurement. Actual clear access with the panels open remains unmeasured.
 
-## Preferred Concept — Under Consideration
+## Initial Preferred Concept — Before Revision
 
 - Centre: a low four-drawer chest with shelves above.
 - Both sides: identical single hanging rails, matching shelves above, and open space below for shoes or movable baskets where garment length permits.
@@ -58,8 +58,8 @@ BOAXEL and other adjustable shelving systems were explored earlier, but no speci
 - Check drawer travel against the door panels, guides/tracks and available room space. The VIHALS nominal body depth plus listed pull-out is 28⅝ inches, which exceeds the closet's shallowest reported depth; the open drawer may project into the room.
 - Confirm exact return widths, wall/floor variations and support/anchoring positions before finalizing shelf and rail dimensions.
 
-## Generated Visual
+## Earlier Generated Visual
 
-The [concept image](../../documents/renovation/2026-11-02-bachelor-closet-concept.png) illustrates the preferred symmetry. [Rendering source note, SRC-2026-085](../../extractions/2026/2026-11-02-bachelor-closet-concept-render.md) records its provenance and generation prompt.
+The [earlier concept image](../../documents/renovation/2026-11-02-bachelor-closet-concept.png) illustrates the initial symmetry. [Rendering source note, SRC-2026-085](../../extractions/2026/2026-11-02-bachelor-closet-concept-render.md) records its provenance and generation prompt. The current preferred preview has a continuous top shelf and two smaller centre shelves below it; see [the revised layout, SRC-2026-086](2026-11-02-renovation-bachelor-closet-revised-layout.md).
 
 The image is AI-generated and not a photograph of installed work. Sliding panels are omitted to reveal the layout. White finishes, light flooring, clothing, baskets and visual proportions are illustrative; the rendering does not verify measurements, door clearance or exact retail-product appearance.

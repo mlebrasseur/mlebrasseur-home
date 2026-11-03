@@ -64,3 +64,11 @@ Source: [SRC-2026-080](../01-sources/chat/2026/2026-10-25-property-garage-ceilin
 Marbel work completed October 9, 2026; invoice 0035 totals 33,199.03 CAD including taxes. Paid October 15 by bank transfer; 0 CAD remaining, homeowner-reported. Foundation-crack selection remains separate. (SRC-2026-081, SRC-2026-082)
 
 Sources: [invoice, SRC-2026-081](../01-sources/extractions/2026/2026-10-09-renovation-marbel-signed-contract-and-invoice.md); [completion/payment, SRC-2026-082](../01-sources/chat/2026/2026-10-26-renovation-marbel-completion-and-payment.md).
+
+## November 2 — Preferred Bachelor Closet Concept
+
+Prefer the revised preview with one continuous top shelf fitted around the approximately 5 × 5-inch rear corner projections, two smaller centre shelves beneath it above a four-drawer chest, and matching single hanging rods with open space below. Homeowner viewed the preview, said “I like it, record that” and authorized recording it.
+
+The homeowner says their contractor will make the shelves. This records a layout preference; material, heights, exact cuts, single-piece versus joined construction, rod hardware, supports and drawer access remain to confirm. No specific chest purchase, price or installation date was reported.
+
+Sources: [Homeowner preference and construction context, SRC-2026-086](../01-sources/chat/2026/2026-11-02-renovation-bachelor-closet-revised-layout.md); [preferred rendering, SRC-2026-087](../01-sources/extractions/2026/2026-11-02-bachelor-closet-concept-v2-render.md).
