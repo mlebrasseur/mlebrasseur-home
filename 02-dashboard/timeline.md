@@ -1,6 +1,6 @@
 # Timeline
 
-Last updated: 2026-10-26 (Marbel completion and payment; other statuses retain their reporting dates)
+Last updated: 2026-11-02 (bachelor renovation progress; other statuses retain their reporting dates)
 
 ## Chronological Timeline
 
@@ -169,3 +169,13 @@ Sources: [invoice, SRC-2026-081](../01-sources/extractions/2026/2026-10-09-renov
 |---|---|---|---|
 | 2026-10-09 | Marbel invoice 0035 issued; work completed | SRC-2026-081, SRC-2026-082 | Completion homeowner-reported; invoice total 33,199.03 CAD |
 | 2026-10-15 | Marbel paid by bank transfer | SRC-2026-082 | 33,199.03 CAD; zero balance, homeowner-reported |
+
+## November 2 — Bachelor Renovation Progress
+
+| Date | Event | Source | Notes |
+|---|---|---|---|
+| Approximately 2026-10-19 | Bachelor expansion into former garage space started | SRC-2026-083 | Inferred from “2 weeks ago” reported November 2; not an exact start date |
+| 2026-11-02 (reporting date) | New room nearly complete: walls, flooring, painting and doors done | SRC-2026-083 | Individual completion dates unspecified; suspended ceiling and insulation remain, intended to retain ventilation-duct access |
+| 2026-11-02 (reporting date) | Garage and mechanical-room layout clarified | SRC-2026-083 | Former L-shaped garage now a straight bay to the back; new room to its left, mechanical room further left as described. Furnace, vacuum system and hot-water tank accessible only through new bachelor room |
+
+Source: [SRC-2026-083](../01-sources/chat/2026/2026-11-02-renovation-bachelor-started.md).

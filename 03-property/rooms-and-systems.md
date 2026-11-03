@@ -1,13 +1,17 @@
 # Rooms And Systems
 
+Last updated: 2026-11-02 (bachelor room, garage layout and mechanical access; other observations retain their reporting dates)
+
 ## Rooms
 
 | Room / Area | Condition | Known Issues | Planned Work | Source |
 |---|---|---|---|---|
 | Kitchen | Listed as functional with wood cabinets and eating area | Appliances excluded; microwave hood works on one speed |  | SRC-2026-001 |
 | Bathrooms | 2 bathrooms listed; main-floor bathroom has washer/dryer installation | Basement bathroom faucet leak; upstairs bath faucet leak; fan switch repair verified September 9; attic duct repaired by Maxime October 11 (SRC-2026-077) | Verify faucet fixes | SRC-2026-001, SRC-2026-012, SRC-2026-015 |
-| Basement | Fully finished, 6 ft and more, bachelor with independent entrance | Basement light repair verified September 9 (SRC-2026-064); false floor limits slab inspection | Future concept to expand bachelor into back garage space for open living/dining area | SRC-2026-001, SRC-2026-012, SRC-2026-015, SRC-2026-021 |
-| Garage | Attached garage with drain basin/sump and pumps | Water infiltration indicators near garage door; exterior drain basin may be improperly installed; garage ceiling may contain asbestos; garage-to-basement door should self-close | Ceiling removed by hand with less than 5% remaining; residual/debris checks deferred; leave ceiling as-is for now (SRC-2026-064, SRC-2026-080); homeowner photos archived (SRC-2026-079); seller before/after photos unavailable, follow-up retired (SRC-2026-075); combined driveway/drainage/retaining-wall project planned with a large rectangular garage-entry drain as the working intent, subject to technical sizing; future rear garage conversion for bachelor expansion requires feasibility review | SRC-2026-012, SRC-2026-015, SRC-2026-020, SRC-2026-021, SRC-2026-030 |
+| Basement | Existing finished bachelor with independent entrance, listed ceiling height 6 ft and more; expansion into former garage space underway | Basement light repair verified September 9 (SRC-2026-064); false floor limits slab inspection | Finish new bachelor room; see separate row and basement project | SRC-2026-001, SRC-2026-012, SRC-2026-015, SRC-2026-021, SRC-2026-083 |
+| New bachelor room | Nearly complete as of November 2: walls, flooring and painting done; doors installed. To the left of remaining garage bay, as described by homeowner | Provides the only access to the mechanical room; dimensions unrecorded | Install suspended ceiling with insulation, intended to retain ventilation-duct access | SRC-2026-083 |
+| Mechanical room | Small room to the left of the new bachelor room; contains furnace, vacuum system and hot-water tank | Accessible only through the new bachelor room | No separate work reported | SRC-2026-083 |
+| Garage | Attached garage with drain basin/sump and pumps; former L shape around basement now reduced to a straight bay running all the way to the back, homeowner-reported November 2 | Water infiltration indicators near garage door; exterior drain basin may be improperly installed; garage ceiling may contain asbestos; garage-to-basement door should self-close | Ceiling removed by hand with less than 5% remaining; residual/debris checks deferred; leave ceiling as-is for now (SRC-2026-064, SRC-2026-080); homeowner photos archived (SRC-2026-079); seller before/after photos unavailable, follow-up retired (SRC-2026-075); combined driveway/drainage/retaining-wall project planned with a large rectangular garage-entry drain as the working intent, subject to technical sizing; bachelor expansion nearly complete, with its ceiling and insulation remaining (SRC-2026-083) | SRC-2026-012, SRC-2026-015, SRC-2026-020, SRC-2026-021, SRC-2026-030, SRC-2026-083 |
 | Exterior | Brick exterior, landscaped private yard, terrace/pergola/gazebo, pavé-uni driveway | Prior oil or fuel tank disclosed; foundation cracks; mortar cracks and damaged sills; right-side retaining-wall settlement; damaged exterior tap | K.I. Bon written driveway quote received and Karl Morin comparison pending; Akton written three-crack estimate received; Fissure et Drain Laval written scope and confirmation of the two under-window conditions remain open | SRC-2026-001, SRC-2026-003, SRC-2026-015, SRC-2026-020, SRC-2026-021, SRC-2026-028, SRC-2026-029, SRC-2026-030, SRC-2026-037, SRC-2026-046, SRC-2026-047, SRC-2026-048, SRC-2026-049 |
 
 ## Systems
@@ -15,10 +19,19 @@
 | System | Age | Condition | Service Provider | Known Issues | Source |
 |---|---|---|---|---|---|
 | Roof | Conflicting: asphalt shingles installed 2015 per seller; Intact policy records roof renovation in 2016 | Adequate at inspection with no observed degradation |  | No supporting replacement documents declared; confirm 2015 versus 2016 | SRC-2026-003, SRC-2026-015, SRC-2026-042 |
-| HVAC | Central heat pump / central AC installed 2025; electric forced-air furnace; basement convect-air | Furnace working at inspection; no air exchanger present; garage/furnace duct separation should be improved for CO risk |  | Replace filter every 3 months or 4 times/year; filter size 20x25x2 | SRC-2026-003, SRC-2026-015 |
+| HVAC | Central heat pump / central AC installed 2025; electric forced-air furnace; basement convect-air | Furnace in mechanical room accessible only through new bachelor room (SRC-2026-083); working at inspection, no air exchanger present then; garage/furnace duct separation flagged at inspection, follow-up unrecorded |  | Replace filter every 3 months or 4 times/year; filter size 20x25x2. Planned suspended ceiling in new room is intended to retain ventilation-duct access | SRC-2026-003, SRC-2026-015, SRC-2026-083 |
 | Electrical | 200 amp Square D breaker panel; copper wiring; private EV charger | Panel observed adequate and safe; exterior outlets should be GFI |  | Panel change year still unknown | SRC-2026-003, SRC-2026-015 |
 | Plumbing | Municipal water and sewer; sump/pit in garage; French drain present | Backwater valve identified; French drain access/lookouts not accessible; garage drain basin/infiltration issue; faucet leaks | Ville de Terrebonne | Plumber follow-up recommended | SRC-2026-003, SRC-2026-004, SRC-2026-015 |
-| Water heater | Conflicting: seller declaration says installed 2023; inspection and Intact policy say 2021; Giant electric 40 gal, owned | Functional at inspection; no drain pan noted |  | Confirm actual year for insurance/maintenance; insurance currently uses 2021 | SRC-2026-003, SRC-2026-015, SRC-2026-042 |
+| Water heater | Conflicting: seller declaration says installed 2023; inspection and Intact policy say 2021; Giant electric 40 gal, owned | Located in mechanical room accessible only through new bachelor room (SRC-2026-083); functional at inspection, no drain pan noted |  | Confirm actual year for insurance/maintenance; insurance currently uses 2021 | SRC-2026-003, SRC-2026-015, SRC-2026-042, SRC-2026-083 |
+| Vacuum system | Unrecorded | Located in mechanical room accessible only through new bachelor room; operating condition unreported |  | Specifications unrecorded | SRC-2026-083 |
+
+## November 2 — Bachelor Expansion and Mechanical Access
+
+Bachelor work began approximately October 19, inferred from “2 weeks ago” reported November 2. The new room is nearly complete, with walls, flooring, paint and doors done; suspended ceiling and insulation remain. The homeowner intends to keep ventilation ducts accessible through this ceiling arrangement.
+
+The former L-shaped garage now has a straight bay to the back. Following the homeowner's left/right description, the new bachelor room is left of the bay and the mechanical room is further left. The furnace, vacuum system and hot-water tank are in that mechanical room, whose only access is through the new bachelor room. No measured floor plan, parking capacity or equipment relocation was reported.
+
+Source: [SRC-2026-083](../01-sources/chat/2026/2026-11-02-renovation-bachelor-started.md).
 
 ## September 14 Property Observations
 

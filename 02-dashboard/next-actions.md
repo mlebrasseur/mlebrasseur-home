@@ -1,6 +1,6 @@
 # Next Actions
 
-Last updated: 2026-10-26 (Marbel completion and payment; other statuses retain their reporting dates)
+Last updated: 2026-11-02 (bachelor renovation progress; other statuses retain their reporting dates)
 
 ## Urgent
 
@@ -23,6 +23,8 @@ Closing is completed per SRC-2026-052. Remaining closing items below are documen
 
 ## Upcoming
 
+Bachelor expansion: new room nearly complete as of November 2. Walls, flooring, painting and doors are done; suspended ceiling with insulation is the main remaining work, intended to keep ventilation ducts accessible. [SRC-2026-083](../01-sources/chat/2026/2026-11-02-renovation-bachelor-started.md).
+
 Exterior: Marbel completed October 9 and paid October 15; scheduling, extra inclusion and payment follow-ups are closed. Foundation selection remains open and separate. (SRC-2026-081, SRC-2026-082)
 
 Current sequence: September 27 U-Haul pickup 11:00 / return by 17:00 (SRC-2026-071) → September 28 Internet → September 29 appliance arrival. Remove old dishwasher before delivery. Garage-ceiling checks are deferred by homeowner (SRC-2026-080). (SRC-2026-064, SRC-2026-065)
@@ -30,6 +32,7 @@ Current sequence: September 27 U-Haul pickup 11:00 / return by 17:00 (SRC-2026-0
 
 | Action | Owner | Due Date | Related Area | Source | Status |
 |---|---|---|---|---|---|
+| Install suspended ceiling with insulation in the new bachelor room | Maxime | Not supplied | Bachelor renovation | SRC-2026-083 | Remaining; intended to retain ventilation-duct access; new room otherwise nearly complete as reported November 2 |
 | Pay December school-tax installment of 196.74 CAD | Maxime | 2026-12-09 | Taxes | SRC-2026-058, SRC-2026-062 | Outstanding; September installment paid as reported |
 | Retain September school-tax payment confirmation and verify posting | Maxime | After bank processing | Taxes | SRC-2026-062 | 186.52 CAD paid September 8, user-reported |
 | Measure appliance spaces | Maxime | After inspection; before purchase | Appliances | SRC-2026-053 | Planned |
@@ -66,6 +69,7 @@ Current sequence: September 27 U-Haul pickup 11:00 / return by 17:00 (SRC-2026-0
 
 | Date Completed | Action | Source | Notes |
 |---|---|---|---|
+| By 2026-11-02; exact dates unspecified | Completed new bachelor room walls, flooring and painting; installed doors | SRC-2026-083 | Homeowner-reported November 2; work started approximately October 19. Suspended ceiling and insulation remain |
 | 2026-09-08 | Paid September school-tax installment | SRC-2026-062 | 186.52 CAD, user-reported; recipient posting unconfirmed |
 | 2026-09-08 | Archived closing statements, paid invoice and signed loan contract; reconciled trust receipt, fees and tax adjustments | SRC-2026-056, SRC-2026-057, SRC-2026-058, SRC-2026-059, SRC-2026-060 | Municipal taxes fully seller-paid per adjustment; no duplicate September/October buyer payment planned |
 | 2026-09-01 | Made first mortgage payment | SRC-2026-063 | 2,590.74 CAD, user-reported September 8 |

@@ -1,21 +1,24 @@
 # General Renovations
 
+Last updated: 2026-11-02 (bachelor renovation progress; other statuses retain their reporting dates)
+
 ## Status
 
 | Field | Value | Source |
 |---|---|---|
-| Status | Painting completed (SRC-2026-078); other inspection follow-ups; garage-ceiling work deferred (SRC-2026-080) | SRC-2026-012, SRC-2026-015, SRC-2026-021 |
-| Target date | Access received September 9; painting completed by move day (recorded September 27), reported October 25; exact completion day unspecified (SRC-2026-078); September exterior/foundation target remains unbooked (SRC-2026-064, SRC-2026-065) | SRC-2026-012, SRC-2026-021 |
+| Status | Bachelor expansion in progress / new room nearly complete; suspended ceiling and insulation remain. Earlier painting completed; other inspection follow-ups; garage-ceiling work deferred | SRC-2026-078, SRC-2026-080, SRC-2026-083 |
+| Target date | Bachelor work started approximately October 19; completion date unspecified. Earlier painting completed by move day (recorded September 27), reported October 25; exact completion day unspecified | SRC-2026-078, SRC-2026-083 |
 | Budget |  |  |
 
 ## Scope
 
 - Seller repair scope from MO-57236: basement recessed light, attic ventilation duct, bathroom fan switch, garage ceiling/debris removal.
 - Buyer follow-up scope from inspection and owner assessment: combined garage driveway/drainage/retaining-wall redo, foundation cracks, possible garage-ceiling asbestos, masonry/sills, exterior GFI outlets, garage-to-basement self-closing hinges, CO detectors, exterior tap, water heater year confirmation.
-- Current renovation priority order: garage driveway/drainage/retaining-wall redo; foundation crack work; CO/smoke safety and self-closing garage-to-basement door; secondary fixes; bachelor expansion feasibility.
+- Current active work: finish the new bachelor room with a suspended ceiling and insulation, intended to retain ventilation-duct access. Foundation selection remains open; other inspection follow-ups retain their recorded statuses. (SRC-2026-082, SRC-2026-083)
+- Original July renovation priority order: garage driveway/drainage/retaining-wall redo; foundation crack work; CO/smoke safety and self-closing garage-to-basement door; secondary fixes; bachelor expansion feasibility. (SRC-2026-021)
 - July 2026 quote goal: contact at least 3 contractors for the driveway/drainage/retaining-wall project and at least 3 specialists for foundation cracks.
 - September 2026 work goal: complete driveway/drainage/retaining-wall work and foundation crack work in parallel, with contractor coordination before final driveway finish.
-- Next major planning priority after the September work: expand the bachelor by taking the back garage space to create a more open living/dining area.
+- Bachelor expansion into former garage space is underway: walls, flooring and painting complete; doors installed, reported November 2. See [basement renovation](basement.md) for progress and the garage/mechanical-room layout. (SRC-2026-083)
 
 ## Quotes
 
@@ -34,7 +37,14 @@
 | Coordinate driveway and foundation contractors before final driveway finish | User / contractors | Before 2026-09 work | SRC-2026-015, SRC-2026-021 | Open | Foundation repair may require exterior access or excavation |
 | Confirm garage-ceiling material handling / asbestos status |  | Before further disturbance; removal largely done (SRC-2026-064) | SRC-2026-015 | Deferred by homeowner (SRC-2026-080) | Inspector recommended sample analysis |
 | Get electrician quote for exterior GFI outlets |  |  | SRC-2026-015 | Open | Inspection recommendation |
-| Start bachelor expansion feasibility review | User | After September priority work is scoped | SRC-2026-008, SRC-2026-015, SRC-2026-021 | Open | Concept: convert back garage space into open bachelor living/dining area |
+| Start bachelor expansion feasibility review | User | Original planning task | SRC-2026-008, SRC-2026-015, SRC-2026-021, SRC-2026-083 | Superseded by work underway | New room nearly complete as of November 2; earlier permit/design questions remain documented in basement.md |
+| Install suspended ceiling with insulation in the new bachelor room | User | Not supplied | SRC-2026-083 | Remaining | Main remaining work identified by homeowner; intended to keep ventilation ducts accessible |
+
+## November 2 — Bachelor Renovation Progress
+
+Work started approximately October 19, inferred from the homeowner's “2 weeks ago” report on November 2. New room nearly complete: walls, flooring and painting done; doors installed. Suspended ceiling with insulation remains, intended to retain access to ventilation ducts. Garage now has a straight bay to the back; the mechanical room containing the furnace, vacuum system and hot-water tank is accessible only through the new bachelor room.
+
+Source: [SRC-2026-083](../../01-sources/chat/2026/2026-11-02-renovation-bachelor-started.md).
 
 ## September 14 Painting and Installation
 

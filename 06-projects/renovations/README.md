@@ -8,9 +8,15 @@ Use one file per renovation area. Keep quotes, scope, decisions, dependencies, a
 |---|---|---|
 | Kitchen | `kitchen.md` | Not started |
 | Bathroom | `bathroom.md` | Not started |
-| Basement | `basement.md` | Not started |
+| Basement | [basement.md](basement.md) | In progress / new room nearly complete, reported November 2; walls, floor, paint and doors done; suspended ceiling with insulation remains (SRC-2026-083) |
 | Exterior | [exterior.md](exterior.md) | Marbel quote accepted; expected week of September 28 or October 5. Foundation selection remains open (SRC-2026-067, SRC-2026-070) |
-| General | `general.md` | Painting completed (SRC-2026-078), 4,650 CAD paid in full; 0 CAD remaining; seller repairs partially verified, holdback released (SRC-2026-064, SRC-2026-065) |
+| General | [general.md](general.md) | Bachelor ceiling and insulation are active remaining work (SRC-2026-083). Earlier painting completed (SRC-2026-078), 4,650 CAD paid in full; 0 CAD remaining; seller repairs partially verified, holdback released (SRC-2026-064, SRC-2026-065) |
+
+## November 2 — Bachelor Renovation
+
+Started approximately October 19; new room nearly complete as reported November 2. Suspended ceiling and insulation remain, intended to retain ventilation-duct access. The former L-shaped garage now has a straight bay; the mechanical room is accessible only through the new bachelor room. See [basement.md](basement.md).
+
+Source: [SRC-2026-083](../../01-sources/chat/2026/2026-11-02-renovation-bachelor-started.md).
 
 ## September 14 Painting Update
 
