@@ -80,3 +80,13 @@ Record the planned bathroom remake following the new bachelor room project: fron
 Keep **Bathroom concept v1** as the sole concept, with four correction notes: proportions are inaccurate; shower fixture needs to be square; niche needs to be wider and horizontal; shower door opening needs to be on the left when facing it from the vanity. This records design preferences; measured fit, installation details, remaining product choices, budget and construction dates remain to confirm.
 
 Sources: [Current plan, SRC-2026-088](../01-sources/chat/2026/2026-11-03-renovation-bachelor-bathroom-plan.md); [concept v1 and corrections, SRC-2026-089](../01-sources/extractions/2026/2026-11-03-bachelor-bathroom-concept-v1-render.md).
+
+## November 4 — Bachelor Bathroom Product Direction
+
+The homeowner provisionally chooses the **SERA Toledo** toilet, explicitly TBC. Both Toledo and Appollo Neil were 399 CAD according to the homeowner; tax/delivery treatment was not specified. Toilet selection remains subject to the rotated layout and storage fit; no purchase reported.
+
+The homeowner agrees with a **slim black vanity light** and likes all four candidates: OVE Arjun, Frederic, Artika Bubble Bar and Artika Subway. Final light choice and compatible dimmer remain TBC. The comparison uses the homeowner's corrections: Arjun is 3000 K; Frederic is 35¼ inches wide and 2,200 lm.
+
+IKEA LETTAN and Bain Dépôt ALEX remain mirror options. The homeowner likes LETTAN's minimalist appearance and reports it out of stock; they will watch availability. Brigitta shower fixtures and SQ3004BK accessories are supplied product references. These are shopping/design decisions, with final order details, installation materials, budget and schedule still to confirm.
+
+Source: [Homeowner choices, corrections and product research, SRC-2026-090](../01-sources/chat/2026/2026-11-04-renovation-bachelor-bathroom-products.md). Current shopping list: [bathroom project](../06-projects/renovations/bathroom.md#shopping-list).

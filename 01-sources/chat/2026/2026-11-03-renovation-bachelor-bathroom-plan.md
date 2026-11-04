@@ -8,6 +8,7 @@
 - Date recorded: 2026-11-03
 - Related project: [Bachelor bathroom](../../../06-projects/renovations/bathroom.md)
 - Confidence: Room measurements are approximate. This records the current design intent; installation fit has not been verified.
+- Product update: [November 4 choices, shopping references and comparisons, SRC-2026-090](2026-11-04-renovation-bachelor-bathroom-products.md).
 
 ## Status
 
@@ -53,7 +54,7 @@ These are the homeowner's supplied references from the design discussion. Dimens
 | Sink top | [Bain Dépôt Saxe porcelain top with rectangular basin, for a 48 × 18 vanity](https://www.baindepot.com/dessus-vanite-porcelaine-lavabo-rectangulaire-saxevt.html?pid=5938) | Final cabinet/top fit to confirm |
 | Sink faucet | [Bain Dépôt single-hole faucet with drain, F-4021-3 family](https://www.baindepot.com/robinet-de-lavabo-monotrou-avec-bonde-f-4021-3.html?pid=17728) | Shape reference; intended finish black; exact order code unconfirmed |
 
-The mirror, shower fixture model, toilet model, behind-toilet storage product, epoxy system and paint code have not been selected in the record.
+At this initial recording, the mirror, shower fixture model, toilet model, behind-toilet storage product, epoxy system and paint code were unselected. For current product status, including provisional SERA Toledo selection and the mirror/light shortlist, see [SRC-2026-090](2026-11-04-renovation-bachelor-bathroom-products.md).
 
 ## Bathroom Concept v1
 

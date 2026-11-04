@@ -1,6 +1,6 @@
 # Timeline
 
-Last updated: 2026-11-03 (bachelor bathroom planning; other statuses retain their reporting dates)
+Last updated: 2026-11-04 (bachelor bathroom product planning; other statuses retain their reporting dates)
 
 ## Chronological Timeline
 
@@ -188,3 +188,12 @@ Source: [SRC-2026-083](../01-sources/chat/2026/2026-11-02-renovation-bachelor-st
 | 2026-11-03 (archive date) | Bathroom concept v1 retained as the sole concept | SRC-2026-089 | Four corrections recorded: proportions, square shower fixture, wider horizontal niche, and left-side shower opening when facing from vanity |
 
 Sources: [Bathroom plan, SRC-2026-088](../01-sources/chat/2026/2026-11-03-renovation-bachelor-bathroom-plan.md); [concept v1, SRC-2026-089](../01-sources/extractions/2026/2026-11-03-bachelor-bathroom-concept-v1-render.md).
+
+## November 4 — Bachelor Bathroom Product Planning Recorded
+
+| Date | Event | Source | Notes |
+|---|---|---|---|
+| 2026-11-04 (recording date) | SERA Toledo recorded as the provisional toilet choice | SRC-2026-090 | TBC; both toilet candidates were 399 CAD per homeowner. Rotated fit and storage access remain to confirm; no purchase reported |
+| 2026-11-04 (recording date) | Product links, mirror/light comparisons and remaining materials consolidated | SRC-2026-090 | Brigitta/SQ3004 references, ALEX/LETTAN options and four black dimmable lights. Homeowner corrections: Arjun 3000 K; Frederic 35¼ in / 2,200 lm. Final mirror/light selection, budget and schedule remain open |
+
+Source: [Homeowner choices and product research, SRC-2026-090](../01-sources/chat/2026/2026-11-04-renovation-bachelor-bathroom-products.md). See [bathroom project](../06-projects/renovations/bathroom.md).

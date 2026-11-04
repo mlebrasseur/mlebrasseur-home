@@ -1,6 +1,6 @@
 # Open Questions
 
-Last updated: 2026-11-03 (bachelor bathroom planning; other statuses retain their reporting dates)
+Last updated: 2026-11-04 (bachelor bathroom product planning; other statuses retain their reporting dates)
 
 Closing is completed (SRC-2026-052). Receipt and settlement questions below remain documentation follow-ups; the new certificate is held (SRC-2026-051).
 
@@ -115,11 +115,13 @@ Marbel work completed October 9, 2026; invoice 0035 totals 33,199.03 CAD includi
 
 Sources: [invoice, SRC-2026-081](../01-sources/extractions/2026/2026-10-09-renovation-marbel-signed-contract-and-invoice.md); [completion/payment, SRC-2026-082](../01-sources/chat/2026/2026-10-26-renovation-marbel-completion-and-payment.md).
 
-## November 3 — Bachelor Bathroom Planning
+## Bachelor Bathroom Planning — Updated November 4
 
 | Question | Status | Notes |
 |---|---|---|
-| What are the finished room/window/door measurements and actual clearances for the planned fixtures? | Open | Confirm door swing, shower/furniture access, toilet outlet and model, and the estimated gap of one foot or less behind the rotated tank before sizing storage |
-| What installation details, remaining products, budget and schedule will be used? | Open | Confirm shower height and left-side opening, niche framing/waterproofing, vanity/top fit, finish-specific faucet code, floor preparation/system, and remaining fixture selections; no quote or construction dates supplied |
+| What are the finished room/window/door measurements and actual clearances for the planned fixtures? | Open | Confirm door swing, shower/furniture access, and the estimated gap of one foot or less behind the rotated tank before sizing storage |
+| Will the provisional SERA Toledo fit the rotated layout and storage arrangement? | TBC | Check actual outlet/tank position, passage clearance, tank-lid/shutoff access, installation parts and replacement-part support; nominal dimensions alone do not verify fit |
+| Which mirror, vanity light and dimmer will be selected? | TBC | ALEX or LETTAN; homeowner reports LETTAN out of stock and will recheck. Arjun, Frederic, Bubble Bar and Subway remain candidates. Use homeowner-corrected Arjun 3000 K and Frederic 35¼ in / 2,200 lm; confirm Subway's black variant against its specifications |
+| What installation details, remaining products, budget and schedule will be used? | Open | Confirm Brigitta configuration/valve, shower height and left-side opening, niche framing/waterproofing, vanity/top fit and black faucet code, accessory placements, storage, paint/floor system and who supplies installation materials; no quote or construction dates supplied |
 
-Source: [Current plan and remaining details, SRC-2026-088](../01-sources/chat/2026/2026-11-03-renovation-bachelor-bathroom-plan.md). See [bathroom project](../06-projects/renovations/bathroom.md).
+Sources: [Layout and measurements, SRC-2026-088](../01-sources/chat/2026/2026-11-03-renovation-bachelor-bathroom-plan.md); [product choices and remaining checks, SRC-2026-090](../01-sources/chat/2026/2026-11-04-renovation-bachelor-bathroom-products.md). See [bathroom project](../06-projects/renovations/bathroom.md).

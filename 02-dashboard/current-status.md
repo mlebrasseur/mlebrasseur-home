@@ -1,6 +1,6 @@
 # Current Status
 
-Last updated: 2026-11-03 (bachelor bathroom planning; other statuses retain their reporting dates)
+Last updated: 2026-11-04 (bachelor bathroom product planning; other statuses retain their reporting dates)
 
 ## Snapshot
 
@@ -15,12 +15,12 @@ Last updated: 2026-11-03 (bachelor bathroom planning; other statuses retain thei
 | Utilities | Hydro signup effective September 9; Internet planned September 28 | SRC-2026-053, SRC-2026-065 | Internet provider/details unknown |
 | Inspection / repairs | Seller contact follow-up retired October 25 after multiple unanswered texts (SRC-2026-075). Four traps placed September 21; one mouse captured September 22 | SRC-2026-064, SRC-2026-069 | No further mice or wall sounds reported since September 22, as of October 25 (SRC-2026-074); routine monitoring. Attic duct repaired by Maxime October 11 (SRC-2026-077); stain checks moved to routine monitoring (SRC-2026-078); garage-ceiling checks deferred by homeowner (SRC-2026-080); holdback released |
 | Renovations | Bachelor expansion started approximately October 19; new room nearly complete, with walls/floor/paint/doors done. Suspended ceiling and insulation remain. Marbel completed and paid in full, 33,199.03 CAD; earlier painting completed and paid in full, 4,650 CAD | SRC-2026-078, SRC-2026-081, SRC-2026-082, SRC-2026-083 | Homeowner-reported progress/payment; foundation-crack selection remains open. Mechanical room accessible only through new bachelor room |
-| Bachelor bathroom | Planning after the new room project; layout, materials and Bathroom concept v1 recorded | [SRC-2026-088](../01-sources/chat/2026/2026-11-03-renovation-bachelor-bathroom-plan.md), [SRC-2026-089](../01-sources/extractions/2026/2026-11-03-bachelor-bathroom-concept-v1-render.md) | Approximate dimensions; fit, quote and construction dates remain to confirm. See [bathroom project](../06-projects/renovations/bathroom.md) |
+| Bachelor bathroom | Planning after the new room; SERA Toledo provisionally chosen, ALEX/LETTAN mirror options and four black dimmable vanity lights TBC; sole concept v1 retained | [SRC-2026-088](../01-sources/chat/2026/2026-11-03-renovation-bachelor-bathroom-plan.md), [SRC-2026-089](../01-sources/extractions/2026/2026-11-03-bachelor-bathroom-concept-v1-render.md), [SRC-2026-090](../01-sources/chat/2026/2026-11-04-renovation-bachelor-bathroom-products.md) | Linked shopping list and comparisons recorded; fit, remaining selections/materials, quote and construction dates remain to confirm. See [bathroom project](../06-projects/renovations/bathroom.md) |
 
 ## Current Focus
 
 - Finish the new bachelor room: install a suspended ceiling with insulation, intended to keep ventilation ducts accessible. Walls, flooring and painting are complete; doors installed. Main remaining renovation work reported November 2. [SRC-2026-083](../01-sources/chat/2026/2026-11-02-renovation-bachelor-started.md); [basement project](../06-projects/renovations/basement.md).
-- Confirm the bachelor bathroom measurements and fixture clearances before finalizing the planned layout, including the window, entrance swing and storage behind the rotated toilet. [SRC-2026-088](../01-sources/chat/2026/2026-11-03-renovation-bachelor-bathroom-plan.md); [bathroom project](../06-projects/renovations/bathroom.md).
+- Confirm the bachelor bathroom measurements and rotated Toledo/storage fit, then finalize the mirror, vanity light/dimmer and remaining materials with the contractor. The homeowner will recheck LETTAN availability. [SRC-2026-088](../01-sources/chat/2026/2026-11-03-renovation-bachelor-bathroom-plan.md), [SRC-2026-090](../01-sources/chat/2026/2026-11-04-renovation-bachelor-bathroom-products.md); [bathroom project](../06-projects/renovations/bathroom.md).
 - Prepare September 27 move: collect 15-foot U-Haul at Boutique Potiron at 11:00 with a mobile device; return by 17:00. Clarify quoted mileage. Internet September 28 and appliances September 29 remain planned; remove old dishwasher first. Measure windows/order blinds and arrange exterior disposal. (SRC-2026-065, SRC-2026-071)
 - Retain executed deeds, registered mortgage amount and exact funding date. Trust receipt, fees and tax/occupancy adjustments now reconcile; first mortgage payment September 1 is user-reported paid. (SRC-2026-056, SRC-2026-057, SRC-2026-059, SRC-2026-060, SRC-2026-063)
 - Certificate received: record notary treatment of boundary/setback findings and any title insurance or compensation. (SRC-2026-051)
