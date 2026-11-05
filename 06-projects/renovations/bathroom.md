@@ -1,16 +1,18 @@
 # Bachelor Bathroom Renovation
 
-Last updated: 2026-11-04
+Last updated: 2026-11-05
 
 Sources: [Measurements, layout and finishes, SRC-2026-088](../../01-sources/chat/2026/2026-11-03-renovation-bachelor-bathroom-plan.md); [product choices, comparisons and remaining purchases, SRC-2026-090](../../01-sources/chat/2026/2026-11-04-renovation-bachelor-bathroom-products.md).
+
+Current orders: [Canac, SRC-2026-091](../../01-sources/extractions/2026/2026-11-05-renovation-canac-order-4005849329.md); [Bain Dépôt, SRC-2026-092](../../01-sources/extractions/2026/2026-11-05-renovation-bain-depot-order-4000176758.md); [Amazon purchase and Marcel credit, SRC-2026-093](../../01-sources/chat/2026/2026-11-05-renovation-amazon-shower-niche-order.md).
 
 ## Status
 
 | Field | Value | Source |
 |---|---|---|
-| Status | Planning/design after the new bachelor room; SERA Toledo provisionally chosen, mirror and vanity light TBC | SRC-2026-088, SRC-2026-090 |
+| Status | Purchasing underway: shower/panels, vanity/top, linen cabinet, black faucet/accessories, ALEX mirror and Amazon niche ordered; Toledo and separate light/dimmer TBC | SRC-2026-090, SRC-2026-091, SRC-2026-092, SRC-2026-093 |
 | Construction dates | Not supplied | SRC-2026-088 |
-| Budget / quotes | Not supplied | SRC-2026-088 |
+| Budget / quotes | Overall budget/quote unknown; known bathroom items 2,528.00 CAD before tax, excluding Amazon, labour and remaining materials | SRC-2026-091, SRC-2026-092, SRC-2026-093 |
 
 ## Scope
 
@@ -26,7 +28,7 @@ Dimensions are in inches. Front is the entrance wall; left/right are as seen whe
 | Room | 89 wide × 86½ deep; ceiling 85 high |
 | Entrance | Front wall toward the left; reported left wall segment 15¼ plus 2½ trim, door approximately 30 wide. Reverse the inward swing toward the left, away from the shower |
 | Shower | Front-right, nominal 48 along the right wall × 36 across the front wall; door opens on the left when facing it from the vanity |
-| Vanity and mirror | Nominal 48 × 18 vanity on the left wall, facing right; large mirror above |
+| Vanity and mirror | Nominal 48 × 18 vanity on left wall, facing right; ordered ALEX 36 × 28 mirror above (SRC-2026-092); mounting heights to confirm |
 | Linen cabinet | Front-left beside the entrance, to the left of the vanity when facing it; handles on the right when facing the cabinet |
 | Toilet and storage | Toilet at back-right, facing the left wall. Shallow white storage against the right wall behind the tank; gap estimated at one foot or less, exact size/access unconfirmed |
 | Window | High on the back wall toward the left; small, two sliding panes, wider white frame/trim; dimensions unknown |
@@ -37,29 +39,30 @@ Finish direction: glossy white furniture with black handles, black fixtures, off
 
 ### Shopping List
 
-Status distinguishes supplied references and tentative choices from reported purchases. Only the shower has been reported as obtained; no purchase amount or receipt supplied. Sources: [initial references, SRC-2026-088](../../01-sources/chat/2026/2026-11-03-renovation-bachelor-bathroom-plan.md#product-references) and [product update, SRC-2026-090](../../01-sources/chat/2026/2026-11-04-renovation-bachelor-bathroom-products.md).
+November 5: Canac and Bain Dépôt orders are documented; Amazon niche ordered per homeowner. Collection, delivery and settled payments remain unconfirmed. Count the Canac shower once alongside the earlier “obtained” report. Sources: [Canac, SRC-2026-091](../../01-sources/extractions/2026/2026-11-05-renovation-canac-order-4005849329.md); [Bain Dépôt, SRC-2026-092](../../01-sources/extractions/2026/2026-11-05-renovation-bain-depot-order-4000176758.md); [Amazon purchase and Marcel credit, SRC-2026-093](../../01-sources/chat/2026/2026-11-05-renovation-amazon-shower-niche-order.md). Earlier references: [initial references, SRC-2026-088](../../01-sources/chat/2026/2026-11-03-renovation-bachelor-bathroom-plan.md#product-references) and [product update, SRC-2026-090](../../01-sources/chat/2026/2026-11-04-renovation-bachelor-bathroom-products.md).
 
 | Item | Product / link | Status / remaining check |
 |---|---|---|
-| Shower | [Canac Alaska KD3329, 48 × 36](https://www.canac.ca/canac/fr/2/p/douche-en-coin-alaska-a-base-surbaissee-finition-carree-noire-48-po-x-36-po/KD3329) | Reported obtained. Low white base, black square hardware and clear glass; confirm left-side opening and installation height |
-| Shower panels | [Canac Sapphire 33003746, white marble look, 48 × 96](https://www.canac.ca/canac/fr/2/p/panneau-mural-de-douche-marbre-blanc-48-po-x-96-po-sapphire/33003746) | Chosen finish; purchase unconfirmed. Confirm quantities/cuts, full-height coverage and niche detail |
+| Shower | [Canac Alaska KD3329, 48 × 36](https://www.canac.ca/canac/fr/2/p/douche-en-coin-alaska-a-base-surbaissee-finition-carree-noire-48-po-x-36-po/KD3329) | Ordered one, 835.00 CAD before tax (SRC-2026-091); ready for pickup. Reconciles earlier obtained report; no second purchase counted. Confirm collection, left-side opening and installation height |
+| Shower panels | [Canac Sapphire 33003746, white marble look, 48 × 96](https://www.canac.ca/canac/fr/2/p/panneau-mural-de-douche-marbre-blanc-48-po-x-96-po-sapphire/33003746) | Ordered two, 198.00 CAD before tax (SRC-2026-091); ready for pickup. Confirm cuts, full-height coverage and niche detail |
 | Shower fixture | [Canac Brigitta 3051904, black, with hand shower](https://www.canac.ca/canac/fr/49/p/robinet-de-douche-avec-douchette-1-poignee-brigitta-noir/3051904) | Supplied reference; confirm square-head configuration, valve, included components and fit |
-| Vanity | [Bain Dépôt Alder reference, nominal 48 × 18](https://www.baindepot.com/ensemble-meuble-lavabo-collection-alder.html?pid=16889) | Glossy white with black handles; purchase unconfirmed, final cabinet/top fit to check |
-| Linen cabinet | [Bain Dépôt LF1614-62GWH, nominal 16-inch glossy white](https://www.baindepot.com/lingerie-de-plancher-16po-blanc-lustre-a-poignees-noires-lf1614-62gwh.html) | Matching reference; confirm handles on the right when facing cabinet and entrance clearance |
-| Sink top | [Bain Dépôt Saxe porcelain rectangular-basin top, 48 × 18](https://www.baindepot.com/dessus-vanite-porcelaine-lavabo-rectangulaire-saxevt.html?pid=5938) | Reference; confirm cabinet/top and faucet compatibility |
-| Sink faucet | [Bain Dépôt F-4021-3 family with drain](https://www.baindepot.com/robinet-de-lavabo-monotrou-avec-bonde-f-4021-3.html?pid=17728) | Shape reference; intended finish black, exact order code to confirm |
+| Vanity | [Bain Dépôt Alder reference, nominal 48 × 18](https://www.baindepot.com/ensemble-meuble-lavabo-collection-alder.html?pid=16889) | Ordered VF4818-62GWH, 489.00 CAD before tax (SRC-2026-092); availability around November 16 holds entire order. Confirm cabinet/top fit |
+| Linen cabinet | [Bain Dépôt LF1614-62GWH, nominal 16-inch glossy white](https://www.baindepot.com/lingerie-de-plancher-16po-blanc-lustre-a-poignees-noires-lf1614-62gwh.html) | Ordered LF1614-62GWH, 379.00 CAD before tax (SRC-2026-092); confirm handles on right when facing cabinet and entrance clearance |
+| Sink top | [Bain Dépôt Saxe porcelain rectangular-basin top, 48 × 18](https://www.baindepot.com/dessus-vanite-porcelaine-lavabo-rectangulaire-saxevt.html?pid=5938) | Ordered VT-SQ1207, 230.00 CAD before tax (SRC-2026-092); confirm cabinet/top and faucet compatibility |
+| Sink faucet | [Bain Dépôt F-4021-3 family with drain](https://www.baindepot.com/robinet-de-lavabo-monotrou-avec-bonde-f-4021-3.html?pid=17728) | Ordered F-4021-3BK, matte black with drain, 89.00 CAD before tax (SRC-2026-092) |
 | Toilet | [Costco SERA Toledo, TOLADATT](https://www.costco.ca/p/-/sera-toledo-1-piece-dual-flush-toilet/4000418914) | Provisional choice, TBC; 399 CAD reported by homeowner, tax/delivery treatment unspecified. Check rotated fit before purchase |
-| Accessories | [Bain Dépôt SQ3004BK, four square black accessories](https://www.baindepot.com/ensemble-de-4-accessoires-carres-sq3004.html?pid=8162) | Supplied candidate: 24-inch towel bar, towel ring, hook and paper holder. Confirm placements |
-| Mirror | [IKEA LETTAN 905.523.32](https://www.ikea.com/ca/en/p/lettan-mirror-90552332/) or [Bain Dépôt ALEX 84-ALEX-120](https://www.baindepot.com/miroir-avec-lumieres-integrees-alex-m.html?pid=6729) | Options; final choice TBC. See comparison below |
+| Accessories | [Bain Dépôt SQ3004BK, four square black accessories](https://www.baindepot.com/ensemble-de-4-accessoires-carres-sq3004.html?pid=8162) | Ordered SQ3004BK, 99.00 CAD before tax (SRC-2026-092); confirm placements |
+| Mirror | [Bain Dépôt ALEX 84-ALEX-90, 36 × 28](../../01-sources/extractions/2026/2026-11-05-renovation-bain-depot-order-4000176758.md) | Ordered, 209.00 CAD before tax (SRC-2026-092); integrated LED. Supersedes previous mirror options; confirm mounting/electrical placement |
+| Shower niche | [Amazon B0DCZC7134](https://www.amazon.ca/dp/B0DCZC7134), Homevacious white stainless steel, nominal 12 × 24, two compartments | Ordered per homeowner (SRC-2026-093); identity from same-ASIN US listing. Amount/delivery unknown; confirm variant, orientation, framing and waterproofing |
 | Vanity light and dimmer | Four linked candidates below | Slim black direction accepted; light and compatible dimmer TBC |
 | Behind-toilet storage | Product TBC | Shallow white unit; size after measuring the actual gap and tank/shutoff access |
 | Wall paint and floor system | Products TBC | Off-white paint; white epoxy with fine dark details. Contractor to specify preparation/coating, ceramic overlay versus removal, and traction finish |
 
 ### Mirror and Vanity Light
 
-LETTAN is 48 × 37 inches, frameless and unlit; listed reference price 59.99 CAD. The homeowner likes its minimalist appearance and reports it out of stock; they will watch availability. ALEX is nominally 48 × 28 inches with integrated LED lighting, listed reference price 249 CAD. Both remain options. Prices are dated research references, not expenses; recheck before ordering. [Mirror evidence and recommendation, SRC-2026-090](../../01-sources/chat/2026/2026-11-04-renovation-bachelor-bathroom-products.md#mirror-options).
+Ordered **ALEX 84-ALEX-90, 36 × 28 inches**, with integrated LED lighting, **209.00 CAD before tax**. This resolves the mirror selection and supersedes the earlier LETTAN / nominal 48-inch ALEX shortlist. [Order, SRC-2026-092](../../01-sources/extractions/2026/2026-11-05-renovation-bain-depot-order-4000176758.md). Earlier comparison remains in [SRC-2026-090](../../01-sources/chat/2026/2026-11-04-renovation-bachelor-bathroom-products.md#mirror-options).
 
-All four black lights remain TBC. Each is dimmable with a compatible LED dimmer; 3000 K is warm white. Dimming does not establish adjustable colour temperature.
+A separate vanity light and compatible dimmer remain TBC; the mirror order does not establish that an additional light is selected or cancelled. The four earlier candidates are retained below. Each is dimmable with a compatible LED dimmer; 3000 K is warm white. Dimming does not establish adjustable colour temperature.
 
 | Light / link | Width, inches | Colour temperature | Output | Dimmable |
 |---|---:|---:|---:|---|
@@ -70,7 +73,7 @@ All four black lights remain TBC. Each is dimmable with a compatible LED dimmer;
 
 The Subway value comes from [Artika's black-model page](https://artika.ca/products/subway-led-bathroom-vanity-light); Costco's mixed-variant listing says 1,900 lm alongside nickel copy. Frederic uses the homeowner's corrected values despite inconsistent retailer documents. Full evidence and comparison: [SRC-2026-090](../../01-sources/chat/2026/2026-11-04-renovation-bachelor-bathroom-products.md#vanity-light-comparison).
 
-Assistant recommendation: LETTAN with a slim black light suits the preferred minimalist appearance. Check the combined mirror/light placement against the 85-inch ceiling before ordering. Arjun is the simplest visual direction; the homeowner also likes Frederic, Bubble Bar and Subway. No final model selected.
+The earlier LETTAN recommendation is superseded by the ALEX order. Coordinate the selected 36 × 28-inch mirror, electrical connection and any separate light within the 85-inch ceiling. No separate light or dimmer order is documented. (SRC-2026-090, SRC-2026-092)
 
 ### Toilet Fit and Comparison
 
@@ -99,9 +102,15 @@ Sole retained concept. [Image record, SRC-2026-089](../../01-sources/extractions
 - Niche needs to be wider and horizontal.
 - Shower door opening needs to be on the left, facing it from the vanity.
 
-## Quotes
+## Orders and Costs — November 5
 
-No bathroom quote, contractor identity, overall budget or payment amount supplied. Product reference prices are recorded for shopping; no additional purchase reported. (SRC-2026-088, SRC-2026-090)
+- Canac 4005849329: **1,747.60 CAD including tax**, of which shower and shower panels are **1,033.00 before tax**. Ready for Laval yard pickup; collection unconfirmed. Three doors remain unallocated; C-Ment panels are for Marcel and tracked as a pending invoice credit, not bathroom materials.
+- Bain Dépôt 4000176758: **1,718.88 CAD including tax**, all six bathroom items. Whole order awaits vanity availability around **November 16** for Mascouche store pickup; await ready notification.
+- Known bathroom items total **2,528.00 CAD before tax** (1,033.00 + 1,495.00), excluding the Amazon niche and remaining purchases/labour. Whole Canac and Bain Dépôt orders total **3,466.48 CAD including tax**, including doors and Marcel's panels; this is not a bathroom-only total.
+- Amazon niche: homeowner-reported order; price, quantity and delivery date unknown. Confirm actual orientation and installation dimensions for the planned horizontal niche.
+- Checkout methods are recorded; settled payment evidence remains unconfirmed. Overall bathroom quote, budget and construction dates remain unspecified.
+
+Sources: [Canac, SRC-2026-091](../../01-sources/extractions/2026/2026-11-05-renovation-canac-order-4005849329.md); [Bain Dépôt, SRC-2026-092](../../01-sources/extractions/2026/2026-11-05-renovation-bain-depot-order-4000176758.md); [Amazon purchase and Marcel credit, SRC-2026-093](../../01-sources/chat/2026/2026-11-05-renovation-amazon-shower-niche-order.md). [Cost and allocation record](../../04-finance/renovation-costs.md#november-5--material-orders-and-pending-credit).
 
 ## Tasks
 
@@ -109,7 +118,10 @@ No bathroom quote, contractor identity, overall budget or payment amount supplie
 |---|---|---|---|---|---|
 | Confirm room, window, entrance and furniture measurements | Maxime / contractor | Before layout finalization | SRC-2026-088 | Pending | Include inward door swing, shower access and passage clearances |
 | Confirm Toledo choice, rotated toilet and storage fit | Maxime / contractor | Before toilet/storage purchase | SRC-2026-088, SRC-2026-090 | Pending | Toledo remains provisional; measure outlet/tank position, passage clearance and storage gap, retain tank/shutoff access, and confirm parts support |
-| Select mirror, vanity light and compatible dimmer | Maxime / contractor | Before purchase/electrical placement | SRC-2026-090 | Pending | ALEX or LETTAN; homeowner to recheck LETTAN availability. Four light candidates retained; coordinate mounting heights within the 85-inch ceiling |
-| Confirm shower and niche installation details | Contractor | Before installation | SRC-2026-088, SRC-2026-090 | Pending | Brigitta configuration/valve, installation height, base/wall build-up, left-side opening, niche dimensions/height, framing and waterproofing |
-| Finalize remaining products and supply responsibilities | Maxime / contractor | Before ordering | SRC-2026-090 | Pending | Cabinet/top fit, black faucet code, accessory placements, plumbing/mounting supplies, shallow storage, paint and floor system |
+| Coordinate ordered mirror and decide separate light/dimmer | Maxime / contractor | Before electrical placement / further purchase | SRC-2026-090, SRC-2026-092 | Pending | ALEX 84-ALEX-90 is ordered; coordinate 36 × 28 mirror within 85-inch ceiling. Four separate light candidates retained |
+| Confirm shower and niche installation details | Contractor | Before installation | SRC-2026-088, SRC-2026-090, SRC-2026-093 | Pending | Brigitta configuration/valve, installation height, base/wall build-up, left-side opening; verify ordered niche orientation, dimensions, framing and waterproofing |
+| Finalize remaining products and supply responsibilities | Maxime / contractor | Before further ordering | SRC-2026-090, SRC-2026-092 | Pending | Cabinet/top fit, accessory placements, plumbing/mounting supplies, shallow storage, paint and floor system; black faucet code now confirmed F-4021-3BK |
 | Obtain bathroom scope, quote and schedule | Maxime / contractor | Not supplied | SRC-2026-088, SRC-2026-090 | Pending | Include labour, materials, quantities, inclusions and who buys each item; retain receipts as purchases occur |
+| Collect Canac order and confirm receipt | Maxime | Ready November 5; promptly | SRC-2026-091 | Pending | Laval yard pickup, 3400 boul. Curé-Labelle; one shower purchase recorded |
+| Watch Bain Dépôt readiness and collect order | Maxime | Availability around November 16, not confirmed pickup date | SRC-2026-092 | Pending | Entire order held for vanity; Mascouche store, 198 montée Masson |
+| Retain Amazon details and reconcile checkout charges | Maxime | When available | SRC-2026-091, SRC-2026-092, SRC-2026-093 | Pending | Amazon amount/quantity/delivery and settled card payments unconfirmed |

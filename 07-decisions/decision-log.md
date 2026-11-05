@@ -90,3 +90,13 @@ The homeowner agrees with a **slim black vanity light** and likes all four candi
 IKEA LETTAN and Bain Dépôt ALEX remain mirror options. The homeowner likes LETTAN's minimalist appearance and reports it out of stock; they will watch availability. Brigitta shower fixtures and SQ3004BK accessories are supplied product references. These are shopping/design decisions, with final order details, installation materials, budget and schedule still to confirm.
 
 Source: [Homeowner choices, corrections and product research, SRC-2026-090](../01-sources/chat/2026/2026-11-04-renovation-bachelor-bathroom-products.md). Current shopping list: [bathroom project](../06-projects/renovations/bathroom.md#shopping-list).
+
+## November 5 — Bathroom Orders and Marcel Credit
+
+Canac shower and two Sapphire panels are ordered; reconcile the single shower purchase with the earlier obtained report. Bain Dépôt order confirms VF4818-62GWH vanity, VT-SQ1207 top, LF1614-62GWH linen cabinet, F-4021-3BK matte-black faucet, SQ3004BK accessories and **ALEX 84-ALEX-90 illuminated mirror, 36 × 28 inches**. This mirror selection supersedes the November 4 LETTAN / 48-inch ALEX options. Separate vanity light/dimmer and Toledo purchase remain unresolved.
+
+Homeowner reports ordering Amazon niche B0DCZC7134 today; same-ASIN US listing identifies a white Homevacious 12 × 24 stainless-steel niche with two compartments. Amount/delivery and installation orientation remain unconfirmed.
+
+The two Canac C-Ment Times panels are for **Marcel**, who will subtract their price from his next invoice, homeowner-reported. Record a pending credit against the **99.98 CAD before-tax** line, with tax treatment and application to verify; keep gross purchase totals intact until reconciled. Three Shaker doors remain unallocated.
+
+Sources: [Canac, SRC-2026-091](../01-sources/extractions/2026/2026-11-05-renovation-canac-order-4005849329.md); [Bain Dépôt, SRC-2026-092](../01-sources/extractions/2026/2026-11-05-renovation-bain-depot-order-4000176758.md); [Amazon purchase and Marcel credit, SRC-2026-093](../01-sources/chat/2026/2026-11-05-renovation-amazon-shower-niche-order.md).

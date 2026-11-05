@@ -1,6 +1,6 @@
 # Budget
 
-Last updated: 2026-10-26 (Marbel completion and payment; other statuses retain their reporting dates)
+Last updated: 2026-11-05 (material orders and pending Marcel credit; other statuses retain their reporting dates)
 
 ## Uses / Costs
 
@@ -15,6 +15,7 @@ Last updated: 2026-10-26 (Marbel completion and payment; other statuses retain t
 | Moving | 70.75 | | | | SRC-2026-071 | Confirmed U-Haul reservation; quoted estimate before tax, mileage discrepancy unresolved. Final cost/payment unknown. |
 | Renovations — painting | | 4650.00 | 4650.00 | 0.00 | SRC-2026-065, SRC-2026-078 | Paid in full during the week, homeowner-reported; exact payment date, method and tax breakdown unspecified. |
 | Renovations — Marbel | | 33199.03 | 33199.03 | 0.00 | SRC-2026-081, SRC-2026-082 | Completed October 9; paid October 15 by bank transfer, homeowner-reported; includes extras and taxes. |
+| Renovation material orders — November 5 | | 3466.48 | | | SRC-2026-091, SRC-2026-092 | Canac and Bain Dépôt gross totals including tax; contains bathroom items, unallocated doors and Marcel panels. Settlement unconfirmed; Amazon amount excluded/TBC. See allocation below. |
 | Utilities setup |  |  |  |  | SRC-2026-001, SRC-2026-003, SRC-2026-004 | Electricity, municipal water/sewer, and no gas facts extracted |
 | Maintenance / inspection |  | 600.00 | 600.00 | 0.00 | SRC-2026-015, SRC-2026-061 | One June 6 Interac payment; agreement corroborates existing ledger entry. |
 
@@ -52,3 +53,11 @@ Painting completion/payment source: [SRC-2026-078](../01-sources/chat/2026/2026-
 Marbel work completed October 9, 2026; invoice 0035 totals 33,199.03 CAD including taxes. Paid October 15 by bank transfer; 0 CAD remaining, homeowner-reported. Foundation-crack selection remains separate. (SRC-2026-081, SRC-2026-082)
 
 Sources: [invoice, SRC-2026-081](../01-sources/extractions/2026/2026-10-09-renovation-marbel-signed-contract-and-invoice.md); [completion/payment, SRC-2026-082](../01-sources/chat/2026/2026-10-26-renovation-marbel-completion-and-payment.md).
+
+## November 5 — Purchases and Expected Invoice Credit
+
+Canac 1,747.60 + Bain Dépôt 1,718.88 = **3,466.48 CAD including taxes** in confirmed orders. Amazon niche is additionally ordered, amount unknown. These are commitments; paid and remaining balances are unconfirmed. [Order breakdown and allocation](renovation-costs.md#november-5--material-orders-and-pending-credit).
+
+Marcel will deduct the price of the two C-Ment Times panels from his next invoice, homeowner-reported. Purchased line total **99.98 CAD before tax**; credit tax treatment and application pending. Gross orders include the panels; no reduction or cash refund recognized yet. Verify and reconcile the deduction once when that invoice arrives.
+
+Sources: [Canac, SRC-2026-091](../01-sources/extractions/2026/2026-11-05-renovation-canac-order-4005849329.md); [Bain Dépôt, SRC-2026-092](../01-sources/extractions/2026/2026-11-05-renovation-bain-depot-order-4000176758.md); [Amazon purchase and Marcel credit, SRC-2026-093](../01-sources/chat/2026/2026-11-05-renovation-amazon-shower-niche-order.md).

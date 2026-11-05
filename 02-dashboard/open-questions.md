@@ -1,6 +1,6 @@
 # Open Questions
 
-Last updated: 2026-11-04 (bachelor bathroom product planning; other statuses retain their reporting dates)
+Last updated: 2026-11-05 (orders, pickup follow-up and pending Marcel credit; other statuses retain their reporting dates)
 
 Closing is completed (SRC-2026-052). Receipt and settlement questions below remain documentation follow-ups; the new certificate is held (SRC-2026-051).
 
@@ -115,13 +115,22 @@ Marbel work completed October 9, 2026; invoice 0035 totals 33,199.03 CAD includi
 
 Sources: [invoice, SRC-2026-081](../01-sources/extractions/2026/2026-10-09-renovation-marbel-signed-contract-and-invoice.md); [completion/payment, SRC-2026-082](../01-sources/chat/2026/2026-10-26-renovation-marbel-completion-and-payment.md).
 
-## Bachelor Bathroom Planning — Updated November 4
+## Bachelor Bathroom Planning and Purchases — Updated November 5
 
 | Question | Status | Notes |
 |---|---|---|
 | What are the finished room/window/door measurements and actual clearances for the planned fixtures? | Open | Confirm door swing, shower/furniture access, and the estimated gap of one foot or less behind the rotated tank before sizing storage |
 | Will the provisional SERA Toledo fit the rotated layout and storage arrangement? | TBC | Check actual outlet/tank position, passage clearance, tank-lid/shutoff access, installation parts and replacement-part support; nominal dimensions alone do not verify fit |
-| Which mirror, vanity light and dimmer will be selected? | TBC | ALEX or LETTAN; homeowner reports LETTAN out of stock and will recheck. Arjun, Frederic, Bubble Bar and Subway remain candidates. Use homeowner-corrected Arjun 3000 K and Frederic 35¼ in / 2,200 lm; confirm Subway's black variant against its specifications |
-| What installation details, remaining products, budget and schedule will be used? | Open | Confirm Brigitta configuration/valve, shower height and left-side opening, niche framing/waterproofing, vanity/top fit and black faucet code, accessory placements, storage, paint/floor system and who supplies installation materials; no quote or construction dates supplied |
+| Is a separate vanity light/dimmer still wanted with the ordered ALEX mirror? | TBC | Mirror choice resolved: ALEX 84-ALEX-90, 36 × 28 with integrated LED (SRC-2026-092). Coordinate mounting/electrical placement; four earlier separate-light candidates retained |
+| What installation details, remaining products, budget and schedule will be used? | Open | Confirm Brigitta configuration/valve, shower height/opening, ordered niche orientation/framing/waterproofing, panel cuts, cabinet/top fit, accessory placements, storage, paint/floor system and supply responsibility; faucet code now confirmed. Overall quote and dates unknown |
 
 Sources: [Layout and measurements, SRC-2026-088](../01-sources/chat/2026/2026-11-03-renovation-bachelor-bathroom-plan.md); [product choices and remaining checks, SRC-2026-090](../01-sources/chat/2026/2026-11-04-renovation-bachelor-bathroom-products.md). See [bathroom project](../06-projects/renovations/bathroom.md).
+
+| Purchase follow-up | Status | Details |
+|---|---|---|
+| When will orders be collected/delivered, and what is the Amazon total/quantity? | Open | Canac ready for Laval pickup; Bain Dépôt whole-order availability estimated November 16 before Mascouche pickup confirmation. Amazon amount/quantity/delivery unknown |
+| Have the checkout charges settled? | Unconfirmed | Canac Mastercard transaction and Bain Dépôt Google Pay / Mastercard method recorded; no independent settlement evidence |
+| Which rooms are the three Shaker doors for? | Open | Canac SKU 88001678, 387.00 before tax; do not assign to bathroom or completed basement-door work without confirmation |
+| Has Marcel applied the panel deduction, and how are taxes treated? | Pending next invoice | SKU 8341031, two panels, 99.98 before tax. Marcel's full identity/company, invoiced work and invoice date/number unspecified; deduction promised by homeowner report |
+
+Purchase sources: [Canac, SRC-2026-091](../01-sources/extractions/2026/2026-11-05-renovation-canac-order-4005849329.md); [Bain Dépôt, SRC-2026-092](../01-sources/extractions/2026/2026-11-05-renovation-bain-depot-order-4000176758.md); [Amazon purchase and Marcel credit, SRC-2026-093](../01-sources/chat/2026/2026-11-05-renovation-amazon-shower-niche-order.md).

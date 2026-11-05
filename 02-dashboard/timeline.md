@@ -1,6 +1,6 @@
 # Timeline
 
-Last updated: 2026-11-04 (bachelor bathroom product planning; other statuses retain their reporting dates)
+Last updated: 2026-11-05 (orders, pickup follow-up and pending Marcel credit; other statuses retain their reporting dates)
 
 ## Chronological Timeline
 
@@ -197,3 +197,15 @@ Sources: [Bathroom plan, SRC-2026-088](../01-sources/chat/2026/2026-11-03-renova
 | 2026-11-04 (recording date) | Product links, mirror/light comparisons and remaining materials consolidated | SRC-2026-090 | Brigitta/SQ3004 references, ALEX/LETTAN options and four black dimmable lights. Homeowner corrections: Arjun 3000 K; Frederic 35¼ in / 2,200 lm. Final mirror/light selection, budget and schedule remain open |
 
 Source: [Homeowner choices and product research, SRC-2026-090](../01-sources/chat/2026/2026-11-04-renovation-bachelor-bathroom-products.md). See [bathroom project](../06-projects/renovations/bathroom.md).
+
+## November 5 — Orders and Pickup Follow-up
+
+| Date | Event | Source | Notes |
+|---|---|---|---|
+| 2026-11-05 | Canac order 4005849329 confirmed and ready for pickup | SRC-2026-091 | 1,747.60 CAD including tax; Laval yard pickup; collection unconfirmed |
+| 2026-11-05 | Bain Dépôt order 4000176758 confirmed | SRC-2026-092 | 1,718.88 CAD including tax; ALEX mirror ordered in 36 × 28 variant; whole order held for vanity |
+| 2026-11-05 | Amazon niche order and Marcel panel-credit arrangement reported | SRC-2026-093 | Amazon price/delivery unknown; Marcel to deduct two panels, 99.98 before tax, from next invoice; tax treatment/application pending |
+| Around 2026-11-16 | Bain Dépôt vanity/all-items availability expected | SRC-2026-092 | Estimated availability before transfer/notification for Mascouche pickup; not a guaranteed collection date |
+| Next Marcel invoice; date unknown | Verify C-Ment panel deduction | SRC-2026-093 | Confirm tax treatment and reconcile credit once |
+
+Sources: [Canac, SRC-2026-091](../01-sources/extractions/2026/2026-11-05-renovation-canac-order-4005849329.md); [Bain Dépôt, SRC-2026-092](../01-sources/extractions/2026/2026-11-05-renovation-bain-depot-order-4000176758.md); [Amazon purchase and Marcel credit, SRC-2026-093](../01-sources/chat/2026/2026-11-05-renovation-amazon-shower-niche-order.md).

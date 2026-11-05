@@ -1,0 +1,1321 @@
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: maxime.lebrasseur@gmail.com
+Received: by 2002:a05:7412:9094:b0:215:574:7918 with SMTP id cf20csp2178731rdb;
+        Thu, 5 Nov 2026 08:48:08 -0800 (PST)
+X-Received: by 2002:a05:6820:f027:b0:6dd:6d12:22d2 with SMTP id 006d021491bc7-716e73de69dmr93785eaf.7.1793897288071;
+        Thu, 05 Nov 2026 08:48:08 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1793897288; cv=none;
+        d=google.com; s=arc-20260327;
+        b=qUYDNjYLTkSA2MXnIFzIpYubtewuJw14ri4yAiD2Klg1Cl8BsU8MHpeYHFllaz6bv9
+         9OUtYwvl2R64aPOFdQli4Xpv5Lwzrcb0oDBWpAFbUEUuSboogLx60512Q8viT1dG6LLP
+         ARjg6Tin3qn7/5VZ0FsE5486hVCLICCcNpPSXKcakpwt9xU4dWMSusa/SUcEpevWIwFX
+         uWydiY9TQ95gMENyLBvTEHApADFrXdWofuK9aTx2cmLwyuC72ITGZkDnJLdCOXcgNuDT
+         hv19owvh/w1Iy/Zvs5hB+o0Gbi4Ywor1tNHqwPLkvOOx8lAvdfgyEtQgV8Bijjh1aawZ
+         PkYQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20260327;
+        h=to:message-id:from:content-disposition:content-transfer-encoding
+         :mime-version:date:subject:dkim-signature:dkim-signature;
+        bh=XipZgjZBI13CyNRN7M2Vpuj3cFYZ3dqh2QrhoS4DVAs=;
+        fh=eKyeKde0jcRxL6RHxEcyZckCiylhTnY90P5Sa/Xl0tI=;
+        b=INYUxC8iSlFAw8fR+Y/lHR0ewc84/W8nGbY4MN4tfskRkfkbdfIntdpeQSNReSHtvr
+         /wyeIv0XPDOYBBkQyKvKyHJCfTaPa5pJrQbpL2PzI0WK5V9z1xewvUU+O3wHThzFDQWk
+         E2SSQ8wvQQWDvOEJBx83OtvkiQ4hClJFOsHZvxSd6QjzVkoKZ93QHh/c9mzSXT3k6+CS
+         8EF9xUTaen5D9XygW2hfeGCW75vRNvHDk6S583UTDxOP0OSagoxidHz+zJgZjKrrQ0k9
+         6rtzd8XgOtpBmg//9Wcl8P2qJluNpzyKOEfc97CT9z9lk6ZednIchxD9ab/WoZQPX9hE
+         MAAg==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@baindepot.com header.s=e557 header.b=0aAGYcpD;
+       dkim=pass header.i=@sendgrid.info header.s=smtpapi header.b=sEy8GccC;
+       spf=pass (google.com: domain of bounces+26746295-f827-maxime.lebrasseur=gmail.com@em683.baindepot.com designates 149.72.243.233 as permitted sender) smtp.mailfrom="bounces+26746295-f827-maxime.lebrasseur=gmail.com@em683.baindepot.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=baindepot.com
+Return-Path: <bounces+26746295-f827-maxime.lebrasseur=gmail.com@em683.baindepot.com>
+Received: from o4.us-prod-1.smtp.magentosite.cloud (o4.us-prod-1.smtp.magentosite.cloud. [149.72.243.233])
+        by mx.google.com with ESMTPS id 586e51a60fabf-4acd529da50si7214628fac.37.2026.11.05.08.48.07
+        for <maxime.lebrasseur@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Thu, 05 Nov 2026 08:48:07 -0800 (PST)
+Received-SPF: pass (google.com: domain of bounces+26746295-f827-maxime.lebrasseur=gmail.com@em683.baindepot.com designates 149.72.243.233 as permitted sender) client-ip=149.72.243.233;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@baindepot.com header.s=e557 header.b=0aAGYcpD;
+       dkim=pass header.i=@sendgrid.info header.s=smtpapi header.b=sEy8GccC;
+       spf=pass (google.com: domain of bounces+26746295-f827-maxime.lebrasseur=gmail.com@em683.baindepot.com designates 149.72.243.233 as permitted sender) smtp.mailfrom="bounces+26746295-f827-maxime.lebrasseur=gmail.com@em683.baindepot.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=baindepot.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=baindepot.com;
+	h=subject:date:mime-version:content-type:content-transfer-encoding:from:
+	to:cc:content-type:date:feedback-id:from:subject:to;
+	s=e557; t=1793897287;
+	bh=XipZgjZBI13CyNRN7M2Vpuj3cFYZ3dqh2QrhoS4DVAs=;
+	b=0aAGYcpDHZERpt/45SYR8bgUaUN5ffOCaDZ1A32Kr75nqmKqldJ0kjjpUYXmT9n998Zl
+	0+3S1jir2Gt65j71l8iuw89ymWG8sTTgSPZKlAmMco2hdh88KdCK46YZwS1BPHQgCtty9p
+	ggZty1lOMd26E08R5Q7ql+yxISGhXY2+jNNpe4dxRqkpJ+4oexZfwWSjbDUnUPbfdCyoja
+	7Z5Yc4Ygu7BkOJ2/RMEJ7+xmP0jPvSHiH3JTeqnG4VUkF+uTEaJZXzIjR6Nv03AC1EdPig
+	03v2Uszz4Ql9rSy6sExY5XsuLbyJHECYCoM64jJP4dtOgmL6/UVQmzAzUhQ4hq9Q==
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=sendgrid.info;
+	h=subject:date:mime-version:content-type:content-transfer-encoding:from:
+	to:cc:content-type:date:feedback-id:from:subject:to;
+	s=smtpapi; t=1793897287;
+	bh=XipZgjZBI13CyNRN7M2Vpuj3cFYZ3dqh2QrhoS4DVAs=;
+	b=sEy8GccC5zO39Yzk3Yd0KuIGKjFoz6qgBqRyZirvHqwFeyKu5FlBe0jBW2xeFXzxK6Pe
+	GI0KaJHfPpS0ul4Mjo3FN1DVrRigt922hX1d1q7XUFRr1bOEdhItoejg1prDp+zFDGahlE
+	W8QAfFIC6RNwC/JRq6g58iPlYkBFHppPk=
+Received: by recvd-canary-569bf77fcc-cnrnr with SMTP id recvd-canary-569bf77fcc-cnrnr-1-6AECB347-14
+	2026-11-05 16:48:07.24307921 +0000 UTC m=+3196078.225041198
+Received: from i-0cde718f9e78027b0.platform.sh (unknown)
+	by geopod-ismtpd-48 (SG) with ESMTP id OYoxYY0VQMKH2PEkDyB_Hg
+	for <maxime.lebrasseur@gmail.com>; Thu, 05 Nov 2026 16:48:07.192 +0000 (UTC)
+Received: by i-0cde718f9e78027b0.platform.sh (Postfix, from userid 8080)
+	id 13C4E161D51; Thu,  5 Nov 2026 16:48:07 +0000 (UTC)
+Subject: Confirmation de votre commande Bain =?UTF-8?B?RMOpcMO0dA==?=
+X-PHP-Originating-Script: 8080:Sendmail.php
+Date: Thu, 05 Nov 2026 16:48:07 +0000 (UTC)
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Content-Disposition: inline
+From: Bain =?iso-8859-1?b?ROlw9HQ=?= <service@baindepot.com>
+Message-Id: <20261105164807.13C4E161D51@i-0cde718f9e78027b0.platform.sh>
+X-SG-EID: 
+ =?us-ascii?Q?u001=2EEOEmKzIz2ts1jCw4uwVWLvygRN7q9VZfyg99ZTq56K4w=2FY73HxMrpd5xa?=
+ =?us-ascii?Q?xCwCWfTZY0BvQQKrdvVtgQgPo23qZQUCsHIJRHo?=
+ =?us-ascii?Q?7orYhlUBqj0F7C+r7YJNdAyIB54X5z8iMwuzwKe?=
+ =?us-ascii?Q?eW8xTSa1T+bW5G3ejF8GjLneA6dYmfJKnOEMJR9?=
+ =?us-ascii?Q?MyuorZiUYJRDYs1Z539oqcr5GWbuOCxVlyQ6vPQ?=
+ =?us-ascii?Q?L04ftZZrCNhZAeVmELyNabYyvYjIF7XHcYGm8oj?=
+ =?us-ascii?Q?RiP7DuSRHNh8nT4fNm6ZAytWig=3D=3D?=
+To: Maxime Lebrasseur <maxime.lebrasseur@gmail.com>
+X-Entity-ID: u001.LpXonrL275sBPezZP0Y3Jw==
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <meta name=3D"viewport" content=3D"initial-scale=3D1.0, width=3Ddevice-=
+width">
+    <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+    <style type=3D"text/css">
+       =20
+
+
+        body,h1,h2,h3,h4,h5,h6,p,table.body,td,th{font-family:arial;font-we=
+ight:400}h1{line-height:1.2em}h2{color:#2bb2c4;font-size:18px;line-height:2=
+1px;letter-spacing:0}h2,h3{margin:20px 0 10px;font-family:arial;font-weight=
+:700;text-transform:uppercase}h3{color:#232323;font-size:16px;line-height:1=
+8px}body{padding:0;margin:0;color:#313131;font-size:18px;text-align:left;li=
+ne-height:24px;-webkit-text-size-adjust:100%;-moz-text-size-adjust:100%;tex=
+t-size-adjust:100%}dd{margin-left:0}dl{margin-top:0;margin-bottom:0}p{margi=
+n:5px 0;color:#232323;font-family:arial;font-size:14px;line-height:20px}tab=
+le{mso-table-lspace:0;mso-table-rspace:0}img{-ms-interpolation-mode:bicubic=
+}table,table td{vertical-align:top;padding:0;margin:0;font-size:16px;border=
+-collapse:collapse}.ii a[href],.link a,a,ul li a{color:#232323;font-family:=
+arial;font-size:14px;font-weight:700;line-height:18px;letter-spacing:0;colo=
+r:#232323 !important;text-decoration:none}#background-table{padding:0;margi=
+n:0 auto;font-size:16px}.container-td{width:100%}.container-table{width:550=
+px;margin:0 auto}.side-spacing{padding-right:0;padding-left:0}td.hr{border-=
+bottom:1px solid #d7d7d7}ul{padding-left:0}ul.list-padding{padding-top:10px=
+;padding-bottom:10px}.main{text-align:left}.main-content ul{margin:5px 0;co=
+lor:#232323;font-family:arial;font-size:14px;line-height:20px}.icon-link{ma=
+rgin-right:5px}.payment-method dd{margin-left:0}.payment-method caption{dis=
+play:none}.payment-method td{padding-right:0;padding-left:10px}.main-conten=
+t,.row-fullwidth,.row-large{text-align:center}.main-content.text-align-left=
+{text-align:left}.row-default,.row-large{display:inline-block}.row-inner{te=
+xt-align:left}.row-padding{padding-right:25px;padding-left:25px}.row-paddin=
+g-y{padding-top:25px;padding-bottom:25px}.email-information .order-details =
+tr+tr{padding:10px 0;border-top:1px solid #ccc}.email-information .order-de=
+tails tr+tr .address-details,.email-information .order-details tr+tr .metho=
+d-info{padding-bottom:5px}.email-information .order-details .address-detail=
+s,.email-information .order-details .method-info{width:50%;padding-top:5px;=
+padding-bottom:20px}.email-information .order-details .payment-method .cont=
+ent,.email-information .order-details .payment-method .content .im,.email-i=
+nformation .order-details .payment-method .content td,.email-information .o=
+rder-details .payment-method .title{margin:5px 0;color:#232323;font-family:=
+arial;font-size:14px;line-height:20px}.email-information .order-details .pa=
+yment-method .content b,.email-information .order-details .payment-method .=
+content th{color:#232323;font-family:arial;font-size:14px;font-weight:700;l=
+ine-height:18px;letter-spacing:0;text-align:left}.email-information .table-=
+caption{color:#232323;font-family:arial;font-size:14px;font-weight:700;line=
+-height:18px;letter-spacing:0}.email-logging{text-align:left}.email-logging=
+ td{padding-top:20px}.email-banner{background-color:#2bb2c4;text-align:cent=
+er}.email-banner td{padding:16px 0}.email-banner h1{margin:0;color:#fff;fon=
+t-family:arial;font-size:24px;font-weight:700;line-height:28px}.email-intro=
+{text-align:left}.email-intro .greeting{padding:15px 0}.email-pickup-discla=
+imer .content{padding:20px;border:1px solid #2bb2c4}.email-pickup-disclaime=
+r .title{color:#2bb2c4;font-weight:700;text-transform:uppercase}.email-pick=
+up-disclaimer .message{font-size:12px}.email-pickup-disclaimer .important{f=
+ont-weight:700}.email-pickup-disclaimer .opening-hours-button{display:block=
+;margin-top:8px;color:#2bb2c4 !important;text-decoration:underline}.email-i=
+tems td{padding:0 20px}.email-items thead{background-color:#f1f9fa;text-ali=
+gn:right}.email-items thead th{padding:15px 20px;color:#232323;font-size:12=
+px;font-weight:700;text-transform:uppercase;line-height:14px;letter-spacing=
+:0}.email-items thead th.item-image{text-align:left}.email-items thead th.i=
+tem-info{text-align:left}.email-items tbody{border-bottom:1px solid #ccc}.e=
+mail-items tbody:last-child{border-bottom:none}.email-items tbody .item-ima=
+ge,.email-items tbody .item-info,.email-items tbody .item-price,.email-item=
+s tbody .item-qty{padding-top:20px;padding-bottom:20px}.email-items tbody .=
+item-image.option,.email-items tbody .item-info.option,.email-items tbody .=
+item-price.option,.email-items tbody .item-qty.option{padding-top:0}.email-=
+items tbody .item-image img{width:90px}.email-items tbody .item-info{text-a=
+lign:left}.email-items tbody .item-info .sku{color:#828282;font-size:10px;t=
+ext-transform:uppercase;line-height:14px}.email-items tbody .item-info .ite=
+m-eta-message{color:#f59212;font-size:12px}.email-items tbody .item-qty{wid=
+th:20px;text-align:center}.email-items tbody .item-price{width:70px;text-al=
+ign:right}.email-items tbody .item-price .price{color:#232323;font-family:a=
+rial;font-size:14px;font-weight:700;line-height:18px;letter-spacing:0;color=
+:#2e2e2e;text-align:right}.email-items .item-image{padding-left:25px}.email=
+-items .item-price{padding-right:25px}.email-summary{text-align:left}.email=
+-summary .email-summary-data{background-color:#f1f9fa}.email-summary .email=
+-summary-data .label{width:50%}.email-summary .email-summary-data .data p,.=
+email-summary .email-summary-data .label p{color:#232323;font-family:arial;=
+font-size:14px;font-weight:700;line-height:18px;letter-spacing:0}.shipment-=
+track td,.shipment-track th{width:50%}.shipment-track th{text-align:left}.s=
+hipment-track tbody td{padding-bottom:20px}.shipment-track tbody td p{margi=
+n:0}.shipment-track tbody tr{border-bottom:1px solid #ccc}.message-info,.wi=
+shlist-details{text-align:center}.message-info-title{color:#2bb2c4}.message=
+-info-details{display:block}.wishlist-details .action.primary{display:inlin=
+e-block;vertical-align:middle;box-sizing:border-box;padding:9px 15px 7px;bo=
+rder:.0625rem solid #2bb2c4;border-radius:0;margin:0;box-shadow:none;backgr=
+ound:#2bb2c4;color:#fff;font-family:Metropolis,helvetica,arial,verdana,sans=
+-serif;font-size:14px;font-weight:700;text-align:center;text-transform:none=
+;text-decoration:none;line-height:1.2;letter-spacing:.02em;transition-prope=
+rty:background-color,border-color,color;transition-duration:.1s;transition-=
+timing-function:ease-out;cursor:pointer}.wishlist-details .action.primary:a=
+ctive,.wishlist-details .action.primary:focus,.wishlist-details .action.pri=
+mary:hover{border-color:#269faf;background-color:#269faf;color:#fff;text-de=
+coration:none}.wishlist-details .action.primary.disabled,.wishlist-details =
+.action.primary[disabled],fieldset[disabled] .wishlist-details .action.prim=
+ary{border-color:#828282;background-color:#828282;color:#fff;text-decoratio=
+n:none;cursor:not-allowed;pointer-events:none}.wishlist-details .action.pri=
+mary,.wishlist-details .action.primary span{color:#fff}.wishlist-details .p=
+roduct img{width:135px}tr.footer h2,tr.footer h3,tr.footer h4,tr.footer p{m=
+argin:0}tr.footer a{text-decoration:none}tr.footer .help-section{text-align=
+:center}tr.footer .help-section .footer-help-section{border:2px solid #2bb2=
+c4}tr.footer .help-section thead th{padding-top:20px;padding-bottom:10px}tr=
+.footer .help-section h2,tr.footer .help-section h3{font-size:16px}tr.foote=
+r .help-section h3{color:#2bb2c4;font-family:arial;font-weight:700;line-hei=
+ght:18px}tr.footer .help-section .customer-service,tr.footer .help-section =
+.customer-service a,tr.footer .help-section .customer-service h3,tr.footer =
+.help-section .customer-service p{color:#232323;font-family:arial;font-size=
+:14px;text-align:center;line-height:22px}tr.footer .help-section .customer-=
+service h3{text-transform:uppercase}tr.footer .help-section .customer-servi=
+ce td{padding-top:10px;padding-bottom:20px;text-align:center}tr.footer .leg=
+al-infos{color:#232323;font-family:arial;font-size:12px;text-align:center;l=
+ine-height:14px}tr.footer .legal-infos p{padding:20px 0}tr.footer .useful-l=
+inks{text-align:center}tr.footer .useful-links .useful-links,tr.footer .use=
+ful-links table{border-collapse:unset;border-spacing:unset}tr.footer .usefu=
+l-links .useful-link{box-sizing:border-box;width:32.66%;min-width:32.66%;pa=
+dding:25px;border:2px solid #2bb2c4}tr.footer .useful-links .useful-icon,tr=
+.footer .useful-links .useful-title{display:inline-block}tr.footer .useful-=
+links .useful-title{color:#232323;font-family:arial;font-size:16px;line-hei=
+ght:18px}tr.footer .social-links-row{background-color:#f1f9fa}tr.footer .so=
+cial-links-wrapper,tr.footer .social-links-wrapper a,tr.footer .social-link=
+s-wrapper h4,tr.footer .social-links-wrapper img{text-align:center}tr.foote=
+r .social-links-wrapper>td{padding:0 25px 15px}tr.footer .social-links-wrap=
+per h4{margin:15px 0;color:#2bb2c4;font-family:arial;font-size:16px;font-we=
+ight:700}tr.footer .social-links-wrapper img{width:34px}td.header{text-alig=
+n:center}td.header .logo img{outline:none;text-decoration:none}.order-total=
+s{margin:0 auto}.order-totals .grand_total th,.order-totals .shipping th,.o=
+rder-totals .subtotal th,.order-totals .totals th{text-align:left}.order-to=
+tals .grand_total td,.order-totals .grand_total th,.order-totals .shipping =
+td,.order-totals .shipping th,.order-totals .subtotal td,.order-totals .sub=
+total th,.order-totals .totals td,.order-totals .totals th{color:#232323;fo=
+nt-family:arial;font-size:14px;font-weight:700;line-height:18px;letter-spac=
+ing:0;padding:2.5px 0;color:#2e2e2e}.order-totals .grand_total td:last-chil=
+d,.order-totals .shipping td:last-child,.order-totals .subtotal td:last-chi=
+ld,.order-totals .totals td:last-child{text-align:right}.order-totals .tota=
+ls-tax-summary{height:20px}.order-totals .totals-tax-summary td,.order-tota=
+ls .totals-tax-summary th{display:none}.order-totals .grand_total,.order-to=
+tals .subtotal{padding:10px 0;border-top:1px solid #ccc}.order-totals .gran=
+d_total td,.order-totals .grand_total th,.order-totals .subtotal td,.order-=
+totals .subtotal th{padding-top:20px}.order-totals .grand_total{padding-bot=
+tom:20px;font-size:16px;text-transform:uppercase}.spaced-share{table-layout=
+:fixed !important;border-collapse:separate !important;width:100% !important=
+}.share-cart .main-content .row-default .view-cart-button{display:inline-bl=
+ock;vertical-align:middle;box-sizing:border-box;padding:7px 15px 7px;border=
+:.0625rem solid #2bb2c4;border-radius:0;margin:0;box-shadow:none;background=
+:#2bb2c4;color:#fff !important;font-size:14px;font-weight:700;text-align:ce=
+nter;text-transform:none;text-decoration:none;line-height:1.2;letter-spacin=
+g:.02em;cursor:pointer}
+    </style>
+</head>
+<body style=3D"font-family: arial; font-weight: 400; padding: 0; margin: 0;=
+ color: #313131; font-size: 18px; text-align: left; line-height: 24px; -web=
+kit-text-size-adjust: 100%; -moz-text-size-adjust: 100%; -ms-text-size-adju=
+st: 100%; text-size-adjust: 100%;">
+
+
+<!-- Begin wrapper table -->
+<table class=3D"wrapper" width=3D"100%" style=3D"mso-table-lspace: 0pt; mso=
+-table-rspace: 0pt; vertical-align: top; padding: 0; margin: 0; font-size: =
+16px; border-collapse: collapse;">
+    <tr>
+        <td class=3D"wrapper-inner" align=3D"center" style=3D"font-family: =
+arial; font-weight: 400; vertical-align: top; padding: 0; margin: 0; font-s=
+ize: 16px; border-collapse: collapse;">
+            <!-- Baindepot custom code - Update wrapper and add spacers    =
+        -->
+            <table class=3D"main" align=3D"center" width=3D"600" style=3D"m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; vertical-align: top; padding: =
+0; margin: 0; font-size: 16px; border-collapse: collapse; text-align: left;=
+">
+                <tr height=3D"60">
+                    <td style=3D"font-family: arial; font-weight: 400; vert=
+ical-align: top; padding: 0; margin: 0; font-size: 16px; border-collapse: c=
+ollapse;"></td>
+                </tr>
+                <tr>
+                    <td class=3D"header" style=3D"font-family: arial; font-=
+weight: 400; vertical-align: top; padding: 0; margin: 0; font-size: 16px; b=
+order-collapse: collapse; text-align: center;">
+                        <a class=3D"logo" href=3D"https://www.baindepot.com=
+/" style=3D"color: #2bb2c4; font-family: arial; font-size: 14px; font-weigh=
+t: 700; line-height: 18px; letter-spacing: 0; text-decoration: underline; t=
+ext-align: center;">
+                            <!-- Baindepot custom code - Update image size =
+and path-->
+                            <img width=3D"231" height=3D"41" src=3D"https:/=
+/www.baindepot.com/media/email/logo/stores/4/logo-email-bathdepot_2.jpg" al=
+t=3D"Bain D=C3=A9p=C3=B4t" border=3D"0" class=3D"" style=3D"-ms-interpolati=
+on-mode: bicubic; outline: none; text-decoration: none;">
+                        </a>
+                    </td>
+                </tr>
+                <tr height=3D"20">
+                    <td style=3D"font-family: arial; font-weight: 400; vert=
+ical-align: top; padding: 0; margin: 0; font-size: 16px; border-collapse: c=
+ollapse;"></td>
+                </tr>
+                <tr>
+                    <td class=3D"main-content text-align-left" style=3D"fon=
+t-family: arial; font-weight: 400; vertical-align: top; padding: 0; margin:=
+ 0; font-size: 16px; border-collapse: collapse; text-align: left;">
+                    <!-- Begin Content -->
+
+
+<!-- Fullwidth section -->
+</td>
+</tr>
+</table>
+<table class=3D"main" align=3D"center" width=3D"100%" style=3D"mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; vertical-align: top; padding: 0; margin: =
+0; font-size: 16px; border-collapse: collapse; text-align: left;">
+    <tr>
+        <td class=3D"main-content" style=3D"font-family: arial; font-weight=
+: 400; vertical-align: top; padding: 0; margin: 0; font-size: 16px; border-=
+collapse: collapse; text-align: center;">
+            <table class=3D"row-fullwidth" align=3D"center" width=3D"100%" =
+style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt; vertical-align: top;=
+ padding: 0; margin: 0; font-size: 16px; border-collapse: collapse; text-al=
+ign: center;">
+                <tr class=3D"email-banner" style=3D"background-color: #2bb2=
+c4; text-align: center;">
+                    <td style=3D"font-family: arial; font-weight: 400; vert=
+ical-align: top; margin: 0; font-size: 16px; border-collapse: collapse; pad=
+ding: 16px 0;">
+                        <h1 style=3D"margin: 0; color: #fff; font-family: a=
+rial; font-size: 24px; font-weight: 700; line-height: 28px;">Merci de magas=
+iner chez <br>Bain D=C3=A9p=C3=B4t!</h1>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+<!-- Reopen main table to have content wrapped -->
+<table class=3D"main" align=3D"center" width=3D"600" style=3D"mso-table-lsp=
+ace: 0pt; mso-table-rspace: 0pt; vertical-align: top; padding: 0; margin: 0=
+; font-size: 16px; border-collapse: collapse; text-align: left;">
+    <tr>
+        <td class=3D"main-content" style=3D"font-family: arial; font-weight=
+: 400; vertical-align: top; padding: 0; margin: 0; font-size: 16px; border-=
+collapse: collapse; text-align: center;">
+            <table class=3D"row-default" align=3D"center" width=3D"550" sty=
+le=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt; vertical-align: top; pa=
+dding: 0; margin: 0; font-size: 16px; border-collapse: collapse; display: i=
+nline-block;">
+                <tr class=3D"email-intro" style=3D"border-bottom: 1px solid=
+ #d7d7d7; text-align: left;">
+                    <td class=3D"row-inner" style=3D"font-family: arial; fo=
+nt-weight: 400; vertical-align: top; padding: 0; margin: 0; font-size: 16px=
+; border-collapse: collapse; text-align: left;">
+                        <p class=3D"greeting" style=3D"font-weight: 400; ma=
+rgin: 5px 0; color: #232323; font-family: arial; font-size: 14px; line-heig=
+ht: 20px; padding: 15px 0;">Bonjour Maxime Lebrasseur,</p>
+                        <p style=3D"font-weight: 400; margin: 5px 0; color:=
+ #232323; font-family: arial; font-size: 14px; line-height: 20px;">
+                            Nous avons bien re=C3=A7u votre commande. Veuil=
+lez allouer 1 =C3=A0 3 jours ouvrables pour le traitement de votre commande=
+ avant l'exp=C3=A9dition de celle-ci.
+                        </p>
+                    </td>
+                </tr>
+            </table>
+
+            <table class=3D"row-large" align=3D"center" width=3D"600" style=
+=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt; vertical-align: top; padd=
+ing: 0; margin: 0; font-size: 16px; border-collapse: collapse; text-align: =
+center; display: inline-block;">
+                <tr height=3D"15">
+                    <td style=3D"font-family: arial; font-weight: 400; vert=
+ical-align: top; padding: 0; margin: 0; font-size: 16px; border-collapse: c=
+ollapse;"></td>
+                </tr>
+
+                <!-- BainDepot Custom Code - Add message if eta in order --=
+>
+               =20
+                <tr class=3D"email-preorder preorder-info">
+                    <td class=3D"row-inner" style=3D"font-family: arial; fo=
+nt-weight: 400; vertical-align: top; padding: 0; margin: 0; font-size: 16px=
+; border-collapse: collapse; text-align: left;">
+                        <table align=3D"center" width=3D"600" style=3D"mso-=
+table-lspace: 0pt; mso-table-rspace: 0pt; vertical-align: top; padding: 0; =
+margin: 0; font-size: 16px; border-collapse: collapse;">
+                            <tr>
+                                <td class=3D"row-padding" style=3D"font-fam=
+ily: arial; font-weight: 400; vertical-align: top; padding: 0; margin: 0; f=
+ont-size: 16px; border-collapse: collapse; padding-right: 25px; padding-lef=
+t: 25px;">
+                                    <h3 style=3D"margin: 20px 0 10px; font-=
+family: arial; font-weight: 700; text-transform: uppercase; color: #232323;=
+ font-size: 16px; line-height: 18px;">Pr=C3=A9-commande</h3>
+                                    <p style=3D"font-weight: 400; margin: 5=
+px 0; color: #232323; font-family: arial; font-size: 14px; line-height: 20p=
+x;">Votre commande contient un ou plusieurs articles avec dates de livraiso=
+n diff=C3=A9r=C3=A9es. L=E2=80=99ensemble de votre commande vous sera exp=
+=C3=A9di=C3=A9 lorsque tous les produits seront disponibles vers le 16 nove=
+mbre 2026.</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td><td style=3D"font-family: arial; font-weight: 400;=
+ vertical-align: top; padding: 0; margin: 0; font-size: 16px; border-collap=
+se: collapse;">
+                </td></tr>
+                <tr height=3D"15">
+                    <td style=3D"font-family: arial; font-weight: 400; vert=
+ical-align: top; padding: 0; margin: 0; font-size: 16px; border-collapse: c=
+ollapse;"></td>
+                </tr>
+               =20
+                <!-- BainDepot Custom Code - Add booxi custom information i=
+f pickup in store Distribution Center -->
+               =20
+               =20
+                <!-- BainDepot Custom Code - Add cms block for shipping met=
+hod if no eta -->
+               =20
+                <!-- / BainDepot Custom Code -->
+
+                <tr class=3D"email-summary" style=3D"text-align: left;">
+                    <td class=3D"row-inner" style=3D"font-family: arial; fo=
+nt-weight: 400; vertical-align: top; padding: 0; margin: 0; font-size: 16px=
+; border-collapse: collapse; text-align: left;">
+                        <table align=3D"center" width=3D"600" style=3D"mso-=
+table-lspace: 0pt; mso-table-rspace: 0pt; vertical-align: top; padding: 0; =
+margin: 0; font-size: 16px; border-collapse: collapse;">
+                            <tr>
+                                <td class=3D"row-padding" style=3D"font-fam=
+ily: arial; font-weight: 400; vertical-align: top; padding: 0; margin: 0; f=
+ont-size: 16px; border-collapse: collapse; padding-right: 25px; padding-lef=
+t: 25px;">
+                                    <h2 style=3D"color: #2bb2c4; font-size:=
+ 18px; line-height: 21px; letter-spacing: 0; margin: 20px 0 10px; font-fami=
+ly: arial; font-weight: 700; text-transform: uppercase;">Confirmation de co=
+mmande</h2>
+                                </td>
+                            </tr>
+                        </table>
+                        <table align=3D"center" width=3D"600" class=3D"emai=
+l-summary-data" style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt; vert=
+ical-align: top; padding: 0; margin: 0; font-size: 16px; border-collapse: c=
+ollapse; background-color: #f1f9fa;">
+                            <tr>
+                                <td class=3D"row-padding" style=3D"font-fam=
+ily: arial; font-weight: 400; vertical-align: top; padding: 0; margin: 0; f=
+ont-size: 16px; border-collapse: collapse; padding-right: 25px; padding-lef=
+t: 25px;">
+                                    <table align=3D"center" width=3D"550" s=
+tyle=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt; vertical-align: top; =
+padding: 0; margin: 0; font-size: 16px; border-collapse: collapse;">
+                                        <tr>
+                                            <td class=3D"label" style=3D"fo=
+nt-family: arial; font-weight: 400; vertical-align: top; padding: 0; margin=
+: 0; font-size: 16px; border-collapse: collapse; width: 50%;"><p style=3D"m=
+argin: 5px 0; color: #232323; font-family: arial; font-size: 14px; font-wei=
+ght: 700; line-height: 18px; letter-spacing: 0;">Num=C3=A9ro de commande</p=
+></td>
+                                            <td class=3D"data" style=3D"fon=
+t-family: arial; font-weight: 400; vertical-align: top; padding: 0; margin:=
+ 0; font-size: 16px; border-collapse: collapse;"><p style=3D"margin: 5px 0;=
+ color: #232323; font-family: arial; font-size: 14px; font-weight: 700; lin=
+e-height: 18px; letter-spacing: 0;">4000176758</p></td>
+                                        </tr>
+                                        <tr>
+                                            <td class=3D"label" style=3D"fo=
+nt-family: arial; font-weight: 400; vertical-align: top; padding: 0; margin=
+: 0; font-size: 16px; border-collapse: collapse; width: 50%;"><p style=3D"m=
+argin: 5px 0; color: #232323; font-family: arial; font-size: 14px; font-wei=
+ght: 700; line-height: 18px; letter-spacing: 0;">Date de commande</p></td>
+                                            <td class=3D"data" style=3D"fon=
+t-family: arial; font-weight: 400; vertical-align: top; padding: 0; margin:=
+ 0; font-size: 16px; border-collapse: collapse;"><p style=3D"margin: 5px 0;=
+ color: #232323; font-family: arial; font-size: 14px; font-weight: 700; lin=
+e-height: 18px; letter-spacing: 0;">Nov 5, 2026, 11:47:45 a.m.</p></td>
+                                        </tr>
+                                       =20
+                                        <tr>
+                                            <td class=3D"label" style=3D"fo=
+nt-family: arial; font-weight: 400; vertical-align: top; padding: 0; margin=
+: 0; font-size: 16px; border-collapse: collapse; width: 50%;"><p style=3D"m=
+argin: 5px 0; color: #232323; font-family: arial; font-size: 14px; font-wei=
+ght: 700; line-height: 18px; letter-spacing: 0;">M=C3=A9thode de livraison<=
+/p></td>
+                                            <td class=3D"data" style=3D"fon=
+t-family: arial; font-weight: 400; vertical-align: top; padding: 0; margin:=
+ 0; font-size: 16px; border-collapse: collapse;"><p style=3D"margin: 5px 0;=
+ color: #232323; font-family: arial; font-size: 14px; font-weight: 700; lin=
+e-height: 18px; letter-spacing: 0;">Ramassage en magasin - Mascouche</p></t=
+d>
+                                        </tr>
+                                       =20
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td><td style=3D"font-family: arial; font-weight: 400;=
+ vertical-align: top; padding: 0; margin: 0; font-size: 16px; border-collap=
+se: collapse;">
+                </td></tr>
+            </table>
+
+            <table class=3D"row-default" align=3D"center" width=3D"550" sty=
+le=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt; vertical-align: top; pa=
+dding: 0; margin: 0; font-size: 16px; border-collapse: collapse; display: i=
+nline-block;">
+                <tr class=3D"email-information">
+                    <td class=3D"row-inner" style=3D"font-family: arial; fo=
+nt-weight: 400; vertical-align: top; padding: 0; margin: 0; font-size: 16px=
+; border-collapse: collapse; text-align: left;">
+                       =20
+                        <table class=3D"order-details" align=3D"center" wid=
+th=3D"550" style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt; vertical-=
+align: top; padding: 0; margin: 0; font-size: 16px; border-collapse: collap=
+se; width: 100%;">
+                            <tr>
+                                <td class=3D"address-details" style=3D"font=
+-family: arial; font-weight: 400; vertical-align: top; padding: 0; margin: =
+0; font-size: 16px; border-collapse: collapse; padding-right: 10px; width: =
+50%; padding-top: 5px; padding-bottom: 20px;">
+                                    <h3 style=3D"margin: 20px 0 10px; font-=
+family: arial; text-transform: uppercase; color: #232323; font-size: 16px; =
+line-height: 18px; border-bottom: 1px solid #d7d7d7; margin-bottom: 5px; fo=
+nt-weight: 700;">Adresse de facturation</h3>
+                                    <p style=3D"font-weight: 400; margin: 5=
+px 0; color: #232323; font-family: arial; font-size: 14px; line-height: 20p=
+x; margin-top: 15px;">Maxime Lebrasseur<br>
+
+866 Rue Saint Sacrement<br>
+
+
+
+Terrebonne,  Quebec, J6W 3E8<br>
+Canada<br>
+T: <a href=3D"tel:514-647-0509" style=3D"color: #2bb2c4; font-family: arial=
+; font-size: 14px; font-weight: 700; line-height: 18px; letter-spacing: 0; =
+text-decoration: underline;">514-647-0509</a>
+
+</p>
+                                </td>
+                                <td class=3D"method-info" style=3D"font-fam=
+ily: arial; font-weight: 400; vertical-align: top; padding: 0; margin: 0; f=
+ont-size: 16px; border-collapse: collapse; padding-right: 10px; width: 50%;=
+ padding-top: 5px; padding-bottom: 20px;">
+                                    <h3 style=3D"margin: 20px 0 10px; font-=
+family: arial; text-transform: uppercase; color: #232323; font-size: 16px; =
+line-height: 18px; border-bottom: 1px solid #d7d7d7; margin-bottom: 5px; fo=
+nt-weight: 700;">Mode de paiement</h3>
+                                    <dl class=3D"payment-method" style=3D"m=
+argin-top: 0; margin-bottom: 0;">
+    <dt class=3D"title" style=3D"margin: 5px 0; color: #232323; font-family=
+: arial; font-size: 14px; line-height: 20px;">Google Pay</dt>
+    <dd class=3D"content" style=3D"margin-left: 0; margin: 5px 0; color: #2=
+32323; font-family: arial; font-size: 14px; line-height: 20px;">
+        <table class=3D"data table" style=3D"mso-table-lspace: 0pt; mso-tab=
+le-rspace: 0pt; vertical-align: top; padding: 0; margin: 0; font-size: 16px=
+; border-collapse: collapse;">
+            <caption class=3D"table-caption" style=3D"display: none; color:=
+ #232323; font-family: arial; font-size: 14px; font-weight: 700; line-heigh=
+t: 18px; letter-spacing: 0;">Google Pay</caption>
+                            <tr>
+                    <th scope=3D"row" style=3D"color: #232323; font-family:=
+ arial; font-size: 14px; font-weight: 700; line-height: 18px; letter-spacin=
+g: 0; text-align: left;">Type de carte</th>
+                    <td style=3D"font-weight: 400; vertical-align: top; pad=
+ding: 0; border-collapse: collapse; padding-left: 10px; width: 40%; padding=
+-right: 10px; margin: 5px 0; color: #232323; font-family: arial; font-size:=
+ 14px; line-height: 20px;">
+                        MasterCard                    </td>
+                </tr>
+                    </table>
+    </dd>
+</dl>
+
+                                </td>
+                            </tr>
+
+                            <!-- BAIN D=C3=89POT CUSTOM CODE : Move Preorde=
+r -->
+
+                            <tr style=3D"padding: 10px 0; border-top: 1px s=
+olid #ccc;">
+                               =20
+                                <td class=3D"address-details" style=3D"font=
+-family: arial; font-weight: 400; vertical-align: top; padding: 0; margin: =
+0; font-size: 16px; border-collapse: collapse; padding-right: 10px; width: =
+50%; padding-top: 5px; padding-bottom: 5px;">
+                                    <h3 style=3D"margin: 20px 0 10px; font-=
+family: arial; text-transform: uppercase; color: #232323; font-size: 16px; =
+line-height: 18px; border-bottom: 1px solid #d7d7d7; margin-bottom: 5px; fo=
+nt-weight: 700;">Adresse de livraison</h3>
+                                    <p style=3D"font-weight: 400; margin: 5=
+px 0; color: #232323; font-family: arial; font-size: 14px; line-height: 20p=
+x; margin-top: 15px;">Maxime Lebrasseur<br>
+Bain D=C3=A9p=C3=B4t Mascouche<br>
+198, mont=C3=A9e Masson<br>
+
+
+
+Mascouche,  Quebec, J7K 3B5<br>
+Canada<br>
+T: <a href=3D"tel:450-918-4539" style=3D"color: #2bb2c4; font-family: arial=
+; font-size: 14px; font-weight: 700; line-height: 18px; letter-spacing: 0; =
+text-decoration: underline;">450-918-4539</a>
+
+</p>
+                                </td>
+                                <td class=3D"method-info" style=3D"font-fam=
+ily: arial; font-weight: 400; vertical-align: top; padding: 0; margin: 0; f=
+ont-size: 16px; border-collapse: collapse; padding-right: 10px; width: 50%;=
+ padding-top: 5px; padding-bottom: 5px;">
+                                    <h3 style=3D"margin: 20px 0 10px; font-=
+family: arial; text-transform: uppercase; color: #232323; font-size: 16px; =
+line-height: 18px; border-bottom: 1px solid #d7d7d7; margin-bottom: 5px; fo=
+nt-weight: 700;">M=C3=A9thode de livraison</h3>
+                                    <p style=3D"font-weight: 400; margin: 5=
+px 0; color: #232323; font-family: arial; font-size: 14px; line-height: 20p=
+x; margin-top: 15px;">Ramassage en magasin - Mascouche</p>
+                                   =20
+                                </td>
+                               =20
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+
+            <table class=3D"row-large" align=3D"center" width=3D"600" style=
+=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt; vertical-align: top; padd=
+ing: 0; margin: 0; font-size: 16px; border-collapse: collapse; text-align: =
+center; display: inline-block;">
+                <tr class=3D"email-information order-details-list">
+                    <td class=3D"row-inner" style=3D"font-family: arial; fo=
+nt-weight: 400; vertical-align: top; padding: 0; margin: 0; font-size: 16px=
+; border-collapse: collapse; text-align: left;">
+                            <!-- Baindepot custom code - Add h2 -->
+    <table align=3D"center" width=3D"600" style=3D"mso-table-lspace: 0pt; m=
+so-table-rspace: 0pt; vertical-align: top; padding: 0; margin: 0; font-size=
+: 16px; border-collapse: collapse;">
+        <tr>
+            <td class=3D"row-padding" style=3D"font-family: arial; font-wei=
+ght: 400; vertical-align: top; padding: 0; margin: 0; font-size: 16px; bord=
+er-collapse: collapse; padding-right: 25px; padding-left: 25px;">
+                <h2 style=3D"color: #2bb2c4; font-size: 18px; line-height: =
+21px; letter-spacing: 0; margin: 20px 0 10px; font-family: arial; font-weig=
+ht: 700; text-transform: uppercase;">D=C3=A9tails de votre commande</h2>
+            </td>
+        </tr>
+    </table>
+        <!-- Baindepot custom code - Add width -->
+    <table class=3D"email-items" width=3D"600" style=3D"mso-table-lspace: 0=
+pt; mso-table-rspace: 0pt; vertical-align: top; padding: 0; margin: 0; font=
+-size: 16px; border-collapse: collapse; text-align: right;">
+        <thead style=3D"background-color: #f1f9fa; text-align: right;">
+        <tr>
+                        <th class=3D"item-image" style=3D"font-family: aria=
+l; padding: 15px 20px; color: #232323; font-size: 12px; font-weight: 700; t=
+ext-transform: uppercase; line-height: 14px; letter-spacing: 0; padding-lef=
+t: 25px; text-align: left;">
+                Articles            </th>
+            <th class=3D"item-info" style=3D"font-family: arial; padding: 1=
+5px 20px; color: #232323; font-size: 12px; font-weight: 700; text-transform=
+: uppercase; line-height: 14px; letter-spacing: 0; text-align: left;">
+            </th>
+                        <th class=3D"item-qty" style=3D"font-family: arial;=
+ padding: 15px 20px; color: #232323; font-size: 12px; font-weight: 700; tex=
+t-transform: uppercase; line-height: 14px; letter-spacing: 0; width: 20px;"=
+>
+                Qt=C3=A9            </th>
+            <th class=3D"item-price" style=3D"font-family: arial; padding: =
+15px 20px; color: #232323; font-size: 12px; font-weight: 700; text-transfor=
+m: uppercase; line-height: 14px; letter-spacing: 0; width: 70px; padding-ri=
+ght: 25px;">
+                Total            </th>
+        </tr>
+        </thead>
+                                    <tbody style=3D"border-bottom: 1px soli=
+d #ccc;">
+                    <tr>
+            <td class=3D"item-image" style=3D"font-family: arial; font-weig=
+ht: 400; vertical-align: top; margin: 0; font-size: 16px; border-collapse: =
+collapse; padding: 0 20px; padding-left: 25px; padding-top: 20px; padding-b=
+ottom: 20px;">
+        <img src=3D"https://www.baindepot.com/media/catalog/product/I/N/INE=
+Z4818_4ccf.jpg?optimize=3Dmedium&amp;fit=3Dbounds&amp;height=3D90&amp;width=
+=3D90" width=3D"90" style=3D"-ms-interpolation-mode: bicubic; width: 90px;"=
+>
+    </td>
+            <td class=3D"item-info" style=3D"font-family: arial; font-weigh=
+t: 400; vertical-align: top; margin: 0; font-size: 16px; border-collapse: c=
+ollapse; padding: 0 20px; padding-top: 20px; padding-bottom: 20px; text-ali=
+gn: left;">
+        <p class=3D"product-name" style=3D"font-weight: 400; margin: 5px 0;=
+ color: #232323; font-family: arial; font-size: 14px; line-height: 20px;">V=
+anit=C3=A9 de plancher 48" blanc lustr=C3=A9 avec poign=C3=A9es noires</p>
+        <p class=3D"sku" style=3D"font-weight: 400; margin: 5px 0; font-fam=
+ily: arial; color: #828282; font-size: 10px; text-transform: uppercase; lin=
+e-height: 14px;">SKU: VF4818-62GWH</p>
+                                                                           =
+     <p class=3D"item-eta-message" style=3D"font-weight: 400; margin: 5px 0=
+; font-family: arial; line-height: 20px; color: #f59212; font-size: 12px;">=
+Votre article devrait =C3=AAtre pr=C3=AAt =C3=A0 exp=C3=A9dier vers le 16 n=
+ovembre 2026</p>
+                    </td>
+    <td class=3D"item-qty" style=3D"font-family: arial; font-weight: 400; v=
+ertical-align: top; margin: 0; font-size: 16px; border-collapse: collapse; =
+padding: 0 20px; padding-top: 20px; padding-bottom: 20px; width: 20px; text=
+-align: center;"><p style=3D"font-weight: 400; margin: 5px 0; color: #23232=
+3; font-family: arial; font-size: 14px; line-height: 20px;">1</p></td>
+    <td class=3D"item-price" style=3D"font-family: arial; font-weight: 400;=
+ vertical-align: top; margin: 0; font-size: 16px; border-collapse: collapse=
+; padding: 0 20px; padding-right: 25px; padding-top: 20px; padding-bottom: =
+20px; width: 70px; text-align: right;">
+        <p style=3D"font-weight: 400; margin: 5px 0; color: #232323; font-f=
+amily: arial; font-size: 14px; line-height: 20px;">
+        <span class=3D"price" style=3D"color: #2e2e2e; font-family: arial; =
+font-size: 14px; font-weight: 700; line-height: 18px; letter-spacing: 0; te=
+xt-align: right;">489,00=C2=A0$</span>
+   =20
+
+</p>
+    </td>
+</tr>
+                </tbody>
+                                                <tbody style=3D"border-bott=
+om: 1px solid #ccc;">
+                    <tr>
+            <td class=3D"item-image" style=3D"font-family: arial; font-weig=
+ht: 400; vertical-align: top; margin: 0; font-size: 16px; border-collapse: =
+collapse; padding: 0 20px; padding-left: 25px; padding-top: 20px; padding-b=
+ottom: 20px;">
+        <img src=3D"https://www.baindepot.com/media/catalog/product/V/T/VT_=
+SQ1207_b024.jpg?optimize=3Dmedium&amp;fit=3Dbounds&amp;height=3D90&amp;widt=
+h=3D90" width=3D"90" style=3D"-ms-interpolation-mode: bicubic; width: 90px;=
+">
+    </td>
+            <td class=3D"item-info" style=3D"font-family: arial; font-weigh=
+t: 400; vertical-align: top; margin: 0; font-size: 16px; border-collapse: c=
+ollapse; padding: 0 20px; padding-top: 20px; padding-bottom: 20px; text-ali=
+gn: left;">
+        <p class=3D"product-name" style=3D"font-weight: 400; margin: 5px 0;=
+ color: #232323; font-family: arial; font-size: 14px; line-height: 20px;">D=
+essus de vanit=C3=A9 48" en porcelaine =C3=A0 lavabo rectangulaire pour van=
+it=C3=A9 48" x 18"</p>
+        <p class=3D"sku" style=3D"font-weight: 400; margin: 5px 0; font-fam=
+ily: arial; color: #828282; font-size: 10px; text-transform: uppercase; lin=
+e-height: 14px;">SKU: VT-SQ1207</p>
+                                                                           =
+     </td>
+    <td class=3D"item-qty" style=3D"font-family: arial; font-weight: 400; v=
+ertical-align: top; margin: 0; font-size: 16px; border-collapse: collapse; =
+padding: 0 20px; padding-top: 20px; padding-bottom: 20px; width: 20px; text=
+-align: center;"><p style=3D"font-weight: 400; margin: 5px 0; color: #23232=
+3; font-family: arial; font-size: 14px; line-height: 20px;">1</p></td>
+    <td class=3D"item-price" style=3D"font-family: arial; font-weight: 400;=
+ vertical-align: top; margin: 0; font-size: 16px; border-collapse: collapse=
+; padding: 0 20px; padding-right: 25px; padding-top: 20px; padding-bottom: =
+20px; width: 70px; text-align: right;">
+        <p style=3D"font-weight: 400; margin: 5px 0; color: #232323; font-f=
+amily: arial; font-size: 14px; line-height: 20px;">
+        <span class=3D"price" style=3D"color: #2e2e2e; font-family: arial; =
+font-size: 14px; font-weight: 700; line-height: 18px; letter-spacing: 0; te=
+xt-align: right;">230,00=C2=A0$</span>
+   =20
+
+</p>
+    </td>
+</tr>
+                </tbody>
+                                                <tbody style=3D"border-bott=
+om: 1px solid #ccc;">
+                    <tr>
+            <td class=3D"item-image" style=3D"font-family: arial; font-weig=
+ht: 400; vertical-align: top; margin: 0; font-size: 16px; border-collapse: =
+collapse; padding: 0 20px; padding-left: 25px; padding-top: 20px; padding-b=
+ottom: 20px;">
+        <img src=3D"https://www.baindepot.com/media/catalog/product/L/F/LF1=
+614_62GWH_7e17.jpg?optimize=3Dmedium&amp;fit=3Dbounds&amp;height=3D90&amp;w=
+idth=3D90" width=3D"90" style=3D"-ms-interpolation-mode: bicubic; width: 90=
+px;">
+    </td>
+            <td class=3D"item-info" style=3D"font-family: arial; font-weigh=
+t: 400; vertical-align: top; margin: 0; font-size: 16px; border-collapse: c=
+ollapse; padding: 0 20px; padding-top: 20px; padding-bottom: 20px; text-ali=
+gn: left;">
+        <p class=3D"product-name" style=3D"font-weight: 400; margin: 5px 0;=
+ color: #232323; font-family: arial; font-size: 14px; line-height: 20px;">L=
+ingerie de plancher 16" blanc lustr=C3=A9 =C3=A0 poign=C3=A9es noires</p>
+        <p class=3D"sku" style=3D"font-weight: 400; margin: 5px 0; font-fam=
+ily: arial; color: #828282; font-size: 10px; text-transform: uppercase; lin=
+e-height: 14px;">SKU: LF1614-62GWH</p>
+                                                                           =
+     </td>
+    <td class=3D"item-qty" style=3D"font-family: arial; font-weight: 400; v=
+ertical-align: top; margin: 0; font-size: 16px; border-collapse: collapse; =
+padding: 0 20px; padding-top: 20px; padding-bottom: 20px; width: 20px; text=
+-align: center;"><p style=3D"font-weight: 400; margin: 5px 0; color: #23232=
+3; font-family: arial; font-size: 14px; line-height: 20px;">1</p></td>
+    <td class=3D"item-price" style=3D"font-family: arial; font-weight: 400;=
+ vertical-align: top; margin: 0; font-size: 16px; border-collapse: collapse=
+; padding: 0 20px; padding-right: 25px; padding-top: 20px; padding-bottom: =
+20px; width: 70px; text-align: right;">
+        <p style=3D"font-weight: 400; margin: 5px 0; color: #232323; font-f=
+amily: arial; font-size: 14px; line-height: 20px;">
+        <span class=3D"price" style=3D"color: #2e2e2e; font-family: arial; =
+font-size: 14px; font-weight: 700; line-height: 18px; letter-spacing: 0; te=
+xt-align: right;">379,00=C2=A0$</span>
+   =20
+
+</p>
+    </td>
+</tr>
+                </tbody>
+                                                <tbody style=3D"border-bott=
+om: 1px solid #ccc;">
+                    <tr>
+            <td class=3D"item-image" style=3D"font-family: arial; font-weig=
+ht: 400; vertical-align: top; margin: 0; font-size: 16px; border-collapse: =
+collapse; padding: 0 20px; padding-left: 25px; padding-top: 20px; padding-b=
+ottom: 20px;">
+        <img src=3D"https://www.baindepot.com/media/catalog/product/F/_/F_4=
+021_3BK_fb67.jpg?optimize=3Dmedium&amp;fit=3Dbounds&amp;height=3D90&amp;wid=
+th=3D90" width=3D"90" style=3D"-ms-interpolation-mode: bicubic; width: 90px=
+;">
+    </td>
+            <td class=3D"item-info" style=3D"font-family: arial; font-weigh=
+t: 400; vertical-align: top; margin: 0; font-size: 16px; border-collapse: c=
+ollapse; padding: 0 20px; padding-top: 20px; padding-bottom: 20px; text-ali=
+gn: left;">
+        <p class=3D"product-name" style=3D"font-weight: 400; margin: 5px 0;=
+ color: #232323; font-family: arial; font-size: 14px; line-height: 20px;">R=
+obinet de lavabo monotrou fini noir mat avec bonde</p>
+        <p class=3D"sku" style=3D"font-weight: 400; margin: 5px 0; font-fam=
+ily: arial; color: #828282; font-size: 10px; text-transform: uppercase; lin=
+e-height: 14px;">SKU: F-4021-3BK</p>
+                                                                           =
+     </td>
+    <td class=3D"item-qty" style=3D"font-family: arial; font-weight: 400; v=
+ertical-align: top; margin: 0; font-size: 16px; border-collapse: collapse; =
+padding: 0 20px; padding-top: 20px; padding-bottom: 20px; width: 20px; text=
+-align: center;"><p style=3D"font-weight: 400; margin: 5px 0; color: #23232=
+3; font-family: arial; font-size: 14px; line-height: 20px;">1</p></td>
+    <td class=3D"item-price" style=3D"font-family: arial; font-weight: 400;=
+ vertical-align: top; margin: 0; font-size: 16px; border-collapse: collapse=
+; padding: 0 20px; padding-right: 25px; padding-top: 20px; padding-bottom: =
+20px; width: 70px; text-align: right;">
+        <p style=3D"font-weight: 400; margin: 5px 0; color: #232323; font-f=
+amily: arial; font-size: 14px; line-height: 20px;">
+        <span class=3D"price" style=3D"color: #2e2e2e; font-family: arial; =
+font-size: 14px; font-weight: 700; line-height: 18px; letter-spacing: 0; te=
+xt-align: right;">89,00=C2=A0$</span>
+   =20
+
+</p>
+    </td>
+</tr>
+                </tbody>
+                                                <tbody style=3D"border-bott=
+om: 1px solid #ccc;">
+                    <tr>
+            <td class=3D"item-image" style=3D"font-family: arial; font-weig=
+ht: 400; vertical-align: top; margin: 0; font-size: 16px; border-collapse: =
+collapse; padding: 0 20px; padding-left: 25px; padding-top: 20px; padding-b=
+ottom: 20px;">
+        <img src=3D"https://www.baindepot.com/media/catalog/product/S/Q/SQ3=
+004BK_ad52.jpg?optimize=3Dmedium&amp;fit=3Dbounds&amp;height=3D90&amp;width=
+=3D90" width=3D"90" style=3D"-ms-interpolation-mode: bicubic; width: 90px;"=
+>
+    </td>
+            <td class=3D"item-info" style=3D"font-family: arial; font-weigh=
+t: 400; vertical-align: top; margin: 0; font-size: 16px; border-collapse: c=
+ollapse; padding: 0 20px; padding-top: 20px; padding-bottom: 20px; text-ali=
+gn: left;">
+        <p class=3D"product-name" style=3D"font-weight: 400; margin: 5px 0;=
+ color: #232323; font-family: arial; font-size: 14px; line-height: 20px;">E=
+nsemble de 4 accessoires carr=C3=A9s fini noir mat</p>
+        <p class=3D"sku" style=3D"font-weight: 400; margin: 5px 0; font-fam=
+ily: arial; color: #828282; font-size: 10px; text-transform: uppercase; lin=
+e-height: 14px;">SKU: SQ3004BK</p>
+                                                                           =
+     </td>
+    <td class=3D"item-qty" style=3D"font-family: arial; font-weight: 400; v=
+ertical-align: top; margin: 0; font-size: 16px; border-collapse: collapse; =
+padding: 0 20px; padding-top: 20px; padding-bottom: 20px; width: 20px; text=
+-align: center;"><p style=3D"font-weight: 400; margin: 5px 0; color: #23232=
+3; font-family: arial; font-size: 14px; line-height: 20px;">1</p></td>
+    <td class=3D"item-price" style=3D"font-family: arial; font-weight: 400;=
+ vertical-align: top; margin: 0; font-size: 16px; border-collapse: collapse=
+; padding: 0 20px; padding-right: 25px; padding-top: 20px; padding-bottom: =
+20px; width: 70px; text-align: right;">
+        <p style=3D"font-weight: 400; margin: 5px 0; color: #232323; font-f=
+amily: arial; font-size: 14px; line-height: 20px;">
+        <span class=3D"price" style=3D"color: #2e2e2e; font-family: arial; =
+font-size: 14px; font-weight: 700; line-height: 18px; letter-spacing: 0; te=
+xt-align: right;">99,00=C2=A0$</span>
+   =20
+
+</p>
+    </td>
+</tr>
+                </tbody>
+                                                <tbody style=3D"border-bott=
+om: none;">
+                    <tr>
+            <td class=3D"item-image" style=3D"font-family: arial; font-weig=
+ht: 400; vertical-align: top; margin: 0; font-size: 16px; border-collapse: =
+collapse; padding: 0 20px; padding-left: 25px; padding-top: 20px; padding-b=
+ottom: 20px;">
+        <img src=3D"https://www.baindepot.com/media/catalog/product/8/4/84_=
+ALEX_90_ce08.jpg?optimize=3Dmedium&amp;fit=3Dbounds&amp;height=3D90&amp;wid=
+th=3D90" width=3D"90" style=3D"-ms-interpolation-mode: bicubic; width: 90px=
+;">
+    </td>
+            <td class=3D"item-info" style=3D"font-family: arial; font-weigh=
+t: 400; vertical-align: top; margin: 0; font-size: 16px; border-collapse: c=
+ollapse; padding: 0 20px; padding-top: 20px; padding-bottom: 20px; text-ali=
+gn: left;">
+        <p class=3D"product-name" style=3D"font-weight: 400; margin: 5px 0;=
+ color: #232323; font-family: arial; font-size: 14px; line-height: 20px;">M=
+iroir =C3=A0 =C3=A9clairage DEL int=C3=A9gr=C3=A9 36" x 28"</p>
+        <p class=3D"sku" style=3D"font-weight: 400; margin: 5px 0; font-fam=
+ily: arial; color: #828282; font-size: 10px; text-transform: uppercase; lin=
+e-height: 14px;">SKU: 84-ALEX-90</p>
+                                                                           =
+     </td>
+    <td class=3D"item-qty" style=3D"font-family: arial; font-weight: 400; v=
+ertical-align: top; margin: 0; font-size: 16px; border-collapse: collapse; =
+padding: 0 20px; padding-top: 20px; padding-bottom: 20px; width: 20px; text=
+-align: center;"><p style=3D"font-weight: 400; margin: 5px 0; color: #23232=
+3; font-family: arial; font-size: 14px; line-height: 20px;">1</p></td>
+    <td class=3D"item-price" style=3D"font-family: arial; font-weight: 400;=
+ vertical-align: top; margin: 0; font-size: 16px; border-collapse: collapse=
+; padding: 0 20px; padding-right: 25px; padding-top: 20px; padding-bottom: =
+20px; width: 70px; text-align: right;">
+        <p style=3D"font-weight: 400; margin: 5px 0; color: #232323; font-f=
+amily: arial; font-size: 14px; line-height: 20px;">
+        <span class=3D"price" style=3D"color: #2e2e2e; font-family: arial; =
+font-size: 14px; font-weight: 700; line-height: 18px; letter-spacing: 0; te=
+xt-align: right;">209,00=C2=A0$</span>
+   =20
+
+</p>
+    </td>
+</tr>
+                </tbody>
+                        </table>
+        <table align=3D"center" width=3D"600" style=3D"mso-table-lspace: 0p=
+t; mso-table-rspace: 0pt; vertical-align: top; padding: 0; margin: 0; font-=
+size: 16px; border-collapse: collapse;">
+        <tr>
+            <td class=3D"row-padding" style=3D"font-family: arial; font-wei=
+ght: 400; vertical-align: top; padding: 0; margin: 0; font-size: 16px; bord=
+er-collapse: collapse; padding-right: 25px; padding-left: 25px;">
+                <table class=3D"order-totals" width=3D"100%" style=3D"mso-t=
+able-lspace: 0pt; mso-table-rspace: 0pt; vertical-align: top; padding: 0; f=
+ont-size: 16px; border-collapse: collapse; margin: 0 auto;">
+                            <tr class=3D"subtotal" style=3D"padding: 10px 0=
+; border-top: 1px solid #ccc;">
+        <th colspan=3D"2" scope=3D"row" style=3D"text-align: left; color: #=
+2e2e2e; font-family: arial; font-size: 14px; font-weight: 700; line-height:=
+ 18px; letter-spacing: 0; padding: 2.5px 0; padding-top: 20px;">
+                            Sous-total                    </th>
+        <td data-th=3D"Sous-total" style=3D"vertical-align: top; margin: 0;=
+ border-collapse: collapse; color: #2e2e2e; font-family: arial; font-size: =
+14px; font-weight: 700; line-height: 18px; letter-spacing: 0; padding: 2.5p=
+x 0; padding-top: 20px; text-align: right;">
+                            <span class=3D"price">1=C2=A0495,00=C2=A0$</spa=
+n>                    </td>
+    </tr>
+            <tr class=3D"shipping">
+        <th colspan=3D"2" scope=3D"row" style=3D"text-align: left; color: #=
+2e2e2e; font-family: arial; font-size: 14px; font-weight: 700; line-height:=
+ 18px; letter-spacing: 0; padding: 2.5px 0;">
+                            Frais de port                    </th>
+        <td data-th=3D"Frais de port" style=3D"vertical-align: top; margin:=
+ 0; border-collapse: collapse; color: #2e2e2e; font-family: arial; font-siz=
+e: 14px; font-weight: 700; line-height: 18px; letter-spacing: 0; padding: 2=
+.5px 0; text-align: right;">
+                            <span class=3D"price">0,00=C2=A0$</span>       =
+             </td>
+    </tr>
+               =20
+                                <tr class=3D"totals tax details details-1 p=
+lane">
+                <td colspan=3D"2" style=3D"vertical-align: top; margin: 0; =
+border-collapse: collapse; color: #2e2e2e; font-family: arial; font-size: 1=
+4px; font-weight: 700; line-height: 18px; letter-spacing: 0; padding: 2.5px=
+ 0;">
+                    TPS #807439559                                         =
+   (5%)
+                                        <br>
+                </td>
+                <td rowspan=3D"1" style=3D"vertical-align: top; margin: 0; =
+border-collapse: collapse; color: #2e2e2e; font-family: arial; font-size: 1=
+4px; font-weight: 700; line-height: 18px; letter-spacing: 0; padding: 2.5px=
+ 0; text-align: right;">
+                    <span class=3D"price">74,75=C2=A0$</span>              =
+  </td>
+            </tr>
+                                <tr class=3D"totals tax details details-1 p=
+lane">
+                <td colspan=3D"2" style=3D"vertical-align: top; margin: 0; =
+border-collapse: collapse; color: #2e2e2e; font-family: arial; font-size: 1=
+4px; font-weight: 700; line-height: 18px; letter-spacing: 0; padding: 2.5px=
+ 0;">
+                    TVQ #1214312090TQ0001                                  =
+          (9.975%)
+                                        <br>
+                </td>
+                <td rowspan=3D"1" style=3D"vertical-align: top; margin: 0; =
+border-collapse: collapse; color: #2e2e2e; font-family: arial; font-size: 1=
+4px; font-weight: 700; line-height: 18px; letter-spacing: 0; padding: 2.5px=
+ 0; text-align: right;">
+                    <span class=3D"price">149,13=C2=A0$</span>             =
+   </td>
+            </tr>
+       =20
+<tr class=3D"totals-tax-summary plane" style=3D"height: 20px;">
+    <th colspan=3D"2" scope=3D"row" style=3D"font-family: arial; font-weigh=
+t: 400; display: none;">
+                    <div class=3D"detailed">Taxes</div>
+            </th>
+    <td data-th=3D"Taxes" style=3D"font-family: arial; font-weight: 400; ve=
+rtical-align: top; padding: 0; margin: 0; font-size: 16px; border-collapse:=
+ collapse; display: none;">
+        <span class=3D"price">223,88=C2=A0$</span>    </td>
+</tr>
+                            <tr class=3D"grand_total" style=3D"padding: 10p=
+x 0; border-top: 1px solid #ccc; padding-bottom: 20px; font-size: 16px; tex=
+t-transform: uppercase;">
+        <th colspan=3D"2" scope=3D"row" style=3D"text-align: left; color: #=
+2e2e2e; font-family: arial; font-size: 14px; font-weight: 700; line-height:=
+ 18px; letter-spacing: 0; padding: 2.5px 0; padding-top: 20px;">
+                            <strong>Montant global</strong>
+                    </th>
+        <td data-th=3D"Montant global" style=3D"vertical-align: top; margin=
+: 0; border-collapse: collapse; color: #2e2e2e; font-family: arial; font-si=
+ze: 14px; font-weight: 700; line-height: 18px; letter-spacing: 0; padding: =
+2.5px 0; padding-top: 20px; text-align: right;">
+                            <strong><span class=3D"price">1=C2=A0718,88=C2=
+=A0$</span></strong>
+                    </td>
+    </tr>
+                    </table>
+            </td>
+        </tr>
+    </table>
+       =20
+                    </td>
+                </tr>
+            </table>
+
+<!-- Baindepot custom code - Close main table and open footer to enable ful=
+lwidth. Add content to footer. -->
+                    <!-- Spacer -->
+                    <table style=3D"mso-table-lspace: 0pt; mso-table-rspace=
+: 0pt; vertical-align: top; padding: 0; margin: 0; font-size: 16px; border-=
+collapse: collapse;">
+                        <tr height=3D"18"></tr>
+                    </table>
+                <!-- End Content -->
+                </td>
+            </tr>
+        </table>
+    </td>
+</tr>
+
+<!-- debut partie couleur / fin du courriel -->
+<tr class=3D"footer" align=3D"center" style=3D"background: #fff;">
+    <td class=3D"wrapper-inner" style=3D"font-family: arial; font-weight: 4=
+00; vertical-align: top; padding: 0; margin: 0; font-size: 16px; border-col=
+lapse: collapse;">
+        <table class=3D"main" align=3D"center" width=3D"600" style=3D"mso-t=
+able-lspace: 0pt; mso-table-rspace: 0pt; vertical-align: top; padding: 0; m=
+argin: 0; font-size: 16px; border-collapse: collapse; text-align: left;">
+            <tr>
+                <td class=3D"main-content" style=3D"font-family: arial; fon=
+t-weight: 400; vertical-align: top; padding: 0; margin: 0; font-size: 16px;=
+ border-collapse: collapse; text-align: center;">
+                    <table class=3D"row-default" align=3D"center" width=3D"=
+550" style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt; vertical-align:=
+ top; padding: 0; margin: 0; font-size: 16px; border-collapse: collapse; di=
+splay: inline-block;">
+                        <!-- Help Section -->
+                        <thead class=3D"help-section" style=3D"text-align: =
+center;">
+                        <tr>
+                            <td style=3D"font-family: arial; font-weight: 4=
+00; vertical-align: top; padding: 0; margin: 0; font-size: 16px; border-col=
+lapse: collapse;">
+                                <table class=3D"footer-help-section" align=
+=3D"center" width=3D"550" style=3D"mso-table-lspace: 0pt; mso-table-rspace:=
+ 0pt; vertical-align: top; padding: 0; margin: 0; font-size: 16px; border-c=
+ollapse: collapse; border: 2px solid #2bb2c4;">
+                                    <thead>
+                                    <tr>
+                                        <th style=3D"font-family: arial; fo=
+nt-weight: 400; padding-top: 20px; padding-bottom: 10px;"><h2 style=3D"colo=
+r: #2bb2c4; line-height: 21px; letter-spacing: 0; font-weight: 700; text-tr=
+ansform: uppercase; font-family: Arial; margin: 0; font-size: 16px;">Besoin=
+ d'aide?</h2>
+                                            <h3 style=3D"text-transform: up=
+percase; margin: 0; font-size: 16px; color: #2bb2c4; font-family: arial; fo=
+nt-weight: 700; line-height: 18px;">Nous sommes l=C3=A0 pour vous!</h3></th=
+>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr class=3D"customer-service" style=3D=
+"color: #232323; font-family: arial; font-size: 14px; text-align: center; l=
+ine-height: 22px;">
+                                        <td style=3D"font-family: arial; fo=
+nt-weight: 400; vertical-align: top; padding: 0; margin: 0; font-size: 16px=
+; border-collapse: collapse; padding-top: 10px; padding-bottom: 20px; text-=
+align: center;">
+                                            <h3 style=3D"margin: 0; font-we=
+ight: 700; color: #232323; font-family: arial; font-size: 14px; text-align:=
+ center; line-height: 22px; text-transform: uppercase;">Service =C3=A0 la c=
+lient=C3=A8le</h3>
+                                           =20
+                                            <p style=3D"font-weight: 400; m=
+argin: 0; color: #232323; font-family: arial; font-size: 14px; text-align: =
+center; line-height: 22px;">
+                                                9h =C3=A0 16h (heure de l'E=
+st)
+                                            </p>
+                                           =20
+                                            <p style=3D"font-weight: 400; m=
+argin: 0; color: #232323; font-family: arial; font-size: 14px; text-align: =
+center; line-height: 22px;">
+                                                <a href=3D"mailto:service@b=
+aindepot.com" style=3D"font-weight: 700; letter-spacing: 0; text-decoration=
+: none; color: #232323; font-family: arial; font-size: 14px; text-align: ce=
+nter; line-height: 22px;">service@baindepot.com</a>
+                                            </p>
+                                           =20
+                                            <p style=3D"font-weight: 400; m=
+argin: 0; color: #232323; font-family: arial; font-size: 14px; text-align: =
+center; line-height: 22px;">
+                                                <a href=3D"tel:(450)%20433-=
+6495" style=3D"font-weight: 700; letter-spacing: 0; text-decoration: none; =
+color: #232323; font-family: arial; font-size: 14px; text-align: center; li=
+ne-height: 22px;">(450) 433-6495</a>
+                                            </p>
+                                           =20
+                                        </td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                        </tr>
+                        </thead>
+
+                        <!-- Usefull links -->
+                        <tbody>
+                        <tr height=3D"6"></tr>
+                        <tr class=3D"useful-links" style=3D"text-align: cen=
+ter;">
+                            <td style=3D"font-family: arial; font-weight: 4=
+00; vertical-align: top; padding: 0; margin: 0; font-size: 16px; border-col=
+lapse: collapse;">
+                                <table align=3D"center" width=3D"550" style=
+=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt; vertical-align: top; padd=
+ing: 0; margin: 0; font-size: 16px; border-collapse: unset; border-spacing:=
+ unset;">
+                                    <tr>
+                                        <td class=3D"useful-link find-store=
+" style=3D"font-family: arial; font-weight: 400; vertical-align: top; margi=
+n: 0; font-size: 16px; border-collapse: collapse; box-sizing: border-box; w=
+idth: 32.66%; min-width: 32.66%; padding: 25px; border: 2px solid #2bb2c4;"=
+><a href=3D"https://www.baindepot.com/nos-magasins" class=3D"link" style=3D=
+"font-family: arial; font-size: 14px; font-weight: 700; line-height: 18px; =
+letter-spacing: 0; color: #828282; text-decoration: none;">
+                                            <img src=3D"https://www.baindep=
+ot.com/static/version1793027136/frontend/Baindepot/baindepot/fr_CA/build/em=
+ail/images/magento-email/find-store.png" alt=3D"" class=3D"usefull-icon" st=
+yle=3D"-ms-interpolation-mode: bicubic;"><span class=3D"usefull-title" styl=
+e=3D"margin: 0 20px; color: #828282;">Trouver un magasin</span></a></td>
+                                        <td width=3D"6" style=3D"font-famil=
+y: arial; font-weight: 400; vertical-align: top; padding: 0; margin: 0; fon=
+t-size: 16px; border-collapse: collapse;"></td>
+
+                                        <td class=3D"useful-link return-exc=
+hange" style=3D"font-family: arial; font-weight: 400; vertical-align: top; =
+margin: 0; font-size: 16px; border-collapse: collapse; box-sizing: border-b=
+ox; width: 32.66%; min-width: 32.66%; padding: 25px; border: 2px solid #2bb=
+2c4;"><a href=3D"https://www.baindepot.com/retours-et-echanges" class=3D"li=
+nk" style=3D"font-family: arial; font-size: 14px; font-weight: 700; line-he=
+ight: 18px; letter-spacing: 0; color: #828282; text-decoration: none;"><img=
+ src=3D"https://www.baindepot.com/static/version1793027136/frontend/Baindep=
+ot/baindepot/fr_CA/build/email/images/magento-email/retour-echange.png" alt=
+=3D"" class=3D"usefull-icon" style=3D"-ms-interpolation-mode: bicubic;"><sp=
+an class=3D"usefull-title" style=3D"margin: 0 20px; color: #828282;">Retour=
+s et =C3=A9changes</span></a></td>
+                                        <td width=3D"6" style=3D"font-famil=
+y: arial; font-weight: 400; vertical-align: top; padding: 0; margin: 0; fon=
+t-size: 16px; border-collapse: collapse;"></td>
+                                        <td class=3D"useful-link delivery-i=
+nfos" style=3D"font-family: arial; font-weight: 400; vertical-align: top; m=
+argin: 0; font-size: 16px; border-collapse: collapse; box-sizing: border-bo=
+x; width: 32.66%; min-width: 32.66%; padding: 25px; border: 2px solid #2bb2=
+c4;"><a href=3D"https://www.baindepot.com/livraisons-et-ramassages" class=
+=3D"link" style=3D"font-family: arial; font-size: 14px; font-weight: 700; l=
+ine-height: 18px; letter-spacing: 0; color: #828282; text-decoration: none;=
+"><img src=3D"https://www.baindepot.com/static/version1793027136/frontend/B=
+aindepot/baindepot/fr_CA/build/email/images/magento-email/camion_livraison.=
+png" alt=3D"" class=3D"usefull-icon" style=3D"-ms-interpolation-mode: bicub=
+ic;"><span class=3D"usefull-title" style=3D"margin: 0 20px; color: #828282;=
+">Informations sur la livraison&lt;</span></a></td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        </tbody><tbody>
+                    </tbody></table>
+
+                    <!-- Spacer -->
+                    <table style=3D"mso-table-lspace: 0pt; mso-table-rspace=
+: 0pt; vertical-align: top; padding: 0; margin: 0; font-size: 16px; border-=
+collapse: collapse;">
+                        <tr height=3D"18"></tr>
+                    </table>
+
+                    <table class=3D"row-large social-links-row" align=3D"ce=
+nter" width=3D"600" style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt; =
+vertical-align: top; padding: 0; margin: 0; font-size: 16px; border-collaps=
+e: collapse; text-align: center; display: inline-block; background-color: #=
+f1f9fa;">
+                        <!-- Socials -->
+                        <tr class=3D"social-links-wrapper" style=3D"text-al=
+ign: center;">
+                            <td class=3D"row-padding" style=3D"font-family:=
+ arial; font-weight: 400; vertical-align: top; margin: 0; font-size: 16px; =
+border-collapse: collapse; padding-right: 25px; padding-left: 25px; padding=
+: 0 25px 15px;">
+                                <table align=3D"center" width=3D"550" style=
+=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt; vertical-align: top; padd=
+ing: 0; margin: 0; font-size: 16px; border-collapse: collapse;">
+                                    <tr>
+                                        <td style=3D"font-family: arial; fo=
+nt-weight: 400; vertical-align: top; padding: 0; margin: 0; font-size: 16px=
+; border-collapse: collapse;"><h4 style=3D"text-align: center; margin: 15px=
+ 0; color: #2bb2c4; font-family: arial; font-size: 16px; font-weight: 700;"=
+>Suivez-nous sur les r=C3=A9seaux sociaux!</h4></td>
+                                    </tr>
+                                    <tr>
+                                        <td style=3D"font-family: arial; fo=
+nt-weight: 400; vertical-align: top; padding: 0; margin: 0; font-size: 16px=
+; border-collapse: collapse;">
+                                            <table align=3D"center" width=
+=3D"550" style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt; vertical-al=
+ign: top; padding: 0; margin: 0; font-size: 16px; border-collapse: collapse=
+;">
+                                                <tr>
+                                                    <td style=3D"font-famil=
+y: arial; font-weight: 400; vertical-align: top; padding: 0; margin: 0; fon=
+t-size: 16px; border-collapse: collapse;"><a href=3D"https://www.facebook.c=
+om/baindepot" class=3D"icon-link" style=3D"font-family: arial; font-size: 1=
+4px; font-weight: 700; line-height: 18px; letter-spacing: 0; margin-right: =
+5px; color: #828282; text-decoration: none; text-align: center;"><img src=
+=3D"https://www.baindepot.com/static/version1793027136/frontend/Baindepot/b=
+aindepot/fr_CA/images/magento-email/fb-icon.png" border=3D"0" style=3D"-ms-=
+interpolation-mode: bicubic; text-align: center; width: 34px;"></a></td>
+                                                    <td style=3D"font-famil=
+y: arial; font-weight: 400; vertical-align: top; padding: 0; margin: 0; fon=
+t-size: 16px; border-collapse: collapse;"><a href=3D"https://www.instagram.=
+com/baindepot/" class=3D"icon-link" style=3D"font-family: arial; font-size:=
+ 14px; font-weight: 700; line-height: 18px; letter-spacing: 0; margin-right=
+: 5px; color: #828282; text-decoration: none; text-align: center;"><img src=
+=3D"https://www.baindepot.com/static/version1793027136/frontend/Baindepot/b=
+aindepot/fr_CA/images/magento-email/instagram-icon.png" border=3D"0" style=
+=3D"-ms-interpolation-mode: bicubic; text-align: center; width: 34px;"></a>=
+</td>
+                                                    <td style=3D"font-famil=
+y: arial; font-weight: 400; vertical-align: top; padding: 0; margin: 0; fon=
+t-size: 16px; border-collapse: collapse;"><a href=3D"https://www.pinterest.=
+ca/baindepot//" class=3D"icon-link" style=3D"font-family: arial; font-size:=
+ 14px; font-weight: 700; line-height: 18px; letter-spacing: 0; margin-right=
+: 5px; color: #828282; text-decoration: none; text-align: center;"><img src=
+=3D"https://www.baindepot.com/static/version1793027136/frontend/Baindepot/b=
+aindepot/fr_CA/images/magento-email/pin-icon.png" border=3D"0" style=3D"-ms=
+-interpolation-mode: bicubic; text-align: center; width: 34px;"></a></td>
+                                                    <td style=3D"font-famil=
+y: arial; font-weight: 400; vertical-align: top; padding: 0; margin: 0; fon=
+t-size: 16px; border-collapse: collapse;"><a href=3D"https://www.houzz.com/=
+pro/design2991/bain-depot" class=3D"icon-link" style=3D"font-family: arial;=
+ font-size: 14px; font-weight: 700; line-height: 18px; letter-spacing: 0; m=
+argin-right: 5px; color: #828282; text-decoration: none; text-align: center=
+;"><img src=3D"https://www.baindepot.com/static/version1793027136/frontend/=
+Baindepot/baindepot/fr_CA/images/magento-email/houzz-icon.png" border=3D"0"=
+ style=3D"-ms-interpolation-mode: bicubic; text-align: center; width: 34px;=
+"></a></td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+            <!-- Legal-->
+            <tfoot class=3D"legal-infos" height=3D"56" style=3D"color: #232=
+323; font-family: arial; font-size: 12px; text-align: center; line-height: =
+14px;">
+            <tr>
+                <td style=3D"font-family: arial; font-weight: 400; vertical=
+-align: top; padding: 0; margin: 0; font-size: 16px; border-collapse: colla=
+pse;">
+                    <p class=3D"legal-infos" style=3D"font-weight: 400; mar=
+gin: 0; color: #232323; font-family: arial; font-size: 12px; text-align: ce=
+nter; line-height: 14px; padding: 20px 0;">
+                        Bain D=C3=A9p=C3=B4t, 1200, boul Mich=C3=A8le-Bohec=
+, Blainville, QC, J7C 5S4
+                    </p>
+                </td>
+            </tr>
+            </tfoot>
+        </table>
+    </td>
+</tr>
+
+</table>
+
+<!-- End wrapper table -->
+</body></html>
+

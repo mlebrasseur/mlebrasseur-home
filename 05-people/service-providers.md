@@ -11,3 +11,11 @@
 | Desjardins Assurances générales inc. | Prior home-insurance quote contact | Carole Sabourin |  |  | SRC-2026-016 | No Desjardins policy recorded; selected policy is with Intact through Agence La Turquoise |
 | Intact Compagnie d'assurance / Agence La Turquoise | Home insurance | Agence La Turquoise; contactez-nous@agencelaturquoise.ca; +1 833-540-1260 | Policy KK6-79EW | 2026-08-31 | SRC-2026-042 | 581,000 CAD building coverage; annual premium 1,691 CAD before taxes and fees; renews 2027-08-31 |
 | LRV Notaires S.E.N.C.R.L. | Purchase closing / buyer's notary | Audrey-Ann Lapierre / Sarah-Maude Lapierre | Dossier 26L24750664 | 2026-06-18 | SRC-2026-027, SRC-2026-043, SRC-2026-056, SRC-2026-059, SRC-2026-060 | 130,038.27 buyer trust receipt documented; 2,038.27 invoice stamped paid; August 31 adjustment statements archived. Holdback and deed/title details remain to verify. |
+
+## Renovation Suppliers — November 5 Orders
+
+| Supplier | Pickup location / contact | Order / status | Source |
+|---|---|---|---|
+| Canac Laval | 3400 boul. Curé-Labelle, Laval, QC H7P 0H9; 450-241-6320 | 4005849329; ready for yard pickup by vehicle, collection unconfirmed | [SRC-2026-091](../01-sources/extractions/2026/2026-11-05-renovation-canac-order-4005849329.md) |
+| Bain Dépôt Mascouche | 198 montée Masson, Mascouche, QC J7K 3B5; 450-918-4539 | 4000176758; whole order awaits vanity availability around November 16, pickup notification pending | [SRC-2026-092](../01-sources/extractions/2026/2026-11-05-renovation-bain-depot-order-4000176758.md) |
+| Bain Dépôt customer service | service@baindepot.com; 450-433-6495; email lists 09:00–16:00 Eastern | Order / availability enquiries | SRC-2026-092 |
