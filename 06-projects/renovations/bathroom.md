@@ -1,6 +1,6 @@
 # Bachelor Bathroom Renovation
 
-Last updated: 2026-11-05
+Last updated: 2026-11-06
 
 Sources: [Measurements, layout and finishes, SRC-2026-088](../../01-sources/chat/2026/2026-11-03-renovation-bachelor-bathroom-plan.md); [product choices, comparisons and remaining purchases, SRC-2026-090](../../01-sources/chat/2026/2026-11-04-renovation-bachelor-bathroom-products.md).
 
@@ -20,6 +20,26 @@ Earlier concept layout corrections: [SRC-2026-095](../../01-sources/chat/2026/20
 
 - Remake the bachelor bathroom with a corner shower, vanity and tall matching storage, rotated toilet, and shallow storage behind the toilet.
 - Related work: [Bachelor room renovation](basement.md).
+
+## Concept v3 — Floating Madison Furniture, November 5
+
+[Open Concept v3](../../01-sources/documents/renovation/bathroom-concept-v3/dist/index.html) · [dimensions and checks, SRC-2026-100](../../01-sources/extractions/2026/2026-11-05-bachelor-bathroom-model-v3.md) · [homeowner direction, SRC-2026-099](../../01-sources/chat/2026/2026-11-05-renovation-bathroom-concept-v3.md).
+
+Separate comparison using the homeowner-confirmed **36-inch Madison VW3620-84GWH wall vanity**, **VT-SQ3620 polymarble top** and **LW1614-84GWH wall linen cabinet**, all glossy white with recessed grips. These are concept selections; changes to the existing furniture order or payments have not been reported.
+
+| Item | V3 arrangement / assumption |
+|---|---|
+| Vanity/top | Cabinet 894 × 495 × 500 mm; top 900 × 500 × 50 mm, finished top modeled at 34 inches; two drawers left, one door right |
+| Linen | 400 × 350 × 1400 mm; rear-left along left wall, right/rear hinges; 5-inch rear-wall gap and 5.10-inch gap to vanity top |
+| Floating installation | Cabinet bottoms aligned about 12.35 inches above floor; linen top about 67.46 inches. Mounting height, wall support, anchors and plumbing are unverified |
+| Mirror/outlet | ALEX collection / BIBO 84-BIBO-24, 600 × 700 mm; centred over sink, top **67.46 inches aligned with linen**, bottom 39.91 inches. Two inset light strips; outlet retains centred-layout position |
+| Hamper / other fixtures | Hamper front-left with about 5.10 inches to vanity top, equal to the linen-side gap; shower, toilet, rear fittings, entrance animation and controls follow v2 |
+
+November 6 centring correction: move vanity/top, mirror and outlet about 4.10 inches toward the entrance to equalize the two furniture gaps. Homeowner approved with `go` (SRC-2026-099).
+
+Latest November 6 mirror revision: **24 × 28 ALEX/BIBO** replaces HIHI, top aligned with linen and bottom about 5.91 inches above countertop. Static model has only **0.18 inch depth clearance between glass and faucet lever**; actual dimensions and lever motion need verification. No mirror-order amendment or purchase reported (SRC-2026-099, SRC-2026-100).
+
+**Fit finding:** simplified entrance, linen and vanity-door sweeps clear tested model envelopes through 90°; the linen offset resolves v2's modeled rear-wall/window/towel collision. An illustrative 14-inch drawer extension also clears tested surrounding fixtures. Actual hinge/slide motion, hamper access, plumbing and site measurements remain to verify. Source: SRC-2026-100. Earlier concepts remain available below.
 
 ## Concept v2 — New Layout Study, November 5
 
@@ -86,7 +106,9 @@ November 5: Canac and Bain Dépôt orders are documented; Amazon niche ordered p
 
 ### Mirror and Vanity Light
 
-Ordered **ALEX 84-ALEX-90, 36 × 28 inches**, with integrated LED lighting, **209.00 CAD before tax**. The revised model uses its two inset vertical LED strips and actual 900 × 700 × 45 mm dimensions (SRC-2026-095). This resolves the mirror selection and supersedes the earlier LETTAN / nominal 48-inch ALEX shortlist. [Order, SRC-2026-092](../../01-sources/extractions/2026/2026-11-05-renovation-bain-depot-order-4000176758.md). Earlier comparison remains in [SRC-2026-090](../../01-sources/chat/2026/2026-11-04-renovation-bachelor-bathroom-products.md#mirror-options).
+Ordered **ALEX 84-ALEX-90, 36 × 28 inches**, with integrated LED lighting, **209.00 CAD before tax**. The earlier models use its two inset vertical LED strips and actual 900 × 700 × 45 mm dimensions (SRC-2026-095). This resolves the mirror selection and supersedes the earlier LETTAN / nominal 48-inch ALEX shortlist. [Order, SRC-2026-092](../../01-sources/extractions/2026/2026-11-05-renovation-bain-depot-order-4000176758.md). Earlier comparison remains in [SRC-2026-090](../../01-sources/chat/2026/2026-11-04-renovation-bachelor-bathroom-products.md#mirror-options).
+
+November 6: v3 now shows the **24 × 28 ALEX collection / BIBO 84-BIBO-24**, top aligned with linen, superseding the HIHI trial. The **36 × 28 ALEX** remains the documented order; no exchange/cancellation is reported. [Current mirror evidence and placement, SRC-2026-100](../../01-sources/extractions/2026/2026-11-05-bachelor-bathroom-model-v3.md).
 
 A separate vanity light and compatible dimmer remain TBC; the mirror order does not establish that an additional light is selected or cancelled. The four earlier candidates are retained below. Each is dimmable with a compatible LED dimmer; 3000 K is warm white. Dimming does not establish adjustable colour temperature.
 

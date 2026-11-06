@@ -1,0 +1,33 @@
+{
+  "entranceDoorCollisions": [],
+  "linenDoorCollisions": [],
+  "vanityDoorCollisions": [],
+  "placementInches": {
+    "TZ": 25.221948818897637,
+    "TCZ": 42.938484251968504,
+    "VANITY_END": 60.65501968503937,
+    "LINEN_Z": 65.75196850393701,
+    "LINEN_END": 81.5,
+    "VB": 12.346456692913385,
+    "LB": 12.346456692913385,
+    "LH": 55.118110236220474,
+    "OZ": 22.221948818897637,
+    "REAR_GAP": 5.0,
+    "FURNITURE_GAP": 5.096948818897637
+  },
+  "hamperGapInches": 5.096948818897637,
+  "assumedDrawerExtensionInches": 14,
+  "mirror": {
+    "model": "84-BIBO-24",
+    "widthMm": 600,
+    "heightMm": 700,
+    "depthMm": 30,
+    "bottomInches": 39.90551181102363,
+    "topInches": 67.46456692913387,
+    "linenTopInches": 67.46456692913387,
+    "vanityInsetEachSideInches": 5.905511811023622,
+    "gapAboveModeledFaucetLeverInches": -0.24448818897636926,
+    "staticDepthGapToFaucetLeverInches": 0.1842519685039372,
+    "actualLeverTravelVerified": false
+  }
+}
