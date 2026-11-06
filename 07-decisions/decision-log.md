@@ -100,3 +100,17 @@ Homeowner reports ordering Amazon niche B0DCZC7134 today; same-ASIN US listing i
 The two Canac C-Ment Times panels are for **Marcel**, who will subtract their price from his next invoice, homeowner-reported. Record a pending credit against the **99.98 CAD before-tax** line, with tax treatment and application to verify; keep gross purchase totals intact until reconciled. Three Shaker doors remain unallocated.
 
 Sources: [Canac, SRC-2026-091](../01-sources/extractions/2026/2026-11-05-renovation-canac-order-4005849329.md); [Bain Dépôt, SRC-2026-092](../01-sources/extractions/2026/2026-11-05-renovation-bain-depot-order-4000176758.md); [Amazon purchase and Marcel credit, SRC-2026-093](../01-sources/chat/2026/2026-11-05-renovation-amazon-shower-niche-order.md).
+
+## November 5 — Bathroom Layout Corrections
+
+Place the vanity flush to the left/rear walls and linen cabinet flush to the left/front walls. Reverse linen-door handing to handles left / hinges right when facing it. Move the toilet slightly rearward, keep the paper holder on the rear wall, center the rear-wall outlet above the vanity end, place the hand-towel fixture over the hamper on the left wall, and move the larger towel bar left beneath the window so hanging towels clear the paper holder. Put the robe hook on the right wall over the trash bin.
+
+Use a vertical niche, superseding the earlier horizontal preference. Add a rectangular front-wall ventilation grille above the linen cabinet. Match the ordered ALEX-90 with two inset vertical LED strips. Select the white Sterilite Slim hamper between linen and vanity and the black IKEA GANSJÖN bin between shower and toilet for the model; purchases unreported.
+
+Homeowner approved the accumulated revision with `go`. The 3-inch toilet shift, 12 × 6-inch grille and exact mounting positions are model assumptions; clearances, ventilation and electrical installation details remain to verify. Manufacturer later confirmed cabinet-door reversibility (SRC-2026-096).
+
+Later approved correction (SRC-2026-095): move the linen cabinet 2 inches from the front wall while retaining left-wall contact. Centre hamper and hand-towel fixture in the gap to the vanity top (about 0.71-inch hamper clearance each side), and make the vanity recessed base glossy white. This supersedes linen/front-wall contact above. Actual 90° hinge travel remains to check; entrance door must be closed for full cabinet opening.
+
+Source: [Homeowner directions and product references, SRC-2026-095](../01-sources/chat/2026/2026-11-05-renovation-bathroom-model-corrections.md). Updated [rotatable model, SRC-2026-094](../01-sources/extractions/2026/2026-11-05-bachelor-bathroom-model.md).
+
+Later November 5 clarification (SRC-2026-095): bathroom door is Canac 88001678 with one frosted pane; supplied handle is Weiser Breton matte-black privacy lever 9GLC3310-069, purchase unreported. Show the hook above the bin and retain the original five model views. Door dimensions are product-sourced; frame proportions, mounting positions, machining and swing remain unverified.

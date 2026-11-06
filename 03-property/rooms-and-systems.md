@@ -1,6 +1,6 @@
 # Rooms And Systems
 
-Last updated: 2026-11-02 (bachelor room, revised preferred closet concept and rear projections, garage layout and mechanical access; other observations retain their reporting dates)
+Last updated: 2026-11-05 (bathroom ducted ventilation report; other observations retain their reporting dates)
 
 ## Rooms
 
@@ -86,3 +86,9 @@ Source: [SRC-2026-078](../01-sources/chat/2026/2026-10-25-property-stains-and-at
 Leave the garage ceiling as-is for now; it is not a current priority. Related residual-material, debris and material-composition checks are deferred by homeowner, with no work or review date set. Existing photos and unresolved facts remain on record.
 
 Source: [SRC-2026-080](../01-sources/chat/2026/2026-10-25-property-garage-ceiling-deferred.md).
+
+## November 5 — Bachelor Bathroom Ducted Ventilation
+
+Homeowner reports centralized ventilation with ducts and requests a rectangular grille on the front wall above the tall linen cabinet. Grille dimensions, duct routing and supply/return/exhaust function were not specified. The model uses a provisional 12 × 6-inch grille; this does not establish an air-exchanger installation or change the earlier inspection finding.
+
+Source: [Homeowner model corrections, SRC-2026-095](../01-sources/chat/2026/2026-11-05-renovation-bathroom-model-corrections.md). See [bathroom project](../06-projects/renovations/bathroom.md).
