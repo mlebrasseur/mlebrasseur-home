@@ -114,3 +114,13 @@ Later approved correction (SRC-2026-095): move the linen cabinet 2 inches from t
 Source: [Homeowner directions and product references, SRC-2026-095](../01-sources/chat/2026/2026-11-05-renovation-bathroom-model-corrections.md). Updated [rotatable model, SRC-2026-094](../01-sources/extractions/2026/2026-11-05-bachelor-bathroom-model.md).
 
 Later November 5 clarification (SRC-2026-095): bathroom door is Canac 88001678 with one frosted pane; supplied handle is Weiser Breton matte-black privacy lever 9GLC3310-069, purchase unreported. Show the hook above the bin and retain the original five model views. Door dimensions are product-sourced; frame proportions, mounting positions, machining and swing remain unverified.
+
+## November 5 — Separate Bathroom Concept v2 for Comparison
+
+Create v2 in its own `bathroom-concept-v2/` folder with generator, copied references and public `dist/`, preserving the existing concept. Reverse the entrance door inward toward the shower and add animated opening/closing. Move linen to the rear-left corner facing the toilet, vanity alongside toward entrance, and hamper to front-left. Final linen correction: **handles left / hinges right when facing cabinet, opening toward the rear wall**. Final controls correction: **front wall left of entrance**, side-by-side light dimmer on the left and ventilation switch on the right when facing the plate from inside. Move the tool outlet beside vanity.
+
+Homeowner authorized implementation with `go`; later corrections belong to this same concept. This is a layout study, not final installation approval. The modeled entrance sweep clears shower/furniture; rear-hinged linen doors conflict with the rear wall and assumed window/towel fittings and need spacing/accessory review. Dimming compatibility and device/fixture selections remain unconfirmed. No new purchases or budget changes.
+
+Sources: [Homeowner direction, SRC-2026-097](../01-sources/chat/2026/2026-11-05-renovation-bathroom-concept-v2.md); [model/checks, SRC-2026-098](../01-sources/extractions/2026/2026-11-05-bachelor-bathroom-model-v2.md).
+
+Later v2 follow-up, approved with `go` (SRC-2026-097): confirm dimmer left/vent right when facing the plate from inside; add missing black shower profiles and lower sliding-door borders from the Alaska reference; set linen handles left/hinges right so doors open toward the rear wall. Homeowner then requested the entrance door closed by default; animation remains available. The renewed rear-hinge clearance check supersedes the previous v2 check. Cabinet placement is unchanged pending clearance review (SRC-2026-098).

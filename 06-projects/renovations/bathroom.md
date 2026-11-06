@@ -6,7 +6,7 @@ Sources: [Measurements, layout and finishes, SRC-2026-088](../../01-sources/chat
 
 Current orders: [Canac, SRC-2026-091](../../01-sources/extractions/2026/2026-11-05-renovation-canac-order-4005849329.md); [Bain Dépôt, SRC-2026-092](../../01-sources/extractions/2026/2026-11-05-renovation-bain-depot-order-4000176758.md); [Amazon purchase and Marcel credit, SRC-2026-093](../../01-sources/chat/2026/2026-11-05-renovation-amazon-shower-niche-order.md).
 
-Latest layout corrections: [SRC-2026-095](../../01-sources/chat/2026/2026-11-05-renovation-bathroom-model-corrections.md).
+Earlier concept layout corrections: [SRC-2026-095](../../01-sources/chat/2026/2026-11-05-renovation-bathroom-model-corrections.md).
 
 ## Status
 
@@ -21,7 +21,24 @@ Latest layout corrections: [SRC-2026-095](../../01-sources/chat/2026/2026-11-05-
 - Remake the bachelor bathroom with a corner shower, vanity and tall matching storage, rotated toilet, and shallow storage behind the toilet.
 - Related work: [Bachelor room renovation](basement.md).
 
-## Approximate Dimensions and Planned Layout
+## Concept v2 — New Layout Study, November 5
+
+[Open Concept v2](../../01-sources/documents/renovation/bathroom-concept-v2/dist/index.html) · [model assumptions and checks, SRC-2026-098](../../01-sources/extractions/2026/2026-11-05-bachelor-bathroom-model-v2.md) · [homeowner directions, SRC-2026-097](../../01-sources/chat/2026/2026-11-05-renovation-bathroom-concept-v2.md).
+
+Separate comparison concept; the earlier model is preserved. This does not establish a final construction layout.
+
+| Item | V2 arrangement |
+|---|---|
+| Entrance | Closed by default; opens inward toward shower with animated Open/Close button and angle slider |
+| Linen | Rear-left corner, facing toilet; **handles left / hinges right when facing cabinet**, opening toward the rear wall; supersedes the intermediate right-handle request |
+| Vanity / mirror | Along left wall beside linen, toward entrance; assumed ¾-in gap between top and linen |
+| Hamper / hand towel | Front-left corner; towel fixture follows hamper |
+| Light / ventilation controls | Front wall **left** of entrance above hamper, side by side: light dimmer left, vent switch right when facing the plate. Products and fixture compatibility TBC |
+| Tool outlet | Left wall above front end of vanity, beside mirror; height/location provisional |
+
+**Fit finding:** entrance-door sweep clears modeled shower/furniture. Rear-hinged linen doors conflict with the rear wall and assumed window/towel fittings during opening. Cabinet spacing and rear fittings need review; offsets would reduce the vanity/hamper space. Source: SRC-2026-098.
+
+## Earlier Concept — Dimensions and Layout
 
 Dimensions are in inches. Front is the entrance wall; left/right are as seen when entering. Fit remains to confirm on site. (SRC-2026-088)
 
@@ -100,7 +117,7 @@ Confirm the following with the contractor before ordering installation supplies.
 - Off-white paint/primer and the floor preparation/coating/traction system.
 - Shallow white storage behind the tank and final accessory locations.
 
-## Current Concept
+## Earlier 3D Concept — Retained for Comparison
 
 [Open the offline 3D viewer](../../01-sources/documents/renovation/bathroom-concept/dist/index.html) · [GLB model](../../01-sources/documents/renovation/bathroom-concept/dist/bathroom.glb) · [Source, assumptions and rebuild instructions — SRC-2026-094](../../01-sources/extractions/2026/2026-11-05-bachelor-bathroom-model.md).
 
@@ -135,7 +152,7 @@ Sources: [Canac, SRC-2026-091](../../01-sources/extractions/2026/2026-11-05-reno
 
 | Task | Owner | Due Date | Source | Status | Notes |
 |---|---|---|---|---|---|
-| Coordinate revised furniture, accessories, vent and outlet | Maxime / contractor | Before installation | [SRC-2026-095](../../01-sources/chat/2026/2026-11-05-renovation-bathroom-model-corrections.md) | Pending | Verify actual linen-door travel with 2-inch wall gap, centred hamper lid and door clearance, toilet rough-in, grille dimensions/function, outlet placement above vanity, hanging towel clearance, and door/lever machining and swing; obtain final cut height and verify stool dimensions (listing conflict) |
+| Resolve v2 linen-door clearance and compare layouts | Maxime / contractor | Before layout selection / installation | [SRC-2026-098](../../01-sources/extractions/2026/2026-11-05-bachelor-bathroom-model-v2.md) | Pending | Rear-hinged linen doors conflict with the rear wall and assumed window/towel fittings; review cabinet offset, rear fittings and resulting vanity/hamper spacing. Confirm dimmer/fixture compatibility, outlet placement, actual door/hinge travel, final cut height and existing plumbing/ventilation assumptions |
 | Confirm room, window, entrance and furniture measurements | Maxime / contractor | Before layout finalization | SRC-2026-088 | Pending | Include inward door swing, shower access and passage clearances |
 | Confirm Toledo choice, rotated toilet and storage fit | Maxime / contractor | Before toilet/storage purchase | SRC-2026-088, SRC-2026-090 | Pending | Toledo remains provisional; measure outlet/tank position, passage clearance and storage gap, retain tank/shutoff access, and confirm parts support |
 | Coordinate ordered mirror and decide separate light/dimmer | Maxime / contractor | Before electrical placement / further purchase | SRC-2026-090, SRC-2026-092 | Pending | ALEX 84-ALEX-90 is ordered; coordinate 36 × 28 mirror within 85-inch ceiling. Four separate light candidates retained |
