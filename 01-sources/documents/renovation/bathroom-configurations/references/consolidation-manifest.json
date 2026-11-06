@@ -1,0 +1,255 @@
+{
+  "source": "SRC-2026-105",
+  "files": [
+    {
+      "original": "01-sources/documents/renovation/bathroom-concept/references/alaska-1.jpg",
+      "retained": "01-sources/documents/renovation/bathroom-configurations/references/alaska-1.jpg",
+      "sha256": "b3dd828dbb978d2fa76fedf94ecc5d29bedeeead349566f6fd11349b07da8c76"
+    },
+    {
+      "original": "01-sources/documents/renovation/bathroom-concept/references/linen-LF1614-62GWH.pdf",
+      "retained": "01-sources/documents/renovation/bathroom-configurations/references/linen-LF1614-62GWH.pdf",
+      "sha256": "e4e6257bdd51c1ce6a60df2aa78c50949832f68aa7c468569b47ffc914bd500b"
+    },
+    {
+      "original": "01-sources/documents/renovation/bathroom-concept/references/shower-base-33003544.pdf",
+      "retained": "01-sources/documents/renovation/bathroom-configurations/references/shower-base-33003544.pdf",
+      "sha256": "fac1af57927b39208707bc16f6618721b9a58dd8be5b4f63ecf4f40b492164c9"
+    },
+    {
+      "original": "01-sources/documents/renovation/bathroom-concept/references/shower-door-33002439.pdf",
+      "retained": "01-sources/documents/renovation/bathroom-configurations/references/shower-door-33002439.pdf",
+      "sha256": "1165119af7ab82717d6c6ccb36ef71c698e1ae22e279c0de41038a88b64b0dd7"
+    },
+    {
+      "original": "01-sources/documents/renovation/bathroom-concept/references/shower-side-33002442.pdf",
+      "retained": "01-sources/documents/renovation/bathroom-configurations/references/shower-side-33002442.pdf",
+      "sha256": "978deb61d67e4f0f5cf5a935730f4fff7b812b0ed2d82455aeb217fcf1937d2d"
+    },
+    {
+      "original": "01-sources/documents/renovation/bathroom-concept/references/sink-VT-SQ1207.pdf",
+      "retained": "01-sources/documents/renovation/bathroom-configurations/references/sink-VT-SQ1207.pdf",
+      "sha256": "c19a32265b832b1cd02a6a154140229b294b709cf17957ac22d8ea4fa95eaf46"
+    },
+    {
+      "original": "01-sources/documents/renovation/bathroom-concept/references/toledo-3.avif",
+      "retained": "01-sources/documents/renovation/bathroom-configurations/references/toledo-3.avif",
+      "sha256": "e461d3c097ce864129402397a559ef7e27e2c5ad51e33eece50c37e2b54b4942"
+    },
+    {
+      "original": "01-sources/documents/renovation/bathroom-concept/references/vanity-VF4818-62GWH.pdf",
+      "retained": "01-sources/documents/renovation/bathroom-configurations/references/vanity-VF4818-62GWH.pdf",
+      "sha256": "42108d7cc1f3c9ed3c7b5b1bd44a9bf9781a4a3cfdb899acaf0a81f20af98297"
+    },
+    {
+      "original": "01-sources/documents/renovation/bathroom-concept-v2/references/alaska-1.jpg",
+      "retained": "01-sources/documents/renovation/bathroom-configurations/references/alaska-1.jpg",
+      "sha256": "b3dd828dbb978d2fa76fedf94ecc5d29bedeeead349566f6fd11349b07da8c76"
+    },
+    {
+      "original": "01-sources/documents/renovation/bathroom-concept-v2/references/linen-LF1614-62GWH.pdf",
+      "retained": "01-sources/documents/renovation/bathroom-configurations/references/linen-LF1614-62GWH.pdf",
+      "sha256": "e4e6257bdd51c1ce6a60df2aa78c50949832f68aa7c468569b47ffc914bd500b"
+    },
+    {
+      "original": "01-sources/documents/renovation/bathroom-concept-v2/references/shower-base-33003544.pdf",
+      "retained": "01-sources/documents/renovation/bathroom-configurations/references/shower-base-33003544.pdf",
+      "sha256": "fac1af57927b39208707bc16f6618721b9a58dd8be5b4f63ecf4f40b492164c9"
+    },
+    {
+      "original": "01-sources/documents/renovation/bathroom-concept-v2/references/shower-door-33002439.pdf",
+      "retained": "01-sources/documents/renovation/bathroom-configurations/references/shower-door-33002439.pdf",
+      "sha256": "1165119af7ab82717d6c6ccb36ef71c698e1ae22e279c0de41038a88b64b0dd7"
+    },
+    {
+      "original": "01-sources/documents/renovation/bathroom-concept-v2/references/shower-side-33002442.pdf",
+      "retained": "01-sources/documents/renovation/bathroom-configurations/references/shower-side-33002442.pdf",
+      "sha256": "978deb61d67e4f0f5cf5a935730f4fff7b812b0ed2d82455aeb217fcf1937d2d"
+    },
+    {
+      "original": "01-sources/documents/renovation/bathroom-concept-v2/references/sink-VT-SQ1207.pdf",
+      "retained": "01-sources/documents/renovation/bathroom-configurations/references/sink-VT-SQ1207.pdf",
+      "sha256": "c19a32265b832b1cd02a6a154140229b294b709cf17957ac22d8ea4fa95eaf46"
+    },
+    {
+      "original": "01-sources/documents/renovation/bathroom-concept-v2/references/toledo-3.avif",
+      "retained": "01-sources/documents/renovation/bathroom-configurations/references/toledo-3.avif",
+      "sha256": "e461d3c097ce864129402397a559ef7e27e2c5ad51e33eece50c37e2b54b4942"
+    },
+    {
+      "original": "01-sources/documents/renovation/bathroom-concept-v2/references/vanity-VF4818-62GWH.pdf",
+      "retained": "01-sources/documents/renovation/bathroom-configurations/references/vanity-VF4818-62GWH.pdf",
+      "sha256": "42108d7cc1f3c9ed3c7b5b1bd44a9bf9781a4a3cfdb899acaf0a81f20af98297"
+    },
+    {
+      "original": "01-sources/documents/renovation/bathroom-concept-v3/references/alaska-1.jpg",
+      "retained": "01-sources/documents/renovation/bathroom-configurations/references/alaska-1.jpg",
+      "sha256": "b3dd828dbb978d2fa76fedf94ecc5d29bedeeead349566f6fd11349b07da8c76"
+    },
+    {
+      "original": "01-sources/documents/renovation/bathroom-concept-v3/references/linen-LF1614-62GWH.pdf",
+      "retained": "01-sources/documents/renovation/bathroom-configurations/references/linen-LF1614-62GWH.pdf",
+      "sha256": "e4e6257bdd51c1ce6a60df2aa78c50949832f68aa7c468569b47ffc914bd500b"
+    },
+    {
+      "original": "01-sources/documents/renovation/bathroom-concept-v3/references/linen-LW1614-84GWH.jpg",
+      "retained": "01-sources/documents/renovation/bathroom-configurations/references/linen-LW1614-84GWH.jpg",
+      "sha256": "3a90cdc14749ab562634204156c4ea1a8ab0ca3040dd40c0d12d7948b03089e0"
+    },
+    {
+      "original": "01-sources/documents/renovation/bathroom-concept-v3/references/linen-LW1614-84GWH.pdf",
+      "retained": "01-sources/documents/renovation/bathroom-configurations/references/linen-LW1614-84GWH.pdf",
+      "sha256": "40b59c09ce3dba6538ad9b3ef4b20463ea1c9207b9f5d4bf3f6e0060665b9123"
+    },
+    {
+      "original": "01-sources/documents/renovation/bathroom-concept-v3/references/mirror-84-BIBO-24.jpg",
+      "retained": "01-sources/documents/renovation/bathroom-configurations/references/mirror-84-BIBO-24.jpg",
+      "sha256": "67ca0a31f379458154973fbf4fa0f465de079457bd7d962000e752a1277cba22"
+    },
+    {
+      "original": "01-sources/documents/renovation/bathroom-concept-v3/references/mirror-84-BIBO-24.pdf",
+      "retained": "01-sources/documents/renovation/bathroom-configurations/references/mirror-84-BIBO-24.pdf",
+      "sha256": "b5fdbcb77186282322a50e28c29048168ee9d5c00ef0553e47d14b88f7bdea43"
+    },
+    {
+      "original": "01-sources/documents/renovation/bathroom-concept-v3/references/mirror-84-HIHI-34.jpg",
+      "retained": "01-sources/documents/renovation/bathroom-configurations/references/mirror-84-HIHI-34.jpg",
+      "sha256": "320410863607cf0209c9346c5aee85839bfc11bc344274c23b4140d9bc137d19"
+    },
+    {
+      "original": "01-sources/documents/renovation/bathroom-concept-v3/references/mirror-84-HIHI-34.pdf",
+      "retained": "01-sources/documents/renovation/bathroom-configurations/references/mirror-84-HIHI-34.pdf",
+      "sha256": "9734ff111fa7ef340de095b1ef4bd6b8593151bbdbd5d04c336bb673a151c77c"
+    },
+    {
+      "original": "01-sources/documents/renovation/bathroom-concept-v3/references/shower-base-33003544.pdf",
+      "retained": "01-sources/documents/renovation/bathroom-configurations/references/shower-base-33003544.pdf",
+      "sha256": "fac1af57927b39208707bc16f6618721b9a58dd8be5b4f63ecf4f40b492164c9"
+    },
+    {
+      "original": "01-sources/documents/renovation/bathroom-concept-v3/references/shower-door-33002439.pdf",
+      "retained": "01-sources/documents/renovation/bathroom-configurations/references/shower-door-33002439.pdf",
+      "sha256": "1165119af7ab82717d6c6ccb36ef71c698e1ae22e279c0de41038a88b64b0dd7"
+    },
+    {
+      "original": "01-sources/documents/renovation/bathroom-concept-v3/references/shower-side-33002442.pdf",
+      "retained": "01-sources/documents/renovation/bathroom-configurations/references/shower-side-33002442.pdf",
+      "sha256": "978deb61d67e4f0f5cf5a935730f4fff7b812b0ed2d82455aeb217fcf1937d2d"
+    },
+    {
+      "original": "01-sources/documents/renovation/bathroom-concept-v3/references/sink-VT-SQ1207.pdf",
+      "retained": "01-sources/documents/renovation/bathroom-configurations/references/sink-VT-SQ1207.pdf",
+      "sha256": "c19a32265b832b1cd02a6a154140229b294b709cf17957ac22d8ea4fa95eaf46"
+    },
+    {
+      "original": "01-sources/documents/renovation/bathroom-concept-v3/references/toledo-3.avif",
+      "retained": "01-sources/documents/renovation/bathroom-configurations/references/toledo-3.avif",
+      "sha256": "e461d3c097ce864129402397a559ef7e27e2c5ad51e33eece50c37e2b54b4942"
+    },
+    {
+      "original": "01-sources/documents/renovation/bathroom-concept-v3/references/top-VT-SQ3620.jpg",
+      "retained": "01-sources/documents/renovation/bathroom-configurations/references/top-VT-SQ3620.jpg",
+      "sha256": "a27cd2ec4d9db596e3641fbdf2de150779eadcf9800c9fdcb296ebd429c6f1b7"
+    },
+    {
+      "original": "01-sources/documents/renovation/bathroom-concept-v3/references/top-VT-SQ3620.pdf",
+      "retained": "01-sources/documents/renovation/bathroom-configurations/references/top-VT-SQ3620.pdf",
+      "sha256": "037686713080512d9128e6afa85f061390b5debc355b0dd7bf5fa08f14b2d41a"
+    },
+    {
+      "original": "01-sources/documents/renovation/bathroom-concept-v3/references/v3-clearance-check.json",
+      "retained": "01-sources/documents/renovation/bathroom-configurations/references/v3-clearance-check.json",
+      "sha256": "dc2db333fb712b15c725d649418960904e2e3f6d6d1931dbda5a860dacbb887c"
+    },
+    {
+      "original": "01-sources/documents/renovation/bathroom-concept-v3/references/v3-gltf-validation.json",
+      "retained": "01-sources/documents/renovation/bathroom-configurations/references/v3-gltf-validation.json",
+      "sha256": "6c2eba23f682b87ef354b41914d14b52c52462de170f86c1a8a090a234653b17"
+    },
+    {
+      "original": "01-sources/documents/renovation/bathroom-concept-v3/references/vanity-VF4818-62GWH.pdf",
+      "retained": "01-sources/documents/renovation/bathroom-configurations/references/vanity-VF4818-62GWH.pdf",
+      "sha256": "42108d7cc1f3c9ed3c7b5b1bd44a9bf9781a4a3cfdb899acaf0a81f20af98297"
+    },
+    {
+      "original": "01-sources/documents/renovation/bathroom-concept-v3/references/vanity-VW3620-84GWH.jpg",
+      "retained": "01-sources/documents/renovation/bathroom-configurations/references/vanity-VW3620-84GWH.jpg",
+      "sha256": "31c0a5c956cd79079cc9b7da8949bdc45f9785258059e11215343dc7816bf3dc"
+    },
+    {
+      "original": "01-sources/documents/renovation/bathroom-concept-v3/references/vanity-VW3620-84GWH.pdf",
+      "retained": "01-sources/documents/renovation/bathroom-configurations/references/vanity-VW3620-84GWH.pdf",
+      "sha256": "945ced37dfae4cefd2d6b653d15a79f2f8d5ffc4d5393a6d4178c2d8a2b6db03"
+    },
+    {
+      "original": "01-sources/documents/renovation/bathroom-concept-v4/references/alaska-1.jpg",
+      "retained": "01-sources/documents/renovation/bathroom-configurations/references/alaska-1.jpg",
+      "sha256": "b3dd828dbb978d2fa76fedf94ecc5d29bedeeead349566f6fd11349b07da8c76"
+    },
+    {
+      "original": "01-sources/documents/renovation/bathroom-concept-v4/references/linen-LF1614-62GWH.pdf",
+      "retained": "01-sources/documents/renovation/bathroom-configurations/references/linen-LF1614-62GWH.pdf",
+      "sha256": "e4e6257bdd51c1ce6a60df2aa78c50949832f68aa7c468569b47ffc914bd500b"
+    },
+    {
+      "original": "01-sources/documents/renovation/bathroom-concept-v4/references/mirror-84-BIBO-24.jpg",
+      "retained": "01-sources/documents/renovation/bathroom-configurations/references/mirror-84-BIBO-24.jpg",
+      "sha256": "67ca0a31f379458154973fbf4fa0f465de079457bd7d962000e752a1277cba22"
+    },
+    {
+      "original": "01-sources/documents/renovation/bathroom-concept-v4/references/mirror-84-BIBO-24.pdf",
+      "retained": "01-sources/documents/renovation/bathroom-configurations/references/mirror-84-BIBO-24.pdf",
+      "sha256": "b5fdbcb77186282322a50e28c29048168ee9d5c00ef0553e47d14b88f7bdea43"
+    },
+    {
+      "original": "01-sources/documents/renovation/bathroom-concept-v4/references/shower-base-33003544.pdf",
+      "retained": "01-sources/documents/renovation/bathroom-configurations/references/shower-base-33003544.pdf",
+      "sha256": "fac1af57927b39208707bc16f6618721b9a58dd8be5b4f63ecf4f40b492164c9"
+    },
+    {
+      "original": "01-sources/documents/renovation/bathroom-concept-v4/references/shower-door-33002439.pdf",
+      "retained": "01-sources/documents/renovation/bathroom-configurations/references/shower-door-33002439.pdf",
+      "sha256": "1165119af7ab82717d6c6ccb36ef71c698e1ae22e279c0de41038a88b64b0dd7"
+    },
+    {
+      "original": "01-sources/documents/renovation/bathroom-concept-v4/references/shower-side-33002442.pdf",
+      "retained": "01-sources/documents/renovation/bathroom-configurations/references/shower-side-33002442.pdf",
+      "sha256": "978deb61d67e4f0f5cf5a935730f4fff7b812b0ed2d82455aeb217fcf1937d2d"
+    },
+    {
+      "original": "01-sources/documents/renovation/bathroom-concept-v4/references/toledo-3.avif",
+      "retained": "01-sources/documents/renovation/bathroom-configurations/references/toledo-3.avif",
+      "sha256": "e461d3c097ce864129402397a559ef7e27e2c5ad51e33eece50c37e2b54b4942"
+    },
+    {
+      "original": "01-sources/documents/renovation/bathroom-concept-v4/references/top-VT-SQ907.jpg",
+      "retained": "01-sources/documents/renovation/bathroom-configurations/references/top-VT-SQ907.jpg",
+      "sha256": "d3496f9729c5e80f7d28c39f60eb1f85cbd9defc7b402e729a961bab508e7441"
+    },
+    {
+      "original": "01-sources/documents/renovation/bathroom-concept-v4/references/top-VT-SQ907.pdf",
+      "retained": "01-sources/documents/renovation/bathroom-configurations/references/top-VT-SQ907.pdf",
+      "sha256": "e3c535fb323ad1d5a4b17e98a5995f52e949553b386158fba1801bf5e8892661"
+    },
+    {
+      "original": "01-sources/documents/renovation/bathroom-concept-v4/references/v4-clearance-check.json",
+      "retained": "01-sources/documents/renovation/bathroom-configurations/references/v4-clearance-check.json",
+      "sha256": "418fa8d03842f25b1b4b097c76f2f21c41a1d4a195330c95193ea71a3b0f88ac"
+    },
+    {
+      "original": "01-sources/documents/renovation/bathroom-concept-v4/references/v4-gltf-validation.json",
+      "retained": "01-sources/documents/renovation/bathroom-configurations/references/v4-gltf-validation.json",
+      "sha256": "8d0b58c14b43130b76213191abc8ffcdfc10f4d471bba35b3374b533ee45d174"
+    },
+    {
+      "original": "01-sources/documents/renovation/bathroom-concept-v4/references/vanity-VF3618-62GWH.jpg",
+      "retained": "01-sources/documents/renovation/bathroom-configurations/references/vanity-VF3618-62GWH.jpg",
+      "sha256": "2481e06cbdf6b4f7d35516261eb5b62ed4b5ed0f336586d25a0ba5479038a871"
+    },
+    {
+      "original": "01-sources/documents/renovation/bathroom-concept-v4/references/vanity-VF3618-62GWH.pdf",
+      "retained": "01-sources/documents/renovation/bathroom-configurations/references/vanity-VF3618-62GWH.pdf",
+      "sha256": "653bd70b87440f2e25988ad074b0729a4f451162b4ffc842d7da26e92aca4c09"
+    }
+  ]
+}

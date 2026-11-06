@@ -1,0 +1,5 @@
+{
+  "three": "three.module.js",
+  "orbit": "OrbitControls.js",
+  "reflector": "Reflector.js"
+}

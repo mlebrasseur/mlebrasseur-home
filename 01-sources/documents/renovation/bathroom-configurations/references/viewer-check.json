@@ -1,0 +1,139 @@
+{
+  "configurations": [
+    {
+      "id": "v4",
+      "cameraPreserved": true,
+      "correctDoorSwing": true,
+      "reflection": true,
+      "selectedDownload": true
+    },
+    {
+      "id": "v1",
+      "cameraPreserved": true,
+      "correctDoorSwing": true,
+      "reflection": true,
+      "selectedDownload": true
+    },
+    {
+      "id": "v2",
+      "cameraPreserved": true,
+      "correctDoorSwing": true,
+      "reflection": true,
+      "selectedDownload": true
+    },
+    {
+      "id": "v3",
+      "cameraPreserved": true,
+      "correctDoorSwing": true,
+      "reflection": true,
+      "selectedDownload": true
+    }
+  ],
+  "sharedRightNodes": 145,
+  "displayStatePreserved": true,
+  "independentDoorPoses": true,
+  "switchDuringAnimation": true,
+  "reducedMotion": true,
+  "mobile": true,
+  "offline": true,
+  "combinedDownload": true,
+  "pngExport": true,
+  "pageErrors": [],
+  "externalRequests": [],
+  "partialDoorToggleRegression": {
+    "date": "2026-11-06",
+    "browserCases": [
+      {
+        "id": "v1",
+        "angle": 30,
+        "restored": 30,
+        "label": "Open door",
+        "result": 90
+      },
+      {
+        "id": "v1",
+        "angle": 45,
+        "restored": 45,
+        "label": "Close door",
+        "result": 0
+      },
+      {
+        "id": "v1",
+        "angle": 67,
+        "restored": 67,
+        "label": "Close door",
+        "result": 0
+      },
+      {
+        "id": "v2",
+        "angle": 30,
+        "restored": 30,
+        "label": "Open door",
+        "result": 90
+      },
+      {
+        "id": "v2",
+        "angle": 45,
+        "restored": 45,
+        "label": "Close door",
+        "result": 0
+      },
+      {
+        "id": "v2",
+        "angle": 67,
+        "restored": 67,
+        "label": "Close door",
+        "result": 0
+      },
+      {
+        "id": "v3",
+        "angle": 30,
+        "restored": 30,
+        "label": "Open door",
+        "result": 90
+      },
+      {
+        "id": "v3",
+        "angle": 45,
+        "restored": 45,
+        "label": "Close door",
+        "result": 0
+      },
+      {
+        "id": "v3",
+        "angle": 67,
+        "restored": 67,
+        "label": "Close door",
+        "result": 0
+      },
+      {
+        "id": "v4",
+        "angle": 30,
+        "restored": 30,
+        "label": "Open door",
+        "result": 90
+      },
+      {
+        "id": "v4",
+        "angle": 45,
+        "restored": 45,
+        "label": "Close door",
+        "result": 0
+      },
+      {
+        "id": "v4",
+        "angle": 67,
+        "restored": 67,
+        "label": "Close door",
+        "result": 0
+      }
+    ],
+    "logicChecks": [
+      "both hinge directions",
+      "reduced motion and animated endpoints",
+      "restore mid-animation angle",
+      "reverse opening and closing"
+    ],
+    "pageErrors": []
+  }
+}

@@ -140,3 +140,31 @@ November 6 v3 correction, approved with `go`: centre the vanity/top between the 
 November 6 v3 mirror correction, approved with `go`: use **HIHI 84-HIHI-34** in portrait orientation, centred over sink with bottom at **41 inches**, 7 inches above countertop. Model the illuminated border and touch ring from product evidence. Drawing dimensions 711 × 864 mm; retailer depth 30 mm; top about 75.02 inches. Static modeled faucet gap is 0.85 inch; actual lever travel remains unverified. This replaces ALEX in v3 only, with no purchase or order amendment reported. Sources: [SRC-2026-099](../01-sources/chat/2026/2026-11-05-renovation-bathroom-concept-v3.md); [SRC-2026-100](../01-sources/extractions/2026/2026-11-05-bachelor-bathroom-model-v3.md).
 
 Latest November 6 v3 mirror correction, approved with `go`: homeowner confirmed **24 × 28 ALEX/BIBO 84-BIBO-24** and requested its top align with the linen cabinet. Drawing 600 × 700 mm; model top 67.4646 inches, bottom 39.9055 inches; two inset light strips. Supersedes HIHI in v3; RADO was discussed but never modeled. Static faucet/glass depth gap is only 0.1843 inch with vertical overlap; actual faucet dimensions and full lever motion remain unverified. No mirror purchase or amendment to the documented 36 × 28 ALEX order reported. Sources: [SRC-2026-099](../01-sources/chat/2026/2026-11-05-renovation-bathroom-concept-v3.md); [SRC-2026-100](../01-sources/extractions/2026/2026-11-05-bachelor-bathroom-model-v3.md).
+
+## November 6 — Separate Bathroom Concept v4 with 36-inch Alder and Porcelain
+
+Homeowner requested v4 starting from v2, confirmed **36 × 18 Alder VF3618-62GWH**, selected **Saxe VT-SQ907 porcelain** after considering polymarbre, and requested spacing and mirror like v3. Approved the revised blueprint with `go`.
+
+Retain matching floor linen, with 5-inch rear-wall gap and right/rear hinges; centre the vanity/top between linen and front-left hamper, leaving **4.8007-inch gaps**. Use **24 × 28 BIBO**, centred over sink with top aligned to the taller floor linen at **70.875 inches**, bottom **43.3159 inches**. Countertop height follows cabinet plus deck: **33.0709 inches**. These are concept positions, not site measurements.
+
+Model checks find no collisions in simplified entrance/linen/vanity-door sweeps including handles, or an illustrative 14-inch drawer extension. Mirror has **4.0951-inch vertical clearance** above the static modeled faucet lever. Actual hardware, viewing height, basin/support/plumbing and site fit remain to verify.
+
+Earlier concepts are preserved. No purchase, cancellation, refund or amendment to the ordered 48-inch furniture/top and 36 × 28 ALEX mirror was reported.
+
+Sources: [Homeowner direction, SRC-2026-101](../01-sources/chat/2026/2026-11-06-renovation-bathroom-concept-v4.md); [product evidence and model, SRC-2026-102](../01-sources/extractions/2026/2026-11-06-bachelor-bathroom-model-v4.md).
+
+## November 6 — One Bathroom Viewer with Four Configurations
+
+Homeowner approved combining v1–v4 into one rotatable viewer, keeping v4's viewer features and **all right-side fixtures from v4 in every configuration**. Each version retains its left-side layout and mirror; v1 means the original rotatable concept, with its shower/right side updated to v4 in the comparison.
+
+Default to v4. Switching preserves camera angle, zoom and display settings. Animate every entrance door: **v1 inward-left, v2–v4 inward-right toward shower**; doors start closed. Provide PNG export, selected-layout GLB and one four-scene GLB. Preserve the standalone concepts.
+
+This is a comparison/presentation decision. Existing installation limits and purchase records remain applicable; no order amendment or new expense was reported.
+
+Sources: [Homeowner direction, SRC-2026-103](../01-sources/chat/2026/2026-11-06-renovation-bathroom-configurations.md); [combined model and checks, SRC-2026-104](../01-sources/extractions/2026/2026-11-06-bathroom-combined-configurations.md).
+
+## November 6 — Retire Standalone Bathroom Folders
+
+Keep `bathroom-configurations/` as the only maintained 3D viewer/model package. Preserve all four selectable layouts, all entrance animations, v4 default and shared right side, controls and exports. Consolidate generation code, viewer libraries and unique product evidence before removing the four standalone concept folders. Retain dated source notes and earlier concept PNG; earlier standalone-preservation instructions are superseded.
+
+Source: [Homeowner cleanup direction and `go`, SRC-2026-105](../01-sources/chat/2026/2026-11-06-renovation-bathroom-cleanup.md). [Rebuild and verification, SRC-2026-104](../01-sources/extractions/2026/2026-11-06-bathroom-combined-configurations.md).

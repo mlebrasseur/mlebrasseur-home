@@ -1,5 +1,7 @@
 # November 5, 2026 — Basement Bathroom Concept v3
 
+Later packaging decision: [November 6 cleanup, SRC-2026-105](2026-11-06-renovation-bathroom-cleanup.md) supersedes the standalone-folder preservation instructions below. V1–V4 and unique product evidence are retained in `bathroom-configurations/`; the four standalone folders are removed.
+
 ## Source
 
 - Source ID: SRC-2026-099

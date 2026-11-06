@@ -1,5 +1,7 @@
 # November 5, 2026 — Basement Bathroom Concept v2 Model
 
+November 6 cleanup: the standalone V2 folder was removed under [SRC-2026-105](../../chat/2026/2026-11-06-renovation-bathroom-cleanup.md). Use the [combined viewer](../../documents/renovation/bathroom-configurations/dist/index.html) and select **V2**; model links now open the four-scene GLB. Product evidence is consolidated in its `references/`. The dimensions, checks and output hashes below record the historical standalone build; current artifacts and verification are in [SRC-2026-104](2026-11-06-bathroom-combined-configurations.md). All configurations now share v4’s right side and animate the entrance.
+
 ## Source
 
 - Source ID: SRC-2026-098
@@ -10,9 +12,9 @@
 
 ## Artifacts
 
-[Offline viewer](../../documents/renovation/bathroom-concept-v2/dist/index.html) · [GLB](../../documents/renovation/bathroom-concept-v2/dist/bathroom.glb) · [generator](../../documents/renovation/bathroom-concept-v2/generate.py) · [folder/rebuild instructions](../../documents/renovation/bathroom-concept-v2/README.md).
+[Offline viewer](../../documents/renovation/bathroom-configurations/dist/index.html) · [GLB](../../documents/renovation/bathroom-configurations/dist/bathroom-configurations.glb) · [generator](../../documents/renovation/bathroom-configurations/generate.py) · [folder/rebuild instructions](../../documents/renovation/bathroom-configurations/README.md).
 
-Existing `bathroom-concept/` files remain byte-for-byte unchanged. V2 has its own copies of the eight archived product reference files; their originals, URLs and hashes remain documented in SRC-2026-096. Publish only v2's `dist/` contents. The public header omits the property address.
+At the original v2 build, the earlier model was preserved unchanged and eight product references were copied. Those references are now consolidated; original URLs and hashes remain documented in SRC-2026-096. Publish only the combined viewer’s `dist/`.
 
 ## Layout and Modeling Assumptions
 
@@ -29,7 +31,7 @@ Authoring coordinates are inches: X left-to-right, Y up, Z entrance-to-rear. GLB
 | Dimmer / vent switch | Front wall left of doorway, side by side: light dimmer left, vent rocker right when facing plate from inside. Schematic plate X=5.25–10, Y=44.75–49.25; above hamper. Device models, circuit/fixture compatibility and mounting are unverified |
 | Tool outlet | Left wall beside front end of vanity/mirror, centre Z=25.3, Y=47; plate Z=23.925–26.675. Circuit/electrical installation not specified |
 | Vent grille | Retained front-left, above hamper, assumed 12 × 6, Y=75–81; duct function/dimensions unverified |
-| Shower / stool / niche | Base/enclosure dimensions retained; added black overlap upright, closing/corner profiles and lower sliding-door borders; wall channels/top rail/square rollers refined from [archived Alaska photo](../../documents/renovation/bathroom-concept-v2/references/alaska-1.jpg). Profile widths are schematic. Base X=53–89, Z=0–47.75, 1-in threshold; 2000-mm glass; stool near front; end drain beneath removable stool; vertical niche |
+| Shower / stool / niche | Base/enclosure dimensions retained; added black overlap upright, closing/corner profiles and lower sliding-door borders; wall channels/top rail/square rollers refined from [archived Alaska photo](../../documents/renovation/bathroom-configurations/references/alaska-1.jpg). Profile widths are schematic. Base X=53–89, Z=0–47.75, 1-in threshold; 2000-mm glass; stool near front; end drain beneath removable stool; vertical niche |
 | Toilet / rear fittings | Earlier provisional Toledo, behind-tank storage, towel bar, paper holder and window retained. Toilet centre Z=71; window opening X=19–49 / Y=64–76, sill projects 2 in into room; these window dimensions are assumptions |
 
 The light-dimming request establishes intent, not compatibility of a particular dimmer or the ALEX mirror. Separate vanity-light selection remains unresolved.

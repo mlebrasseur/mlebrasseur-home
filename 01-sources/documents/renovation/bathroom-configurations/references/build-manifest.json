@@ -1,0 +1,108 @@
+{
+  "source": "SRC-2026-104",
+  "sharedRightNodeCount": 145,
+  "defaultScene": 3,
+  "scenes": [
+    {
+      "id": "v1",
+      "nodes": 370,
+      "doorPivotInches": [
+        17.7,
+        0,
+        0.9
+      ],
+      "doorSign": 1,
+      "mirror": {
+        "name": "ALEX reflective surface",
+        "width": 0.8999999999999997,
+        "height": 0.7,
+        "position": [
+          0.045254,
+          1.4676,
+          -1.5896
+        ]
+      }
+    },
+    {
+      "id": "v2",
+      "nodes": 376,
+      "doorPivotInches": [
+        47.8,
+        0,
+        0.9
+      ],
+      "doorSign": -1,
+      "mirror": {
+        "name": "ALEX reflective surface",
+        "width": 0.9,
+        "height": 0.7,
+        "position": [
+          0.045254,
+          1.4676,
+          -1.1704999999999999
+        ]
+      }
+    },
+    {
+      "id": "v3",
+      "nodes": 334,
+      "doorPivotInches": [
+        47.8,
+        0,
+        0.9
+      ],
+      "doorSign": -1,
+      "mirror": {
+        "name": "BIBO reflective surface",
+        "width": 0.6,
+        "height": 0.7000000000000002,
+        "position": [
+          0.030254000000000003,
+          1.3636000000000001,
+          -1.0906375
+        ]
+      }
+    },
+    {
+      "id": "v4",
+      "nodes": 367,
+      "doorPivotInches": [
+        47.8,
+        0,
+        0.9
+      ],
+      "doorSign": -1,
+      "mirror": {
+        "name": "BIBO reflective surface",
+        "width": 0.6000000000000001,
+        "height": 0.7,
+        "position": [
+          0.030254000000000003,
+          1.450225,
+          -1.0906125
+        ]
+      }
+    }
+  ],
+  "inputs": {
+    "generate.py": "92fb7423b5ffcdc3f4a1642eaed62e6dc401597d6c00004a20b435739ccb415e",
+    "geometry.py": "6197a15d455f6bb93e37d6996cdfd0e1172e13db789fcc075405ab53a00d743b",
+    "viewer.html": "a1cba0fc54bdd1ba34aa3be5d8091182b070225d84f0db40380e65f307b60976",
+    "viewer.js": "92a48155084b34efb8ed75feea6294a254f135d0af976573ea5af1a4cd1ea8b0",
+    "vendor/OrbitControls.js": "80efaadea4f8a636a65fb0bd08bfef62f3d93a0bb94e2e7500f23176c5c07f4e",
+    "vendor/Reflector.js": "012ecf98f5fc9bd262871e33d79392a25c04c2573ed68852eb3b8d2d39f9808b",
+    "vendor/THREE-LICENSE.txt": "4c40a1ef62450b857c3b2aaf294936304cd552d965fbcd9d32d4c5bcf4ba4454",
+    "vendor/imports.json": "59390a03fda58b47c8cffc915490326b81e72e14ed394e7d302df74826026194",
+    "vendor/three.module.js": "f7cee3c7533449a1505cc12cb5128b89e3d4fd3d7ea62b05f9f5464a217472ee"
+  },
+  "artifacts": {
+    "index.html": {
+      "bytes": 9300997,
+      "sha256": "2c4b80ce8672fe79ce4067923c555048eafab1c80bfaa267880aec36356ff32b"
+    },
+    "bathroom-configurations.glb": {
+      "bytes": 6229264,
+      "sha256": "823b71c657c3a7737519c92af6e73b5b08a9c63066a16ba3911cde0e07f9e4f0"
+    }
+  }
+}

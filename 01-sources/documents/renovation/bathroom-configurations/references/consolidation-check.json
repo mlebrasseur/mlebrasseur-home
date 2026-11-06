@@ -1,0 +1,28 @@
+{
+  "source": "SRC-2026-105",
+  "referenceEntriesVerified": 50,
+  "uniqueRetainedReferencePaths": 26,
+  "geometryMaterialsTexturesScenesIdenticalToPriorCombined": true,
+  "binaryPayloadIdentical": true,
+  "onlyModelMetadataChange": "Replace standalone preservation note with single-viewer maintenance note",
+  "independentRebuildWithoutSiblingsOrPrebuiltModels": true,
+  "deterministicHtmlAndGlb": true,
+  "removedFolders": [
+    {
+      "folder": "bathroom-concept",
+      "bytes": 33964889
+    },
+    {
+      "folder": "bathroom-concept-v2",
+      "bytes": 34297020
+    },
+    {
+      "folder": "bathroom-concept-v3",
+      "bytes": 70046291
+    },
+    {
+      "folder": "bathroom-concept-v4",
+      "bytes": 36432377
+    }
+  ]
+}

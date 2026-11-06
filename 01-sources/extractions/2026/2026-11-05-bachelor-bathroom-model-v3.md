@@ -1,5 +1,7 @@
 # November 5, 2026 — Basement Bathroom Concept v3 Model
 
+November 6 cleanup: the standalone V3 folder was removed under [SRC-2026-105](../../chat/2026/2026-11-06-renovation-bathroom-cleanup.md). Use the [combined viewer](../../documents/renovation/bathroom-configurations/dist/index.html) and select **V3**; model links now open the four-scene GLB. Product evidence is consolidated in its `references/`. The dimensions, checks and output hashes below record the historical standalone build; current artifacts and verification are in [SRC-2026-104](2026-11-06-bathroom-combined-configurations.md). All configurations now share v4’s right side and animate the entrance.
+
 ## Source
 
 - Source ID: SRC-2026-100
@@ -11,9 +13,9 @@
 
 ## Artifacts
 
-[Offline viewer](../../documents/renovation/bathroom-concept-v3/dist/index.html) · [GLB](../../documents/renovation/bathroom-concept-v3/dist/bathroom.glb) · [generator](../../documents/renovation/bathroom-concept-v3/generate.py) · [README](../../documents/renovation/bathroom-concept-v3/README.md).
+[Offline viewer](../../documents/renovation/bathroom-configurations/dist/index.html) · [GLB](../../documents/renovation/bathroom-configurations/dist/bathroom-configurations.glb) · [generator](../../documents/renovation/bathroom-configurations/generate.py) · [README](../../documents/renovation/bathroom-configurations/README.md).
 
-Earlier concept folders are preserved byte-for-byte. The new folder includes eight unchanged copies of earlier product references and ten new references below. Downloads were received through `00-inbox/files/bathroom-v3/` and moved to the concept's source-document folder after inspection. The address-free viewer is packaged solely in this concept's `dist/`; no site was published.
+At the original build, earlier concept folders were preserved byte-for-byte. Its references included eight unchanged copies of earlier evidence and ten new references below. Downloads were received through `00-inbox/files/bathroom-v3/` and moved to the concept's source-document folder after inspection. The address-free viewer is packaged solely in this concept's `dist/`; no site was published.
 
 ## Product Evidence
 
@@ -21,9 +23,9 @@ Consulted/downloaded November 5, 2026. Dimensions below follow labeled manufactu
 
 | Item | Drawing dimensions, W × D × H | Evidence |
 |---|---|---|
-| Madison VW3620-84GWH | **894 × 495 × 500 mm**; nominal 36 × 20 inches | [Product variant](https://www.baindepot.com/vanite-murale-madison.html?pid=20902); [archived PDF](../../documents/renovation/bathroom-concept-v3/references/vanity-VW3620-84GWH.pdf); [photo](../../documents/renovation/bathroom-concept-v3/references/vanity-VW3620-84GWH.jpg) |
-| VT-SQ3620 | **900 × 500 × 50 mm** outer top; nominal 36 × 20 inches | [Product](https://www.baindepot.com/dessus-de-vanite-36-po-x-20-po-en-polymarbre-blanc-pour-vanite-36-po-x-20-po-vt-sq3620.html); [archived PDF](../../documents/renovation/bathroom-concept-v3/references/top-VT-SQ3620.pdf); [photo](../../documents/renovation/bathroom-concept-v3/references/top-VT-SQ3620.jpg) |
-| LW1614-84GWH | **400 × 350 × 1400 mm**; nominal 16 × 14 inches | [Product](https://www.baindepot.com/lingerie-murale-16-po-blanc-lustre-a-2-portes-lw1614-84gwh.html); [archived PDF](../../documents/renovation/bathroom-concept-v3/references/linen-LW1614-84GWH.pdf); [photo](../../documents/renovation/bathroom-concept-v3/references/linen-LW1614-84GWH.jpg) |
+| Madison VW3620-84GWH | **894 × 495 × 500 mm**; nominal 36 × 20 inches | [Product variant](https://www.baindepot.com/vanite-murale-madison.html?pid=20902); [archived PDF](../../documents/renovation/bathroom-configurations/references/vanity-VW3620-84GWH.pdf); [photo](../../documents/renovation/bathroom-configurations/references/vanity-VW3620-84GWH.jpg) |
+| VT-SQ3620 | **900 × 500 × 50 mm** outer top; nominal 36 × 20 inches | [Product](https://www.baindepot.com/dessus-de-vanite-36-po-x-20-po-en-polymarbre-blanc-pour-vanite-36-po-x-20-po-vt-sq3620.html); [archived PDF](../../documents/renovation/bathroom-configurations/references/top-VT-SQ3620.pdf); [photo](../../documents/renovation/bathroom-configurations/references/top-VT-SQ3620.jpg) |
+| LW1614-84GWH | **400 × 350 × 1400 mm**; nominal 16 × 14 inches | [Product](https://www.baindepot.com/lingerie-murale-16-po-blanc-lustre-a-2-portes-lw1614-84gwh.html); [archived PDF](../../documents/renovation/bathroom-configurations/references/linen-LW1614-84GWH.pdf); [photo](../../documents/renovation/bathroom-configurations/references/linen-LW1614-84GWH.jpg) |
 
 Vanity drawing/assembly sheet (revision September 26, 2024): two left drawers and one right door, soft-close hardware and recessed grips. Front parts are 646-mm drawers and 246-mm door; model subdivisions approximate the illustrated assembly. Linen sheet (same revision): two reversible soft-close doors, two inner shelves and recessed grips. Top sheet (revision November 19, 2025): integrated basin and predrilled single faucet hole; 50 mm is the rim/top envelope, not the bowl's full depth. Bowl opening, depth, slopes and drain location are not dimensioned; the model assumes a 520 × 300 mm opening and 125-mm bowl depth from photographs. It does not reuse the previous Saxe basin measurements as product facts.
 
@@ -35,7 +37,7 @@ Original download URLs:
 
 ## HIHI Mirror Evidence — Earlier November 6 Trial
 
-[HIHI 84-HIHI-34 product page](https://www.baindepot.com/miroir-avec-bordure-a-eclairage-del-integre-avec-variateur-de-luminosite-et-fonction-anti-buee-28pox34po-84-hihi-34.html), consulted November 6, 2026; [archived manufacturer PDF](../../documents/renovation/bathroom-concept-v3/references/mirror-84-HIHI-34.pdf) and [product photograph](../../documents/renovation/bathroom-concept-v3/references/mirror-84-HIHI-34.jpg). Originals: [PDF](https://www.baindepot.com/media/akeneo_connector/asset_files/8/4/84_HIHI_34_spec_1b95.pdf), [photograph](https://www.baindepot.com/media/catalog/product/8/4/84_HIHI_34_3b4e.jpg). Received through `00-inbox/files/bathroom-v3-mirror/`, inspected and moved into source documents.
+[HIHI 84-HIHI-34 product page](https://www.baindepot.com/miroir-avec-bordure-a-eclairage-del-integre-avec-variateur-de-luminosite-et-fonction-anti-buee-28pox34po-84-hihi-34.html), consulted November 6, 2026; [archived manufacturer PDF](../../documents/renovation/bathroom-configurations/references/mirror-84-HIHI-34.pdf) and [product photograph](../../documents/renovation/bathroom-configurations/references/mirror-84-HIHI-34.jpg). Originals: [PDF](https://www.baindepot.com/media/akeneo_connector/asset_files/8/4/84_HIHI_34_spec_1b95.pdf), [photograph](https://www.baindepot.com/media/catalog/product/8/4/84_HIHI_34_3b4e.jpg). Received through `00-inbox/files/bathroom-v3-mirror/`, inspected and moved into source documents.
 
 The May 30, 2025 drawing specifies **711 mm wide × 864 mm high**, nominal 28 × 34 inches; supports vertical or horizontal mounting; identifies acrylic light diffusers, touch sensor, built-in dimming and defogger. Retailer table rounds this to 710 × 860 mm and lists **30-mm depth**; the model follows drawing width/height and listing depth. The 30-mm-wide illuminated border, touch-ring size/location and light appearance are photo-based approximations. The live reflection covers the inner 651 × 804 mm surface only. Built-in dimming does not establish wall-dimmer compatibility; electrical connection and separate-light selection remain unresolved.
 
@@ -43,7 +45,7 @@ HIHI was selected for the earlier v3 trial and is superseded by the BIBO revisio
 
 ## ALEX Collection / BIBO Mirror — Latest November 6 Revision
 
-[Product page](https://www.baindepot.com/miroir-avec-lumieres-integrees-alex-m.html), consulted November 6, 2026; selected variant **84-BIBO-24, nominal 24 × 28 inches**. [Archived manufacturer PDF](../../documents/renovation/bathroom-concept-v3/references/mirror-84-BIBO-24.pdf) and [photograph](../../documents/renovation/bathroom-concept-v3/references/mirror-84-BIBO-24.jpg). Originals: [PDF](https://www.baindepot.com/media/akeneo_connector/asset_files/8/4/84_BIBO_24_spec_efa2.pdf), [photograph](https://www.baindepot.com/media/catalog/product/8/4/84_BIBO_24_8ede.jpg). Received through `00-inbox/files/bathroom-v3-bibo/`, inspected and moved to source documents.
+[Product page](https://www.baindepot.com/miroir-avec-lumieres-integrees-alex-m.html), consulted November 6, 2026; selected variant **84-BIBO-24, nominal 24 × 28 inches**. [Archived manufacturer PDF](../../documents/renovation/bathroom-configurations/references/mirror-84-BIBO-24.pdf) and [photograph](../../documents/renovation/bathroom-configurations/references/mirror-84-BIBO-24.jpg). Originals: [PDF](https://www.baindepot.com/media/akeneo_connector/asset_files/8/4/84_BIBO_24_spec_efa2.pdf), [photograph](https://www.baindepot.com/media/catalog/product/8/4/84_BIBO_24_8ede.jpg). Received through `00-inbox/files/bathroom-v3-bibo/`, inspected and moved to source documents.
 
 The January 28, 2025 drawing specifies **600 mm width × 700 mm height** and identifies integrated light, touch sensor and anti-fog. Retailer width/height labels are reversed; the model follows the drawing orientation and the retailer's **30-mm depth**. Photo shows two inset vertical light strips and a lower-centre touch control. Modeled strip width 40 mm, centre 50 mm from each side, 75-mm vertical end margins and touch geometry are visual approximations. Full mirror-face reflection is a viewer effect. The sheet does not establish dimming or compatibility with a wall dimmer.
 
@@ -83,7 +85,7 @@ Checks do not simulate manufacturer concealed hinges, simultaneous opening of ev
 
 Furniture/top envelopes, two-drawer/one-door configuration, floating bottoms, equal 5.0969-inch side gaps, BIBO 600 × 700 mm dimensions, top alignment with linen, two inset light strips, mirror alignment, static faucet/glass depth separation and outlet placement checked against the revised GLB. Door sweeps and illustrative drawer travel were rechecked after centring. Deterministic rebuild from `/tmp` verified; both earlier concept folders remained unchanged. Chromium checks passed: title/address omission, five camera views, door default/animation/endpoints/reversal/slider/world-space hinge rotation, reduced motion, display controls, GLB and PNG downloads, subdirectory hosting, mobile layout and offline loading; no page errors or external requests. The initial v3 overview, overhead and vanity screenshots were visually reviewed. The earlier HIHI trial passed focused browser checks. The latest BIBO revision passed checks for full-face live reflection size/position, dimensions, top alignment, two light strips/labels, mobile layout, offline loading and PNG/GLB exports, plus renewed geometry/sweep and glTF validation. The BIBO vanity view was visually reviewed. Khronos glTF validator reported zero errors, warnings, informational issues or hints.
 
-Check reports: [clearance envelopes and placement](../../documents/renovation/bathroom-concept-v3/references/v3-clearance-check.json); [glTF validation](../../documents/renovation/bathroom-concept-v3/references/v3-gltf-validation.json).
+Check reports: [clearance envelopes and placement](../../documents/renovation/bathroom-configurations/references/v3-clearance-check.json); [glTF validation](../../documents/renovation/bathroom-configurations/references/v3-gltf-validation.json).
 
 ## Artifact Integrity
 

@@ -21,11 +21,38 @@ Earlier concept layout corrections: [SRC-2026-095](../../01-sources/chat/2026/20
 - Remake the bachelor bathroom with a corner shower, vanity and tall matching storage, rotated toilet, and shallow storage behind the toilet.
 - Related work: [Bachelor room renovation](basement.md).
 
+## Compare All Four Configurations — November 6
+
+[Open combined rotatable viewer](../../01-sources/documents/renovation/bathroom-configurations/dist/index.html) · [four-scene GLB](../../01-sources/documents/renovation/bathroom-configurations/dist/bathroom-configurations.glb) · [provenance and checks, SRC-2026-104](../../01-sources/extractions/2026/2026-11-06-bathroom-combined-configurations.md).
+
+One **V1 / V2 / V3 / V4 selector**, defaulting to v4, with v4's controls and **complete right-side fixtures shared across every configuration**: shower/panels/trim/niche/stool, toilet/storage, bin, robe hook and toilet-paper fittings. Left-side layouts and doorway handing follow their respective versions. Camera angle, zoom and display settings stay in place when switching; mirror, labels and notes update with the selection.
+
+Entrance animation works in all versions: **v1 inward-left**, **v2–v4 inward-right toward the shower**. Each remembers its door angle during the session; initial doors are closed. Viewer supports current-view PNG, selected-layout GLB and combined four-scene GLB downloads. The exported models retain closed doors. All four configurations remain available in this single viewer; their design notes follow below.
+
+V1 in this comparison adopts v4's refined right-side geometry and adds door animation; it is not an exact historical copy of the original full room. Existing layout issues remain visible in each version's notes. Source: [approved consolidation, SRC-2026-103](../../01-sources/chat/2026/2026-11-06-renovation-bathroom-configurations.md). No order or purchase changes reported.
+
+November 6 cleanup: only `bathroom-configurations/` is maintained; standalone folders were removed after consolidating geometry, viewer libraries and unique references. Historical design/source notes are retained. [Authorization, SRC-2026-105](../../01-sources/chat/2026/2026-11-06-renovation-bathroom-cleanup.md).
+
+## Concept v4 — 36-inch Alder Floor Vanity, November 6
+
+[Open combined viewer — select V4](../../01-sources/documents/renovation/bathroom-configurations/dist/index.html) · [dimensions and checks, SRC-2026-102](../../01-sources/extractions/2026/2026-11-06-bachelor-bathroom-model-v4.md) · [homeowner direction, SRC-2026-101](../../01-sources/chat/2026/2026-11-06-renovation-bathroom-concept-v4.md).
+
+V4 configuration based on v2, with homeowner-selected **36 × 18 Alder VF3618-62GWH floor vanity** and **Saxe VT-SQ907 porcelain top**, retaining the matching **LF1614-62GWH floor linen** and using v3's spacing approach and **24 × 28 BIBO mirror**. These concept choices do not amend the documented 48-inch furniture/top and 36 × 28 ALEX order.
+
+| Item | V4 arrangement |
+|---|---|
+| Vanity/top | Cabinet 894 × 456 × 820 mm, two doors left and three drawers right; top 915 × 465 mm, 20-mm deck; modeled finished height **33.07 inches**. Top overhang 10.5 mm each end and 9 mm at front |
+| Linen/spacing | Floor linen top **70.875 inches**, 5-inch rear-wall gap; handles left/front, hinges right/rear. Vanity centred between linen and front-left hamper, **4.80-inch gaps** to top edges |
+| Mirror/outlet | BIBO 600 × 700 mm, top aligned with linen at **70.875 inches**, bottom **43.316 inches**, centred over sink. Outlet follows v3's beside-mirror placement approach |
+| Other fixtures | V2 shower, toilet, rear fittings, hamper/towel, controls and animated entrance door retained; entrance closed by default |
+
+**Fit finding:** simplified entrance/linen/vanity-door sweeps including projecting handles and an illustrative 14-inch drawer extension clear tested surrounding fixtures. Mirror is **4.10 inches above the static modeled faucet lever**. Actual hinges/slides, basin/plumbing/support, viewing height, faucet motion and site measurements remain to verify. Source: SRC-2026-102.
+
 ## Concept v3 — Floating Madison Furniture, November 5
 
-[Open Concept v3](../../01-sources/documents/renovation/bathroom-concept-v3/dist/index.html) · [dimensions and checks, SRC-2026-100](../../01-sources/extractions/2026/2026-11-05-bachelor-bathroom-model-v3.md) · [homeowner direction, SRC-2026-099](../../01-sources/chat/2026/2026-11-05-renovation-bathroom-concept-v3.md).
+[Open combined viewer — select V3](../../01-sources/documents/renovation/bathroom-configurations/dist/index.html) · [dimensions and checks, SRC-2026-100](../../01-sources/extractions/2026/2026-11-05-bachelor-bathroom-model-v3.md) · [homeowner direction, SRC-2026-099](../../01-sources/chat/2026/2026-11-05-renovation-bathroom-concept-v3.md).
 
-Separate comparison using the homeowner-confirmed **36-inch Madison VW3620-84GWH wall vanity**, **VT-SQ3620 polymarble top** and **LW1614-84GWH wall linen cabinet**, all glossy white with recessed grips. These are concept selections; changes to the existing furniture order or payments have not been reported.
+V3 configuration using the homeowner-confirmed **36-inch Madison VW3620-84GWH wall vanity**, **VT-SQ3620 polymarble top** and **LW1614-84GWH wall linen cabinet**, all glossy white with recessed grips. These are concept selections; changes to the existing furniture order or payments have not been reported.
 
 | Item | V3 arrangement / assumption |
 |---|---|
@@ -39,13 +66,13 @@ November 6 centring correction: move vanity/top, mirror and outlet about 4.10 in
 
 Latest November 6 mirror revision: **24 × 28 ALEX/BIBO** replaces HIHI, top aligned with linen and bottom about 5.91 inches above countertop. Static model has only **0.18 inch depth clearance between glass and faucet lever**; actual dimensions and lever motion need verification. No mirror-order amendment or purchase reported (SRC-2026-099, SRC-2026-100).
 
-**Fit finding:** simplified entrance, linen and vanity-door sweeps clear tested model envelopes through 90°; the linen offset resolves v2's modeled rear-wall/window/towel collision. An illustrative 14-inch drawer extension also clears tested surrounding fixtures. Actual hinge/slide motion, hamper access, plumbing and site measurements remain to verify. Source: SRC-2026-100. Earlier concepts remain available below.
+**Fit finding:** simplified entrance, linen and vanity-door sweeps clear tested model envelopes through 90°; the linen offset resolves v2's modeled rear-wall/window/towel collision. An illustrative 14-inch drawer extension also clears tested surrounding fixtures. Actual hinge/slide motion, hamper access, plumbing and site measurements remain to verify. Source: SRC-2026-100. All configurations remain available in the combined viewer.
 
 ## Concept v2 — New Layout Study, November 5
 
-[Open Concept v2](../../01-sources/documents/renovation/bathroom-concept-v2/dist/index.html) · [model assumptions and checks, SRC-2026-098](../../01-sources/extractions/2026/2026-11-05-bachelor-bathroom-model-v2.md) · [homeowner directions, SRC-2026-097](../../01-sources/chat/2026/2026-11-05-renovation-bathroom-concept-v2.md).
+[Open combined viewer — select V2](../../01-sources/documents/renovation/bathroom-configurations/dist/index.html) · [model assumptions and checks, SRC-2026-098](../../01-sources/extractions/2026/2026-11-05-bachelor-bathroom-model-v2.md) · [homeowner directions, SRC-2026-097](../../01-sources/chat/2026/2026-11-05-renovation-bathroom-concept-v2.md).
 
-Separate comparison concept; the earlier model is preserved. This does not establish a final construction layout.
+V2 remains selectable in the combined viewer. This does not establish a final construction layout.
 
 | Item | V2 arrangement |
 |---|---|
@@ -110,6 +137,8 @@ Ordered **ALEX 84-ALEX-90, 36 × 28 inches**, with integrated LED lighting, **20
 
 November 6: v3 now shows the **24 × 28 ALEX collection / BIBO 84-BIBO-24**, top aligned with linen, superseding the HIHI trial. The **36 × 28 ALEX** remains the documented order; no exchange/cancellation is reported. [Current mirror evidence and placement, SRC-2026-100](../../01-sources/extractions/2026/2026-11-05-bachelor-bathroom-model-v3.md).
 
+V4 uses the same **24 × 28 BIBO**, aligned to the taller floor linen: top **70.875 inches**, bottom **43.316 inches**, about **10.25 inches above the countertop**. Check viewing height and actual faucet travel before installation. [V4 placement, SRC-2026-102](../../01-sources/extractions/2026/2026-11-06-bachelor-bathroom-model-v4.md).
+
 A separate vanity light and compatible dimmer remain TBC; the mirror order does not establish that an additional light is selected or cancelled. The four earlier candidates are retained below. Each is dimmable with a compatible LED dimmer; 3000 K is warm white. Dimming does not establish adjustable colour temperature.
 
 | Light / link | Width, inches | Colour temperature | Output | Dimmable |
@@ -141,9 +170,9 @@ Confirm the following with the contractor before ordering installation supplies.
 
 ## Earlier 3D Concept — Retained for Comparison
 
-[Open the offline 3D viewer](../../01-sources/documents/renovation/bathroom-concept/dist/index.html) · [GLB model](../../01-sources/documents/renovation/bathroom-concept/dist/bathroom.glb) · [Source, assumptions and rebuild instructions — SRC-2026-094](../../01-sources/extractions/2026/2026-11-05-bachelor-bathroom-model.md).
+[Open the offline 3D viewer](../../01-sources/documents/renovation/bathroom-configurations/dist/index.html) · [GLB model](../../01-sources/documents/renovation/bathroom-configurations/dist/bathroom-configurations.glb) · [Source, assumptions and rebuild instructions — SRC-2026-094](../../01-sources/extractions/2026/2026-11-05-bachelor-bathroom-model.md).
 
-Generated November 5 using the recorded 89 × 86½-inch room, 85-inch ceiling and ordered materials, including the 36 × 28-inch ALEX mirror. Rotate, zoom, use doorway/overhead/vanity/shower presets, and hide walls to inspect the layout. The HTML works offline and can export the model or a PNG of the current view. The [concept folder](../../01-sources/documents/renovation/bathroom-concept/README.md) contains the generator, product references and public `dist/index.html` / `dist/bathroom.glb`. Publish only `01-sources/documents/renovation/bathroom-concept/dist/`. The address-free viewer is titled “Basement bathroom” with “Current concept · Layout, materials and fixtures”.
+Originally generated November 5 using the recorded 89 × 86½-inch room, 85-inch ceiling and ordered materials, including the 36 × 28-inch ALEX mirror. Select **V1** in the combined viewer to inspect this left-side layout with v4’s shared right side and inward-left entrance animation. The [maintained folder](../../01-sources/documents/renovation/bathroom-configurations/README.md) contains all four configurations, product references and rebuild instructions. Publish only `01-sources/documents/renovation/bathroom-configurations/dist/`.
 
 Updated with all [November 5 layout corrections, SRC-2026-095](../../01-sources/chat/2026/2026-11-05-renovation-bathroom-model-corrections.md): vanity flush to left/rear walls, linen 2 inches from front wall, reversed linen doors, toilet moved rearward, rear-wall outlet above vanity, hand towel over hamper, towel bar shifted left with hanging towels, hook above bin, vertical niche, front-wall vent, correct mirror light pattern and selected hamper/bin. Closed frosted-glass Shaker door and matte-black Weiser Breton privacy lever are included; the original five presets remain. Added the black Chormtok stool near the front shower wall and complete doorway casing, jambs, stops and schematic hinges. Latest refinement adds two recessed trim borders/wood grain and corrects the shower base, end drain, enclosure, vanity/top/basin and skirted Toledo form using [archived specifications, SRC-2026-096](../../01-sources/extractions/2026/2026-11-05-bathroom-product-dimensions.md).
 
@@ -174,10 +203,10 @@ Sources: [Canac, SRC-2026-091](../../01-sources/extractions/2026/2026-11-05-reno
 
 | Task | Owner | Due Date | Source | Status | Notes |
 |---|---|---|---|---|---|
-| Resolve v2 linen-door clearance and compare layouts | Maxime / contractor | Before layout selection / installation | [SRC-2026-098](../../01-sources/extractions/2026/2026-11-05-bachelor-bathroom-model-v2.md) | Pending | Rear-hinged linen doors conflict with the rear wall and assumed window/towel fittings; review cabinet offset, rear fittings and resulting vanity/hamper spacing. Confirm dimmer/fixture compatibility, outlet placement, actual door/hinge travel, final cut height and existing plumbing/ventilation assumptions |
+| Compare bathroom layouts and verify v4 floor-furniture fit | Maxime / contractor | Before layout selection / installation | [SRC-2026-102](../../01-sources/extractions/2026/2026-11-06-bachelor-bathroom-model-v4.md), [SRC-2026-098](../../01-sources/extractions/2026/2026-11-05-bachelor-bathroom-model-v2.md) | Pending | V4's 5-inch rear offset clears v2's modeled linen conflict; equal 4.80-inch vanity gaps. Confirm actual hinges/slides, basin/top support and plumbing, window/site dimensions, hamper access, mirror height, outlet/controls and final door cut. No furniture-order amendment reported |
 | Confirm room, window, entrance and furniture measurements | Maxime / contractor | Before layout finalization | SRC-2026-088 | Pending | Include inward door swing, shower access and passage clearances |
 | Confirm Toledo choice, rotated toilet and storage fit | Maxime / contractor | Before toilet/storage purchase | SRC-2026-088, SRC-2026-090 | Pending | Toledo remains provisional; measure outlet/tank position, passage clearance and storage gap, retain tank/shutoff access, and confirm parts support |
-| Coordinate ordered mirror and decide separate light/dimmer | Maxime / contractor | Before electrical placement / further purchase | SRC-2026-090, SRC-2026-092 | Pending | ALEX 84-ALEX-90 is ordered; coordinate 36 × 28 mirror within 85-inch ceiling. Four separate light candidates retained |
+| Coordinate mirror choice/order status and separate light/dimmer | Maxime / contractor | Before electrical placement / further purchase | SRC-2026-090, SRC-2026-092, [SRC-2026-102](../../01-sources/extractions/2026/2026-11-06-bachelor-bathroom-model-v4.md) | Pending | ALEX 84-ALEX-90 remains ordered; BIBO 24 × 28 selected for v3/v4. V4 bottom 43.316 inches gives 4.10-inch static faucet-lever clearance; actual motion/viewing height unverified. Four separate light candidates retained; no order amendment reported |
 | Confirm shower and niche installation details | Contractor | Before installation | SRC-2026-088, SRC-2026-090, SRC-2026-093 | Pending | Brigitta configuration/valve, finished installation height, base-sheet dimension conflict, reversible end-drain rough-in/orientation, base/wall build-up, left-side opening; verify vertical niche dimensions, framing and waterproofing (SRC-2026-095) |
 | Finalize remaining products and supply responsibilities | Maxime / contractor | Before further ordering | SRC-2026-090, SRC-2026-092 | Pending | Cabinet/top fit, accessory placements, plumbing/mounting supplies, shallow storage, paint and floor system; black faucet code now confirmed F-4021-3BK |
 | Obtain bathroom scope, quote and schedule | Maxime / contractor | Not supplied | SRC-2026-088, SRC-2026-090 | Pending | Include labour, materials, quantities, inclusions and who buys each item; retain receipts as purchases occur |

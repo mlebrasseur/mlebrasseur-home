@@ -30,14 +30,14 @@ Agent workflow and approval rules are governed by `AGENTS.md`.
 
 See `AGENTS.md` for source rules, tone, and approval workflow.
 
-## Publish the Bathroom Concept
+## Publish the Combined Bathroom Viewer
 
-The concept lives in [01-sources/documents/renovation/bathroom-concept/](01-sources/documents/renovation/bathroom-concept/README.md), with its generator, references and generated `dist/` folder together.
+All four configurations live in [01-sources/documents/renovation/bathroom-configurations/](01-sources/documents/renovation/bathroom-configurations/README.md), with its generator, references and generated `dist/` folder together.
 
 From the repository root:
 
 ```sh
-python3 01-sources/documents/renovation/bathroom-concept/generate.py
+python3 01-sources/documents/renovation/bathroom-configurations/generate.py
 ```
 
-Publish only `01-sources/documents/renovation/bathroom-concept/dist/`. See the [concept README](01-sources/documents/renovation/bathroom-concept/README.md) for files, rebuild instructions and source records.
+Publish only `01-sources/documents/renovation/bathroom-configurations/dist/`. See the [concept README](01-sources/documents/renovation/bathroom-configurations/README.md) for files, rebuild instructions and source records.

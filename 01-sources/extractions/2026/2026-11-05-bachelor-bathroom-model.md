@@ -1,4 +1,6 @@
-# November 5, 2026 — Basement Bathroom — Current Concept
+# November 5, 2026 — Basement Bathroom — Original Rotatable Concept
+
+November 6 cleanup: the standalone V1 folder was removed under [SRC-2026-105](../../chat/2026/2026-11-06-renovation-bathroom-cleanup.md). Use the [combined viewer](../../documents/renovation/bathroom-configurations/dist/index.html) and select **V1**; model links now open the four-scene GLB. Product evidence is consolidated in its `references/`. The dimensions, checks and output hashes below record the historical standalone build; current artifacts and verification are in [SRC-2026-104](2026-11-06-bathroom-combined-configurations.md). All configurations now share v4’s right side and animate the entrance.
 
 ## Source
 
@@ -12,21 +14,21 @@
 
 ## Files and Use
 
-- [Open the offline browser viewer](../../documents/renovation/bathroom-concept/dist/index.html).
-- [Download/open the GLB model](../../documents/renovation/bathroom-concept/dist/bathroom.glb).
-- [Python generator](../../documents/renovation/bathroom-concept/generate.py).
+- [Open the offline browser viewer](../../documents/renovation/bathroom-configurations/dist/index.html).
+- [Download/open the GLB model](../../documents/renovation/bathroom-configurations/dist/bathroom-configurations.glb).
+- [Python generator](../../documents/renovation/bathroom-configurations/generate.py).
 
 Open the HTML file in a current browser with WebGL enabled. It contains the model, textures and viewer libraries; no server, account or network connection is required. Drag to orbit, scroll/pinch to zoom, right-drag to pan. Presets provide overview, doorway, overhead, vanity and shower views. Controls expose automatic wall cutaway, hidden/all-visible walls, ceiling, shower enclosure, labels and slow rotation. Arrow keys rotate the focused canvas, `+`/`−` zoom, and `R` resets. GLB and current-view PNG downloads are available inside the viewer.
 
-The GLB contains 365 meshes and two scenes. The default scene is a front cutaway with the ceiling omitted; the alternate scene contains the full shell. Geometry is in metres: X runs left to right from the entrance, Y points up, negative Z runs toward the back wall. The generator authors dimensions in inches and converts them to this frame. The live planar mirror reflection is a viewer effect; the GLB uses a metallic mirror approximation.
+The historical standalone GLB contained 365 meshes and two scenes. The default scene is a front cutaway with the ceiling omitted; the alternate scene contains the full shell. Geometry is in metres: X runs left to right from the entrance, Y points up, negative Z runs toward the back wall. The generator authors dimensions in inches and converts them to this frame. The live planar mirror reflection is a viewer effect; the GLB uses a metallic mirror approximation.
 
 From the repository root, rebuild the public files with Python 3 (the script also works when invoked by absolute path from another directory):
 
 ```sh
-python3 01-sources/documents/renovation/bathroom-concept/generate.py
+python3 01-sources/documents/renovation/bathroom-configurations/generate.py
 ```
 
-The concept root is `01-sources/documents/renovation/bathroom-concept/`, containing `generate.py`, `references/` and `dist/`. Only its adjacent `dist/index.html` and `dist/bathroom.glb` are overwritten. Publish only that nested `dist/`; see the [concept README](../../documents/renovation/bathroom-concept/README.md). The public header reads “Basement bathroom” and “Current concept · Layout, materials and fixtures”; the property address is omitted. The generator and house records remain outside the publish folder. The generator needs the Python standard library only; pinned viewer libraries are bundled with their MIT license. It performs no downloads. Changing this model requires updating the provenance and verification record as appropriate.
+The maintained folder is `01-sources/documents/renovation/bathroom-configurations/`. Its generator rebuilds all four layouts from local geometry, viewer and vendored library sources. Publish only its `dist/`; see the [combined README](../../documents/renovation/bathroom-configurations/README.md). The offline build uses Python’s standard library and performs no downloads.
 
 ## Evidence and Design Specification
 

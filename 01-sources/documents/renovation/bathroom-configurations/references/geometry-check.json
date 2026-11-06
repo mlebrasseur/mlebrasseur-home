@@ -1,0 +1,40 @@
+{
+  "method": "Each configuration exactly matches original left-side mesh/attribute bytes and materials plus v4 right-side replacements. Entrance mesh rectangles with vertical overlap swept at integer angles 0\u201390 about assumed hinges; not actual hinge or simultaneous-door simulation.",
+  "configurations": [
+    {
+      "configuration": "v1",
+      "nodeCount": 370,
+      "geometryAndMaterialsMatchSources": true,
+      "sharedRightNodesMatchV4": 145,
+      "doorMovingParts": 18,
+      "doorSweepCollisions": []
+    },
+    {
+      "configuration": "v2",
+      "nodeCount": 376,
+      "geometryAndMaterialsMatchSources": true,
+      "sharedRightNodesMatchV4": 145,
+      "doorMovingParts": 18,
+      "doorSweepCollisions": []
+    },
+    {
+      "configuration": "v3",
+      "nodeCount": 334,
+      "geometryAndMaterialsMatchSources": true,
+      "sharedRightNodesMatchV4": 145,
+      "doorMovingParts": 18,
+      "doorSweepCollisions": []
+    },
+    {
+      "configuration": "v4",
+      "nodeCount": 367,
+      "geometryAndMaterialsMatchSources": true,
+      "sharedRightNodesMatchV4": 145,
+      "doorMovingParts": 18,
+      "doorSweepCollisions": []
+    }
+  ],
+  "earlierConceptFilesUnchanged": true,
+  "deterministicRebuild": true,
+  "provenance": "Historical checks from initial combination, before the standalone-folder removal authorized in SRC-2026-105. Geometry remains identical; current packaging checks are in consolidation-check.json."
+}

@@ -1,0 +1,33 @@
+{
+  "method": "Conservative world-space mesh AABBs, 2D SAT with vertical overlap; fixed pivots at each integer degree 0\u201390. Actual hinges, simultaneous opening, plumbing and hamper lid not simulated.",
+  "entranceDoorCollisions": [],
+  "linenDoorAndHandleCollisions": [],
+  "vanityDoorAndHandleCollisions": [],
+  "drawerAndPullCollisions": [],
+  "assumedDrawerExtensionInches": 14,
+  "placementInches": {
+    "TZ": 24.92568897637795,
+    "TCZ": 42.9375,
+    "VANITY_END": 60.949311023622045,
+    "VZ": 25.339074803149604,
+    "VC_END": 60.5359251968504,
+    "LINEN_Z": 65.75,
+    "LINEN_END": 81.5,
+    "LINEN_HEIGHT": 70.875,
+    "OZ": 21.92568897637795,
+    "REAR_GAP": 5.0,
+    "FURNITURE_GAP": 4.800688976377952,
+    "TY": 33.07086614173228
+  },
+  "mirror": {
+    "model": "84-BIBO-24",
+    "widthMm": 600,
+    "heightMm": 700,
+    "depthMm": 30,
+    "bottomInches": 43.31594488188976,
+    "topInches": 70.875,
+    "gapAboveCounterInches": 10.245078740157481,
+    "gapAboveStaticFaucetLeverInches": 4.095078740157483,
+    "actualLeverTravelVerified": false
+  }
+}

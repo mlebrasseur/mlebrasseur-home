@@ -1,5 +1,7 @@
 # November 5, 2026 — Basement Bathroom Concept v2
 
+Later packaging decision: [November 6 cleanup, SRC-2026-105](2026-11-06-renovation-bathroom-cleanup.md) supersedes the standalone-folder preservation instructions below. V1–V4 and unique product evidence are retained in `bathroom-configurations/`; the four standalone folders are removed.
+
 ## Source
 
 - Source ID: SRC-2026-097
@@ -36,6 +38,6 @@ Model measurements, verification and artifacts: [SRC-2026-098](../../extractions
 
 The homeowner requested light-left/vent-right, shower black details matching the product, and cabinet handles left with doors opening toward the back wall, then approved the blueprint with `go`. During implementation, the homeowner requested the entrance door closed by default.
 
-Reference inspected: [archived Alaska KD3329 product photo](../../documents/renovation/bathroom-concept-v2/references/alaska-1.jpg) and [Tassili product page](https://tassili.ca/produit/douche-en-coin-alaska-a-base-surbaissee-finition-carree-noire-48-po-x-36-po/), consulted November 5. Photo shows black wall channels, an overlap upright, closing/corner profiles, lower sliding-door borders, upper rail and square roller hardware. The model adds/refines those features; extrusion widths and hardware contours are visual approximations. The short side panel retains its open upper glass edge.
+Reference inspected: [archived Alaska KD3329 product photo](../../documents/renovation/bathroom-configurations/references/alaska-1.jpg) and [Tassili product page](https://tassili.ca/produit/douche-en-coin-alaska-a-base-surbaissee-finition-carree-noire-48-po-x-36-po/), consulted November 5. Photo shows black wall channels, an overlap upright, closing/corner profiles, lower sliding-door borders, upper rail and square roller hardware. The model adds/refines those features; extrusion widths and hardware contours are visual approximations. The short side panel retains its open upper glass edge.
 
 No cabinet offset was authorized in this correction. Retain rear-wall contact and document the new rear-hinge swing conflict for further review.
